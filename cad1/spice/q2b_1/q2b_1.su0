@@ -1,0 +1,20 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "T-2022.06 linux64"
+"rundate" "18:51:50 10/21/2022"
+"runtitle" "* beware!!!! first line is always a comment line and spice ignores this line                                            "
+"runtype" "Summary Information"
+"temperature" "2.500e+01"
+"op point time" "0.00"
+"op point iterations" "5"
+"transient time" "0.01"
+"transient iterations" "1835"
+"total cpu time" "0.25"
+"node value" "invalid"
+"operating point" "invalid"
+"ac analysis" "invalid"
+"dc sweep" "invalid"
+"transient analysis" "complete"
+TRAILER
+END

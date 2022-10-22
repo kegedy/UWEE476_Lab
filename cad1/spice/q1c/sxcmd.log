@@ -1,0 +1,46 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 23:12:03 on Mon Oct 17 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 7758   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {q1c.sw0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:q1c.sw0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:q1c.sw0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_menu_item {Custom WaveView} {} {AxisCursor.Add Cursor} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Attributes...} 
+wv_set_radion {CursorJumpParameters} {} {To} 
+wv_set_text {CursorJumpParameters} {} {XValue} "0.5"
+wv_press_button {CursorJumpParameters} {} {Apply} 
+wv_press_button {CursorJumpParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_menu_item {Custom WaveView} {} {AxisCursor.Add Cursor} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Attributes...} 
+wv_set_radion {CursorJumpParameters} {} {To} 
+wv_set_text {CursorJumpParameters} {} {XValue} "0.8"
+wv_press_button {CursorJumpParameters} {} {Apply} 
+wv_press_button {CursorJumpParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Show V-Values Crossings} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Show V-Values Crossings} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

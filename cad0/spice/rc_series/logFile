@@ -1,0 +1,32 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "T-2022.06 linux64"
+"rundate" "17:57:12 10/13/2022 "
+"runtitle" "* the first line of a control file must be a comment (hspice synta"
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"timeSweep" "analysisInst" ( 
+"Transient Analysis"
+"rc_series.tr0"
+"PSF"
+""
+()
+"Transient Analysis"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"rc_series.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

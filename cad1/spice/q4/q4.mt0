@@ -1,0 +1,4 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06 linux64' PARAM_COUNT=0
+.TITLE '* beware!!!! first line is always a comment line and spice ignores this line'
+ charge           temper           alter#          
+  7.881e-16        2.500e+01       1               

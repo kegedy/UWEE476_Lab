@@ -1,0 +1,36 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 11:54:43 on Fri Oct 14 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 23243   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {q1b.sw0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:q1b.sw0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:q1b.sw0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.File}
+wv_select_tab {Custom WaveView} {} {RBMenu} {Bar.Waveform}
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1 0.127689 0.000480417
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Dump Screen} 
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_press_button {FileDialog} {} {Up} 
+wv_select_list_item {FileDialog} {} {FileList} {q1a} 4
+wv_dclick_list_item {FileDialog} {} {FileList} {q1a} 4
+wv_select_list_item {FileDialog} {} {FileList} {q1a_plot.png} 11
+wv_press_button {FileDialog} {} {Up} 
+wv_select_list_item {FileDialog} {} {FileList} {q1b} 5
+wv_dclick_list_item {FileDialog} {} {FileList} {q1b} 5
+wv_set_text {FileDialog} {} {FileName} "q1b_plot"
+wv_press_button {FileDialog} {} {Ok} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

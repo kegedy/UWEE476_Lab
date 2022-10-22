@@ -1,0 +1,702 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 18:07:42 on Thu Oct 13 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 12055   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {rc_series.tr0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:rc_series.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:rc_series.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {i(vvi)} 4
+wv_drag_list_item {Custom WaveView} {} {sigview} {i(vvi)} 4
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_press_tool_button {Custom WaveView} {} {NewWaveformCalculator0} 
+wv_move_window {UCD} {} 507 265
+wv_select_dialog {UCD} 
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_select_tab {UCD} {} {FTTab} {Wfm}
+wv_select_dialog {UCD} 
+wv_move_scrollbar {UCD} {} {WfmFct.HScrollBar} {196}
+wv_select_list_item {UCD} {} {WfmFct} {integral} 33
+wv_set_text {UCD} {} {Arg1} "integral(i(v0))"
+wv_press_button {UCD} {} {Add} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integral(integral(i(v0)))}
+wv_select_dialog {UCD} 
+wv_set_text {UCD} {} {Arg1} "integral(i(vvi))"
+wv_press_button {UCD} {} {Add} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integral(integral(i(v0)))integral(integral(i(vvi)))}
+wv_select_dialog {UCD} 
+wv_press_button {UCD} {} {ClearArg} 
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_press_button {Mixed-Signal Equation Builder} {} {Clear} 
+wv_move_window {Mixed-Signal Equation Builder} {} 459 237
+wv_move_window {Mixed-Signal Equation Builder} {} 461 242
+wv_move_window {Mixed-Signal Equation Builder} {} 462 249
+wv_move_window {Mixed-Signal Equation Builder} {} 462 250
+wv_move_window {Mixed-Signal Equation Builder} {} 462 253
+wv_move_window {Mixed-Signal Equation Builder} {} 463 256
+wv_move_window {Mixed-Signal Equation Builder} {} 463 259
+wv_move_window {Mixed-Signal Equation Builder} {} 463 264
+wv_move_window {Mixed-Signal Equation Builder} {} 463 270
+wv_move_window {Mixed-Signal Equation Builder} {} 463 272
+wv_move_window {Mixed-Signal Equation Builder} {} 463 274
+wv_move_window {Mixed-Signal Equation Builder} {} 463 275
+wv_move_window {Mixed-Signal Equation Builder} {} 463 277
+wv_move_window {Mixed-Signal Equation Builder} {} 463 278
+wv_move_window {Mixed-Signal Equation Builder} {} 463 280
+wv_move_window {Mixed-Signal Equation Builder} {} 462 292
+wv_move_window {Mixed-Signal Equation Builder} {} 462 295
+wv_move_window {Mixed-Signal Equation Builder} {} 460 297
+wv_move_window {Mixed-Signal Equation Builder} {} 460 298
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_close_dialog {Mixed-Signal Equation Builder} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {NewWaveformCalculator0} 
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_select_dialog {UCD} 
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_select_dialog {UCD} 
+wv_set_text {UCD} {} {Arg1} "integral(i(vvi))"
+wv_press_button {UCD} {} {Add} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integral(integral(i(vvi)))}
+wv_select_table_item {Mixed-Signal Equation Builder} {} {Equation} "" 0 5
+# |  |  | integral(integral(i(vvi))) |  |  |  |  |  |  |
+wv_select_tablecombox_item {Mixed-Signal Equation Builder} {} {Equation.0.5} "D0/rc_series.tr0" 1
+wv_select_table_item {Mixed-Signal Equation Builder} {} {Equation} "" 0 7
+wv_select_table_item {Mixed-Signal Equation Builder} {} {Equation} "" 0 7
+wv_double_click_table_item {Mixed-Signal Equation Builder} {} {Equation} 0 7
+wv_select_table_item {Mixed-Signal Equation Builder} {} {Equation} "" 0 7
+wv_press_button {Mixed-Signal Equation Builder} {} {EvaluateBtn} 
+wv_move_window {Mixed-Signal Equation Builder} {} 460 305
+wv_move_window {Mixed-Signal Equation Builder} {} 455 316
+wv_move_window {Mixed-Signal Equation Builder} {} 454 317
+wv_move_window {Mixed-Signal Equation Builder} {} 454 318
+wv_move_window {Mixed-Signal Equation Builder} {} 454 319
+wv_move_window {Mixed-Signal Equation Builder} {} 453 321
+wv_move_window {Mixed-Signal Equation Builder} {} 447 333
+wv_move_window {Mixed-Signal Equation Builder} {} 445 337
+wv_move_window {Mixed-Signal Equation Builder} {} 443 342
+wv_move_window {Mixed-Signal Equation Builder} {} 440 349
+wv_move_window {Mixed-Signal Equation Builder} {} 406 410
+wv_move_window {Mixed-Signal Equation Builder} {} 392 444
+wv_move_window {Mixed-Signal Equation Builder} {} 387 444
+wv_move_window {Mixed-Signal Equation Builder} {} 384 444
+wv_move_window {Mixed-Signal Equation Builder} {} 371 464
+wv_move_window {Mixed-Signal Equation Builder} {} 364 475
+wv_move_window {Mixed-Signal Equation Builder} {} 361 478
+wv_move_window {Mixed-Signal Equation Builder} {} 354 493
+wv_move_window {Mixed-Signal Equation Builder} {} 346 493
+wv_move_window {Mixed-Signal Equation Builder} {} 341 493
+wv_move_window {Mixed-Signal Equation Builder} {} 337 507
+wv_move_window {Mixed-Signal Equation Builder} {} 299 544
+wv_move_window {Mixed-Signal Equation Builder} {} 276 563
+wv_move_window {Mixed-Signal Equation Builder} {} 261 573
+wv_move_window {Mixed-Signal Equation Builder} {} 250 582
+wv_move_window {Mixed-Signal Equation Builder} {} 245 586
+wv_move_window {Mixed-Signal Equation Builder} {} 240 591
+wv_move_window {Mixed-Signal Equation Builder} {} 232 598
+wv_move_window {Mixed-Signal Equation Builder} {} 224 605
+wv_move_window {Mixed-Signal Equation Builder} {} 216 613
+wv_move_window {Mixed-Signal Equation Builder} {} 209 619
+wv_move_window {Mixed-Signal Equation Builder} {} 208 622
+wv_move_window {Mixed-Signal Equation Builder} {} 197 630
+wv_move_window {Mixed-Signal Equation Builder} {} 184 643
+wv_move_window {Mixed-Signal Equation Builder} {} 178 650
+wv_move_window {Mixed-Signal Equation Builder} {} 163 665
+wv_move_window {Mixed-Signal Equation Builder} {} 159 669
+wv_move_window {Mixed-Signal Equation Builder} {} 156 672
+wv_move_window {Mixed-Signal Equation Builder} {} 153 675
+wv_move_window {Mixed-Signal Equation Builder} {} 151 677
+wv_move_window {Mixed-Signal Equation Builder} {} 149 679
+wv_move_window {Mixed-Signal Equation Builder} {} 148 681
+wv_move_window {Mixed-Signal Equation Builder} {} 146 684
+wv_move_window {Mixed-Signal Equation Builder} {} 146 685
+wv_move_window {Mixed-Signal Equation Builder} {} 142 691
+wv_move_window {Mixed-Signal Equation Builder} {} 143 691
+wv_move_window {Mixed-Signal Equation Builder} {} 145 692
+wv_move_window {Mixed-Signal Equation Builder} {} 146 692
+wv_move_window {Mixed-Signal Equation Builder} {} 148 693
+wv_move_window {Mixed-Signal Equation Builder} {} 149 694
+wv_move_window {Mixed-Signal Equation Builder} {} 150 694
+wv_move_window {Mixed-Signal Equation Builder} {} 152 695
+wv_move_window {Mixed-Signal Equation Builder} {} 153 697
+wv_move_window {Mixed-Signal Equation Builder} {} 164 705
+wv_move_window {Mixed-Signal Equation Builder} {} 173 710
+wv_move_window {Mixed-Signal Equation Builder} {} 190 719
+wv_move_window {Mixed-Signal Equation Builder} {} 194 720
+wv_move_window {Mixed-Signal Equation Builder} {} 199 722
+wv_move_window {Mixed-Signal Equation Builder} {} 200 723
+wv_move_window {Mixed-Signal Equation Builder} {} 201 723
+wv_move_window {Mixed-Signal Equation Builder} {} 204 724
+wv_move_window {Mixed-Signal Equation Builder} {} 207 725
+wv_move_window {Mixed-Signal Equation Builder} {} 210 726
+wv_move_window {Mixed-Signal Equation Builder} {} 211 726
+wv_move_window {Mixed-Signal Equation Builder} {} 213 727
+wv_move_window {Mixed-Signal Equation Builder} {} 215 727
+wv_move_window {Mixed-Signal Equation Builder} {} 223 730
+wv_move_window {Mixed-Signal Equation Builder} {} 226 731
+wv_move_window {Mixed-Signal Equation Builder} {} 227 731
+wv_move_window {Mixed-Signal Equation Builder} {} 239 735
+wv_move_window {Mixed-Signal Equation Builder} {} 241 735
+wv_move_window {Mixed-Signal Equation Builder} {} 243 736
+wv_move_window {Mixed-Signal Equation Builder} {} 246 737
+wv_move_window {Mixed-Signal Equation Builder} {} 248 738
+wv_move_window {Mixed-Signal Equation Builder} {} 249 738
+wv_move_window {Mixed-Signal Equation Builder} {} 250 738
+wv_move_window {Mixed-Signal Equation Builder} {} 251 738
+wv_move_window {Mixed-Signal Equation Builder} {} 252 738
+wv_move_window {Mixed-Signal Equation Builder} {} 253 738
+wv_move_window {Mixed-Signal Equation Builder} {} 253 739
+wv_move_window {Mixed-Signal Equation Builder} {} 254 739
+wv_move_window {Mixed-Signal Equation Builder} {} 255 739
+wv_move_window {Mixed-Signal Equation Builder} {} 256 740
+wv_move_window {Mixed-Signal Equation Builder} {} 256 741
+wv_move_window {Mixed-Signal Equation Builder} {} 258 742
+wv_move_window {Mixed-Signal Equation Builder} {} 259 742
+wv_move_window {Mixed-Signal Equation Builder} {} 259 743
+wv_move_window {Mixed-Signal Equation Builder} {} 260 743
+wv_move_window {Mixed-Signal Equation Builder} {} 262 744
+wv_move_window {Mixed-Signal Equation Builder} {} 264 746
+wv_move_window {Mixed-Signal Equation Builder} {} 277 755
+wv_move_window {Mixed-Signal Equation Builder} {} 279 757
+wv_move_window {Mixed-Signal Equation Builder} {} 281 758
+wv_move_window {Mixed-Signal Equation Builder} {} 283 760
+wv_move_window {Mixed-Signal Equation Builder} {} 284 761
+wv_move_window {Mixed-Signal Equation Builder} {} 286 763
+wv_move_window {Mixed-Signal Equation Builder} {} 294 772
+wv_move_window {Mixed-Signal Equation Builder} {} 295 773
+wv_move_window {Mixed-Signal Equation Builder} {} 298 775
+wv_move_window {Mixed-Signal Equation Builder} {} 298 777
+wv_move_window {Mixed-Signal Equation Builder} {} 299 778
+wv_move_window {Mixed-Signal Equation Builder} {} 299 779
+wv_move_window {Mixed-Signal Equation Builder} {} 300 779
+wv_move_window {Mixed-Signal Equation Builder} {} 300 780
+wv_move_window {Mixed-Signal Equation Builder} {} 301 781
+wv_move_window {Mixed-Signal Equation Builder} {} 301 780
+wv_move_window {Mixed-Signal Equation Builder} {} 302 780
+wv_move_window {Mixed-Signal Equation Builder} {} 302 779
+wv_move_window {Mixed-Signal Equation Builder} {} 302 778
+wv_move_window {Mixed-Signal Equation Builder} {} 301 776
+wv_move_window {Mixed-Signal Equation Builder} {} 300 776
+wv_move_window {Mixed-Signal Equation Builder} {} 300 775
+wv_move_window {Mixed-Signal Equation Builder} {} 299 774
+wv_move_window {Mixed-Signal Equation Builder} {} 297 773
+wv_move_window {Mixed-Signal Equation Builder} {} 295 771
+wv_move_window {Mixed-Signal Equation Builder} {} 292 770
+wv_move_window {Mixed-Signal Equation Builder} {} 291 769
+wv_move_window {Mixed-Signal Equation Builder} {} 285 766
+wv_move_window {Mixed-Signal Equation Builder} {} 283 765
+wv_move_window {Mixed-Signal Equation Builder} {} 281 764
+wv_move_window {Mixed-Signal Equation Builder} {} 277 762
+wv_move_window {Mixed-Signal Equation Builder} {} 275 762
+wv_move_window {Mixed-Signal Equation Builder} {} 267 759
+wv_move_window {Mixed-Signal Equation Builder} {} 263 758
+wv_move_window {Mixed-Signal Equation Builder} {} 257 756
+wv_move_window {Mixed-Signal Equation Builder} {} 222 750
+wv_move_window {Mixed-Signal Equation Builder} {} 206 749
+wv_move_window {Mixed-Signal Equation Builder} {} 203 749
+wv_move_window {Mixed-Signal Equation Builder} {} 184 749
+wv_move_window {Mixed-Signal Equation Builder} {} 183 749
+wv_move_window {Mixed-Signal Equation Builder} {} 179 751
+wv_move_window {Mixed-Signal Equation Builder} {} 173 752
+wv_move_window {Mixed-Signal Equation Builder} {} 171 753
+wv_move_window {Mixed-Signal Equation Builder} {} 163 758
+wv_move_window {Mixed-Signal Equation Builder} {} 160 760
+wv_move_window {Mixed-Signal Equation Builder} {} 159 761
+wv_move_window {Mixed-Signal Equation Builder} {} 158 762
+wv_move_window {Mixed-Signal Equation Builder} {} 149 771
+wv_move_window {Mixed-Signal Equation Builder} {} 147 773
+wv_move_window {Mixed-Signal Equation Builder} {} 142 781
+wv_move_window {Mixed-Signal Equation Builder} {} 140 783
+wv_move_window {Mixed-Signal Equation Builder} {} 137 788
+wv_move_window {Mixed-Signal Equation Builder} {} 137 789
+wv_move_window {Mixed-Signal Equation Builder} {} 136 791
+wv_move_window {Mixed-Signal Equation Builder} {} 136 792
+wv_move_window {Mixed-Signal Equation Builder} {} 134 798
+wv_move_window {Mixed-Signal Equation Builder} {} 134 799
+wv_move_window {Mixed-Signal Equation Builder} {} 134 801
+wv_move_window {Mixed-Signal Equation Builder} {} 134 803
+wv_move_window {Mixed-Signal Equation Builder} {} 134 805
+wv_move_window {Mixed-Signal Equation Builder} {} 135 807
+wv_move_window {Mixed-Signal Equation Builder} {} 135 808
+wv_move_window {Mixed-Signal Equation Builder} {} 136 811
+wv_move_window {Mixed-Signal Equation Builder} {} 137 811
+wv_move_window {Mixed-Signal Equation Builder} {} 137 812
+wv_move_window {Mixed-Signal Equation Builder} {} 140 815
+wv_move_window {Mixed-Signal Equation Builder} {} 140 816
+wv_move_window {Mixed-Signal Equation Builder} {} 141 817
+wv_move_window {Mixed-Signal Equation Builder} {} 142 817
+wv_move_window {Mixed-Signal Equation Builder} {} 142 818
+wv_move_window {Mixed-Signal Equation Builder} {} 144 819
+wv_move_window {Mixed-Signal Equation Builder} {} 144 820
+wv_move_window {Mixed-Signal Equation Builder} {} 145 821
+wv_move_window {Mixed-Signal Equation Builder} {} 146 821
+wv_move_window {Mixed-Signal Equation Builder} {} 147 822
+wv_move_window {Mixed-Signal Equation Builder} {} 151 825
+wv_move_window {Mixed-Signal Equation Builder} {} 152 826
+wv_move_window {Mixed-Signal Equation Builder} {} 153 826
+wv_move_window {Mixed-Signal Equation Builder} {} 153 827
+wv_move_window {Mixed-Signal Equation Builder} {} 154 827
+wv_move_window {Mixed-Signal Equation Builder} {} 154 828
+wv_move_window {Mixed-Signal Equation Builder} {} 156 828
+wv_move_window {Mixed-Signal Equation Builder} {} 157 828
+wv_move_window {Mixed-Signal Equation Builder} {} 157 829
+wv_move_window {Mixed-Signal Equation Builder} {} 158 829
+wv_move_window {Mixed-Signal Equation Builder} {} 158 830
+wv_move_window {Mixed-Signal Equation Builder} {} 159 831
+wv_move_window {Mixed-Signal Equation Builder} {} 160 831
+wv_move_window {Mixed-Signal Equation Builder} {} 161 831
+wv_move_window {Mixed-Signal Equation Builder} {} 161 832
+wv_move_window {Mixed-Signal Equation Builder} {} 162 832
+wv_move_window {Mixed-Signal Equation Builder} {} 164 833
+wv_move_window {Mixed-Signal Equation Builder} {} 165 833
+wv_move_window {Mixed-Signal Equation Builder} {} 165 834
+wv_move_window {Mixed-Signal Equation Builder} {} 166 834
+wv_move_window {Mixed-Signal Equation Builder} {} 167 835
+wv_move_window {Mixed-Signal Equation Builder} {} 168 835
+wv_move_window {Mixed-Signal Equation Builder} {} 169 835
+wv_move_window {Mixed-Signal Equation Builder} {} 170 835
+wv_move_window {Mixed-Signal Equation Builder} {} 171 835
+wv_move_window {Mixed-Signal Equation Builder} {} 172 834
+wv_move_window {Mixed-Signal Equation Builder} {} 172 833
+wv_move_window {Mixed-Signal Equation Builder} {} 173 833
+wv_move_window {Mixed-Signal Equation Builder} {} 173 832
+wv_move_window {Mixed-Signal Equation Builder} {} 174 832
+wv_move_window {Mixed-Signal Equation Builder} {} 175 831
+wv_move_window {Mixed-Signal Equation Builder} {} 175 830
+wv_move_window {Mixed-Signal Equation Builder} {} 176 830
+wv_move_window {Mixed-Signal Equation Builder} {} 176 829
+wv_move_window {Mixed-Signal Equation Builder} {} 177 829
+wv_move_window {Mixed-Signal Equation Builder} {} 177 828
+wv_move_window {Mixed-Signal Equation Builder} {} 178 826
+wv_move_window {Mixed-Signal Equation Builder} {} 178 825
+wv_move_window {Mixed-Signal Equation Builder} {} 179 825
+wv_move_window {Mixed-Signal Equation Builder} {} 180 824
+wv_move_window {Mixed-Signal Equation Builder} {} 180 823
+wv_move_window {Mixed-Signal Equation Builder} {} 181 822
+wv_move_window {Mixed-Signal Equation Builder} {} 181 821
+wv_move_window {Mixed-Signal Equation Builder} {} 182 821
+wv_move_window {Mixed-Signal Equation Builder} {} 182 820
+wv_move_window {Mixed-Signal Equation Builder} {} 182 819
+wv_move_window {Mixed-Signal Equation Builder} {} 184 817
+wv_move_window {Mixed-Signal Equation Builder} {} 184 816
+wv_move_window {Mixed-Signal Equation Builder} {} 185 814
+wv_move_window {Mixed-Signal Equation Builder} {} 186 812
+wv_move_window {Mixed-Signal Equation Builder} {} 187 808
+wv_move_window {Mixed-Signal Equation Builder} {} 189 803
+wv_move_window {Mixed-Signal Equation Builder} {} 192 796
+wv_move_window {Mixed-Signal Equation Builder} {} 192 795
+wv_move_window {Mixed-Signal Equation Builder} {} 192 794
+wv_move_window {Mixed-Signal Equation Builder} {} 193 792
+wv_move_window {Mixed-Signal Equation Builder} {} 194 789
+wv_move_window {Mixed-Signal Equation Builder} {} 197 780
+wv_move_window {Mixed-Signal Equation Builder} {} 201 769
+wv_move_window {Mixed-Signal Equation Builder} {} 202 768
+wv_move_window {Mixed-Signal Equation Builder} {} 203 764
+wv_move_window {Mixed-Signal Equation Builder} {} 204 764
+wv_move_window {Mixed-Signal Equation Builder} {} 205 761
+wv_move_window {Mixed-Signal Equation Builder} {} 208 757
+wv_move_window {Mixed-Signal Equation Builder} {} 208 755
+wv_move_window {Mixed-Signal Equation Builder} {} 209 755
+wv_move_window {Mixed-Signal Equation Builder} {} 209 754
+wv_move_window {Mixed-Signal Equation Builder} {} 210 753
+wv_move_window {Mixed-Signal Equation Builder} {} 210 752
+wv_move_window {Mixed-Signal Equation Builder} {} 210 751
+wv_move_window {Mixed-Signal Equation Builder} {} 211 751
+wv_move_window {Mixed-Signal Equation Builder} {} 212 750
+wv_move_window {Mixed-Signal Equation Builder} {} 214 749
+wv_move_window {Mixed-Signal Equation Builder} {} 216 748
+wv_move_window {Mixed-Signal Equation Builder} {} 216 747
+wv_move_window {Mixed-Signal Equation Builder} {} 218 747
+wv_move_window {Mixed-Signal Equation Builder} {} 219 746
+wv_move_window {Mixed-Signal Equation Builder} {} 220 746
+wv_move_window {Mixed-Signal Equation Builder} {} 221 746
+wv_move_window {Mixed-Signal Equation Builder} {} 222 745
+wv_move_window {Mixed-Signal Equation Builder} {} 224 745
+wv_move_window {Mixed-Signal Equation Builder} {} 225 745
+wv_move_window {Mixed-Signal Equation Builder} {} 228 743
+wv_move_window {Mixed-Signal Equation Builder} {} 229 743
+wv_move_window {Mixed-Signal Equation Builder} {} 230 742
+wv_move_window {Mixed-Signal Equation Builder} {} 233 741
+wv_move_window {Mixed-Signal Equation Builder} {} 235 740
+wv_move_window {Mixed-Signal Equation Builder} {} 236 740
+wv_move_window {Mixed-Signal Equation Builder} {} 245 737
+wv_move_window {Mixed-Signal Equation Builder} {} 247 736
+wv_move_window {Mixed-Signal Equation Builder} {} 249 735
+wv_move_window {Mixed-Signal Equation Builder} {} 262 730
+wv_move_window {Mixed-Signal Equation Builder} {} 277 723
+wv_move_window {Mixed-Signal Equation Builder} {} 279 722
+wv_move_window {Mixed-Signal Equation Builder} {} 280 721
+wv_move_window {Mixed-Signal Equation Builder} {} 289 717
+wv_move_window {Mixed-Signal Equation Builder} {} 293 714
+wv_move_window {Mixed-Signal Equation Builder} {} 299 712
+wv_move_window {Mixed-Signal Equation Builder} {} 314 703
+wv_move_window {Mixed-Signal Equation Builder} {} 316 701
+wv_move_window {Mixed-Signal Equation Builder} {} 332 691
+wv_move_window {Mixed-Signal Equation Builder} {} 334 689
+wv_move_window {Mixed-Signal Equation Builder} {} 344 683
+wv_move_window {Mixed-Signal Equation Builder} {} 348 681
+wv_move_window {Mixed-Signal Equation Builder} {} 355 675
+wv_move_window {Mixed-Signal Equation Builder} {} 363 670
+wv_move_window {Mixed-Signal Equation Builder} {} 372 663
+wv_move_window {Mixed-Signal Equation Builder} {} 376 661
+wv_move_window {Mixed-Signal Equation Builder} {} 380 657
+wv_move_window {Mixed-Signal Equation Builder} {} 385 654
+wv_move_window {Mixed-Signal Equation Builder} {} 397 645
+wv_move_window {Mixed-Signal Equation Builder} {} 400 644
+wv_move_window {Mixed-Signal Equation Builder} {} 402 642
+wv_move_window {Mixed-Signal Equation Builder} {} 410 635
+wv_move_window {Mixed-Signal Equation Builder} {} 415 630
+wv_move_window {Mixed-Signal Equation Builder} {} 423 622
+wv_move_window {Mixed-Signal Equation Builder} {} 431 612
+wv_move_window {Mixed-Signal Equation Builder} {} 446 591
+wv_move_window {Mixed-Signal Equation Builder} {} 448 584
+wv_move_window {Mixed-Signal Equation Builder} {} 451 580
+wv_move_window {Mixed-Signal Equation Builder} {} 452 577
+wv_move_window {Mixed-Signal Equation Builder} {} 453 572
+wv_move_window {Mixed-Signal Equation Builder} {} 455 570
+wv_move_window {Mixed-Signal Equation Builder} {} 455 568
+wv_move_window {Mixed-Signal Equation Builder} {} 455 565
+wv_move_window {Mixed-Signal Equation Builder} {} 457 559
+wv_move_window {Mixed-Signal Equation Builder} {} 459 553
+wv_move_window {Mixed-Signal Equation Builder} {} 460 545
+wv_move_window {Mixed-Signal Equation Builder} {} 461 541
+wv_move_window {Mixed-Signal Equation Builder} {} 461 539
+wv_move_window {Mixed-Signal Equation Builder} {} 462 536
+wv_move_window {Mixed-Signal Equation Builder} {} 462 533
+wv_move_window {Mixed-Signal Equation Builder} {} 462 531
+wv_move_window {Mixed-Signal Equation Builder} {} 462 530
+wv_move_window {Mixed-Signal Equation Builder} {} 462 528
+wv_move_window {Mixed-Signal Equation Builder} {} 463 526
+wv_move_window {Mixed-Signal Equation Builder} {} 463 525
+wv_move_window {Mixed-Signal Equation Builder} {} 463 524
+wv_move_window {Mixed-Signal Equation Builder} {} 463 521
+wv_move_window {Mixed-Signal Equation Builder} {} 463 516
+wv_move_window {Mixed-Signal Equation Builder} {} 463 515
+wv_move_window {Mixed-Signal Equation Builder} {} 463 514
+wv_move_window {Mixed-Signal Equation Builder} {} 463 513
+wv_move_window {Mixed-Signal Equation Builder} {} 463 512
+wv_move_window {Mixed-Signal Equation Builder} {} 462 512
+wv_move_window {Mixed-Signal Equation Builder} {} 459 512
+wv_move_window {Mixed-Signal Equation Builder} {} 458 512
+wv_move_window {Mixed-Signal Equation Builder} {} 455 512
+wv_move_window {Mixed-Signal Equation Builder} {} 453 512
+wv_move_window {Mixed-Signal Equation Builder} {} 451 512
+wv_move_window {Mixed-Signal Equation Builder} {} 447 512
+wv_move_window {Mixed-Signal Equation Builder} {} 445 512
+wv_move_window {Mixed-Signal Equation Builder} {} 437 511
+wv_move_window {Mixed-Signal Equation Builder} {} 435 511
+wv_move_window {Mixed-Signal Equation Builder} {} 429 511
+wv_move_window {Mixed-Signal Equation Builder} {} 426 511
+wv_move_window {Mixed-Signal Equation Builder} {} 422 511
+wv_move_window {Mixed-Signal Equation Builder} {} 416 511
+wv_move_window {Mixed-Signal Equation Builder} {} 410 511
+wv_move_window {Mixed-Signal Equation Builder} {} 403 511
+wv_move_window {Mixed-Signal Equation Builder} {} 394 511
+wv_move_window {Mixed-Signal Equation Builder} {} 381 511
+wv_move_window {Mixed-Signal Equation Builder} {} 350 511
+wv_move_window {Mixed-Signal Equation Builder} {} 338 511
+wv_move_window {Mixed-Signal Equation Builder} {} 326 514
+wv_move_window {Mixed-Signal Equation Builder} {} 323 514
+wv_move_window {Mixed-Signal Equation Builder} {} 320 515
+wv_move_window {Mixed-Signal Equation Builder} {} 284 523
+wv_move_window {Mixed-Signal Equation Builder} {} 270 529
+wv_move_window {Mixed-Signal Equation Builder} {} 265 530
+wv_move_window {Mixed-Signal Equation Builder} {} 237 544
+wv_move_window {Mixed-Signal Equation Builder} {} 230 549
+wv_move_window {Mixed-Signal Equation Builder} {} 226 551
+wv_move_window {Mixed-Signal Equation Builder} {} 213 560
+wv_move_window {Mixed-Signal Equation Builder} {} 148 628
+wv_move_window {Mixed-Signal Equation Builder} {} 134 657
+wv_move_window {Mixed-Signal Equation Builder} {} 133 660
+wv_move_window {Mixed-Signal Equation Builder} {} 131 666
+wv_move_window {Mixed-Signal Equation Builder} {} 127 677
+wv_move_window {Mixed-Signal Equation Builder} {} 125 692
+wv_move_window {Mixed-Signal Equation Builder} {} 125 695
+wv_move_window {Mixed-Signal Equation Builder} {} 127 704
+wv_move_window {Mixed-Signal Equation Builder} {} 128 704
+wv_move_window {Mixed-Signal Equation Builder} {} 129 705
+wv_move_window {Mixed-Signal Equation Builder} {} 130 705
+wv_move_window {Mixed-Signal Equation Builder} {} 133 706
+wv_move_window {Mixed-Signal Equation Builder} {} 134 706
+wv_move_window {Mixed-Signal Equation Builder} {} 135 707
+wv_move_window {Mixed-Signal Equation Builder} {} 136 707
+wv_move_window {Mixed-Signal Equation Builder} {} 138 708
+wv_move_window {Mixed-Signal Equation Builder} {} 139 708
+wv_move_window {Mixed-Signal Equation Builder} {} 141 708
+wv_move_window {Mixed-Signal Equation Builder} {} 144 708
+wv_move_window {Mixed-Signal Equation Builder} {} 145 708
+wv_move_window {Mixed-Signal Equation Builder} {} 146 708
+wv_move_window {Mixed-Signal Equation Builder} {} 147 708
+wv_move_window {Mixed-Signal Equation Builder} {} 148 708
+wv_move_window {Mixed-Signal Equation Builder} {} 152 706
+wv_move_window {Mixed-Signal Equation Builder} {} 153 706
+wv_move_window {Mixed-Signal Equation Builder} {} 155 705
+wv_move_window {Mixed-Signal Equation Builder} {} 156 705
+wv_move_window {Mixed-Signal Equation Builder} {} 175 693
+wv_move_window {Mixed-Signal Equation Builder} {} 186 683
+wv_move_window {Mixed-Signal Equation Builder} {} 191 678
+wv_move_window {Mixed-Signal Equation Builder} {} 198 669
+wv_move_window {Mixed-Signal Equation Builder} {} 201 665
+wv_move_window {Mixed-Signal Equation Builder} {} 227 620
+wv_move_window {Mixed-Signal Equation Builder} {} 236 604
+wv_move_window {Mixed-Signal Equation Builder} {} 251 571
+wv_move_window {Mixed-Signal Equation Builder} {} 254 563
+wv_move_window {Mixed-Signal Equation Builder} {} 258 552
+wv_move_window {Mixed-Signal Equation Builder} {} 260 548
+wv_move_window {Mixed-Signal Equation Builder} {} 260 546
+wv_move_window {Mixed-Signal Equation Builder} {} 262 540
+wv_move_window {Mixed-Signal Equation Builder} {} 264 536
+wv_move_window {Mixed-Signal Equation Builder} {} 264 532
+wv_move_window {Mixed-Signal Equation Builder} {} 266 527
+wv_move_window {Mixed-Signal Equation Builder} {} 269 515
+wv_move_window {Mixed-Signal Equation Builder} {} 272 493
+wv_move_window {Mixed-Signal Equation Builder} {} 273 493
+wv_move_window {Mixed-Signal Equation Builder} {} 275 493
+wv_move_window {Mixed-Signal Equation Builder} {} 276 493
+wv_move_window {Mixed-Signal Equation Builder} {} 277 482
+wv_move_window {Mixed-Signal Equation Builder} {} 277 480
+wv_move_window {Mixed-Signal Equation Builder} {} 277 479
+wv_move_window {Mixed-Signal Equation Builder} {} 279 471
+wv_move_window {Mixed-Signal Equation Builder} {} 279 469
+wv_move_window {Mixed-Signal Equation Builder} {} 279 466
+wv_move_window {Mixed-Signal Equation Builder} {} 280 463
+wv_move_window {Mixed-Signal Equation Builder} {} 281 458
+wv_move_window {Mixed-Signal Equation Builder} {} 281 455
+wv_move_window {Mixed-Signal Equation Builder} {} 281 444
+wv_move_window {Mixed-Signal Equation Builder} {} 282 444
+wv_move_window {Mixed-Signal Equation Builder} {} 281 444
+wv_move_window {Mixed-Signal Equation Builder} {} 280 444
+wv_move_window {Mixed-Signal Equation Builder} {} 279 456
+wv_move_window {Mixed-Signal Equation Builder} {} 279 457
+wv_move_window {Mixed-Signal Equation Builder} {} 279 458
+wv_move_window {Mixed-Signal Equation Builder} {} 279 460
+wv_move_window {Mixed-Signal Equation Builder} {} 279 462
+wv_move_window {Mixed-Signal Equation Builder} {} 279 465
+wv_move_window {Mixed-Signal Equation Builder} {} 279 467
+wv_move_window {Mixed-Signal Equation Builder} {} 279 468
+wv_move_window {Mixed-Signal Equation Builder} {} 279 471
+wv_move_window {Mixed-Signal Equation Builder} {} 279 475
+wv_move_window {Mixed-Signal Equation Builder} {} 279 476
+wv_move_window {Mixed-Signal Equation Builder} {} 279 477
+wv_move_window {Mixed-Signal Equation Builder} {} 280 476
+wv_move_window {Mixed-Signal Equation Builder} {} 282 475
+wv_move_window {Mixed-Signal Equation Builder} {} 284 473
+wv_move_window {Mixed-Signal Equation Builder} {} 286 472
+wv_move_window {Mixed-Signal Equation Builder} {} 287 470
+wv_move_window {Mixed-Signal Equation Builder} {} 288 469
+wv_move_window {Mixed-Signal Equation Builder} {} 289 468
+wv_move_window {Mixed-Signal Equation Builder} {} 292 465
+wv_move_window {Mixed-Signal Equation Builder} {} 293 464
+wv_move_window {Mixed-Signal Equation Builder} {} 295 461
+wv_move_window {Mixed-Signal Equation Builder} {} 296 459
+wv_move_window {Mixed-Signal Equation Builder} {} 304 444
+wv_move_window {Mixed-Signal Equation Builder} {} 306 444
+wv_move_window {Mixed-Signal Equation Builder} {} 309 444
+wv_move_window {Mixed-Signal Equation Builder} {} 310 444
+wv_move_window {Mixed-Signal Equation Builder} {} 311 444
+wv_move_window {Mixed-Signal Equation Builder} {} 313 444
+wv_move_window {Mixed-Signal Equation Builder} {} 320 427
+wv_move_window {Mixed-Signal Equation Builder} {} 321 425
+wv_move_window {Mixed-Signal Equation Builder} {} 324 421
+wv_move_window {Mixed-Signal Equation Builder} {} 328 414
+wv_move_window {Mixed-Signal Equation Builder} {} 330 413
+wv_move_window {Mixed-Signal Equation Builder} {} 331 410
+wv_move_window {Mixed-Signal Equation Builder} {} 334 405
+wv_move_window {Mixed-Signal Equation Builder} {} 339 398
+wv_move_window {Mixed-Signal Equation Builder} {} 342 391
+wv_move_window {Mixed-Signal Equation Builder} {} 343 389
+wv_move_window {Mixed-Signal Equation Builder} {} 345 386
+wv_move_window {Mixed-Signal Equation Builder} {} 345 385
+wv_move_window {Mixed-Signal Equation Builder} {} 346 383
+wv_move_window {Mixed-Signal Equation Builder} {} 348 379
+wv_move_window {Mixed-Signal Equation Builder} {} 348 378
+wv_move_window {Mixed-Signal Equation Builder} {} 349 374
+wv_move_window {Mixed-Signal Equation Builder} {} 350 372
+wv_move_window {Mixed-Signal Equation Builder} {} 351 372
+wv_move_window {Mixed-Signal Equation Builder} {} 351 371
+wv_move_window {Mixed-Signal Equation Builder} {} 351 370
+wv_move_window {Mixed-Signal Equation Builder} {} 352 369
+wv_move_window {Mixed-Signal Equation Builder} {} 352 368
+wv_move_window {Mixed-Signal Equation Builder} {} 352 367
+wv_move_window {Mixed-Signal Equation Builder} {} 353 367
+wv_move_window {Mixed-Signal Equation Builder} {} 353 366
+wv_move_window {Mixed-Signal Equation Builder} {} 354 364
+wv_move_window {Mixed-Signal Equation Builder} {} 355 362
+wv_move_window {Mixed-Signal Equation Builder} {} 355 361
+wv_move_window {Mixed-Signal Equation Builder} {} 356 359
+wv_move_window {Mixed-Signal Equation Builder} {} 356 358
+wv_move_window {Mixed-Signal Equation Builder} {} 357 356
+wv_move_window {Mixed-Signal Equation Builder} {} 360 350
+wv_move_window {Mixed-Signal Equation Builder} {} 361 348
+wv_move_window {Mixed-Signal Equation Builder} {} 362 345
+wv_move_window {Mixed-Signal Equation Builder} {} 362 344
+wv_move_window {Mixed-Signal Equation Builder} {} 362 343
+wv_move_window {Mixed-Signal Equation Builder} {} 363 342
+wv_move_window {Mixed-Signal Equation Builder} {} 363 341
+wv_move_window {Mixed-Signal Equation Builder} {} 365 336
+wv_move_window {Mixed-Signal Equation Builder} {} 366 335
+wv_move_window {Mixed-Signal Equation Builder} {} 367 332
+wv_move_window {Mixed-Signal Equation Builder} {} 368 331
+wv_move_window {Mixed-Signal Equation Builder} {} 369 330
+wv_move_window {Mixed-Signal Equation Builder} {} 369 329
+wv_move_window {Mixed-Signal Equation Builder} {} 371 325
+wv_move_window {Mixed-Signal Equation Builder} {} 372 324
+wv_move_window {Mixed-Signal Equation Builder} {} 376 317
+wv_move_window {Mixed-Signal Equation Builder} {} 376 316
+wv_move_window {Mixed-Signal Equation Builder} {} 376 315
+wv_move_window {Mixed-Signal Equation Builder} {} 378 314
+wv_move_window {Mixed-Signal Equation Builder} {} 378 312
+wv_move_window {Mixed-Signal Equation Builder} {} 379 311
+wv_move_window {Mixed-Signal Equation Builder} {} 381 308
+wv_move_window {Mixed-Signal Equation Builder} {} 382 306
+wv_move_window {Mixed-Signal Equation Builder} {} 383 304
+wv_move_window {Mixed-Signal Equation Builder} {} 385 301
+wv_move_window {Mixed-Signal Equation Builder} {} 385 300
+wv_move_window {Mixed-Signal Equation Builder} {} 387 298
+wv_move_window {Mixed-Signal Equation Builder} {} 389 296
+wv_move_window {Mixed-Signal Equation Builder} {} 389 295
+wv_move_window {Mixed-Signal Equation Builder} {} 391 293
+wv_move_window {Mixed-Signal Equation Builder} {} 393 292
+wv_move_window {Mixed-Signal Equation Builder} {} 394 291
+wv_move_window {Mixed-Signal Equation Builder} {} 395 291
+wv_move_window {Mixed-Signal Equation Builder} {} 395 290
+wv_move_window {Mixed-Signal Equation Builder} {} 397 289
+wv_move_window {Mixed-Signal Equation Builder} {} 398 289
+wv_move_window {Mixed-Signal Equation Builder} {} 399 289
+wv_move_window {Mixed-Signal Equation Builder} {} 400 289
+wv_move_window {Mixed-Signal Equation Builder} {} 400 288
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_press_button {Mixed-Signal Equation Builder} {} {Close} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:2 4.1555e-09 -1.01718e-21
+wv_drag_item_to WV1 660 19
+wv_zoom WV1.PANEL1:2 4.1555e-09 -1.01718e-21 -6.56836e-09 -8.13745e-21
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:2.LEGEND
+wv_drag_item_to WV1 541 5
+wv_drag_enter WV1
+wv_drag_to WV1 543 25
+wv_drag_to WV1 515 187
+wv_drag_to WV1 499 214
+wv_drag_to WV1 424 301
+wv_drag_to WV1 138 485
+wv_drag_leave WV1
+wv_drag_enter WV1
+wv_drag_to WV1 244 497
+wv_drop_on WV1
+wv_drag_item_to WV1 541 12
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 9.08123e-10 -3.01976e-21
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Mode} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 4.23341e-09 -3.27935e-21
+wv_drag_item_to WV1 202 314
+wv_select_list_item {Custom WaveView} {} {sigview} {integral(integral(i(vvi)))} 0
+wv_select_list_item {Custom WaveView} {} {sigview} {integral(integral(i(vvi)))} 0
+wv_dclick_list_item {Custom WaveView} {} {sigview} {integral(integral(i(vvi)))} 0
+wv_select_list_item {Custom WaveView} {} {sigview} {integral(integral(i(vvi)))} 0
+wv_list_context_menu {Custom WaveView} {} {sigview} {integral(integral(i(vvi)))} 0 93 10
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_select_panel WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL3:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_move_window {Confirmation} {} 765 421
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL2:1.LEGEND
+wv_select_panel WV1.PANEL2:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1.LEGEND
+wv_press_tool_button {Custom WaveView} {} {NewWaveformCalculator0} 
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_select_dialog {UCD} 
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_select_table_item {Mixed-Signal Equation Builder} {} {Equation} "integral(integral(i(vvi)))" 0 2
+wv_click_textedit_token {Mixed-Signal Equation Builder} {} {Equation.0.2} {2} {integral}
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integralintegral(i(vvi)))}
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integraintegral(i(vvi)))}
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integrintegral(i(vvi)))}
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integintegral(i(vvi)))}
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {inteintegral(i(vvi)))}
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {intintegral(i(vvi)))}
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {inintegral(i(vvi)))}
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {iintegral(i(vvi)))}
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integral(i(vvi)))}
+wv_set_text {Mixed-Signal Equation Builder} {} {Equation.0.2} {integral(i(vvi))}
+wv_press_button {Mixed-Signal Equation Builder} {} {EvaluateBtn} 
+wv_press_button {Mixed-Signal Equation Builder} {} {Load} 
+wv_press_button {FileDialog} {} {Cancel} 
+wv_select_dialog {Mixed-Signal Equation Builder} 
+wv_select_table_item {Mixed-Signal Equation Builder} {} {Equation} "integral(i(vvi))" 0 2
+wv_select_table_item {Mixed-Signal Equation Builder} {} {Equation} "D0/rc_series.tr0" 0 5
+wv_press_button {Mixed-Signal Equation Builder} {} {EvaluateBtn} 
+wv_close_dialog {Mixed-Signal Equation Builder} 
+wv_select_window {Custom WaveView} 
+wv_select_list_item {Custom WaveView} {} {sigview} {integral(i(vvi))} 0
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 6.17849e-09 -3.90979e-21
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Mode} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1 5.49199e-09 1.71056e-19
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_close_window {Custom WaveView} 
+wv_move_window {Confirmation} {} 762 392
+wv_move_window {Confirmation} {} 765 421
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

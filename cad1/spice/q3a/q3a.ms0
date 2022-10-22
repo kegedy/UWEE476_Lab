@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06 linux64' PARAM_COUNT=0
+.TITLE '* beware!!!! first line is always a comment line and spice ignores this line'
+ i1               i2               resistance_25mv  i3              
+ i4               resistance_250mv temper           alter#          
+  8.382e-05        1.248e-04        2.442e+02        8.556e-04      
+  8.828e-04        3.669e+02        2.500e+01       1               

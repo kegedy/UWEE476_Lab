@@ -1,0 +1,17 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06 linux64"
+* "format" "HSP"
+* "rundate" "17:57:12 10/13/2022 "
+* "netlist" "rc_series.ctl "
+* "runtitle" "* the first line of a control file must be a comment (hspice syntax rules)"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ vdd! = 1.200e+00       
++ vi = 0.000e+00       
++ vo = 0.000e+00       
++ vss! = 0.000e+00       
+***   END: Saved Operating Point ***                     

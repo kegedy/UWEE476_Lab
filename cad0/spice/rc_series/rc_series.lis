@@ -1,0 +1,107 @@
+ ****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
+  Copyright (c) 1986 - 2022 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: rc_series.ctl                                                     
+  Command line options: /home/lab.apps/vlsiapps_new/hspice/current/hspice/linux64/hspice rc_series.ctl -o rc_series.lis
+  Start time: Thu Oct 13 17:57:12 2022
+ lic:  
+ lic: FLEXlm: SDK_12.10 
+ lic: USER:   kegedy               HOSTNAME: linux-lab-054.ece.uw.edu 
+ lic: HOSTID: ffffffff9f0a36e0     PID:      2750 
+ lic: Using FLEXlm license file: 
+ lic: 27008@synopsysls.s.uw.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 24-jan-2023/2020.12 
+ lic: 10(in_use)/100(total) FLOATING license(s) on SERVER 27008@synopsysls.s.uw.edu 
+ lic:   
+  **warning** (rc_series.ckt:21)'.end' can not exist in include/lib files, ignored
+  **info** (rc_series.ctl:37) DC voltage reset to initial transient source value in source 0:vvi. new dc=0.0000D+00
+  **warning** (rc_series.ctl:37) pulse rise time is  < or = zero, reset to tstep
+  **warning** (rc_series.ctl:37) pulse fall time is  < or = zero, reset to tstep
+  
+
+  **warning** the following singular supplies were terminated to 1 meg resistor 
+          supply       node1            node2
+(rc_series.ctl:32)vvdd                    0:vdd!             defined in subckt 0                     0:0                defined in subckt 0               
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+  **warning** (rc_series.ctl:37) pulse rise time is  < or = zero, reset to tstep
+  **warning** (rc_series.ctl:37) pulse fall time is  < or = zero, reset to tstep
+ **info** dc convergence successful at Newton-Raphson method 
+1****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
+ ******  
+ * the first line of a control file must be a comment (hspice syntax rules)
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ ******
+ * the first line of a control file must be a comment (hspice syntax rules)
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ rise_time= 1.3822e-09  targ= 1.6117e-09   trig= 2.2953e-10
+ rise_delay= 6.9379e-10  targ= 1.0694e-08   trig= 1.0001e-08
+
+          ***** job concluded
+ ******  
+ * the first line of a control file must be a comment (hspice syntax rules)
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+ cpu MHz	: 4598.510
+ CPU(s)		: 8
+  
+ OS:
+ Linux version 3.10.0-1160.76.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Aug 10 16:21:17 UTC 2022
+
+ System loadavg : 2.03 1.51 1.46 3/2275 2753
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     8
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =       5 # elements   =       6
+  # resistors   =       2 # capacitors =       1 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       3
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       0 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1           1
+  transient          0.00       50001         476         238 rev=        10
+  readin             0.01
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           peak memory used        496.03 megabytes
+           total cpu time            0.02 seconds
+           total elapsed time        0.07 seconds
+           job started at     17:57:12 10/13/2022
+           job ended   at     17:57:12 10/13/2022
+           job total runtime         0.07 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.05(s)

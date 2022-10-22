@@ -1,0 +1,32 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "T-2022.06 linux64"
+"rundate" "21:03:52 10/17/2022 "
+"runtitle" "* beware!!!! first line is always a comment line and spice ignores"
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"srcSweep" "analysisInst" ( 
+"DC Sweep"
+"q3a.sw0"
+"PSF"
+""
+()
+"DC Sweep"
+)
+"summary" "analysisInst" ( 
+"Summary Information"
+"q3a.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

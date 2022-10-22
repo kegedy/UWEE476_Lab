@@ -1,0 +1,55 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 13:22:16 on Fri Oct 14 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 22384   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {q1b_2.sw0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:q1b_2.sw0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:q1b_2.sw0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_window {Custom WaveView} 
+wv_select_list_item {Custom WaveView} {} {sigview} {vdd!} 5
+wv_drag_list_item {Custom WaveView} {} {sigview} {vdd!} 5
+wv_drag_enter WV1
+wv_drag_to WV1 4 357
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {vin} 6
+wv_drag_list_item {Custom WaveView} {} {sigview} {vin} 6
+wv_drag_enter WV1
+wv_drag_to WV1 7 371
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE3
+wv_select_line WV1.PANEL1:1.LINE3
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE3
+wv_drag_item_to WV1 49 61
+wv_drag_enter WV1
+wv_drag_to WV1 49 63
+wv_drag_to WV1 196 460
+wv_drop_on WV1
+wv_drag_item_to WV1 49 61
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LINE2
+wv_drag_item_to WV1 33 49
+wv_select_line WV1.PANEL1:1.LINE2
+wv_drag_enter WV1
+wv_drag_to WV1 33 60
+wv_drag_to WV1 65 238
+wv_drag_to WV1 63 247
+wv_drag_to WV1 63 246
+wv_drag_to WV1 62 247
+wv_drag_to WV1 53 461
+wv_drop_on WV1
+wv_drag_item_to WV1 33 49
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.TAB
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

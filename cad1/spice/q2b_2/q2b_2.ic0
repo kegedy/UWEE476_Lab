@@ -1,0 +1,16 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06 linux64"
+* "format" "HSP"
+* "rundate" "19:56:24 10/17/2022 "
+* "netlist" "q2b_2.ctl "
+* "runtitle" "* beware!!!! first line is always a comment line and spice ignores this line"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ vdd! = 1.200e+00       
++ vi = 0.000e+00       
++ vo = 1.170e+00       
+***   END: Saved Operating Point ***                     

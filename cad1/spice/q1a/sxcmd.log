@@ -1,0 +1,557 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 22:56:56 on Mon Oct 17 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 3561   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {q1a.sw0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:q1a.sw0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:q1a.sw0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_list_item {Custom WaveView} {} {sigview} {lx4(m0)} 4
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_menu_item {Custom WaveView} {} {AxisCursor.Add Cursor} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 602 213
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Attributes...} 
+wv_set_radion {CursorJumpParameters} {} {To} 
+wv_move_window {CursorJumpParameters} {} 358 187
+wv_move_window {CursorJumpParameters} {} 358 188
+wv_move_window {CursorJumpParameters} {} 358 189
+wv_move_window {CursorJumpParameters} {} 358 190
+wv_move_window {CursorJumpParameters} {} 357 192
+wv_move_window {CursorJumpParameters} {} 355 197
+wv_move_window {CursorJumpParameters} {} 352 207
+wv_move_window {CursorJumpParameters} {} 350 213
+wv_move_window {CursorJumpParameters} {} 349 215
+wv_move_window {CursorJumpParameters} {} 348 219
+wv_move_window {CursorJumpParameters} {} 347 220
+wv_move_window {CursorJumpParameters} {} 346 221
+wv_move_window {CursorJumpParameters} {} 344 228
+wv_move_window {CursorJumpParameters} {} 340 235
+wv_move_window {CursorJumpParameters} {} 338 240
+wv_move_window {CursorJumpParameters} {} 336 244
+wv_move_window {CursorJumpParameters} {} 330 255
+wv_move_window {CursorJumpParameters} {} 329 258
+wv_move_window {CursorJumpParameters} {} 328 260
+wv_move_window {CursorJumpParameters} {} 325 264
+wv_move_window {CursorJumpParameters} {} 322 269
+wv_move_window {CursorJumpParameters} {} 321 273
+wv_move_window {CursorJumpParameters} {} 311 287
+wv_move_window {CursorJumpParameters} {} 309 290
+wv_move_window {CursorJumpParameters} {} 305 297
+wv_move_window {CursorJumpParameters} {} 304 300
+wv_move_window {CursorJumpParameters} {} 301 304
+wv_move_window {CursorJumpParameters} {} 300 306
+wv_move_window {CursorJumpParameters} {} 296 314
+wv_move_window {CursorJumpParameters} {} 294 317
+wv_move_window {CursorJumpParameters} {} 293 319
+wv_move_window {CursorJumpParameters} {} 292 321
+wv_move_window {CursorJumpParameters} {} 286 330
+wv_move_window {CursorJumpParameters} {} 280 341
+wv_move_window {CursorJumpParameters} {} 269 357
+wv_move_window {CursorJumpParameters} {} 263 365
+wv_move_window {CursorJumpParameters} {} 262 366
+wv_move_window {CursorJumpParameters} {} 260 369
+wv_move_window {CursorJumpParameters} {} 257 371
+wv_move_window {CursorJumpParameters} {} 256 373
+wv_move_window {CursorJumpParameters} {} 255 374
+wv_move_window {CursorJumpParameters} {} 254 374
+wv_move_window {CursorJumpParameters} {} 253 376
+wv_move_window {CursorJumpParameters} {} 250 379
+wv_move_window {CursorJumpParameters} {} 250 380
+wv_move_window {CursorJumpParameters} {} 244 386
+wv_move_window {CursorJumpParameters} {} 242 387
+wv_move_window {CursorJumpParameters} {} 241 388
+wv_move_window {CursorJumpParameters} {} 237 391
+wv_move_window {CursorJumpParameters} {} 234 394
+wv_move_window {CursorJumpParameters} {} 234 395
+wv_move_window {CursorJumpParameters} {} 232 395
+wv_move_window {CursorJumpParameters} {} 228 399
+wv_move_window {CursorJumpParameters} {} 226 401
+wv_move_window {CursorJumpParameters} {} 225 402
+wv_move_window {CursorJumpParameters} {} 224 403
+wv_move_window {CursorJumpParameters} {} 223 404
+wv_move_window {CursorJumpParameters} {} 222 405
+wv_move_window {CursorJumpParameters} {} 214 411
+wv_move_window {CursorJumpParameters} {} 191 428
+wv_move_window {CursorJumpParameters} {} 191 429
+wv_move_window {CursorJumpParameters} {} 188 431
+wv_move_window {CursorJumpParameters} {} 185 433
+wv_move_window {CursorJumpParameters} {} 183 435
+wv_move_window {CursorJumpParameters} {} 182 436
+wv_move_window {CursorJumpParameters} {} 179 438
+wv_move_window {CursorJumpParameters} {} 177 439
+wv_move_window {CursorJumpParameters} {} 173 442
+wv_move_window {CursorJumpParameters} {} 173 443
+wv_move_window {CursorJumpParameters} {} 171 444
+wv_move_window {CursorJumpParameters} {} 169 446
+wv_move_window {CursorJumpParameters} {} 167 446
+wv_move_window {CursorJumpParameters} {} 166 448
+wv_move_window {CursorJumpParameters} {} 165 448
+wv_move_window {CursorJumpParameters} {} 164 449
+wv_move_window {CursorJumpParameters} {} 163 449
+wv_move_window {CursorJumpParameters} {} 162 450
+wv_move_window {CursorJumpParameters} {} 160 450
+wv_move_window {CursorJumpParameters} {} 158 452
+wv_move_window {CursorJumpParameters} {} 157 452
+wv_move_window {CursorJumpParameters} {} 156 453
+wv_move_window {CursorJumpParameters} {} 155 453
+wv_move_window {CursorJumpParameters} {} 154 453
+wv_move_window {CursorJumpParameters} {} 154 454
+wv_move_window {CursorJumpParameters} {} 153 454
+wv_move_window {CursorJumpParameters} {} 152 454
+wv_move_window {CursorJumpParameters} {} 151 454
+wv_move_window {CursorJumpParameters} {} 150 454
+wv_move_window {CursorJumpParameters} {} 149 454
+wv_move_window {CursorJumpParameters} {} 148 454
+wv_move_window {CursorJumpParameters} {} 147 454
+wv_move_window {CursorJumpParameters} {} 146 454
+wv_move_window {CursorJumpParameters} {} 145 454
+wv_move_window {CursorJumpParameters} {} 144 454
+wv_move_window {CursorJumpParameters} {} 143 454
+wv_move_window {CursorJumpParameters} {} 142 454
+wv_move_window {CursorJumpParameters} {} 140 454
+wv_move_window {CursorJumpParameters} {} 139 453
+wv_move_window {CursorJumpParameters} {} 138 453
+wv_move_window {CursorJumpParameters} {} 137 453
+wv_move_window {CursorJumpParameters} {} 136 453
+wv_move_window {CursorJumpParameters} {} 135 453
+wv_move_window {CursorJumpParameters} {} 134 453
+wv_move_window {CursorJumpParameters} {} 133 452
+wv_move_window {CursorJumpParameters} {} 132 452
+wv_move_window {CursorJumpParameters} {} 131 451
+wv_move_window {CursorJumpParameters} {} 129 451
+wv_move_window {CursorJumpParameters} {} 128 451
+wv_move_window {CursorJumpParameters} {} 127 450
+wv_move_window {CursorJumpParameters} {} 126 450
+wv_move_window {CursorJumpParameters} {} 125 450
+wv_move_window {CursorJumpParameters} {} 124 449
+wv_move_window {CursorJumpParameters} {} 123 449
+wv_move_window {CursorJumpParameters} {} 121 449
+wv_move_window {CursorJumpParameters} {} 120 449
+wv_move_window {CursorJumpParameters} {} 117 447
+wv_move_window {CursorJumpParameters} {} 115 447
+wv_move_window {CursorJumpParameters} {} 114 447
+wv_move_window {CursorJumpParameters} {} 113 446
+wv_move_window {CursorJumpParameters} {} 111 446
+wv_move_window {CursorJumpParameters} {} 110 446
+wv_move_window {CursorJumpParameters} {} 109 445
+wv_move_window {CursorJumpParameters} {} 107 444
+wv_move_window {CursorJumpParameters} {} 106 444
+wv_move_window {CursorJumpParameters} {} 105 443
+wv_move_window {CursorJumpParameters} {} 104 443
+wv_move_window {CursorJumpParameters} {} 103 443
+wv_move_window {CursorJumpParameters} {} 102 443
+wv_move_window {CursorJumpParameters} {} 102 442
+wv_move_window {CursorJumpParameters} {} 98 442
+wv_move_window {CursorJumpParameters} {} 97 441
+wv_move_window {CursorJumpParameters} {} 96 441
+wv_move_window {CursorJumpParameters} {} 95 440
+wv_move_window {CursorJumpParameters} {} 94 440
+wv_move_window {CursorJumpParameters} {} 93 439
+wv_move_window {CursorJumpParameters} {} 92 439
+wv_move_window {CursorJumpParameters} {} 91 439
+wv_move_window {CursorJumpParameters} {} 90 438
+wv_move_window {CursorJumpParameters} {} 89 438
+wv_move_window {CursorJumpParameters} {} 88 438
+wv_move_window {CursorJumpParameters} {} 86 437
+wv_move_window {CursorJumpParameters} {} 85 437
+wv_move_window {CursorJumpParameters} {} 84 437
+wv_move_window {CursorJumpParameters} {} 84 436
+wv_move_window {CursorJumpParameters} {} 83 435
+wv_move_window {CursorJumpParameters} {} 82 435
+wv_move_window {CursorJumpParameters} {} 81 435
+wv_move_window {CursorJumpParameters} {} 80 435
+wv_move_window {CursorJumpParameters} {} 80 434
+wv_move_window {CursorJumpParameters} {} 79 434
+wv_move_window {CursorJumpParameters} {} 77 434
+wv_move_window {CursorJumpParameters} {} 72 431
+wv_move_window {CursorJumpParameters} {} 71 431
+wv_move_window {CursorJumpParameters} {} 71 430
+wv_move_window {CursorJumpParameters} {} 70 430
+wv_move_window {CursorJumpParameters} {} 69 429
+wv_move_window {CursorJumpParameters} {} 69 428
+wv_move_window {CursorJumpParameters} {} 69 426
+wv_move_window {CursorJumpParameters} {} 69 425
+wv_move_window {CursorJumpParameters} {} 69 424
+wv_move_window {CursorJumpParameters} {} 69 422
+wv_move_window {CursorJumpParameters} {} 69 421
+wv_move_window {CursorJumpParameters} {} 71 413
+wv_move_window {CursorJumpParameters} {} 71 412
+wv_move_window {CursorJumpParameters} {} 72 411
+wv_move_window {CursorJumpParameters} {} 72 410
+wv_move_window {CursorJumpParameters} {} 73 410
+wv_move_window {CursorJumpParameters} {} 73 409
+wv_move_window {CursorJumpParameters} {} 75 408
+wv_move_window {CursorJumpParameters} {} 93 395
+wv_move_window {CursorJumpParameters} {} 99 390
+wv_move_window {CursorJumpParameters} {} 100 390
+wv_move_window {CursorJumpParameters} {} 102 389
+wv_move_window {CursorJumpParameters} {} 103 389
+wv_move_window {CursorJumpParameters} {} 106 387
+wv_move_window {CursorJumpParameters} {} 108 386
+wv_move_window {CursorJumpParameters} {} 111 383
+wv_move_window {CursorJumpParameters} {} 115 382
+wv_move_window {CursorJumpParameters} {} 118 380
+wv_move_window {CursorJumpParameters} {} 119 380
+wv_move_window {CursorJumpParameters} {} 148 366
+wv_move_window {CursorJumpParameters} {} 155 362
+wv_move_window {CursorJumpParameters} {} 157 361
+wv_move_window {CursorJumpParameters} {} 162 359
+wv_move_window {CursorJumpParameters} {} 165 358
+wv_move_window {CursorJumpParameters} {} 166 358
+wv_move_window {CursorJumpParameters} {} 167 357
+wv_move_window {CursorJumpParameters} {} 172 355
+wv_move_window {CursorJumpParameters} {} 189 348
+wv_move_window {CursorJumpParameters} {} 196 346
+wv_move_window {CursorJumpParameters} {} 199 346
+wv_move_window {CursorJumpParameters} {} 215 340
+wv_move_window {CursorJumpParameters} {} 226 336
+wv_move_window {CursorJumpParameters} {} 227 336
+wv_move_window {CursorJumpParameters} {} 228 335
+wv_move_window {CursorJumpParameters} {} 230 334
+wv_move_window {CursorJumpParameters} {} 232 333
+wv_move_window {CursorJumpParameters} {} 233 333
+wv_move_window {CursorJumpParameters} {} 234 333
+wv_move_window {CursorJumpParameters} {} 236 332
+wv_move_window {CursorJumpParameters} {} 237 332
+wv_move_window {CursorJumpParameters} {} 239 330
+wv_move_window {CursorJumpParameters} {} 242 330
+wv_move_window {CursorJumpParameters} {} 243 329
+wv_move_window {CursorJumpParameters} {} 244 329
+wv_move_window {CursorJumpParameters} {} 253 325
+wv_move_window {CursorJumpParameters} {} 255 325
+wv_move_window {CursorJumpParameters} {} 256 324
+wv_move_window {CursorJumpParameters} {} 257 324
+wv_move_window {CursorJumpParameters} {} 260 322
+wv_move_window {CursorJumpParameters} {} 264 321
+wv_move_window {CursorJumpParameters} {} 265 321
+wv_move_window {CursorJumpParameters} {} 266 320
+wv_move_window {CursorJumpParameters} {} 267 320
+wv_move_window {CursorJumpParameters} {} 268 319
+wv_move_window {CursorJumpParameters} {} 271 318
+wv_move_window {CursorJumpParameters} {} 276 317
+wv_move_window {CursorJumpParameters} {} 278 316
+wv_move_window {CursorJumpParameters} {} 279 316
+wv_select_dialog {CursorJumpParameters} 
+wv_set_text {CursorJumpParameters} {} {XValue} "0.5"
+wv_press_key_text {CursorJumpParameters} {} {XValue} {Return}
+wv_select_window {Custom WaveView} 
+wv_select_menu_item {Custom WaveView} {} {AxisCursor.Add Cursor} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR2
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 599 117
+wv_dclick_wv_item WV1.PANEL1:1.CURSOR2
+wv_select_dialog {CursorJumpParameters} 
+wv_release_wv_item WV1 599 117
+wv_set_radion {CursorJumpParameters} {} {To} 
+wv_set_text {CursorJumpParameters} {} {XValue} "0.8"
+wv_press_key_text {CursorJumpParameters} {} {XValue} {Return}
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 0.980597 0.000822621
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 854 241
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR2
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 852 205
+wv_dclick_wv_item WV1.PANEL1:1.CURSOR2
+wv_select_dialog {CursorJumpParameters} 
+wv_release_wv_item WV1 852 205
+wv_set_text {CursorJumpParameters} {} {XValue} "0.4"
+wv_press_key_text {CursorJumpParameters} {} {XValue} {Return}
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR2
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 463 225
+wv_dclick_wv_item WV1.PANEL1:1.CURSOR2
+wv_select_dialog {CursorJumpParameters} 
+wv_release_wv_item WV1 463 225
+wv_set_text {CursorJumpParameters} {} {XValue} "0.8"
+wv_press_button {CursorJumpParameters} {} {Apply} 
+wv_press_button {CursorJumpParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSORX2
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 735 203
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSORX2
+wv_move_wv_item WV1.PANEL1:1.CURSOR2 735 203
+wv_dclick_wv_item WV1.PANEL1:1.CURSOR2
+wv_select_dialog {CursorJumpParameters} 
+wv_release_wv_item WV1 735 203
+wv_press_button {CursorJumpParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 530 290
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_drag_item_to WV1 531 290
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 557 298
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Set as Reference Cursor} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSORX1
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 557 335
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSORX1
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 556 329
+wv_dclick_wv_item WV1.PANEL1:1.CURSOR1
+wv_select_dialog {CursorJumpParameters} 
+wv_release_wv_item WV1 556 329
+wv_press_button {CursorJumpParameters} {} {Apply} 
+wv_press_button {CursorJumpParameters} {} {Apply} 
+wv_press_button {CursorJumpParameters} {} {Cancel} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 0.514925 0.000788821
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 542 250
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR1
+wv_move_wv_item WV1.PANEL1:1.CURSOR1 540 253
+wv_dclick_wv_item WV1.PANEL1:1.CURSOR1
+wv_select_dialog {CursorJumpParameters} 
+wv_release_wv_item WV1 540 253
+wv_set_text {CursorJumpParameters} {} {XValue} "0.5"
+wv_press_button {CursorJumpParameters} {} {Apply} 
+wv_press_button {CursorJumpParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Show V-Values Crossings} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Show V-Values Crossings} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.TEXT1
+wv_drag_item_to WV1 781 193
+wv_move_wv_item WV1.TEXT1 627 228
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.TEXT1
+wv_drag_item_to WV1 645 238
+wv_move_wv_item WV1.TEXT1 678 258
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1 0.508955 0.000522178
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1 0.292537 8.27807e-05
+wv_select_menu_item {Custom WaveView} {} {AxisCursor.Add Cursor} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.CURSOR3
+wv_drag_item_to WV1 597 344
+wv_move_wv_item WV1.PANEL1:1.CURSOR3 431 362
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL1:1.CURSOR3
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {HairPopMenu.Attributes...} 
+wv_set_radion {CursorJumpParameters} {} {To} 
+wv_set_text {CursorJumpParameters} {} {XValue} "0.3"
+wv_press_button {CursorJumpParameters} {} {Apply} 
+wv_press_button {CursorJumpParameters} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_list_item {Custom WaveView} {} {sigview} {vin} 6
+wv_drag_list_item {Custom WaveView} {} {sigview} {vin} 6
+wv_drag_enter WV1
+wv_drag_to WV1 45 423
+wv_drag_to WV1 225 460
+wv_drop_on WV1
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+wv_move_window {Confirmation} {} 576 337
+wv_move_window {Confirmation} {} 577 338
+wv_move_window {Confirmation} {} 578 339
+wv_move_window {Confirmation} {} 579 340
+wv_move_window {Confirmation} {} 582 342
+wv_move_window {Confirmation} {} 584 344
+wv_move_window {Confirmation} {} 587 347
+wv_move_window {Confirmation} {} 588 348
+wv_move_window {Confirmation} {} 590 349
+wv_move_window {Confirmation} {} 591 350
+wv_move_window {Confirmation} {} 593 351
+wv_move_window {Confirmation} {} 596 352
+wv_move_window {Confirmation} {} 602 357
+wv_move_window {Confirmation} {} 609 361
+wv_move_window {Confirmation} {} 614 365
+wv_move_window {Confirmation} {} 622 370
+wv_move_window {Confirmation} {} 625 371
+wv_move_window {Confirmation} {} 632 375
+wv_move_window {Confirmation} {} 635 377
+wv_move_window {Confirmation} {} 636 378
+wv_move_window {Confirmation} {} 641 380
+wv_move_window {Confirmation} {} 647 383
+wv_move_window {Confirmation} {} 649 385
+wv_move_window {Confirmation} {} 659 389
+wv_move_window {Confirmation} {} 665 392
+wv_move_window {Confirmation} {} 670 394
+wv_move_window {Confirmation} {} 673 395
+wv_move_window {Confirmation} {} 679 397
+wv_move_window {Confirmation} {} 683 399
+wv_move_window {Confirmation} {} 689 401
+wv_move_window {Confirmation} {} 692 403
+wv_move_window {Confirmation} {} 700 406
+wv_move_window {Confirmation} {} 707 409
+wv_move_window {Confirmation} {} 713 412
+wv_move_window {Confirmation} {} 719 414
+wv_move_window {Confirmation} {} 721 415
+wv_move_window {Confirmation} {} 724 417
+wv_move_window {Confirmation} {} 729 419
+wv_move_window {Confirmation} {} 735 421
+wv_move_window {Confirmation} {} 736 421
+wv_move_window {Confirmation} {} 738 422
+wv_move_window {Confirmation} {} 745 425
+wv_move_window {Confirmation} {} 750 427
+wv_move_window {Confirmation} {} 752 428
+wv_move_window {Confirmation} {} 754 429
+wv_move_window {Confirmation} {} 756 430
+wv_move_window {Confirmation} {} 762 433
+wv_move_window {Confirmation} {} 773 438
+wv_move_window {Confirmation} {} 774 438
+wv_move_window {Confirmation} {} 780 441
+wv_move_window {Confirmation} {} 781 441
+wv_move_window {Confirmation} {} 783 442
+wv_move_window {Confirmation} {} 787 444
+wv_move_window {Confirmation} {} 788 444
+wv_move_window {Confirmation} {} 792 446
+wv_move_window {Confirmation} {} 792 447
+wv_move_window {Confirmation} {} 796 448
+wv_move_window {Confirmation} {} 798 449
+wv_move_window {Confirmation} {} 800 450
+wv_move_window {Confirmation} {} 804 452
+wv_move_window {Confirmation} {} 806 453
+wv_move_window {Confirmation} {} 807 453
+wv_move_window {Confirmation} {} 810 454
+wv_move_window {Confirmation} {} 811 455
+wv_move_window {Confirmation} {} 813 456
+wv_move_window {Confirmation} {} 816 457
+wv_move_window {Confirmation} {} 817 458
+wv_move_window {Confirmation} {} 820 459
+wv_move_window {Confirmation} {} 820 460
+wv_move_window {Confirmation} {} 822 460
+wv_move_window {Confirmation} {} 823 461
+wv_move_window {Confirmation} {} 824 461
+wv_move_window {Confirmation} {} 825 461
+wv_move_window {Confirmation} {} 825 462
+wv_move_window {Confirmation} {} 826 462
+wv_move_window {Confirmation} {} 827 462
+wv_move_window {Confirmation} {} 828 463
+wv_move_window {Confirmation} {} 829 464
+wv_move_window {Confirmation} {} 830 464
+wv_move_window {Confirmation} {} 831 464
+wv_move_window {Confirmation} {} 831 465
+wv_move_window {Confirmation} {} 832 465
+wv_move_window {Confirmation} {} 833 465
+wv_move_window {Confirmation} {} 833 466
+wv_move_window {Confirmation} {} 834 466
+wv_move_window {Confirmation} {} 835 466
+wv_move_window {Confirmation} {} 836 467
+wv_move_window {Confirmation} {} 837 468
+wv_move_window {Confirmation} {} 838 468
+wv_move_window {Confirmation} {} 839 468
+wv_move_window {Confirmation} {} 841 469
+wv_move_window {Confirmation} {} 842 470
+wv_move_window {Confirmation} {} 843 470
+wv_move_window {Confirmation} {} 844 470
+wv_move_window {Confirmation} {} 845 470
+wv_move_window {Confirmation} {} 845 471
+wv_move_window {Confirmation} {} 846 471
+wv_move_window {Confirmation} {} 847 471
+wv_move_window {Confirmation} {} 847 472
+wv_move_window {Confirmation} {} 848 472
+wv_move_window {Confirmation} {} 849 472
+wv_move_window {Confirmation} {} 850 472
+wv_move_window {Confirmation} {} 851 472
+wv_move_window {Confirmation} {} 852 472
+wv_move_window {Confirmation} {} 853 472
+wv_move_window {Confirmation} {} 854 472
+wv_move_window {Confirmation} {} 856 472
+wv_move_window {Confirmation} {} 857 472
+wv_move_window {Confirmation} {} 858 472
+wv_move_window {Confirmation} {} 859 472
+wv_move_window {Confirmation} {} 860 472
+wv_move_window {Confirmation} {} 861 472
+wv_move_window {Confirmation} {} 862 472
+wv_move_window {Confirmation} {} 863 472
+wv_move_window {Confirmation} {} 864 472
+wv_move_window {Confirmation} {} 865 472
+wv_move_window {Confirmation} {} 865 471
+wv_move_window {Confirmation} {} 867 471
+wv_move_window {Confirmation} {} 871 470
+wv_move_window {Confirmation} {} 872 470
+wv_move_window {Confirmation} {} 873 469
+wv_move_window {Confirmation} {} 876 468
+wv_move_window {Confirmation} {} 877 467
+wv_move_window {Confirmation} {} 878 467
+wv_move_window {Confirmation} {} 878 466
+wv_move_window {Confirmation} {} 879 466
+wv_move_window {Confirmation} {} 880 466
+wv_move_window {Confirmation} {} 880 465
+wv_move_window {Confirmation} {} 881 465
+wv_move_window {Confirmation} {} 882 463
+wv_move_window {Confirmation} {} 883 463
+wv_move_window {Confirmation} {} 884 462
+wv_move_window {Confirmation} {} 886 461
+wv_move_window {Confirmation} {} 887 459
+wv_move_window {Confirmation} {} 889 459
+wv_move_window {Confirmation} {} 889 458
+wv_move_window {Confirmation} {} 890 458
+wv_move_window {Confirmation} {} 891 457
+wv_move_window {Confirmation} {} 894 454
+wv_move_window {Confirmation} {} 895 454
+wv_move_window {Confirmation} {} 897 453
+wv_move_window {Confirmation} {} 898 452
+wv_move_window {Confirmation} {} 899 450
+wv_move_window {Confirmation} {} 901 449
+wv_move_window {Confirmation} {} 902 449
+wv_move_window {Confirmation} {} 904 446
+wv_move_window {Confirmation} {} 905 446
+wv_move_window {Confirmation} {} 907 444
+wv_move_window {Confirmation} {} 910 441
+wv_move_window {Confirmation} {} 911 440
+wv_move_window {Confirmation} {} 911 439
+wv_move_window {Confirmation} {} 914 437
+wv_move_window {Confirmation} {} 915 436
+wv_move_window {Confirmation} {} 918 433
+wv_move_window {Confirmation} {} 919 432
+wv_move_window {Confirmation} {} 920 431
+wv_move_window {Confirmation} {} 920 430
+wv_move_window {Confirmation} {} 921 430
+wv_move_window {Confirmation} {} 922 430
+wv_move_window {Confirmation} {} 922 429
+wv_move_window {Confirmation} {} 923 428
+wv_move_window {Confirmation} {} 924 426
+wv_move_window {Confirmation} {} 925 426
+wv_move_window {Confirmation} {} 926 425
+wv_move_window {Confirmation} {} 927 423
+wv_move_window {Confirmation} {} 928 423
+wv_move_window {Confirmation} {} 928 422
+wv_move_window {Confirmation} {} 930 420
+wv_move_window {Confirmation} {} 931 418
+wv_move_window {Confirmation} {} 932 418
+wv_move_window {Confirmation} {} 932 417
+wv_move_window {Confirmation} {} 933 416
+wv_move_window {Confirmation} {} 934 414
+wv_move_window {Confirmation} {} 935 413
+wv_move_window {Confirmation} {} 935 412
+wv_move_window {Confirmation} {} 936 411
+wv_move_window {Confirmation} {} 936 410
+wv_move_window {Confirmation} {} 937 410
+wv_move_window {Confirmation} {} 937 409
+wv_move_window {Confirmation} {} 938 409
+wv_select_dialog {Confirmation} 
+wv_press_button {Confirmation} {} {Cancel} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

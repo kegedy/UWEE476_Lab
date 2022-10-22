@@ -1,0 +1,20 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "T-2022.06 linux64"
+"rundate" "17:57:12 10/13/2022"
+"runtitle" "* the first line of a control file must be a comment (hspice syntax rules)                                              "
+"runtype" "Summary Information"
+"temperature" "2.500e+01"
+"op point time" "0.00"
+"op point iterations" "1"
+"transient time" "0.00"
+"transient iterations" "476"
+"total cpu time" "0.02"
+"node value" "invalid"
+"operating point" "invalid"
+"ac analysis" "invalid"
+"dc sweep" "invalid"
+"transient analysis" "complete"
+TRAILER
+END
