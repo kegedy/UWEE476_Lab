@@ -1,0 +1,17 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06 linux64"
+* "format" "HSP"
+* "rundate" "09:20:14 10/22/2022 "
+* "netlist" "loaded_inverter.ctl "
+* "runtitle" "* beware!!!! first line is always a comment line and spice ignores this line"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ vdd! = 1.200e+00       
++ vi = 0.000e+00       
++ vo = 1.199e+00       
++ vss! = 0.000e+00       
+***   END: Saved Operating Point ***                     
