@@ -1,5 +1,5 @@
 ** Generated for: hspiceD
-** Generated on: Oct 23 09:47:33 2022
+** Generated on: Oct 26 17:46:43 2022
 ** Design library name: cad2
 ** Design cell name: loaded_inverter
 ** Design view name: schematic
@@ -16,11 +16,15 @@
 ** Library name: cad2
 ** Cell name: INVD1
 ** View name: schematic
-.subckt INVD1 vi vo
-m0 vo vi vss! vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
-m1 vo vi vdd! vdd! PMOS_VTL L=50e-9 W=400e-9 AD=42e-15 AS=42e-15 PD=610e-9 PS=610e-9 M=1
-.ends INVD1
+*.subckt INVD1 vi vo
+*m0 vo vi vss! vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
+*m1 vo vi vdd! vdd! PMOS_VTL L=50e-9 W=400e-9 AD=42e-15 AS=42e-15 PD=610e-9 PS=610e-9 M=1
+*.ends INVD1
 ** End of subcircuit definition.
+
+** ==== Post - layout netlist ====
+.include INVD1.pex.netlist
+
 
 ** Library name: cad2
 ** Cell name: loaded_inverter

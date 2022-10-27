@@ -2,5 +2,5 @@ $DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06 linux64' PARAM_COUNT=0
 .TITLE '* beware!!!! first line is always a comment line and spice ignores this line'
  rise_time        fall_time        rise_delay       fall_delay      
  temper           alter#          
-  3.207e-11        1.638e-11        1.288e-11        2.507e-11      
+  2.533e-11        2.271e-11        1.751e-11        1.974e-11      
   2.500e+01       1               

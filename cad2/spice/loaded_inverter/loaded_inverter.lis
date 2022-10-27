@@ -7,18 +7,18 @@
   this software is strictly prohibited.
   Input File: loaded_inverter.ctl                                               
   Command line options: /home/lab.apps/vlsiapps_new/hspice/current/hspice/linux64/hspice loaded_inverter.ctl -o loaded_inverter.lis
-  Start time: Sat Oct 22 09:20:14 2022
+  Start time: Wed Oct 26 19:01:42 2022
  lic:  
  lic: FLEXlm: SDK_12.10 
  lic: USER:   kegedy               HOSTNAME: linux-lab-054.ece.uw.edu 
- lic: HOSTID: ffffffff9f0a36e0     PID:      1997 
+ lic: HOSTID: ffffffff9f0a36e0     PID:      17726 
  lic: Using FLEXlm license file: 
  lic: 27008@synopsysls.s.uw.edu 
  lic: Checkout 1 hspice 
  lic: License/Maintenance for hspice will expire on 24-jan-2023/2020.12 
- lic: 28(in_use)/100(total) FLOATING license(s) on SERVER 27008@synopsysls.s.uw.edu 
+ lic: 4(in_use)/100(total) FLOATING license(s) on SERVER 27008@synopsysls.s.uw.edu 
  lic:   
-  **warning** (loaded_inverter.ckt:30)'.end' can not exist in include/lib files, ignored
+  **warning** (loaded_inverter.ckt:34)'.end' can not exist in include/lib files, ignored
 1****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
  ******  
  * beware!!!! first line is always a comment line and spice ignores this line
@@ -565,7 +565,7 @@
     TRS =      0 
     TRD =      0 
   **info** (loaded_inverter.ctl:42) DC voltage reset to initial transient source value in source 0:vvgs. new dc=0.0000D+00
-  **warning** (nmos_vtl:xi0.m0 (loaded_inverter.ckt:20)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=4e-07 l=5e-08.
+  **warning** (nmos_vtl:xi0.mm0 (INVD1.pex.netlist:8)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=3e-07 l=5e-08.
   **warning** (loaded_inverter.ctl:57) Could not find branch element m0 ;branch output ignored
   
   
@@ -588,10 +588,10 @@
  * beware!!!! first line is always a comment line and spice ignores this line
 
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
- rise_time= 3.2066e-11  targ= 8.2342e-10   trig= 7.9135e-10
- fall_time= 1.6382e-11  targ= 1.0321e-09   trig= 1.0157e-09
- rise_delay= 1.2876e-11  targ= 1.0229e-09   trig= 1.0100e-09
- fall_delay= 2.5073e-11  targ= 1.3051e-09   trig= 1.2800e-09
+ rise_time= 2.5335e-11  targ= 8.1467e-10   trig= 7.8934e-10
+ fall_time= 2.2709e-11  targ= 1.0405e-09   trig= 1.0178e-09
+ rise_delay= 1.7510e-11  targ= 1.0275e-09   trig= 1.0100e-09
+ fall_delay= 1.9736e-11  targ= 1.2997e-09   trig= 1.2800e-09
 
           ***** job concluded
  ******  
@@ -602,13 +602,13 @@
  ******  Machine Information  ******
  CPU:
  model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
- cpu MHz	: 4509.521
+ cpu MHz	: 4599.609
  CPU(s)		: 8
   
  OS:
  Linux version 3.10.0-1160.76.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Aug 10 16:21:17 UTC 2022
 
- System loadavg : 0.37 0.45 0.52 2/1071 2002
+ System loadavg : 0.26 0.23 0.34 2/1208 17729
 
 
   ******  PrimeSim HSPICE Threads Information  ******
@@ -619,8 +619,8 @@
 
 
   ******  Circuit Statistics  ******
-  # nodes       =      13 # elements   =       6
-  # resistors   =       0 # capacitors =       1 # inductors   =       0
+  # nodes       =      13 # elements   =      16
+  # resistors   =       0 # capacitors =      11 # inductors   =       0
   # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
   # cccs        =       0 # ccvs       =       0 # volt_srcs   =       3
   # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
@@ -634,19 +634,19 @@
 
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1           4
-  transient          0.02       10001        2397         956 rev=       202
+  transient          0.02       10001        2404         978 rev=       208
   readin             0.02
   errchk             0.00
   setup              0.00
   output             0.00
 
 
-           peak memory used        496.13 megabytes
+           peak memory used        496.22 megabytes
            total cpu time            0.06 seconds
-           total elapsed time        0.13 seconds
-           job started at     09:20:14 10/22/2022
-           job ended   at     09:20:14 10/22/2022
-           job total runtime         0.13 seconds
+           total elapsed time        0.12 seconds
+           job started at     19:01:42 10/26/2022
+           job ended   at     19:01:42 10/26/2022
+           job total runtime         0.12 seconds
 
 
  lic: Release hspice token(s) 

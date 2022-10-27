@@ -3,7 +3,7 @@
 * Program "Calibre xRC"
 * Version "v2021.1_33.19"
 * 
-.subckt INVD1  VI VO VSS! VDD!
+.subckt INVD1  VI VO
 * 
 MM0 VO VI VSS! VSS! NMOS_VTL L=5e-08 W=3e-07 AD=3.3e-14 AS=3.3e-14 PD=8.2e-07
 + PS=8.2e-07
