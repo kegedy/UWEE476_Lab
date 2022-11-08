@@ -1,0 +1,30 @@
+** Generated for: hspiceD
+** Generated on: Oct 26 17:46:43 2022
+** Design library name: cad2
+** Design cell name: loaded_inverter
+** Design view name: schematic
+.GLOBAL vss! vdd!
+
+
+.TEMP 25
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: cad2
+** Cell name: INVD1
+** View name: schematic
+.subckt INVD1 vi vo
+m0 vo vi vss! vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
+m1 vo vi vdd! vdd! PMOS_VTL L=50e-9 W=400e-9 AD=42e-15 AS=42e-15 PD=610e-9 PS=610e-9 M=1
+.ends INVD1
+** End of subcircuit definition.
+
+** Library name: cad2
+** Cell name: loaded_inverter
+** View name: schematic
+xi0 vi vo INVD1
+c0 vo 0 10e-15
+.END

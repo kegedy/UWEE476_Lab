@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+cad1/q1c/schematic q1c
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

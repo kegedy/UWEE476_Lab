@@ -1,0 +1,20 @@
+** Generated for: hspiceD
+** Generated on: Oct 17 20:08:42 2022
+** Design library name: cad1
+** Design cell name: q3a
+** Design view name: schematic
+.GLOBAL vdd!
+
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: cad1
+** Cell name: q3a
+** View name: schematic
+m0 vdd! vin 0 0 NMOS_VTL L=50e-9 W=1e-6 AD=105e-15 AS=105e-15 PD=1.21e-6 PS=1.21e-6 M=1
+.END

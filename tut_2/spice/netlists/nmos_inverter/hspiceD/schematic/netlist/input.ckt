@@ -1,0 +1,21 @@
+** Generated for: hspiceD
+** Generated on: Oct 13 19:22:14 2022
+** Design library name: tut_2
+** Design cell name: nmos_inverter
+** Design view name: schematic
+.GLOBAL vdd!
+
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: tut_2
+** Cell name: nmos_inverter
+** View name: schematic
+r0 vdd! vout 1e3
+m0 vout vin 0 0 NMOS_VTL L=50e-9 W=1e-6 AD=105e-15 AS=105e-15 PD=1.21e-6 PS=1.21e-6 M=1
+.END

@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"r0":3,"m0":2}}},"modelMap":{"NMOS_VTL":[2],"res":[3]},"cellviews":[["cad1","q2a_2","schematic"],["NCSU_Devices_FreePDK45","NMOS_VTL","hspiceD"],["analogLib","res","hspiceD"]]}

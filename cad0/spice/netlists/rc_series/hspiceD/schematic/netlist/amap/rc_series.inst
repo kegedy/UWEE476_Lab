@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"R0v" "r0v"
+"C0v" "c0v"
+"R0n" "analogLib_res_hspiceD"
+"C0n" "analogLib_cap_hspiceD"

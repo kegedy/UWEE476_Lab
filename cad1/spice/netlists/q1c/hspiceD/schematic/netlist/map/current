@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "q1c"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "vdd! gnd!"
+  hierDelim "^"
+  netlistDir "/home/projects/ee476.2022aut/kegedy/cad1/spice/netlists/q1c/hspiceD/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "cad1/q1c/schematic" "q1c" )
+ )
+( "q1c" "ihnl/cds0/map" )
+ )

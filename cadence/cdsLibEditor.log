@@ -1,0 +1,10 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 03/12/2021 04:32 (sjfdcl1035) $
+\o Sub version:		sub-version  s175 
+\o Arguments:		-display :3.0 -mpssession virtuoso7013 -mpshost linux-lab-054.ece.uw.edu -namespace CDBA -cdslib /home/kegedy/cds.lib 
+\o Working Directory:	linux-lab-054.ece.uw.edu:/home/projects/ee476.2022aut/kegedy/cadence
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(707 315 500 400))
+\a exit(0)

@@ -1,0 +1,25 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 03/12/2021 04:24 (sjfdcl1035) $
+\o Sub version:		sub-version  s175 
+\o Arguments:		-mpssession virtuoso9329 -mpshost linux-lab-054.ece.uw.edu 
+\o Working Directory:	linux-lab-054.ece.uw.edu:/home/projects/ee476.2022aut/kegedy/cadence
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o Log file is "/home/projects/ee476.2022aut/kegedy/cadence/./libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(123 128 1169 709))
+\o changeWorkingDir("/home/projects/ee476.2022aut/kegedy/cadence") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libListBox->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_TechLib_FreePDK45"
+\a cdsLibManager->libListBox->value = "NangateOpenCellLibrary"
+\a cdsLibManager->libLineEdit->value = "NangateOpenCellLibrary"
+\a nrResizeWindow(cdsLibManager list(368 105 1169 709))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"

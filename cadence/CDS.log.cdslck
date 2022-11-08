@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      kegedy
+HostName                       linux-lab-054.ece.uw.edu
+ProcessIdentifier              9329
+ProcessCreationTime_UTC        1667933318
+ProcessCreationTime_Readable   Tue Nov  8 10:48:38 2022 PST
+AppIdentifier                  /home/lab.apps/vlsiapps_new/virtuoso/current/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /home/projects/ee476.2022aut/kegedy/cadence/CDS.log
+TimeEditLocked                 Tue Nov  8 10:48:38 2022 PST

@@ -1,0 +1,29 @@
+{
+   "parts":{
+      "1":{
+         "files":{"none":"none"},
+         "measurements":{"none":"none"}
+      },
+      "2":{
+         "files":{"none":"none"},
+         "measurements":{
+            "fall_time":"5.119e-12",
+            "rise_time":"1.187e-10"
+	     }
+	  },	 
+      "3":{
+         "files":{"none":"none"},
+         "measurements":{
+            "resistance_25mv": "244.2",
+            "resistance_250mv": "366.9"
+	     }
+	  },
+      "4":{
+         "files":{"none":"none"},
+         "measurements":{
+            "gate_cap": "7.879e-16"
+	     } 
+      }
+   },	  
+   "report":"cad1_report.pdf"
+}
