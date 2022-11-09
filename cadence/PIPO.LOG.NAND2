@@ -1,0 +1,59 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+          : sub-version  IC6.1.8-64b.500.17 
+Started at: 09-Nov-2022  01:39:57
+User Name : kegedy
+Host Name : linux-lab-054.ece.uw.edu
+Directory : /home/projects/ee476.2022aut/kegedy/cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 cad3
+strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db
+topCell                                 NAND2
+view                                    layout
+runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+logFile                                 PIPO.LOG.NAND2
+summaryFile                             PIPO.SUM.NAND2
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-223): 2. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+
+Summary of Objects Translated:
+	Scalar Instances:                       1
+	Array Instances:                        0
+	Polygons:                               4
+	Paths:                                  0
+	Rectangles:                             37
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   11
+	TextDisplay:                            2
+	Cells:                                  2
+
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4092KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

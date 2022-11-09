@@ -1,15 +1,15 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "INVD1"
+  blockName "NAND2"
   repList "auCdl schematic"
   stopList "auCdl"
-  globalList "vss! vdd!"
+  globalList "vdd! vss!"
   hierDelim "."
   netlistDir "/home/projects/ee476.2022aut/kegedy/cadence"
  )
 ( model
-( "cad2/INVD1/schematic" "INVD1" )
+( "cad3/NAND2/schematic" "NAND2" )
  )
-( "INVD1" "ihnl/cds0/map" )
+( "NAND2" "ihnl/cds0/map" )
  )

@@ -636,3 +636,50 @@
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 16 12 2 "INVD1")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->ViewsToCopy->value = ""
+\a copyCellForm->CopyFromCell->value = ""
+\a copyCellForm->CopyToCell->value = ""
+\a copyCellForm->CopyFromLibrary->value = ""
+\a copyCellForm->CopyToLibrary->value = ""
+\a copyCellForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyFromLibrary->value = "cad2"
+\a copyCellForm->CopyFromCell->value = "INVD1"
+\a copyCellForm->CopyToLibrary->value = "cad2"
+\a copyCellForm->CopyToCell->value = "INVD1"
+\a copyCellForm->ViewsToCopy->value = "layout schematic symbol"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad3 cdsDefTechLib"
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(254 31 488 659))
+\a copyCellForm->CopyToLibrary->value = "cad3"
+\a copyCellForm->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "cad3"
+\a cdsLibManager->libLineEdit->value = "cad3"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "loaded_nand"
+\a cdsLibManager->cellLineEdit->value = "loaded_nand"
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)

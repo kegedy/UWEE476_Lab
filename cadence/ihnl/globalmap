@@ -1,6 +1,6 @@
 CADENCE IHNL11140
 $model
-cad2/INVD1/schematic INVD1
+cad3/NAND2/schematic NAND2
 $endmodel
 $net
 vss! vss!
