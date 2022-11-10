@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"DUTv" "xdutv"
+"NAND3v" "xnand3v"
+"NAND2v" "xnand2v"
+"NAND1v" "xnand1v"
+"NAND0v" "xnand0v"
+"DUTn NAND3n NAND2n NAND1n NAND0n" "NAND2"

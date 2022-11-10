@@ -33154,3 +33154,205 @@
 \o Library Manager deleting cell "cad3/NAND2_balanced_tb".
 \i ddDeleteLocal(ddGetObj("cad3" "NAND2_balanced_tb" "" ""))
 \o Deleted cell 'cad3/NAND2_balanced_tb'.
+\i ddsServOpen("cad3" "NAND2" "schematic" "edit" nil)
+\# Current Window: window(42)
+\a when(dwindow('oiAssistant37) hiMapWindow(dwindow('oiAssistant37)))
+\r t
+\a when(dwindow('treeAssistant37) hiMapWindow(dwindow('treeAssistant37)))
+\r t
+\a _deUpdateMenu('schematicTools 42)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(43)
+\r t
+\a sevChooseSimulator('sevSession4)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm4)
+\r t
+\a sevSimulatorForm4->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "")
+\a sevSimulatorForm4->projectDir->value="/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\r "/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a hiFormDone(sevSimulatorForm4)
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(42) Window cellview: cad3:NAND2:schematic  Application: Schematics
+\# Current Window: window(43)
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\a (hiFileDialogSetSelection _hiFileSelector nil 'cancel)
+\r t
+\a (hiFileDialogDone _hiFileSelector nil)
+\r t
+\r nil
+\r t
+\a hiCloseWindow(swindow(40))
+\r t
+\i ddsServOpen("cad3" "loaded_nand" "" "edit" nil)
+\p > 
+\a hiiSetCurrentForm('deOpenForm)
+\r t
+\a hiFormDone(deOpenForm)
+\r t
+\# Current Window: window(44)
+\a when(dwindow('ptePaletteAssistant16) hiMapWindow(dwindow('ptePaletteAssistant16)))
+\r t
+\a hiCloseWindow(swindow(42))
+\# Current Window: window(43)
+\r t
+\a _hiSetCurrentWinNum(43)
+\r t
+\i ddsServOpen("cad3" "loaded_nand" "schematic" "edit" nil)
+\# Current Window: window(45)
+\a when(dwindow('oiAssistant39) hiMapWindow(dwindow('oiAssistant39)))
+\r t
+\a when(dwindow('treeAssistant39) hiMapWindow(dwindow('treeAssistant39)))
+\r t
+\a _deUpdateMenu('schematicTools 45)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(46)
+\r t
+\a sevChooseSimulator('sevSession5)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm5)
+\r t
+\a sevSimulatorForm5->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "")
+\a sevSimulatorForm5->projectDir->value="/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\r "/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\a hiFormDone(sevSimulatorForm5)
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(45) Window cellview: cad3:loaded_nand:schematic  Application: Schematics
+\# Current Window: window(46)
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\r t
+\a hiCloseWindow(swindow(43))
+\r t
+\a sevNetlistFile('sevSession5 'create)
+\o generate netlist...
+\o Begin Incremental Netlisting Nov  9 16:52:38 2022
+\o End netlisting Nov  9 16:52:39 2022
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    9
+\o 
+\o 	Elapsed time:          4.0s (2.25/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Current Window: window(47)
+\r t
+\a hiCloseWindow(window(47))
+\# Current Window: window(46)
+\r t
+\a _hiSetCurrentWinNum(46)
+\r t
+\a hiResizeWindow(swindow(44) list(36:297 728:772))
+\r t
+\a hiResizeWindow(swindow(44) list(36:298 728:773))
+\r t
+\a hiCloseWindow(swindow(44))
+\# Current Window: window(43)
+\r t
+\a _hiSetCurrentWinNum(43)
+\r t
+\a hiCloseWindow(swindow(41))
+\r t
+\i ddsServOpen("cad3" "NAND2" "schematic" "edit" nil)
+\# Current Window: window(48)
+\a when(dwindow('oiAssistant40) hiMapWindow(dwindow('oiAssistant40)))
+\r t
+\a when(dwindow('treeAssistant40) hiMapWindow(dwindow('treeAssistant40)))
+\r t
+\a _deUpdateMenu('schematicTools 48)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(49)
+\r t
+\a sevChooseSimulator('sevSession6)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm6)
+\r t
+\a sevSimulatorForm6->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "")
+\a sevSimulatorForm6->projectDir->value="/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\r "/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\a hiFormDone(sevSimulatorForm6)
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(48) Window cellview: cad3:NAND2:schematic  Application: Schematics
+\# Current Window: window(49)
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\r t
+\a hiResizeWindow(swindow(45) list(384:146 1284:836))
+\r t
+\a sevNetlistFile('sevSession6 'create)
+\o generate netlist...
+\o Begin Incremental Netlisting Nov  9 16:56:01 2022
+\o End netlisting Nov  9 16:56:01 2022
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          2.0s (2.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Current Window: window(50)
+\r t
+\a hiCloseWindow(window(50))
+\# Current Window: window(49)
+\r t
+\a _hiSetCurrentWinNum(49)
+\r t
+\a hiCloseWindow(swindow(46))
+\# Current Window: window(48) Window cellview: cad3:NAND2:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(48)
+\r t
+\a hiCloseWindow(swindow(45))
+\r t

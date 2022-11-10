@@ -1,0 +1,11 @@
+( ( net
+( "vdd!" "vdd!" )
+ )
+( inst
+( "NAND0" "xnand0" )
+( "DUT" "xdut" )
+( "NAND1" "xnand1" )
+( "NAND3" "xnand3" )
+( "NAND2" "xnand2" )
+ )
+ )

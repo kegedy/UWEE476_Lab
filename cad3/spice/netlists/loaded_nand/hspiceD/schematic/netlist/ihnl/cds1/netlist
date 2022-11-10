@@ -1,0 +1,9 @@
+
+** Library name: cad3
+** Cell name: loaded_nand
+** View name: schematic
+xdut a b net1 NAND2
+xnand3 vdd! net1 net5 NAND2
+xnand2 vdd! net1 net4 NAND2
+xnand1 vdd! net1 net2 NAND2
+xnand0 vdd! net1 net3 NAND2

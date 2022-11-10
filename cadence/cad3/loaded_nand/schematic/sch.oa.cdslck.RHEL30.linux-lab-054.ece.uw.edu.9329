@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Tue Nov  8 10:48:40 2022 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/projects/ee476.2022aut/kegedy/cadence/cad3/NAND2/schematic/sch.oa.cdslck
-TimeEditLocked                 Tue Nov  8 11:42:50 2022 PST
+FilePathUsedToEditLock         /home/projects/ee476.2022aut/kegedy/cadence/cad3/loaded_nand/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Nov  9 16:49:00 2022 PST
