@@ -880,3 +880,252 @@
 \a nrResizeWindow(cdsLibManager list(58 102 878 526))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(272 120 878 526))
+\a cdsLibManager->cellListBox->value = "NAND2_balanced"
+\a cdsLibManager->cellLineEdit->value = "NAND2_balanced"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = "cad2"
+\a cdsLibManager->libLineEdit->value = "cad2"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 36 9 2 "INVD1")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->ViewsToCopy->value = ""
+\a copyCellForm->CopyFromCell->value = ""
+\a copyCellForm->CopyToCell->value = ""
+\a copyCellForm->CopyFromLibrary->value = ""
+\a copyCellForm->CopyToLibrary->value = ""
+\a copyCellForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyFromLibrary->value = "cad2"
+\a copyCellForm->CopyFromCell->value = "INVD1"
+\a copyCellForm->CopyToLibrary->value = "cad2"
+\a copyCellForm->CopyToCell->value = "INVD1"
+\a copyCellForm->ViewsToCopy->value = "layout schematic symbol"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad3 cdsDefTechLib"
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->CopyToLibrary->value = "cad3"
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "cad3".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file does not exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.\n      6. A source library file is not valid in a different library.\n      7. A source OpenAccess cellview master file has zero size.
+\a nrSetWindowVisibility(copyProblemsDialog "show")
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(576 317 273 133))
+\a nrResizeWindow(copyProblemsDialog list(83 111 825 441))
+\a copyProblemsDialog->Cancel->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(139 410 488 659))
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(642 318 488 659))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "cad3"
+\a cdsLibManager->libLineEdit->value = "cad3"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a nrSetCurrentWindow(copyCellForm)
+\a nrSetCurrentWindow(copyCellForm)
+\a nrResizeWindow(copyCellForm list(649 153 488 659))
+\a copyCellForm->Apply->value = t
+\o Beginning simple copy to library "cad3".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(575 317 273 133))
+\a nrResizeWindow(copyProblemsDialog list(481 262 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(copyCellForm)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(575 317 273 133))
+\o Copy succeeded.
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NAND2_balanced"
+\a cdsLibManager->cellLineEdit->value = "NAND2_balanced"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 63 42 2 "NAND2_balanced")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->ViewsToCopy->value = ""
+\a copyCellForm->CopyFromCell->value = ""
+\a copyCellForm->CopyToCell->value = ""
+\a copyCellForm->CopyFromLibrary->value = ""
+\a copyCellForm->CopyToLibrary->value = ""
+\a copyCellForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyFromLibrary->value = "cad3"
+\a copyCellForm->CopyFromCell->value = "NAND2_balanced"
+\a copyCellForm->CopyToLibrary->value = "cad3"
+\a copyCellForm->CopyToCell->value = "NAND2_balanced"
+\a copyCellForm->ViewsToCopy->value = "schematic symbol"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad2 cdsDefTechLib"
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->CopyToCell->value = "NAND2_balanced_tb"
+\a nrDialogAccept(copyCellForm)
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "cad3".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyCellForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(575 317 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad3"
+\a cdsLibManager->libLineEdit->value = "cad3"
+\a cdsLibManager->cellListBox->value = "NAND2_balanced"
+\a cdsLibManager->cellLineEdit->value = "NAND2_balanced"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "NAND2_balanced_tb"
+\a cdsLibManager->cellLineEdit->value = "NAND2_balanced_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NAND2_balanced_tb"
+\a cdsLibManager->cellLineEdit->value = "NAND2_balanced_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NAND2_balanced_tb"
+\a cdsLibManager->cellLineEdit->value = "NAND2_balanced_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 115 56 2 "NAND2_balanced_tb")
+\a lmgrLogShowPopup("mainListPopup1" 91 61 2 "NAND2_balanced_tb")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(395 142 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(556 280 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "NAND2_balanced_tb" from library "cad3".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(583 317 268 133))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\o Deleted cell 'cad3/NAND2_balanced_tb'.
+\o Deletion of 1 cell done.
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad3"
+\a cdsLibManager->libLineEdit->value = "cad3"
+\a nrSetCurrentWindow(cdsLibManager)

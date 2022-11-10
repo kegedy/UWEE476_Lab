@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
           : sub-version  IC6.1.8-64b.500.17 
-Started at: 09-Nov-2022  13:14:35
+Started at: 09-Nov-2022  14:52:00
 User Name : kegedy
 Host Name : linux-lab-054.ece.uw.edu
 Directory : /home/projects/ee476.2022aut/kegedy/cadence
@@ -36,7 +36,7 @@ Summary of Objects Translated:
 	Array Instances:                        0
 	Polygons:                               4
 	Paths:                                  0
-	Rectangles:                             65
+	Rectangles:                             47
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -56,5 +56,5 @@ Summary of Objects Translated:
 	TextDisplay:                            2
 	Cells:                                  3
 
-Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+Elapsed Time: 2.8s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4100KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

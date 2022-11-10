@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
           : sub-version  IC6.1.8-64b.500.17 
-Started at: 09-Nov-2022  13:14:35
+Started at: 09-Nov-2022  14:52:00
 User Name : kegedy
 Host Name : linux-lab-054.ece.uw.edu
 Directory : /home/projects/ee476.2022aut/kegedy/cadence
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-cad3/loaded_nand/layout         6        0       0        28     0      0         4      0             0      0     0     0       0       
+cad3/loaded_nand/layout         6        0       0        10     0      0         4      0             0      0     0     0       0       
 NangateOpenCellLibrary/WELLTAP_X1/layout                        0        0       4        9      0      0         6      2             0      0     0     0       0       
 cad3/NAND2/layout               0        0       0        28     0      0         5      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -37,10 +37,12 @@ Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Tex
 BOUND           drawing         0       0         0        1        0        0        0             0    0   0   0     0      0      
 nimplant        drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
 nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        1        0        0        0             0    0   0   0     0      0      
 IP              drawing         63      0         0        0        0        4        0             0    0   0   0     0      0      
 metal1          drawing         11      0         4        14       0        11       0             0    0   0   0     0      0      
-poly            drawing         9       0         0        20       0        0        0             0    0   0   0     0      0      
-contact         drawing         10      0         0        18       0        0        0             0    0   0   0     0      0      
+via1            drawing         12      0         0        5        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        4        0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        10       0        0        0             0    0   0   0     0      0      
 pimplant        drawing         5       0         0        2        0        0        0             0    0   0   0     0      0      
 text            drawing         230     0         0        0        0        0        2             0    0   0   0     0      0      
 pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
@@ -52,7 +54,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			4
 	Paths:				0
-	Rectangles:			65
+	Rectangles:			47
 	Lines:				0
 	Arcs:				0
 	Donuts:				0

@@ -28123,3 +28123,5034 @@
 \r t
 \a _hiSetCurrentWinNum(25)
 \r t
+\a hiResizeWindow(swindow(24) list(582:176 1751:965))
+\r t
+\a hiResizeWindow(swindow(24) list(575:179 1744:968))
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\i ddsServOpen("cad3" "loaded_nand" "schematic" "edit" nil)
+\# Current Window: window(33)
+\a when(dwindow('oiAssistant31) hiMapWindow(dwindow('oiAssistant31)))
+\r t
+\a when(dwindow('treeAssistant31) hiMapWindow(dwindow('treeAssistant31)))
+\r t
+\a schSingleSelectPt()
+\i -0.0625:0.1875
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->instanceName_dsp->value="name"
+\r "name"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i -0.375:0.375
+\r nil
+\a schSingleSelectPt()
+\i -0.25:0.1875
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->instanceName_dsp->value="value"
+\r "value"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schSingleSelectPt()
+\i 1.25:0.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i 1.3125:0.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->instanceName->value="NAND0"
+\r "NAND0"
+\a schObjPropForm->instanceName_dsp->value="value"
+\r "value"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 1.25:0.1875
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->instanceName->value="NAND1"
+\r "NAND1"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->instanceName_dsp->value="value"
+\r "value"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 1.25:-0.25
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->instanceName->value="NAND2"
+\r "NAND2"
+\a schObjPropForm->instanceName_dsp->value="value"
+\r "value"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 1.25:-0.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiSetCurrentWindow(window(25))
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a hiZoomOutAtMouse()
+\i 1.785:1.045
+\r t
+\a schObjPropForm->instanceName->value="NAND3"
+\r "NAND3"
+\a schObjPropForm->instanceName_dsp->value="value"
+\r "value"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a hiSetCurrentWindow(window(33))
+\# Current Window: window(33) Window cellview: cad3:loaded_nand:schematic  Application: Schematics
+\r t
+\a schSingleSelectPt()
+\i -0.5625:0.625
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "loaded_nand schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(33) Window cellview: cad3:loaded_nand:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 loaded_nand schematic" saved.
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "loaded_nand schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(33) Window cellview: cad3:loaded_nand:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 loaded_nand schematic" saved.
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "loaded_nand schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(33) Window cellview: cad3:loaded_nand:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 loaded_nand schematic" saved.
+\r t
+\a hiCloseWindow(swindow(32))
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a _hiSetCurrentWinNum(25)
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\a mouseSingleSelectPt()
+\i -0.56:0.48
+\r nil
+\a hiZoomInAtMouse()
+\i 0.795:1.715
+\r t
+\a hiZoomInAtMouse()
+\i 0.795:1.715
+\r t
+\a hiZoomOutAtMouse()
+\i 0.795:1.715
+\r t
+\a mouseSingleSelectPt()
+\i 0.85:1.78
+\r t
+\a leHiMove()
+\p > 
+\a mouseAddPt(t)
+\i 0.832:1.747
+\r t
+\a mouseAddPt(t)
+\i 0.295:1.776
+\r t
+\r t
+\a leHiMove()
+\p > 
+\a mouseAddPt(t)
+\i 0.314:1.754
+\r t
+\a mouseAddPt(t)
+\i 0.367:1.513
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.6:2.02
+\r nil
+\a hiZoomOutAtMouse()
+\i 2.01:1.57
+\r t
+\a hiZoomInAtMouse()
+\i 2.37:0.795
+\r t
+\a mouseSingleSelectPt()
+\i 0.765:1.71
+\r t
+\a leHiDelete()
+\i 0.765:1.71
+\r t
+\a mouseSingleSelectPt()
+\i 0.82:1.735
+\r t
+\a leHiDelete()
+\i 0.82:1.735
+\r t
+\a mouseSingleSelectPt()
+\i 0.88:1.735
+\r t
+\a leHiDelete()
+\i 0.88:1.74
+\r t
+\a mouseSingleSelectPt()
+\i 0.875:1.74
+\r t
+\a leHiDelete()
+\i 0.875:1.74
+\r t
+\a mouseSingleSelectPt()
+\i 0.875:1.74
+\r t
+\a leHiDelete()
+\i 0.875:1.74
+\r t
+\a mouseSingleSelectPt()
+\i 1.385:1.75
+\r t
+\a leHiDelete()
+\i 1.41:1.745
+\r t
+\a mouseSingleSelectPt()
+\i 1.41:1.745
+\r t
+\a leHiDelete()
+\i 1.41:1.745
+\r t
+\a mouseSingleSelectPt()
+\i 1.46:1.73
+\r t
+\a leHiDelete()
+\i 1.46:1.73
+\r t
+\a mouseSingleSelectPt()
+\i 2.015:1.745
+\r t
+\a leHiDelete()
+\i 2.015:1.745
+\r t
+\a mouseSingleSelectPt()
+\i 2.005:1.74
+\r t
+\a leHiDelete()
+\i 2.005:1.74
+\r t
+\a mouseSingleSelectPt()
+\i 2.01:1.74
+\r t
+\a leHiDelete()
+\i 2.055:1.74
+\r t
+\a mouseSingleSelectPt()
+\i 2.57:1.75
+\r t
+\a leHiDelete()
+\i 2.595:1.74
+\r t
+\a mouseSingleSelectPt()
+\i 2.585:1.72
+\r t
+\a leHiDelete()
+\i 2.585:1.72
+\r t
+\a mouseSingleSelectPt()
+\i 2.585:1.72
+\r t
+\a leHiDelete()
+\i 2.64:1.715
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.575:1.035
+\r t
+\a hiZoomOutAtMouse()
+\i 1.655:0.865
+\r t
+\a mouseSingleSelectPt()
+\i 1.28:1.875
+\r t
+\a leHiDelete()
+\i 1.275:1.88
+\r t
+\a mouseSingleSelectPt()
+\i 1.1:1.845
+\r t
+\a leHiDelete()
+\i 1.1:1.845
+\r t
+\a mouseSingleSelectPt()
+\i 1.1:1.865
+\r t
+\a leHiDelete()
+\i 1.1:1.865
+\r t
+\a mouseSingleSelectPt()
+\i 1.15:1.845
+\r t
+\a leHiDelete()
+\i 1.15:1.845
+\r t
+\a mouseSingleSelectPt()
+\i 1.685:1.845
+\r nil
+\a leHiDelete()
+\i 1.685:1.845
+\p > 
+\a mouseAddPt(t)
+\i 1.658:1.847
+\r t
+\a leHiDelete()
+\i 1.655:1.835
+\r t
+\a mouseAddPt(t)
+\i 1.647:1.795
+\r t
+\a leHiDelete()
+\i 1.645:1.795
+\r t
+\a mouseAddPt(t)
+\i 1.584:1.87
+\r t
+\a leHiDelete()
+\i 1.96:1.875
+\r t
+\a mouseAddPt(t)
+\i 2.309:1.881
+\r t
+\a mouseAddPt(t)
+\i 2.223:1.858
+\r t
+\a mouseAddPt(t)
+\i 2.182:1.801
+\r t
+\a mouseAddPt(t)
+\i 2.159:1.881
+\r t
+\a mouseAddPt(t)
+\i 2.217:1.881
+\r t
+\a mouseAddPt(t)
+\i 2.798:1.876
+\r t
+\a mouseAddPt(t)
+\i 2.798:1.807
+\r t
+\a mouseAddPt(t)
+\i 2.764:1.876
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i 0.79:0.965
+\r t
+\a pteSetActiveLpp("metal1 drawing")
+\r nil
+\a leHiCreateRect()
+\i 0.365:1.77
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.415:1.795
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Width" "double" 0.07)
+\r t
+\a leSelBoxOrStretch()
+\i 0.4:1.825
+\i 0.4:1.825
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.775:0.915
+\r t
+\r t
+\a hiUndo()
+\r t
+\a mouseSingleSelectPt()
+\i 0.41:1.865
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Height" "double" 0.3)
+\r t
+\a mouseSingleSelectPt()
+\i 0.405:1.86
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.352:1.869
+\r t
+\a mouseAddPt(t)
+\i 0.729:1.366
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.781:1.766
+\r t
+\a mouseAddPt(t)
+\i 0.807:0.853
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 0.78:1.095
+\r t
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a geTogglePartialSelect()
+\r t
+\a mouseSingleSelectPt()
+\i 0.76:1.06
+\r t
+\a mouseSingleSelectPt()
+\i 0.77:1.15
+\r t
+\a leSelBoxOrStretch()
+\i 0.775:1.155
+\i 0.775:1.155
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.775:1.145
+\r t
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a hiZoomInAtMouse()
+\i 0.655:0.8
+\r t
+\a hiZoomInAtMouse()
+\i 0.72:0.88
+\r t
+\a hiZoomInAtMouse()
+\i 0.815:0.91
+\r t
+\a hiZoomOutAtMouse()
+\i 0.805:0.91
+\r t
+\a hiZoomInAtMouse()
+\i 0.81:0.91
+\r t
+\a hiZoomOutAtMouse()
+\i 0.81:0.91
+\r t
+\a hiZoomInAtMouse()
+\i 0.795:0.945
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.81:0.98
+\r t
+\a mouseAddPt(t)
+\i 0.796:0.98
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a _deUpdateWindowMenu('leSessionWindowMenu25 25)
+\r t
+\a mgc_custom_menus_run_menu_cmd("DRC" "::CalibreInterface::execCalibre DRC" 'nil ?code "")
+\r ipc:98
+\o //  Calibre Interactive - DRC  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Wed Nov  9 13:49:46 2022
+\o //
+\a _deUpdateWindowMenu('leSessionWindowMenu25 25)
+\r t
+\a _deUpdateWindowMenu('leSessionWindowMenu25 25)
+\r t
+\a mgc_custom_menus_run_menu_cmd("DRC" "::CalibreInterface::execCalibre DRC" 'nil ?code "")
+\r ipc:98
+\a hiCloseWindow(swindow(1))
+\r t
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  13:50:21
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             39
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 1.9s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\a hiZoomOutAtMouse()
+\i 0.775:1.01
+\r t
+\a hiZoomOutAtMouse()
+\i 0.775:1.005
+\r t
+\a leHiClearRuler()
+\r t
+\a pteSetConfig("sortAscendant" "Layer" "Layers")
+\r t
+\a pteSetConfig("sortDescendant" "Layer" "Layers")
+\r t
+\a pteSetConfig("sortAscendant" "Layer" "Layers")
+\r t
+\a pteSetConfig("sortDescendant" "Layer" "Layers")
+\r t
+\a pteShowUsedLPP(t)
+\r t
+\a pteShowValidLPP(nil)
+\r t
+\a pteShowValidLPP(t)
+\r t
+\a pteShowUsedLPP(nil)
+\r t
+\a pteSetConfig("sortAscendant" "Layer" "Layers")
+\r t
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a geTogglePartialSelect()
+\r nil
+\a leHiCopy()
+\i 0.765:1
+\p > 
+\a mouseAddPt(t)
+\i 1.343:0.965
+\r t
+\a leHiQuickAlign()
+\r t
+\a mouseAddPt(t)
+\i 1.32:0.982
+\r t
+\a mouseAddPt(t)
+\i 1.335:1.239
+\r t
+\a mouseAddPt(t)
+\i 1.349:1.123
+\r t
+\a mouseAddPt(t)
+\i 1.352:1.144
+\r t
+\a leHiCopy()
+\i 1.35:1.015
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.38:1.07
+\r t
+\a leHiCopy()
+\i 1.38:1.07
+\p > 
+\a mouseAddPt(t)
+\i 1.96:1.046
+\r t
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 1.98:1.04
+\r t
+\a leHiCopy()
+\i 1.96:1.75
+\p > 
+\a mouseAddPt(t)
+\i 2.529:1.763
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.96:1.085
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.896:1.049
+\r t
+\a mouseAddPt(t)
+\i 1.907:1.199
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 1.925:0.965
+\r t
+\a mouseSingleSelectPt()
+\i 1.94:1.03
+\r t
+\a leHiQuickAlign()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.915:1.055
+\r t
+\a mouseSingleSelectPt()
+\i 1.915:1.055
+\r t
+\a mouseSingleSelectPt()
+\i 1.915:1.055
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.932:1.118
+\r t
+\a hiZoomOutAtMouse()
+\i 1.97:1.125
+\r t
+\a pteSetVisible("Instances" t "Objects")
+\r t
+\a pteSetVisible("Instances" nil "Objects")
+\r t
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.908:1.002
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.93:1.02
+\r t
+\a leHiQuickAlign()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.925:1.045
+\r t
+\a mouseSingleSelectPt()
+\i 1.925:1.045
+\r t
+\a mouseSingleSelectPt()
+\i 1.925:1.045
+\r t
+\a mouseSingleSelectPt()
+\i 1.925:1.045
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.928:1.109
+\r t
+\a mouseAddPt(t)
+\i 1.94:1.146
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 2.46:1.055
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.467:1.019
+\r t
+\a mouseAddPt(t)
+\i 2.455:1.198
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 2.485:1.115
+\r t
+\a leHiQuickAlign()
+\p > 
+\a hiZoomInAtMouse()
+\i 2.515:1.145
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 2.5:1.08
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.499:1.133
+\r t
+\a mouseAddPt(t)
+\i 2.487:1.153
+\r t
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a hiZoomOutAtMouse()
+\i 1.95:0.905
+\r t
+\a hiZoomOutAtMouse()
+\i 1.955:0.905
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  13:53:27
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             42
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 3.8s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4092KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\a mouseSingleSelectPt()
+\i 1.655:2.08
+\r nil
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.925:1.005
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.38:0.77
+\r t
+\a mouseSingleSelectPt()
+\i 0.83:0.68
+\r t
+\a leHiMove()
+\i 0.83:0.68
+\p > 
+\a mouseAddPt(t)
+\i 0.84:1.685
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 0.84:1.685
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\a mouseSingleSelectPt()
+\i 0.78:1.745
+\r t
+\a leHiEditProp()
+\r t
+\a mouseSingleSelectPt()
+\i 0.91:2.195
+\r nil
+\a mouseSingleSelectPt()
+\i 0.805:1.71
+\r t
+\a leHiCreateRect()
+\i 0.925:1.94
+\p > 
+\a hiToggleEnterForm()
+\r t
+\a hiiSetCurrentForm('leRectLForm)
+\r t
+\a leRectLForm->height->value=0.07
+\r 0.07
+\a leRectLForm->width->value=0.335
+\r 0.335
+\a hiiToggleEnterForm(leRectLForm)
+\r t
+\a mouseAddPt(t)
+\i 1.161:1.808
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.99:1.995
+\r nil
+\a leHiDelete()
+\i 0.955:2.01
+\p > 
+\a mouseAddPt(t)
+\i 0.954:2.01
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.89:1.675
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlInvokePlistAction("editorNum1" "close")
+\r t
+\a mouseSingleSelectPt()
+\i 1.315:1.805
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Width" "double" 0.355)
+\r t
+\a hiZoomInAtMouse()
+\i 0.66:1.215
+\r t
+\a leHiCopy()
+\i 1.285:1.845
+\p > 
+\a mouseAddPt(t)
+\i 1.788:1.832
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.155:1.846
+\r t
+\a mouseAddPt(t)
+\i 1.137:1.812
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.255:1.815
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.169:1.849
+\r t
+\a mouseAddPt(t)
+\i 0.651:0.755
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.829:1.809
+\r t
+\a hiZoomInAtMouse()
+\i 1.022:0.705
+\r t
+\a mouseAddPt(t)
+\i 0.939:0.699
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 0.87:0.745
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.82:0.822
+\r t
+\a hiZoomOutAtMouse()
+\i 0.815:0.77
+\r t
+\a hiZoomOutAtMouse()
+\i 0.82:0.77
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.32:0.685
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  13:56:32
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             44
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 3.6s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\a hiZoomInAtMouse()
+\i 0.785:0.725
+\r t
+\a hiZoomInAtMouse()
+\i 0.905:0.715
+\r t
+\a mouseSingleSelectPt()
+\i 0.74:0.72
+\r t
+\a hiZoomOutAtMouse()
+\i 0.945:0.79
+\r t
+\a hiZoomOutAtMouse()
+\i 1.135:0.765
+\r t
+\a hiZoomInAtMouse()
+\i 1.78:0.7
+\r t
+\a hiZoomOutAtMouse()
+\i 1.695:0.69
+\r t
+\a leHiQuickAlign()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r nil
+\a hiUndo()
+\r nil
+\a mouseSingleSelectPt()
+\i 0.74:0.745
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.769:0.697
+\r t
+\a mouseAddPt(t)
+\i 1.035:0.662
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 0.855:0.66
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.834:0.817
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 1.145:0.695
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a mouseSingleSelectPt()
+\i 1.775:1.815
+\r t
+\a hiZoomInAtMouse()
+\i 1.835:0.85
+\r t
+\a hiZoomOutAtMouse()
+\i 1.82:0.86
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.642:1.826
+\r t
+\a mouseAddPt(t)
+\i 1.769:0.802
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.982:1.798
+\r t
+\a hiZoomInAtMouse()
+\i 2.135:0.665
+\r t
+\a hiZoomOutAtMouse()
+\i 2.005:1.06
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiCopy()
+\i 1.995:1.835
+\p > 
+\a mouseAddPt(t)
+\i 1.391:1.778
+\r t
+\r t
+\a leHiCopy()
+\i 1.91:1.825
+\p > 
+\a mouseAddPt(t)
+\i 3.137:1.905
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.98:1.84
+\r t
+\a mouseSingleSelectPt()
+\i 1.97:1.835
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.968:1.778
+\r t
+\a hiZoomInAtMouse()
+\i 2.04:0.7
+\r t
+\a mouseAddPt(t)
+\i 2.16:0.66
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 1.345:0.725
+\r t
+\a leHiQuickAlign()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.28:1.795
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.183:1.782
+\r t
+\a mouseAddPt(t)
+\i 1.223:0.802
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.39:1.77
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.39:1.741
+\r t
+\a hiZoomInAtMouse()
+\i 1.56:0.665
+\r t
+\a mouseAddPt(t)
+\i 1.582:0.676
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 1.315:0.785
+\r t
+\a mouseSingleSelectPt()
+\i 1.27:1.805
+\r nil
+\a leHiDelete()
+\i 0.935:1.69
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 2.65:1.85
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.397:1.869
+\r t
+\a mouseAddPt(t)
+\i 2.357:0.815
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 2.545:1.84
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.535:1.812
+\r t
+\a hiZoomInAtMouse()
+\i 2.697:0.7
+\r t
+\a mouseAddPt(t)
+\i 2.734:0.662
+\r t
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\a hiZoomOutAtMouse()
+\i 2.055:0.69
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:00:17
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             45
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 4.5s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\a mgc_custom_menus_run_menu_cmd("LVS" "::CalibreInterface::execCalibre LVS" 'nil ?code "")
+\r ipc:109
+\o //  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Wed Nov  9 14:01:04 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:01:37
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             45
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 0.5s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4100KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "loaded_nand", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov  9 14:01:43 2022
+\o 
+\a hiZoomInAtMouse()
+\i 0.95:0.55
+\r t
+\a hiZoomOutAtMouse()
+\i 0.755:0.675
+\r t
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a leHiCopy()
+\i 0.775:0.735
+\p > 
+\a mouseAddPt(t)
+\i 0.74:1.614
+\r t
+\r t
+\a hiUndo()
+\r t
+\a mouseSingleSelectPt()
+\i 0.73:0.69
+\r t
+\a leHiCreateRect()
+\i -0.37:1.615
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiDelete()
+\i -0.22:1.61
+\r t
+\a mouseSingleSelectPt()
+\i -0.24:1.62
+\r t
+\a leHiDelete()
+\i -0.24:1.62
+\r t
+\a leHiDelete()
+\i 1.46:0.67
+\p > 
+\a leHiDelete()
+\i 1.97:0.7
+\r t
+\a leHiDelete()
+\i 2.445:0.69
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a pteSetActiveLpp("metal1 drawing")
+\r nil
+\a pteSetVisible("metal2 drawing" nil "Layers")
+\r t
+\a leHiCreateRect()
+\i 0.98:1.835
+\p > 
+\a mouseAddPt(t)
+\i 0.446:1.822
+\r t
+\a mouseAddPt(t)
+\i 1.65:1.793
+\r t
+\a mouseAddPt(t)
+\i 2.312:1.81
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.441:1.862
+\r t
+\a mouseAddPt(t)
+\i 0.636:0.814
+\r t
+\a mouseAddPt(t)
+\i 0.803:1.822
+\r t
+\a hiZoomInAtMouse()
+\i 1.022:0.665
+\r t
+\a mouseAddPt(t)
+\i 0.996:0.674
+\r t
+\a mouseAddPt(t)
+\i 0.82:0.702
+\r t
+\a mouseAddPt(t)
+\i 0.648:0.697
+\r t
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a hiZoomOutAtMouse()
+\i 0.935:0.735
+\r t
+\a hiZoomInAtMouse()
+\i 0.915:0.7
+\r t
+\a hiZoomInAtMouse()
+\i 0.915:0.7
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.966:0.672
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 0.965:0.7
+\r t
+\a hiZoomOutAtMouse()
+\i 0.95:0.7
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiDelete()
+\i 1.245:1.875
+\r t
+\a mouseAddPt(t)
+\i 1.731:1.839
+\r t
+\a leHiDelete()
+\i 1.73:1.84
+\r t
+\a leHiDelete()
+\i 2.335:1.84
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.785:1.875
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Width" "double" 0.355)
+\r t
+\a leHiCopy()
+\i 0.815:1.84
+\p > 
+\a mouseAddPt(t)
+\i 1.293:1.839
+\r t
+\r t
+\a leHiCopy()
+\i 1.38:1.785
+\p > 
+\a mouseAddPt(t)
+\i 1.927:1.787
+\r t
+\r t
+\a leHiCopy()
+\i 1.955:1.805
+\p > 
+\a mouseAddPt(t)
+\i 2.543:1.787
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.735:1.87
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.654:1.862
+\r t
+\a mouseAddPt(t)
+\i 0.637:0.866
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.815:1.85
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.839:1.833
+\r t
+\a hiZoomInAtMouse()
+\i 1.022:0.665
+\r t
+\a mouseAddPt(t)
+\i 1.011:0.668
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 1.045:0.69
+\r t
+\a mouseSingleSelectPt()
+\i 1.19:1.875
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.121:1.85
+\r t
+\a mouseAddPt(t)
+\i 1.219:0.848
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.395:1.825
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.374:1.821
+\r t
+\a hiZoomInAtMouse()
+\i 1.635:0.665
+\r t
+\a mouseAddPt(t)
+\i 1.608:0.667
+\r t
+\r t
+\a hiZoomOutAtMouse()
+\i 1.615:0.795
+\r t
+\a mouseSingleSelectPt()
+\i 1.775:1.865
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.653:1.865
+\r t
+\a mouseAddPt(t)
+\i 2.223:0.712
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.355:1.813
+\r t
+\a mouseAddPt(t)
+\i 2.759:0.666
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 2.25:0.69
+\r t
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 2.645:1.12
+\r t
+\a mouseSingleSelectPt()
+\i 2.21:1.84
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.209:1.862
+\r t
+\a mouseAddPt(t)
+\i 2.376:0.859
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 2.63:1.825
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.514:1.81
+\r t
+\a mouseAddPt(t)
+\i 2.757:0.674
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 2.245:1.825
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.255:1.839
+\r t
+\a mouseAddPt(t)
+\i 1.788:0.841
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.985:1.805
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.955:1.793
+\r t
+\a mouseAddPt(t)
+\i 2.186:0.68
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.7:1.835
+\r nil
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:06:35
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             45
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 4.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4092KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "loaded_nand", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.03s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov  9 14:06:42 2022
+\o 
+\# Current Window: window(34)
+\w *WARNING* (GE-2133): The object NET4 does not exist in cellview cad3/loaded_nand/schematic. To create a probe, provide the name of an object that exists in the cellview.
+\o RVE: No such schematic net: NET4
+\a when(dwindow('oiAssistant32) hiMapWindow(dwindow('oiAssistant32)))
+\r t
+\a when(dwindow('treeAssistant32) hiMapWindow(dwindow('treeAssistant32)))
+\r t
+\a hiCloseWindow(swindow(33))
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a _hiSetCurrentWinNum(25)
+\r t
+\a mouseSingleSelectPt()
+\i 3.935:0.815
+\r t
+\a mouseSingleSelectPt()
+\i 2.345:-0.56
+\r nil
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a mouseSingleSelectPt()
+\i 1.325:0.71
+\r t
+\a hiZoomInAtMouse()
+\i 1.745:0.64
+\r t
+\a mouseSingleSelectPt()
+\i 1.705:-0.11
+\r nil
+\a mouseSingleSelectPt()
+\i 1.43:0.715
+\r t
+\a leHiDelete()
+\i 1.43:0.715
+\r t
+\a mouseSingleSelectPt()
+\i 2.005:0.705
+\r t
+\a leHiDelete()
+\i 2.005:0.705
+\r t
+\a mouseSingleSelectPt()
+\i 2.635:0.68
+\r t
+\a leHiDelete()
+\i 2.635:0.68
+\r t
+\a hiZoomOutAtMouse()
+\i 1.53:0.71
+\r t
+\a hiZoomInAtMouse()
+\i 1.03:0.595
+\r t
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.86:1.15
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiCreateRect()
+\i 1.2:2.05
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.34:2.025
+\r nil
+\a mouseSingleSelectPt()
+\i 1.33:2.095
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlInvokePlistAction("editorNum1" "cancel")
+\r t
+\a leHiCreateRect()
+\i 1.33:2.095
+\p > 
+\a hiToggleEnterForm()
+\r t
+\a hiiSetCurrentForm('leRectLForm)
+\r t
+\a leRectLForm->width->value=0.355
+\r 0.355
+\a hiiToggleEnterForm(leRectLForm)
+\r t
+\a mouseAddPt(t)
+\i 1.466:1.83
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiDelete()
+\i 1.355:2.055
+\r t
+\a leHiDelete()
+\i 1.465:2.125
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiResizeWindow(swindow(24) list(622:188 1791:977))
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a mouseSingleSelectPt()
+\i 0.59:2.2
+\r nil
+\a hiZoomInAtMouse()
+\i 1.215:0.62
+\r t
+\a pteSetActiveLpp("via1 drawing")
+\r nil
+\a pteSetActiveLpp("via1 drawing")
+\r nil
+\a leHiCreateRect()
+\p > 
+\a mouseAddPt(t)
+\i 0.935:-0.134
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.095:-0.105
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Width" "double" 0.065)
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Height" "double" 0.065)
+\r t
+\a mouseSingleSelectPt()
+\i 1.085:-0.095
+\r nil
+\a leHiCopy()
+\i 0.975:-0.095
+\p > 
+\a mouseAddPt(t)
+\i 1.73:-0.096
+\r t
+\a leHiCopy()
+\i 1.755:-0.1
+\r t
+\a mouseAddPt(t)
+\i 2.354:-0.082
+\r t
+\a leHiCopy()
+\i 2.33:-0.08
+\r t
+\a mouseAddPt(t)
+\i 2.933:-0.108
+\r t
+\a hiZoomOutAtMouse()
+\i 1.785:0.63
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.62:1.875
+\r t
+\a leHiMove()
+\p > 
+\a mouseAddPt(t)
+\i 1.679:1.877
+\r t
+\a mouseAddPt(t)
+\i 1.403:-0.097
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 1.345:-0.205
+\r t
+\a hiZoomInAtMouse()
+\i 0.99:0.735
+\r t
+\a hiZoomOutAtMouse()
+\i 0.995:0.71
+\r t
+\a hiZoomInAtMouse()
+\i 0.975:0.765
+\r t
+\a hiZoomInAtMouse()
+\i 0.995:0.755
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.99:0.746
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.984:0.748
+\r t
+\a mouseAddPt(t)
+\i 0.949:0.748
+\r t
+\a mouseAddPt(t)
+\i 0.952:0.758
+\r t
+\a hiZoomOutAtMouse()
+\i 1.475:0.76
+\r t
+\a hiZoomOutAtMouse()
+\i 1.425:0.755
+\r t
+\a hiZoomInAtMouse()
+\i 1.66:0.775
+\r t
+\a hiZoomOutAtMouse()
+\i 1.66:0.765
+\r t
+\a hiZoomOutAtMouse()
+\i 1.67:0.76
+\r t
+\a leSetFocusToEditableFieldsInStatusToolbar(hiGetCurrentWindow())
+\a _leMoveFocusInStatusToolbarField("X")
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 1.435:0.4
+\r t
+\a hiPan()
+\i 1.645:0.915
+\r t
+\a hiZoomInAtMouse()
+\i 2.52:0.945
+\r t
+\a hiZoomInAtMouse()
+\i 1.775:0.92
+\r t
+\a hiZoomInAtMouse()
+\i 1.325:0.72
+\r t
+\a hiZoomInAtMouse()
+\i 1.63:0.73
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 1.638:0.73
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 1.67:0.71
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 1.67:0.748
+\r t
+\a mouseAddPt(t)
+\i 0.948:0.761
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 1.085:0.545
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 1.46:-0.12
+\r t
+\a mouseSingleSelectPt()
+\i 1.375:-0.145
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Width" "double" 0.72)
+\r t
+\a mouseSingleSelectPt()
+\i 1.02:-0.3
+\r nil
+\a leHiClearRuler()
+\r t
+\a leHiMove()
+\i 0.96:-0.1
+\p > 
+\a mouseAddPt(t)
+\i 0.959:-0.101
+\r t
+\a mouseAddPt(t)
+\i 0.973:-0.095
+\r t
+\a hiZoomInAtMouse()
+\i 1.02:0.745
+\r t
+\a hiZoomInAtMouse()
+\i 1.02:0.745
+\r t
+\a mouseAddPt(t)
+\i 1.031:0.745
+\r t
+\a hiZoomOutAtMouse()
+\i 1.06:0.525
+\r t
+\a hiZoomOutAtMouse()
+\i 1.095:0.475
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a mouseAddPt(t)
+\i 1.46:-0.105
+\r t
+\a mouseAddPt(t)
+\i 1.063:-0.145
+\r t
+\a mouseAddPt(t)
+\i 1.708:-0.117
+\r t
+\a hiZoomInAtMouse()
+\i 1.68:0.755
+\r t
+\a hiZoomInAtMouse()
+\i 1.59:0.73
+\r t
+\a hiZoomInAtMouse()
+\i 1.585:0.73
+\r t
+\a mouseAddPt(t)
+\i 1.584:0.723
+\r t
+\a hiZoomOutAtMouse()
+\i 1.855:0.625
+\r t
+\a hiZoomOutAtMouse()
+\i 1.85:0.625
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 2.495:-0.225
+\r t
+\a mouseAddPt(t)
+\i 2.332:-0.079
+\r t
+\a hiZoomInAtMouse()
+\i 2.3:0.73
+\r t
+\a hiZoomInAtMouse()
+\i 2.17:0.735
+\r t
+\a hiZoomInAtMouse()
+\i 2.17:0.735
+\r t
+\a mouseAddPt(t)
+\i 2.179:0.74
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a mouseAddPt(t)
+\i 2.916:-0.122
+\r t
+\a hiZoomInAtMouse()
+\i 2.7:0.735
+\r t
+\a hiZoomInAtMouse()
+\i 2.7:0.735
+\r t
+\a mouseAddPt(t)
+\i 2.736:0.731
+\r t
+\a hiZoomOutAtMouse()
+\i 2.56:0.57
+\r t
+\a hiZoomOutAtMouse()
+\i 2.51:0.5
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiCopy()
+\i 0.895:-0.165
+\r t
+\a mouseAddPt(t)
+\i 1.777:-0.18
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.787:-0.157
+\r t
+\a hiZoomInAtMouse()
+\i 0.985:0.735
+\r t
+\a hiZoomInAtMouse()
+\i 0.985:0.81
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.983:0.752
+\r t
+\a mouseAddPt(t)
+\i 0.952:0.745
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.955:0.595
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.787:-0.147
+\r t
+\a hiZoomInAtMouse()
+\i 0.85:0.375
+\r t
+\a mouseAddPt(t)
+\i 0.939:0.727
+\r t
+\a leHiQuickAlign()
+\r t
+\a leHiQuickAlign()
+\r t
+\a mouseAddPt(t)
+\i 1.273:-0.186
+\r t
+\a hiZoomInAtMouse()
+\i 0.99:0.7
+\r t
+\a hiZoomInAtMouse()
+\i 1.022:0.705
+\r t
+\a mouseAddPt(t)
+\i 1.017:0.698
+\r t
+\a hiZoomOutAtMouse()
+\i 1.17:0.7
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 1.396:0.82
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 1.045:0.41
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a mouseSingleSelectPt()
+\i 1.775:-0.125
+\r t
+\a leHiDelete()
+\i 1.775:-0.125
+\r t
+\a mouseSingleSelectPt()
+\i 1.445:-0.155
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Height" "double" 0.08)
+\r t
+\a leHiCopy()
+\i 1.235:-0.145
+\p > 
+\a mouseAddPt(t)
+\i 2.117:-0.153
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 1.3:-0.065
+\r t
+\a mouseSingleSelectPt()
+\i 1.2:-0.16
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.241:-0.176
+\r t
+\a hiZoomInAtMouse()
+\i 1.022:0.705
+\r t
+\a mouseAddPt(t)
+\i 1.026:0.698
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 1.025:0.7
+\r t
+\a hiZoomInAtMouse()
+\i 1.025:0.7
+\r t
+\a hiZoomOutAtMouse()
+\i 1.025:0.7
+\r t
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 1.055:0.635
+\r t
+\a hiZoomOutAtMouse()
+\i 1.135:0.265
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a leHiCopy()
+\i 1.225:-0.15
+\p > 
+\a mouseAddPt(t)
+\i 2.064:-0.139
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.282:-0.185
+\r t
+\a mouseAddPt(t)
+\i 1.253:-0.145
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.31:-0.15
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.27:-0.191
+\r t
+\a hiZoomInAtMouse()
+\i 1.17:0.855
+\r t
+\a hiZoomInAtMouse()
+\i 1.135:0.805
+\r t
+\a mouseAddPt(t)
+\i 1.044:0.696
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 1.045:0.695
+\r t
+\a hiZoomInAtMouse()
+\i 0.965:0.725
+\r t
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 1.04:0.71
+\r t
+\a hiZoomOutAtMouse()
+\i 1.03:0.695
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiDelete()
+\i 1.93:-0.11
+\r t
+\a hiUndo()
+\r t
+\a mouseSingleSelectPt()
+\i 2.15:-0.15
+\r t
+\a leHiDelete()
+\i 2.15:-0.145
+\r t
+\a mouseSingleSelectPt()
+\i 1.55:-0.15
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Height" "double" 0.075)
+\r t
+\a mouseSingleSelectPt()
+\i 1.28:-0.13
+\r t
+\a leHiCopy()
+\i 1.26:-0.12
+\p > 
+\a mouseAddPt(t)
+\i 1.944:-0.122
+\r t
+\r t
+\a leHiCopy()
+\i 1.295:-0.14
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.3:-0.155
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.259:-0.191
+\r t
+\a hiZoomInAtMouse()
+\i 0.972:0.895
+\r t
+\a hiZoomInAtMouse()
+\i 0.972:0.895
+\r t
+\a mouseAddPt(t)
+\i 1.045:0.7
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 1.02:0.755
+\r t
+\a hiZoomOutAtMouse()
+\i 1.365:0.745
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiDelete()
+\i 1.84:-0.13
+\r t
+\a hiUndo()
+\r t
+\a mouseSingleSelectPt()
+\i 1.865:-0.415
+\r nil
+\a mouseSingleSelectPt()
+\i 1.95:-0.18
+\r t
+\a leHiDelete()
+\i 1.95:-0.175
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a mgc_custom_menus_run_menu_cmd("DRC" "::CalibreInterface::execCalibre DRC" 'nil ?code "")
+\r ipc:117
+\a hiZoomInAtMouse()
+\i 1.035:0.8
+\r t
+\o //  Calibre Interactive - DRC  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Wed Nov  9 14:33:13 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:33:45
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             47
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 4.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4100KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\a hiZoomInAtMouse()
+\i 2.82:0.74
+\r t
+\a hiZoomOutAtMouse()
+\i 2.495:0.58
+\r t
+\a hiZoomOutAtMouse()
+\i 2.5:0.595
+\r t
+\a mouseSingleSelectPt()
+\i 0.72:0.675
+\r t
+\a leHiDelete()
+\i 0.72:0.675
+\r t
+\a hiZoomInAtMouse()
+\i 1.365:0.73
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a leHiMove()
+\i 1.43:0.74
+\p > 
+\a mouseAddPt(t)
+\i 1.43:0.74
+\r t
+\a hiZoomOutAtMouse()
+\i 1.18:0.16
+\r t
+\a hiZoomOutAtMouse()
+\i 0.995:0.095
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a mouseAddPt(t)
+\i 1.265:0.759
+\r t
+\a mouseAddPt(t)
+\i 1.276:-0.295
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a hiZoomInAtMouse()
+\i 0.585:0.725
+\r t
+\a pteSetActiveLpp("via1 drawing")
+\r nil
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a leHiCopy()
+\i 1.015:0.735
+\p > 
+\a mouseAddPt(t)
+\i 0.867:-0.067
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 1.295:-0.005
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a leHiMove()
+\i 0.86:-0.07
+\p > 
+\a mouseAddPt(t)
+\i 0.862:-0.072
+\r t
+\a mouseAddPt(t)
+\i 0.885:-0.084
+\r t
+\a hiZoomInAtMouse()
+\i 1.145:0.735
+\r t
+\a mouseAddPt(t)
+\i 1.087:-0.092
+\r t
+\a mouseAddPt(t)
+\i 1.069:-0.069
+\r t
+\a hiZoomInAtMouse()
+\i 0.585:0.745
+\r t
+\a hiZoomInAtMouse()
+\i 0.58:0.745
+\r t
+\a mouseAddPt(t)
+\i 0.596:0.737
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a mouseSingleSelectPt()
+\i 1.155:-0.3
+\r t
+\a hiZoomInAtMouse()
+\i 0.57:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 0.57:0.75
+\r t
+\a hiZoomInAtMouse()
+\i 0.57:0.75
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.567:0.743
+\r t
+\a mouseAddPt(t)
+\i 0.531:0.739
+\r t
+\a mouseAddPt(t)
+\i 0.531:0.715
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 2.82:0.7
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 2.085:0.3
+\r t
+\a mouseSingleSelectPt()
+\i 1.35:-0.35
+\r t
+\a leHiEditProp()
+\r t
+\a geiPlSetPropValue("editorNum1" "attribute" "Width" "double" 2.29)
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 3.277:-0.323
+\r t
+\a mouseAddPt(t)
+\i 2.782:0.794
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 2.59:-0.33
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.799:-0.311
+\r t
+\a mouseAddPt(t)
+\i 2.787:0.714
+\r t
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 2.534:-0.363
+\r t
+\a mouseAddPt(t)
+\i 2.759:0.633
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 2.51:0.67
+\r t
+\a hiZoomInAtMouse()
+\i 2.76:0.72
+\r t
+\a hiUndo()
+\r t
+\a hiZoomOutAtMouse()
+\i 2.68:0.605
+\r t
+\a hiZoomOutAtMouse()
+\i 2.605:0.19
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.846:-0.354
+\r t
+\a hiZoomInAtMouse()
+\i 2.93:0.73
+\r t
+\a hiZoomInAtMouse()
+\i 2.93:0.73
+\r t
+\a mouseAddPt(t)
+\i 2.728:0.702
+\r t
+\r t
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a hiZoomOutAtMouse()
+\i 2.575:0.66
+\r t
+\a hiZoomOutAtMouse()
+\i 2.395:0.445
+\r t
+\a hiZoomOutAtMouse()
+\i 1.785:0.295
+\r t
+\a hiZoomInAtMouse()
+\i 0.38:0.515
+\r t
+\a hiZoomInAtMouse()
+\i 0.38:0.515
+\r t
+\a hiZoomInAtMouse()
+\i 0.54:0.77
+\r t
+\a leHiQuickAlign()
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.53:0.755
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\a mouseSingleSelectPt()
+\i 0.51:0.755
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.499:0.74
+\r t
+\a mouseAddPt(t)
+\i 0.532:0.729
+\r t
+\r t
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\a mouseSingleSelectPt()
+\i 1.15:-0.54
+\r nil
+\a leHiClearRuler()
+\r t
+\a hiZoomInAtMouse()
+\i 1.99:0.53
+\r t
+\a hiZoomOutAtMouse()
+\i 1.415:0.235
+\r t
+\a hiZoomInAtMouse()
+\i 0.995:-0.415
+\r t
+\a mouseSingleSelectPt()
+\i 1.035:-0.335
+\r nil
+\a hiZoomOutAtMouse()
+\i 1.14:-0.27
+\r t
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a pteSetActiveLpp("contact drawing")
+\r nil
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a leSelBoxOrStretch()
+\i 1.325:1.615
+\i 1.325:1.615
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.88:1.17
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.555:0.75
+\r t
+\a mouseSingleSelectPt()
+\i 3.5:1.06
+\r t
+\a mouseSingleSelectPt()
+\i 2.565:1.12
+\r t
+\a mouseSingleSelectPt()
+\i 0.735:1.02
+\r t
+\a mouseSingleSelectPt()
+\i 1.815:2.235
+\r nil
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a mouseSingleSelectPt()
+\i 1.645:-0.65
+\r nil
+\a mouseSingleSelectPt()
+\i 2.345:1.425
+\r t
+\a mouseSingleSelectPt()
+\i 2.15:1.98
+\r nil
+\a leHiSave()
+\# Current Window: window(25) Window cellview: cad3:loaded_nand:layout  Application: Layout
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:39:15
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             47
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 4.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:40:31
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             47
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 1.6s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4092KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "loaded_nand", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov  9 14:40:38 2022
+\o 
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.28:0.525
+\r t
+\a hiZoomOutAtMouse()
+\i 1.555:1.165
+\r t
+\a hiZoomInAtMouse()
+\i 2.845:1.43
+\r t
+\a mouseSingleSelectPt()
+\i 1.81:1.67
+\r nil
+\a hiZoomOutAtMouse()
+\i 1.665:0.63
+\r t
+\a hiZoomInAtMouse()
+\i 0.965:0.65
+\r t
+\a hiZoomOutAtMouse()
+\i 0.965:0.65
+\r t
+\a hiZoomInAtMouse()
+\i 0.625:0.62
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:44:35
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             47
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 4.7s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "loaded_nand", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov  9 14:44:41 2022
+\o 
+\o CONTROL-C detected
+\a hiResizeWindow(swindow(24) list(425:190 1594:979))
+\r t
+\a _deUpdateWindowMenu('leSessionWindowMenu25 25)
+\r t
+\a pteSetVisible("Instances" t "Objects")
+\r t
+\a mgc_custom_menus_run_menu_cmd("DRC" "::CalibreInterface::execCalibre DRC" 'nil ?code "")
+\r ipc:129
+\o //  Calibre Interactive - DRC  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Wed Nov  9 14:51:20 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 09-Nov-2022  14:52:00
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             47
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   15
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 2.8s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4100KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\a hiResizeWindow(swindow(24) list(375:190 1594:979))
+\r t
+\a hiResizeWindow(swindow(24) list(193:190 1594:979))
+\r t
+\a hiResizeWindow(swindow(24) list(193:190 1772:979))
+\r t
+\a hiResizeWindow(swindow(24) list(193:190 1582:979))
+\r t
+\a hiResizeWindow(swindow(24) list(35:190 1582:979))
+\r t
+\a hiResizeWindow(swindow(24) list(184:190 1731:979))
+\r t
+\a leHiMove()
+\p > 
+\a mouseAddPt(t)
+\i 0.315:1.666
+\r t
+\a geSingleSelectBox()
+\i 0.315:1.665
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.44:1.67
+\r t
+\r nil
+\a leSetFocusToEditableFieldsInStatusToolbar(hiGetCurrentWindow())
+\a _leMoveFocusInStatusToolbarField("X")
+\r t
+\a mouseAddPt(t)
+\i 0.171:0.761
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiPan()
+\p > 
+\a leSetFocusToEditableFieldsInStatusToolbar(hiGetCurrentWindow())
+\a _leMoveFocusInStatusToolbarField("X")
+\r t
+\a geSingleSelectBox()
+\i 0.135:1.685
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.205:1.675
+\r t
+\r nil
+\a leSetFocusToEditableFieldsInStatusToolbar(hiGetCurrentWindow())
+\a _leMoveFocusInStatusToolbarField("X")
+\r t
+\a mouseAddPt(t)
+\i 0.131:1.649
+\r t
+\r t
+\a hiPan()
+\i 1.875:0.83
+\r t
+\a mouseSingleSelectPt()
+\i 3.62:0.01
+\r t
+\a hiPan()
+\i 0.06:0.26
+\r t
+\a hiPan()
+\i 1.74:1.06
+\r t
+\a hiPan()
+\i 1.55:0.525
+\r t
+\a hiPan()
+\i 1.78:0.87
+\r t
+\a mouseSingleSelectPt()
+\i 1.915:1.735
+\r nil
+\a hiResizeWindow(swindow(24) list(184:132 1731:979))
+\r t
+\a mouseSingleSelectPt()
+\i 1.5:1.705
+\r nil
+\a mouseSingleSelectPt()
+\i 3.41:1.345
+\r t
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiCloseWindow(swindow(24))
+\r t
+\i ddsServOpen("cad3" "loaded_nand" "layout" "edit" nil)
+\# Current Window: window(35)
+\a when(dwindow('ptePaletteAssistant15) hiMapWindow(dwindow('ptePaletteAssistant15)))
+\r t
+\a mouseSingleSelectPt()
+\i 1.86:2.435
+\r nil
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiCloseWindow(swindow(34))
+\r t
+\i ddsServOpen("cad3" "loaded_nand" "schematic" "edit" nil)
+\# Current Window: window(36)
+\a when(dwindow('oiAssistant34) hiMapWindow(dwindow('oiAssistant34)))
+\r t
+\a when(dwindow('treeAssistant34) hiMapWindow(dwindow('treeAssistant34)))
+\r t
+\a _deUpdateMenu('schematicTools 36)
+\r t
+\a _deUpdateWindowMenu('schWindowMenu36 36)
+\r t
+\a _deUpdateWindowMenu('schWindowMenu36 36)
+\r t
+\a _deUpdateWindowMenu('schWindowMenu36 36)
+\r t
+\a schHiDisplayOptions()
+\p > 
+\a hiiSetCurrentForm('schDisplayOptionsForm)
+\r t
+\a hiFormCancel(schDisplayOptionsForm) 
+\r t
+\r nil
+\a hiResizeWindow(swindow(35) list(117:78 1555:904))
+\r t
+\a hiZoomAbsoluteScale(getCurrentWindow() 0.9)
+\r t
+\a hiZoomOutAtMouse()
+\i 0.5:0
+\r t
+\a hiCloseWindow(swindow(35))
+\r t
+\o Info (ccp): Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.04s.
+\o 
+\o Info (ccp): ccpDFIIChecker: Starting ...
+\o Info (ccp): ccpDFIIChecker: End running.
+\i ddsServOpen("cad3" "NAND2_balanced" "schematic" "edit" nil)
+\# Current Window: window(37)
+\a when(dwindow('oiAssistant35) hiMapWindow(dwindow('oiAssistant35)))
+\r t
+\a when(dwindow('treeAssistant35) hiMapWindow(dwindow('treeAssistant35)))
+\r t
+\a hiResizeWindow(swindow(36) list(623:231 1523:921))
+\r t
+\a schSingleSelectPt()
+\i -0.75:0.875
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->w->value="W M"
+\o CDF: An error occurred when evaluating callback.
+\o     Callback: w->callback => ncsuWidthCallBack()
+\o 
+\o     Message:  *Error* quotient: can't handle ("W" / 2.5e-09)
+\r "W M"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 0.5625:0.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="Q M"
+\o CDF: An error occurred when evaluating callback.
+\o     Callback: w->callback => ncsuWidthCallBack()
+\o 
+\o     Message:  *Error* quotient: can't handle ("Q" / 2.5e-09)
+\r "Q M"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="W M"
+\o CDF: An error occurred when evaluating callback.
+\o     Callback: w->callback => ncsuWidthCallBack()
+\o 
+\o     Message:  *Error* quotient: can't handle ("W" / 2.5e-09)
+\r "W M"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "NAND2_balanced schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(37) Window cellview: cad3:NAND2_balanced:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 NAND2_balanced schematic" saved.
+\r t
+\a _deUpdateMenu('schematicTools 37)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(38)
+\r t
+\a hiResizeWindow(swindow(36) list(760:233 1660:923))
+\r t
+\a hiResizeWindow(swindow(37) list(65:411 757:886))
+\r t
+\a (sevCopyCellViewVariables 'sevSession2 ?copyCV t)
+\r t
+\a sevTableSelectRows(sevWindowForm2->varListBox 0)
+\r t
+\a (sevEditSelectedVars 'sevSession2)
+\p > 
+\a hiiSetCurrentForm('sevVariablesForm2)
+\r t
+\a hiFormCancel(sevVariablesForm2)
+\r t
+\r nil
+\a (sevEditSelectedVars 'sevSession2)
+\p > 
+\a sevVariablesForm2->expression->value="250n"
+\r "250n"
+\a hiFormDone(sevVariablesForm2)
+\o Loading paraplot.cxt 
+\r t
+\r t
+\a sevEditSelectedAnas('sevSession2)
+\p > 
+\a hiSetCurrentWindow(window(37))
+\# Current Window: window(37) Window cellview: cad3:NAND2_balanced:schematic  Application: analogArtist-Schematic
+\r t
+\a swindow(36)->hiToolbars->schSelectToolbar_36->nets->checked=t
+\r t
+\a schSingleSelectPt()
+\i -1.875:-0.0625
+\r nil
+\a schSingleSelectPt()
+\i -1.5625:1.1875
+\r nil
+\a hiSetCurrentWindow(window(38))
+\# Current Window: window(38)
+\r t
+\a sevTableSelectRows(sevWindowForm2->varListBox nil)
+\r t
+\a hiCloseWindow(swindow(37))
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\# Current Window: window(37) Window cellview: cad3:NAND2_balanced:schematic  Application: Schematics
+\w *WARNING* hiDeleteForm: Cannot delete a form that is mapped or from within the form's callback (_asii_spectre2_analysis_form)
+\r t
+\r nil
+\a _hiSetCurrentWinNum(37)
+\r t
+\a schSingleSelectPt()
+\i -0.75:0.8125
+\r nil
+\a schHiObjectProperty()
+\i -0.75:0.8125
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i -0.9375:0.375
+\r nil
+\a schSingleSelectPt()
+\i -0.75:0.8125
+\r nil
+\a when(schSingleSelectPt() schHiDescend())
+\i -0.75:0.8125
+\r nil
+\a schSingleSelectPt()
+\i 1.0625:0.8125
+\r nil
+\a when(schSingleSelectPt() schHiDescend())
+\i -1.5625:1.375
+\r nil
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "NAND2_balanced schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(37) Window cellview: cad3:NAND2_balanced:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 NAND2_balanced schematic" saved.
+\r t
+\a schSingleSelectPt()
+\i -0.6875:0.8125
+\r nil
+\a schSingleSelectPt()
+\i -0.75:0.8125
+\r nil
+\a _deSaveWinConfig()
+\p > 
+\a hiFormCancel(deSaveWinConfigForm) 
+\r t
+\r nil
+\a swindow(36)->hiToolbars->schSelectToolbar_36->default->checked=t
+\r t
+\a schSingleSelectPt()
+\i -0.75:0.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="250n M"
+\r "250n M"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 0.5:0.8125
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="250n M"
+\r "250n M"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "NAND2_balanced schematic"
+\o INFO (SCH-1426): Schematic check completed with no errors.
+\# Current Window: window(37) Window cellview: cad3:NAND2_balanced:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 NAND2_balanced schematic" saved.
+\r t
+\a schSingleSelectPt()
+\i -2:0.5
+\r nil
+\o Info (ccp): Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.06s.
+\o 
+\o Info (ccp): ccpDFIIChecker: Starting ...
+\o Info (ccp): ccpDFIIChecker: End running.
+\i ddsServOpen("cad3" "NAND2_balanced_tb" "schematic" "edit" nil)
+\# Current Window: window(39)
+\a when(dwindow('oiAssistant36) hiMapWindow(dwindow('oiAssistant36)))
+\r t
+\a when(dwindow('treeAssistant36) hiMapWindow(dwindow('treeAssistant36)))
+\r t
+\a hiCloseWindow(swindow(36))
+\r t
+\a hiResizeWindow(swindow(38) list(785:237 1685:927))
+\r t
+\a schSingleSelectPt()
+\i -0.5625:1.5625
+\r nil
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i -0.39375:-1.20625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\i 0.0625:-1.3125
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.375:-1.25
+\# Direct Edit instance. schHiStretch action.
+\i -0.375:-1.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0:-1.1875
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -0.8125:-1.25
+\r nil
+\a schSingleSelectPt()
+\i -2.1875:0
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->cellName->value="vsin"
+\r "vsin"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i -1.86875:-0.8625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -1.9375:-1.125
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i -1.625:-0.3125
+\r nil
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a schCreateInstForm->cellName->value="vdc"
+\r "vdc"
+\a schCreateInstForm->cellName->value="vpulse"
+\r "vpulse"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i -2.34375:-0.46875
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -1.875:-1.0625
+\r t
+\a schHiDelete()
+\i -1.875:-1.0625
+\r t
+\a schHiDelete()
+\i -1.5:-0.8125
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -2.4375:-0.1875
+\# Direct Edit. Area selection.
+\i -2.4375:-0.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -2.1875:-1
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -2.375:-0.6875
+\# Direct Edit instance. schHiStretch action.
+\i -2.375:-0.6875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.375:-1
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -1.38125:-1.1875
+\r t
+\a mouseAddPt(t)
+\i 0:-1.15
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\i 0:1.5625
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\i -1.4375:0.8125
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateInst()
+\p > 
+\a schCreateInstForm->cellName->value="vdc"
+\r "vdc"
+\a schCreateInstForm->vdc->value="1.2V"
+\r "1.2V"
+\a hiiToggleEnterForm(schCreateInstForm)
+\r t
+\a mouseAddPt(t)
+\i 1.41875:1.03125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 0.025:1.4125
+\r t
+\a mouseAddPt(t)
+\i 1.46875:1.05
+\r t
+\a mouseAddPt(t)
+\i 1.4125:0.6875
+\r t
+\a mouseAddPt(t)
+\i 0.36875:-1.1375
+\r t
+\a hiZoomInAtMouse()
+\i 0.3125:-1.375
+\r t
+\a mouseAddPt(t)
+\i 0:-1.1375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.25:-1.25
+\r t
+\a hiZoomInAtMouse()
+\i 0.625:-1.25
+\r t
+\a hiZoomOutAtMouse()
+\i 0.625:-1.3125
+\r t
+\a schDirectEdit(1)
+\i 0:-1.1875
+\# Direct Edit instance. schHiStretch action.
+\i 0:-1.1875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0:-1.3125
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a schDirectEdit(1)
+\i 0:-1.3125
+\# Direct Edit instance. schHiStretch action.
+\i 0:-1.3125
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0:-1.4375
+\r t
+\r nil
+\a schHiDelete()
+\i -0.125:-1.1875
+\p > 
+\a schHiDelete()
+\i -0.0625:-1.1875
+\r t
+\a mouseAddPt(t)
+\i -0.1:-1.15625
+\r t
+\a mouseAddPt(t)
+\i -0.125:-1.275
+\r t
+\a hiZoomInAtMouse()
+\i -0.125:-1.25
+\r t
+\a mouseAddPt(t)
+\i -0.0625:-1.15625
+\r t
+\a mouseAddPt(t)
+\i -0.06875:-1.15
+\r t
+\a mouseAddPt(t)
+\i -0.08125:-1.15
+\r t
+\a mouseAddPt(t)
+\i -0.075:-1.14375
+\r t
+\a mouseAddPt(t)
+\i -0.0625:-1.1625
+\r t
+\a schMouseApplyOrFinish()
+\i -0.0625:-1.125
+\r t
+\a schMouseApplyOrFinish()
+\i -0.125:-1.125
+\r t
+\a mouseAddPt(t)
+\i -0.0375:-1.1625
+\r t
+\a mouseAddPt(t)
+\i 0.0125:-1.1625
+\r t
+\a mouseAddPt(t)
+\i 0.0125:-1.13125
+\r t
+\a mouseAddPt(t)
+\i -0.05625:-1.1375
+\r t
+\a mouseAddPt(t)
+\i 0.0875:-1.15
+\r t
+\a mouseAddPt(t)
+\i -0.04375:-1.14375
+\r t
+\a mouseAddPt(t)
+\i 0.025:-1.15625
+\r t
+\a mouseAddPt(t)
+\i -0.025:-1.15
+\r t
+\a mouseAddPt(t)
+\i -0.01875:-1.15
+\r t
+\a mouseAddPt(t)
+\i -0.16875:-1.15
+\r t
+\a mouseAddPt(t)
+\i -0.0625:-1.15
+\r t
+\a mouseAddPt(t)
+\i -0.05625:-1.15625
+\r t
+\a mouseAddPt(t)
+\i 0.03125:-1.16875
+\r t
+\a schMouseApplyOrFinish()
+\i 0.0625:-1.125
+\r t
+\a mouseAddPt(t)
+\i 0.1875:-1.15
+\r t
+\a mouseAddPt(t)
+\i 0.26875:-1.15
+\r t
+\a mouseAddPt(t)
+\i 0.36875:-1.15625
+\r t
+\a mouseAddPt(t)
+\i 0.2625:-1.15
+\r t
+\a mouseAddPt(t)
+\i 0.20625:-1.15
+\r t
+\a mouseAddPt(t)
+\i 0.1125:-1.15625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.5625:-1.125
+\r t
+\a _deUpdateWindowMenu('schWindowMenu39 39)
+\r t
+\a _deUpdateWindowMenu('schWindowMenu39 39)
+\r t
+\a schHiDisplayOptions()
+\p > 
+\a hiiSetCurrentForm('schDisplayOptionsForm)
+\r t
+\a schDisplayOptionsForm->snapSpacing->value=0.05
+\r 0.05
+\a hiFormDone(schDisplayOptionsForm)
+\r t
+\r t
+\a schSingleSelectPt()
+\i -0.1:-1.15
+\r t
+\a schSingleSelectPt()
+\i 0:-1.25
+\r t
+\a schHiDelete()
+\i -0.05:-1.15
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\i -0.8:-1.15
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\i -1.1:-1.15
+\p > 
+\a mouseAddPt(t)
+\i -1.08125:-1.16875
+\r t
+\a mouseAddPt(t)
+\i -1.05:-1.2125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomAbsoluteScale(getCurrentWindow() 0.9)
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -0.0125:1.375
+\r t
+\a mouseAddPt(t)
+\i 0:1.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i -0.05:1.3
+\r t
+\a schSingleSelectPt()
+\i 0:1.4
+\r t
+\a schSingleSelectPt()
+\i 0:1.35
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 0.0125:1.33125
+\r t
+\a mouseAddPt(t)
+\i 0.00625:1.4375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.35:1.25
+\r t
+\a hiZoomInAtMouse()
+\i 0.15:1.45
+\r t
+\a schHiDelete()
+\i 0:1.45
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomAbsoluteScale(getCurrentWindow() 0.9)
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 0.36875:-1.16875
+\r t
+\a mouseAddPt(t)
+\i 0.35625:-1.2375
+\r t
+\a mouseAddPt(t)
+\i 0.03125:-1.24375
+\r t
+\a mouseAddPt(t)
+\i 1.425:-1.1625
+\r t
+\a mouseAddPt(t)
+\i 1.45:-1.23125
+\r t
+\a mouseAddPt(t)
+\i 0.35:-1.25625
+\r t
+\a schHiDelete()
+\i 1.45:-1.15
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i 1.46875:-1.25625
+\r t
+\a mouseAddPt(t)
+\i 1.44375:-1.125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\i 1.4:-1.25
+\p > 
+\a schHiDelete()
+\i 1.45:-1.25
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i 1.44375:-1.0625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 0.3625:-1.25625
+\r t
+\a hiZoomInAtMouse()
+\i 1.45:-1.25
+\r t
+\a hiZoomOutAtMouse()
+\i 1.4:-1.25
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.45:0.9
+\# Direct Edit instance. schHiStretch action.
+\i 1.45:0.9
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.5:0.9
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.5:0.9
+\# Direct Edit instance. schHiStretch action.
+\i 1.5:0.9
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.5:1
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 0.95:1.15
+\# Direct Edit wire segment. schHiStretch action.
+\i 0.95:1.15
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.95:1.25
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 0.6:1.25
+\# Direct Edit wire segment. schHiStretch action.
+\i 0.6:1.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.6:1.5
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.45:-1.1
+\# Direct Edit wire segment. schHiStretch action.
+\i 1.45:-1.1
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.45:-1.3
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.45:-1.3
+\# Direct Edit wire segment. schHiStretch action.
+\i 1.45:-1.3
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0:-1.25
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 0.9:-1.3
+\# Direct Edit wire segment. schHiStretch action.
+\i 0.9:-1.3
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.95:-1.3
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.5:0.95
+\# Direct Edit instance. schHiStretch action.
+\i 1.5:0.95
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.5:0.45
+\r t
+\r nil
+\a schDirectEdit(1)
+\i 1.1:1.15
+\# Direct Edit wire segment. schHiStretch action.
+\i 1.1:1.15
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 1.1:1.4
+\r t
+\r nil
+\a schSingleSelectPt()
+\i 1.15:-1.3
+\r t
+\a schHiDelete()
+\i 1.15:-1.3
+\r t
+\a schHiDelete()
+\i 1.55:-1.25
+\p > 
+\a schHiDelete()
+\i 1.45:-1.1
+\r t
+\a schHiDelete()
+\i 1.45:-1.05
+\r t
+\a schHiDelete()
+\i 1.45:-1
+\r t
+\a mouseAddPt(t)
+\i 1.46875:-0.9125
+\r t
+\a mouseAddPt(t)
+\i 1.50625:-0.88125
+\r t
+\a mouseAddPt(t)
+\i 1.5:-0.73125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i 1.5:0.275
+\r t
+\a mouseAddPt(t)
+\i 0.3625:-1.25625
+\r t
+\a mouseAddPt(t)
+\i -1.35:-1.2125
+\r t
+\a mouseAddPt(t)
+\i -0.00625:-1.2625
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -1.35:-1
+\# Direct Edit instance. schHiStretch action.
+\i -1.35:-1
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -1.15:-1
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -1.55:-1.45
+\r nil
+\a schHiDelete()
+\i -1.35:0.8
+\p > 
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i -0.63125:1.18125
+\r t
+\a mouseAddPt(t)
+\i -1.06875:1.2
+\r t
+\a mouseAddPt(t)
+\i -1.05625:0.8
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -1.06875:0.80625
+\r t
+\a mouseAddPt(t)
+\i -0.63125:1.18125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a schDirectEdit(1)
+\i -0.7:0.8
+\# Direct Edit instance. schHiStretch action.
+\i -0.7:0.8
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.7:0.85
+\r t
+\r nil
+\a schSingleSelectPt()
+\i -1.25:0.9
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -0.88125:0.85
+\r t
+\a mouseAddPt(t)
+\i -0.63125:1.175
+\r t
+\a mouseAddPt(t)
+\i -0.6:1.175
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.15:1.2
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.15:1.2
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.15:1.25
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.7:1.2
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.7:1.2
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.7:1.2
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.35:1.25
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.35:1.25
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.35:1.4
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.75:1.2
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.75:1.2
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.8:1.35
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.7:0.9
+\# Direct Edit instance. schHiStretch action.
+\i -0.7:0.9
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.7:0.85
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a hiRedo()
+\r t
+\a _deUpdateWindowMenu('schWindowMenu39 39)
+\r t
+\a schHiEditorOptions()
+\p > 
+\a hiiSetCurrentForm('schFormOfEditorOptions)
+\r t
+\a hiFormCancel(schFormOfEditorOptions) 
+\r t
+\r nil
+\a schHiDisplayOptions()
+\p > 
+\a hiiSetCurrentForm('schDisplayOptionsForm)
+\r t
+\a schDisplayOptionsForm->snapSpacing->value=0.025
+\r 0.025
+\a hiFormDone(schDisplayOptionsForm)
+\r t
+\r t
+\a schDirectEdit(1)
+\i -0.75:0.875
+\# Direct Edit instance. schHiStretch action.
+\i -0.75:0.875
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.725:0.825
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.375:0.625
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.375:0.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.625:0.375
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.35:0.625
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.35:0.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.35:0.4
+\r t
+\r nil
+\a schDirectEdit(1)
+\i -0.35:0.4
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.35:0.4
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.35:0.4
+\r t
+\r nil
+\a hiZoomInAtMouse()
+\i -0.275:0.45
+\r t
+\a schDirectEdit(1)
+\i -0.375:0.4
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.375:0.4
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.375:0.375
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a hiRedo()
+\r t
+\a schDirectEdit(1)
+\i -0.375:0.625
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.375:0.625
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.375:0.375
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a schHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('schCreateInstForm)
+\r t
+\a hiiToggleEnterForm(schCreateInstForm) 
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i -0.675:0.5
+\r t
+\a schDirectEdit(1)
+\i -0.35:0.5
+\# Direct Edit wire segment. schHiStretch action.
+\i -0.35:0.5
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.6:0.475
+\r t
+\r nil
+\a schHiDelete()
+\i -0.6:1.125
+\p > 
+\a hiZoomInAtMouse()
+\i -0.6:1.05
+\r t
+\a schHiDelete()
+\i -0.6:1.05
+\r t
+\a schHiDelete()
+\i -0.6:1.05
+\r t
+\a schHiDelete()
+\i -0.625:1.05
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -0.85625:0.825
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a schHiDelete()
+\i -0.375:1.175
+\p > 
+\a schHiDelete()
+\i 0.075:1.175
+\r t
+\a schHiDelete()
+\i 0:1.25
+\r t
+\a schHiCreateWire(0.0)
+\r t
+\a mouseAddPt(t)
+\i 0.625:1.18125
+\r t
+\a mouseAddPt(t)
+\i 0.625:1.25
+\r t
+\a mouseAddPt(t)
+\i -0.84375:1.24375
+\r t
+\a mouseAddPt(t)
+\i -0.84375:0.8125
+\r t
+\a mouseAddPt(t)
+\i -0.6:0.8125
+\r t
+\a mouseAddPt(t)
+\i -0.6:1.01875
+\r t
+\a mouseAddPt(t)
+\i -0.6:1
+\r t
+\a mouseAddPt(t)
+\i -0.59375:1.2375
+\r t
+\a hiZoomOutAtMouse()
+\i 0.225:1.35
+\r t
+\a mouseAddPt(t)
+\i 0.00625:1.375
+\r t
+\a mouseAddPt(t)
+\i 0.01875:1.23125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiUndo()
+\r t
+\a hiZoomInAtMouse()
+\i 0.025:1.375
+\r t
+\a hiZoomAbsoluteScale(getCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.075:1.45
+\r t
+\a hiZoomInAtMouse()
+\i 0.025:1.45
+\r t
+\a schHiCreateWire(0.0)
+\p > 
+\a mouseAddPt(t)
+\i -0.00625:1.39375
+\r t
+\a mouseAddPt(t)
+\i 0:1.24375
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.025:1.05
+\r t
+\a hiZoomAbsoluteScale(getCurrentWindow() 0.9)
+\r t
+\a schSingleSelectPt()
+\i -1.2:-1.025
+\r t
+\a hiPan()
+\i -1.2:-1
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->v2->value="1.2 V"
+\r "1.2 V"
+\a schObjPropForm->per->value="500n"
+\r "500n"
+\a schObjPropForm->tr->value="20p"
+\r "20p"
+\a schObjPropForm->tf->value="20p"
+\r "20p"
+\a schObjPropForm->pw->value="250n"
+\r "250n"
+\a _hiFormApplyCB(schObjPropForm)
+\r t
+\a hiFormDone(schObjPropForm)
+\o INFO (SCH-1183): No changes were made. No objects updated.
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "NAND2_balanced_tb schematic"
+\o Warning: Terminal "b" in view symbol not found in "NAND2_balanced_tb schematic".
+\o Warning: Terminal "a" in view symbol not found in "NAND2_balanced_tb schematic".
+\o INFO (SCH-1172): There were 0 errors and 2 warnings found in "cad3 NAND2_balanced_tb schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 NAND2_balanced_tb schematic" saved.
+\r t
+\a hiZoomOutAtMouse()
+\i 0.475:-1.425
+\r t
+\a hiZoomAbsoluteScale(getCurrentWindow() 0.9)
+\r t
+\a schSingleSelectPt()
+\i -1.7:-1.375
+\r t
+\a schHiDelete()
+\i -1.7:-1.375
+\r t
+\a schSingleSelectPt()
+\i -1.75:-1.25
+\r t
+\a schHiDelete()
+\i -1.75:-1.25
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant36) "Objects/Nets and Pins")
+\r t
+\a _treeNavOptionsSort(dwindow('treeAssistant36) "t")
+\r t
+\a _treeNavOptionsElabLayout(dwindow('treeAssistant36) "nil")
+\r t
+\a _treeNavOptionsElabLeaves(dwindow('treeAssistant36) "nil")
+\r t
+\a _treeNavOptionsOrder(dwindow('treeAssistant36) "block")
+\r t
+\a _treeNavOptionsThresholds(dwindow('treeAssistant36) "1:1:1:1:1:1:1")
+\r t
+\a _treeNavOptionsNameAfter(dwindow('treeAssistant36) "t")
+\r t
+\a _treeNavOptionsNameSeparator(dwindow('treeAssistant36) "-")
+\r t
+\a _treeNavOptionsNameLeft(dwindow('treeAssistant36) "(")
+\r t
+\a _treeNavOptionsNameRight(dwindow('treeAssistant36) ")")
+\r t
+\a _treeNavOptionsNameColumns(dwindow('treeAssistant36) "<eoc>Cell Name")
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "NAND2_balanced_tb schematic"
+\o Warning: Terminal "b" in view symbol not found in "NAND2_balanced_tb schematic".
+\o Warning: Terminal "a" in view symbol not found in "NAND2_balanced_tb schematic".
+\o INFO (SCH-1172): There were 0 errors and 2 warnings found in "cad3 NAND2_balanced_tb schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 NAND2_balanced_tb schematic" saved.
+\r t
+\a schSingleSelectPt()
+\i -1.775:-1.275
+\r t
+\a schHiDelete()
+\i -1.8:-1.25
+\r t
+\a schHiDelete()
+\i -1.8:-1.25
+\p > 
+\a mouseAddPt(t)
+\i -1.8:-0.7625
+\r t
+\a _treeNavOpcHome(dwindow('treeAssistant36))
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant36) "Objects/Instances")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant36))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant36) "/NMOS0(symbol) Inst")
+\r t
+\a _treeNavExpand(dwindow('treeAssistant36) " Inst")
+\r t
+\a _treeNavSelectionClear(dwindow('treeAssistant36))
+\r t
+\a _treeNavSelect(dwindow('treeAssistant36) "/PMOS0(symbol) Inst")
+\r t
+\a _treeNavExpand(dwindow('treeAssistant36) " Inst")
+\r t
+\a hiUndo()
+\r t
+\a hiUndo()
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a _treeNavOpcHome(dwindow('treeAssistant36))
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant36) "Objects/Nets")
+\r t
+\a _treeNavOpcHome(dwindow('treeAssistant36))
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant36) "Groups/Cells")
+\r t
+\a _treeNavOpcHome(dwindow('treeAssistant36))
+\r t
+\a _treeNavActivateOpc(dwindow('treeAssistant36) "Groups/Types")
+\r t
+\a _treeNavOpcHome(dwindow('treeAssistant36))
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "NAND2_balanced_tb schematic"
+\o Warning: Terminal "b" in view symbol not found in "NAND2_balanced_tb schematic".
+\o Warning: Terminal "a" in view symbol not found in "NAND2_balanced_tb schematic".
+\o INFO (SCH-1172): There were 0 errors and 2 warnings found in "cad3 NAND2_balanced_tb schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a _treeNavExpand(dwindow('treeAssistant36) " Inst")
+\r t
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: Schematics
+\o INFO (SCH-1181): "cad3 NAND2_balanced_tb schematic" saved.
+\r t
+\a schSingleSelectPt()
+\i -1.575:-0.2
+\r nil
+\a _deUpdateMenu('schematicTools 39)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(40)
+\r t
+\a (sevEditSelectedVars 'sevSession3)
+\p > 
+\a hiiSetCurrentForm('sevVariablesForm3)
+\r t
+\a hiFormCancel(sevVariablesForm3)
+\r t
+\r nil
+\a (sevCopyCellViewVariables 'sevSession3 ?copyCV t)
+\r t
+\a _treeNavExpand(dwindow('treeAssistant36) " Inst")
+\r t
+\a hiSetCurrentWindow(window(39))
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -0.7:0.825
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a schObjPropForm->w->value="W M"
+\o CDF: An error occurred when evaluating callback.
+\o     Callback: w->callback => ncsuWidthCallBack()
+\o 
+\o     Message:  *Error* quotient: can't handle ("W" / 2.5e-09)
+\r "W M"
+\a hiFormDone(schObjPropForm)
+\r t
+\a schSingleSelectPt()
+\i 0.475:0.75
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->w->value="W"
+\o CDF: An error occurred when evaluating callback.
+\o     Callback: w->callback => ncsuWidthCallBack()
+\o 
+\o     Message:  *Error* quotient: can't handle ("W" / 2.5e-09)
+\r "W"
+\a hiFormDone(schObjPropForm)
+\r t
+\a hiSetCurrentWindow(window(40))
+\# Current Window: window(40)
+\r t
+\a (sevCopyCellViewVariables 'sevSession3 ?copyCV t)
+\r t
+\a sevTableSelectRows(sevWindowForm3->varListBox 1)
+\r t
+\a (sevEditSelectedVars 'sevSession3)
+\p > 
+\a hiiSetCurrentForm('sevVariablesForm3)
+\r t
+\a hiFormCancel(sevVariablesForm3) 
+\r t
+\r nil
+\a (sevDeleteSelectedVars 'sevSession3)
+\r t
+\a (sevCopyCellViewVariables 'sevSession3 ?copyCV t)
+\r t
+\a sevTableSelectRows(sevWindowForm3->varListBox 0)
+\r t
+\a (sevEditSelectedVars 'sevSession3)
+\p > 
+\a hiFormCancel(sevVariablesForm3) 
+\r t
+\r nil
+\a hiSetCurrentWindow(window(39))
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i 0.45:0.85
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a schSingleSelectPt()
+\i -1.175:-1
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a hiZoomOutAtMouse()
+\i 2.175:-0.425
+\r t
+\a hiZoomInAtMouse()
+\i 1.8:-1.075
+\r t
+\a schSingleSelectPt()
+\i 1.525:0.45
+\r t
+\a schHiObjectProperty()
+\r t
+\a schObjPropForm->vdc->value="1.2 V"
+\r "1.2 V"
+\a hiFormDone(schObjPropForm)
+\r t
+\a hiSetCurrentWindow(window(40))
+\# Current Window: window(40)
+\r t
+\a (sevCopyCellViewVariables 'sevSession3 ?copyCV t)
+\r t
+\a (sevDeleteSelectedVars 'sevSession3)
+\r t
+\a hiSetCurrentWindow(window(39))
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: analogArtist-Schematic
+\r t
+\a schHiCheckAndSave()
+\o INFO (SCH-1170): Extracting "NAND2_balanced_tb schematic"
+\o Warning: Terminal "b" in view symbol not found in "NAND2_balanced_tb schematic".
+\o Warning: Terminal "a" in view symbol not found in "NAND2_balanced_tb schematic".
+\o INFO (SCH-1172): There were 0 errors and 2 warnings found in "cad3 NAND2_balanced_tb schematic".
+\# Displaying modal dbox "_schCheckDBox", title "Schematic Check"
+\p > 
+\a _treeNavExpand(dwindow('treeAssistant36) " Inst")
+\r t
+\a hiDBoxOK(_schCheckDBox)
+\r t
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: analogArtist-Schematic
+\o INFO (SCH-1181): "cad3 NAND2_balanced_tb schematic" saved.
+\r t
+\a hiSetCurrentWindow(window(40))
+\# Current Window: window(40)
+\r t
+\a (sevEditSelectedVars 'sevSession3)
+\p > 
+\a hiiSetCurrentForm('sevVariablesForm3)
+\r t
+\a hiFormCancel(sevVariablesForm3)
+\r t
+\r nil
+\a sevEditSelectedAnas('sevSession3)
+\p > 
+\a _asii_spectre3_analysis_form->tran_stop->value="2u"
+\r "2u"
+\a hiFormApply(_asii_spectre3_analysis_form)
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\r t
+\a hiFormDone(_asii_spectre3_analysis_form)
+\r t
+\r t
+\a sevNetlistAndRun('sevSession3)
+\# Displaying modal dbox "sevblockingDialogBox", title "Warning"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\r t
+\a (sevEditSelectedVars 'sevSession3)
+\p > 
+\a hiiSetCurrentForm('sevVariablesForm3)
+\r t
+\a sevVariablesForm3->expression->value="250n"
+\r "250n"
+\a hiFormDone(sevVariablesForm3)
+\r t
+\r t
+\a sevNetlistAndRun('sevSession3)
+\o Delete psf data in /home/kegedy/simulation/NAND2_balanced_tb/spectre/schematic/psf.
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /home/lab.apps/vlsiapps_new/virtuoso/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/kegedy/simulation/NAND2_balanced_tb/spectre/schematic/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Nov  9 15:30:23 2022
+\o Loading json.cxt 
+\o End netlisting Nov  9 15:30:25 2022
+\o Loading monte.cxt 
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    6
+\o 
+\o 	Elapsed time:          5.0s (1.20/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\r t
+\# Current Window: window(41)
+\o INFO (ADE-3069): Errors encountered during simulation. For more information, see the log files
+\o         accessible from the Simulation -> Output Log menu.
+\a hiSetCurrentWindow(window(40))
+\# Current Window: window(40)
+\r t
+\a sevNetlistAndRun('sevSession3)
+\o Delete psf data in /home/kegedy/simulation/NAND2_balanced_tb/spectre/schematic/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Nov  9 15:30:49 2022
+\o End netlisting Nov  9 15:30:49 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\r t
+\o INFO (ADE-3069): Errors encountered during simulation. For more information, see the log files
+\o         accessible from the Simulation -> Output Log menu.
+\a hiSetCurrentWindow(window(41))
+\# Current Window: window(41)
+\r t
+\a hiResizeWindow(window(41) list(0:29 1036:729))
+\r t
+\a hiResizeWindow(window(41) list(0:29 1595:729))
+\r t
+\a hiResizeWindow(window(41) list(0:29 461:729))
+\r t
+\a hiCloseWindow(window(41))
+\# Current Window: window(40)
+\r t
+\a _hiSetCurrentWinNum(40)
+\r t
+\a hiCloseWindow(swindow(39))
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables1".
+\o To save future changes, copy variables to cellView before exiting.
+\# Current Window: window(39) Window cellview: cad3:NAND2_balanced_tb:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(39)
+\r t
+\a hiCloseWindow(swindow(38))
+\r t
+\o  
+\o Library Manager deleting cell "cad3/NAND2_balanced_tb".
+\i ddDeleteLocal(ddGetObj("cad3" "NAND2_balanced_tb" "" ""))
+\o Deleted cell 'cad3/NAND2_balanced_tb'.
