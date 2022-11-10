@@ -1,12 +1,11 @@
 //
-//  Rule file generated on Wed Nov 09 21:29:36 PST 2022
+//  Rule file generated on Thu Nov 10 08:39:03 PST 2022
 //     by Calibre Interactive - LVS (v2021.1_33.19)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-PRECISION 1000
 LAYOUT PATH  "ring_osc.calibre.db"
 LAYOUT PRIMARY "ring_osc"
 LAYOUT SYSTEM GDSII
@@ -30,7 +29,7 @@ LVS GROUND NAME
 	"vss!"
 
 
-LVS RECOGNIZE GATES ALL
+LVS RECOGNIZE GATES NONE
 
 
 LVS ABORT ON SOFTCHK NO

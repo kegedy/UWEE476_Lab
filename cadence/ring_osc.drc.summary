@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Wed Nov  9 21:25:44 2022
+Execution Date/Time:       Thu Nov 10 08:35:11 2022
 Calibre Version:           v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 Rule File Pathname:        /home/projects/ee476.2022aut/kegedy/cadence/_calibreDRC.rul_
 Rule File Title:           
@@ -30,16 +30,16 @@ Keep Empty Checks:         YES
 ----------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER pwell ...... TOTAL Original Geometry Count = 3  (10)
-LAYER nwell ...... TOTAL Original Geometry Count = 3  (10)
-LAYER active ..... TOTAL Original Geometry Count = 6  (20)
+LAYER pwell ...... TOTAL Original Geometry Count = 3  (11)
+LAYER nwell ...... TOTAL Original Geometry Count = 3  (11)
+LAYER active ..... TOTAL Original Geometry Count = 6  (22)
 LAYER poly ....... TOTAL Original Geometry Count = 6  (20)
-LAYER pimplant ... TOTAL Original Geometry Count = 3  (10)
-LAYER nimplant ... TOTAL Original Geometry Count = 3  (10)
+LAYER pimplant ... TOTAL Original Geometry Count = 3  (11)
+LAYER nimplant ... TOTAL Original Geometry Count = 3  (11)
 LAYER vth ........ TOTAL Original Geometry Count = 0  (0)
 LAYER vtg ........ TOTAL Original Geometry Count = 0  (0)
-LAYER metal1 ..... TOTAL Original Geometry Count = 21 (63)
-LAYER contact .... TOTAL Original Geometry Count = 16 (58)
+LAYER metal1 ..... TOTAL Original Geometry Count = 21 (67)
+LAYER contact .... TOTAL Original Geometry Count = 16 (60)
 LAYER metal2 ..... TOTAL Original Geometry Count = 9  (9)
 LAYER metal3 ..... TOTAL Original Geometry Count = 0  (0)
 LAYER metal4 ..... TOTAL Original Geometry Count = 0  (0)
@@ -236,6 +236,6 @@ RULECHECK Antenna.metal10 ... TOTAL Result Count = 0 (0)
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 88 (228)
+TOTAL Original Layer Geometries: 88 (240)
 TOTAL DRC RuleChecks Executed:   167
 TOTAL DRC Results Generated:     0 (0)

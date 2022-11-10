@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.s
 SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.src.net ('ring_osc')
 RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Wed Nov  9 21:29:37 2022
+CREATION TIME:            Thu Nov 10 08:39:04 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -59,7 +59,7 @@ o LVS Setup:
    LVS POWER NAME                         "vdd!"
    LVS GROUND NAME                        "vss!"
    LVS CELL SUPPLY                        NO
-   LVS RECOGNIZE GATES                    ALL
+   LVS RECOGNIZE GATES                    NONE
    // LVS HCELL REPORT
    LVS IGNORE PORTS                       NO
    LVS CHECK PORT NAMES                   NO

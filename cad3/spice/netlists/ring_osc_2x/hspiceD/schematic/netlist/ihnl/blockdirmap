@@ -1,0 +1,5 @@
+CADENCE IHNL11143
+
+cad3 INVD1 schematic cds0
+cad3 NAND2 schematic cds1
+cad3 ring_osc_2x schematic cds2

@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/svdb/ring_
 SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.src.net ('ring_osc')
 RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Wed Nov  9 21:31:51 2022
+CREATION TIME:            Thu Nov 10 08:40:28 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -221,7 +221,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
 o Initial Correspondence Points:
 
-   Ports:        OSC_OUT OSC_EN VSS! VDD!
+   Ports:        OSC_OUT VSS! OSC_EN VDD!
 
 
 **************************************************************************************************************

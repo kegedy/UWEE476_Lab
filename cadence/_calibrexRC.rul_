@@ -1,24 +1,24 @@
 //
-//  Rule file generated on Wed Nov 09 21:31:44 PST 2022
+//  Rule file generated on Thu Nov 10 09:18:26 PST 2022
 //     by Calibre Interactive - PEX (v2021.1_33.19)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "ring_osc.calibre.db"
-LAYOUT PRIMARY "ring_osc"
+LAYOUT PATH  "loaded_nand.calibre.db"
+LAYOUT PRIMARY "loaded_nand"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/projects/ee476.2022aut/kegedy/cadence/ring_osc.src.net"
-SOURCE PRIMARY "ring_osc"
+SOURCE PATH "/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.src.net"
+SOURCE PRIMARY "loaded_nand"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 
-LVS REPORT "ring_osc.lvs.report"
+LVS REPORT "loaded_nand.lvs.report"
 
-PEX NETLIST "ring_osc.pex.netlist" HSPICE 1 SOURCENAMES 
+PEX NETLIST "loaded_nand.pex.netlist" HSPICE 1 SOURCENAMES 
 PEX REDUCE ANALOG NO
 PEX NETLIST UPPERCASE KEYWORDS NO
 PEX NETLIST VIRTUAL CONNECT NO

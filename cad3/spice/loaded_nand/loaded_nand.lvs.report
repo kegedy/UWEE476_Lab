@@ -11,12 +11,12 @@
 
 
 
-REPORT FILE NAME:         loaded_nand.lvs.report
-LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.sp ('loaded_nand')
-SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.src.net ('loaded_nand')
+REPORT FILE NAME:         NAND2.lvs.report
+LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/NAND2.sp ('NAND2')
+SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/NAND2.src.net ('NAND2')
 RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Wed Nov  9 18:29:27 2022
+CREATION TIME:            Thu Nov 10 08:27:18 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -34,7 +34,6 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
                      #           ###################               
 
 
-  Warning:  Ambiguity points were found and resolved arbitrarily.
 
 
 **************************************************************************************************************
@@ -43,7 +42,7 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  CORRECT        loaded_nand                   loaded_nand
+  CORRECT        NAND2                         NAND2
 
 
 
@@ -60,7 +59,7 @@ o LVS Setup:
    LVS POWER NAME                         "vdd!"
    LVS GROUND NAME                        "vss!"
    LVS CELL SUPPLY                        NO
-   LVS RECOGNIZE GATES                    ALL
+   LVS RECOGNIZE GATES                    NONE
    // LVS HCELL REPORT
    LVS IGNORE PORTS                       NO
    LVS CHECK PORT NAMES                   NO
@@ -163,10 +162,9 @@ o LVS Setup:
                      #           ###################               
 
 
-  Warning:  Ambiguity points were found and resolved arbitrarily.
 
-LAYOUT CELL NAME:         loaded_nand
-SOURCE CELL NAME:         loaded_nand
+LAYOUT CELL NAME:         NAND2
+SOURCE CELL NAME:         NAND2
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -177,12 +175,12 @@ INITIAL NUMBERS OF OBJECTS
                 ------    ------         --------------
  Ports:              5         5
 
- Nets:              14        14
+ Nets:               6         6
 
- Instances:         10        10         MN (4 pins)
-                    10        10         MP (4 pins)
+ Instances:          2         2         MN (4 pins)
+                     2         2         MP (4 pins)
                 ------    ------
- Total Inst:        20        20
+ Total Inst:         4         4
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -192,11 +190,11 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                 ------    ------         --------------
  Ports:              5         5
 
- Nets:               9         9
+ Nets:               5         5
 
- Instances:          5         5         _nand2v (5 pins)
+ Instances:          1         1         _nand2v (5 pins)
                 ------    ------
- Total Inst:         5         5
+ Total Inst:         1         1
 
 
 
@@ -210,39 +208,16 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                   -------    -------    ---------    ---------    ---------
    Ports:               5          5            0            0
 
-   Nets:                9          9            0            0
+   Nets:                5          5            0            0
 
-   Instances:           5          5            0            0    _nand2v
+   Instances:           1          1            0            0    _nand2v
                   -------    -------    ---------    ---------
-   Total Inst:          5          5            0            0
-
-
-o Statistics:
-
-   3 nets were matched arbitrarily.
+   Total Inst:          1          1            0            0
 
 
 o Initial Correspondence Points:
 
-   Ports:        vdd! vss! Z A B
-
-
-o Ambiguity Resolution Points:
-
-      (Each one of the following objects belongs to a group of indistinguishable objects.
-       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
-       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
-
-       Layout                                                    Source
-       ------                                                    ------
-
-                                     Nets
-                                     ----
-
-       9                                                         net2
-       8                                                         net3
-       7                                                         net4
-
+   Ports:        vdd! vss! B A Z
 
 
 **************************************************************************************************************

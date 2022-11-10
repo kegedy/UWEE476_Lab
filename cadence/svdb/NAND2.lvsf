@@ -5,9 +5,10 @@ lvs_LvsInputSummary {0 0 0}
 lvs_LvsComparisonSummary {3 0 0 0}
 lvs_SourceCase NO
 lvs_LayoutCase NO
-lvs_PowerName vdd!
-lvs_GroundName vss!
+lvs_PowerName VDD
+lvs_GroundName VSS
+lvs_GroundName GROUND
 lvs_LvsOutFile LVS_REPORT NAND2.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/NAND2.src.net
-lvs_LvsOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
-lvs_LvsRunTimes 1667986798 1667986798
+lvs_LvsOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
+lvs_LvsRunTimes 1668097825 1668097825

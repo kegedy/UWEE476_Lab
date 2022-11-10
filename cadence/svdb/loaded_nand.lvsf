@@ -11,4 +11,4 @@ lvs_GroundName GROUND
 lvs_LvsOutFile LVS_REPORT loaded_nand.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.src.net
 lvs_LvsOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
-lvs_LvsRunTimes 1668047680 1668047680
+lvs_LvsRunTimes 1668100713 1668100713

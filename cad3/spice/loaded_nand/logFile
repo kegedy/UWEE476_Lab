@@ -2,7 +2,7 @@ header
 "PSFversion" "1.00"
 "simulator" "HSPICE"
 "version" "T-2022.06 linux64"
-"rundate" "18:49:15 11/09/2022 "
+"rundate" "09:48:25 11/10/2022 "
 "runtitle" "* beware!!!! first line is always a comment line and spice ignores"
 "runtype" "logFile"
 TYPE
@@ -14,14 +14,6 @@ TYPE
 "sweepVariable" ARRAY ( * ) STRING *
 "description" STRING * )
 VALUE
-"timeSweep" "analysisInst" ( 
-"Transient Analysis"
-"loaded_nand.tr0"
-"PSF"
-""
-()
-"Transient Analysis"
-)
 "summary" "analysisInst" ( 
 "Summary Information"
 "loaded_nand.su0"

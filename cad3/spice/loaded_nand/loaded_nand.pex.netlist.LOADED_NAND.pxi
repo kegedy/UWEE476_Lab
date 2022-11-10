@@ -1,5 +1,5 @@
 * File: loaded_nand.pex.netlist.LOADED_NAND.pxi
-* Created: Wed Nov  9 18:34:42 2022
+* Created: Thu Nov 10 09:18:35 2022
 * 
 cc_1 Z VDD! 0.21315f
 cc_2 Z VSS! 0.0336746f

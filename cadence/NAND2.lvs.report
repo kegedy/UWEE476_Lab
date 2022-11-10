@@ -12,11 +12,11 @@
 
 
 REPORT FILE NAME:         NAND2.lvs.report
-LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/NAND2.sp ('NAND2')
+LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/svdb/NAND2.sp ('NAND2')
 SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/NAND2.src.net ('NAND2')
-RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
+RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Wed Nov  9 01:39:58 2022
+CREATION TIME:            Thu Nov 10 08:30:25 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -56,8 +56,8 @@ o LVS Setup:
    LVS COMPONENT TYPE PROPERTY            element
    LVS COMPONENT SUBTYPE PROPERTY         model
    // LVS PIN NAME PROPERTY
-   LVS POWER NAME                         "vdd!"
-   LVS GROUND NAME                        "vss!"
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
    LVS CELL SUPPLY                        NO
    LVS RECOGNIZE GATES                    ALL
    // LVS HCELL REPORT
@@ -68,7 +68,7 @@ o LVS Setup:
    LVS ALL CAPACITOR PINS SWAPPABLE       NO
    LVS DISCARD PINS BY DEVICE             NO
    LVS SOFT SUBSTRATE PINS                NO
-   LVS INJECT LOGIC                       YES
+   LVS INJECT LOGIC                       NO
    LVS EXPAND UNBALANCED CELLS            YES
    LVS FLATTEN INSIDE CELL                NO
    LVS EXPAND SEED PROMOTIONS             NO
@@ -192,9 +192,10 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Nets:               5         5
 
- Instances:          1         1         _nand2v (5 pins)
+ Instances:          2         2         MP (4 pins)
+                     1         1         SMN2 (4 pins)
                 ------    ------
- Total Inst:         1         1
+ Total Inst:         3         3
 
 
 
@@ -210,14 +211,15 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
    Nets:                5          5            0            0
 
-   Instances:           1          1            0            0    _nand2v
+   Instances:           2          2            0            0    MP(PMOS_VTL)
+                        1          1            0            0    SMN2
                   -------    -------    ---------    ---------
-   Total Inst:          1          1            0            0
+   Total Inst:          3          3            0            0
 
 
 o Initial Correspondence Points:
 
-   Ports:        vdd! vss! A B Z
+   Ports:        B A Z VSS! VDD!
 
 
 **************************************************************************************************************

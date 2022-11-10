@@ -41693,3 +41693,2166 @@
 \r t
 \a hiCloseWindow(swindow(62))
 \r t
+\o Info (ccp): Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Info (ccp): ccpDFIIChecker: Starting ...
+\o Info (ccp): ccpDFIIChecker: End running.
+\o  
+\o Library Manager deleting cellview "cad3/ring_osc_2x/layout".
+\i ddDeleteLocal(ddGetObj("cad3" "ring_osc_2x" "layout" ""))
+\o Deleted cellview 'cad3/ring_osc_2x/layout'.
+\i ddsServOpen("cad3" "ring_osc_2x" "schematic" "edit" nil)
+\# Current Window: window(71)
+\a when(dwindow('oiAssistant55) hiMapWindow(dwindow('oiAssistant55)))
+\r t
+\a when(dwindow('treeAssistant55) hiMapWindow(dwindow('treeAssistant55)))
+\r t
+\a hiResizeWindow(swindow(64) list(409:243 1309:933))
+\r t
+\a _deUpdateMenu('schematicTools 71)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(72)
+\r t
+\a hiResizeWindow(swindow(65) list(145:302 837:777))
+\r t
+\a sevChooseSimulator('sevSession10)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm10)
+\r t
+\a sevSimulatorForm10->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("/home/projects/ee476.2022aut/kegedy/cad3/spice" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("/home/projects/ee476.2022aut/kegedy/cad3/spice" "")
+\a sevSimulatorForm10->projectDir->value="/home/projects/ee476.2022aut/kegedy/cad3/spice"
+\r "/home/projects/ee476.2022aut/kegedy/cad3/spice"
+\a hiFormDone(sevSimulatorForm10)
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(71) Window cellview: cad3:ring_osc_2x:schematic  Application: Schematics
+\# Current Window: window(72)
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\r t
+\a sevNetlistFile('sevSession10 'create)
+\o generate netlist...
+\o Begin Incremental Netlisting Nov  9 21:45:47 2022
+\o End netlisting Nov  9 21:45:47 2022
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Current Window: window(73)
+\r t
+\a hiCloseWindow(window(73))
+\# Current Window: window(72)
+\r t
+\a _hiSetCurrentWinNum(72)
+\r t
+\a hiSetCurrentWindow(window(71))
+\# Current Window: window(71) Window cellview: cad3:ring_osc_2x:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i 2.05:-2.95
+\r nil
+\a hiSetCurrentWindow(window(63))
+\# Current Window: window(63)
+\r t
+\a hiResizeWindow(swindow(64) list(560:222 1460:912))
+\r t
+\a hiResizeWindow(swindow(64) list(179:25 1079:715))
+\r t
+\a hiCloseWindow(swindow(57))
+\# Current Window: window(72)
+\r t
+\a _hiSetCurrentWinNum(72)
+\r t
+\a hiResizeWindow(swindow(64) list(113:93 1013:783))
+\r t
+\a hiSetCurrentWindow(window(71))
+\# Current Window: window(71) Window cellview: cad3:ring_osc_2x:schematic  Application: analogArtist-Schematic
+\r t
+\a _deUpdateMenu('schematicTools 71)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\r t
+\a hiSetCurrentWindow(window(72))
+\# Current Window: window(72)
+\r t
+\a sevChooseSimulator('sevSession10)
+\p > 
+\a hiFormDone(sevSimulatorForm10)
+\r t
+\r t
+\a sevChooseSimulator('sevSession10)
+\p > 
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "")
+\a sevSimulatorForm10->projectDir->value="/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\r "/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\a hiFormDone(sevSimulatorForm10)
+\r t
+\r t
+\a sevNetlistFile('sevSession10 'create)
+\o generate netlist...
+\o Begin Incremental Netlisting Nov  9 21:48:05 2022
+\o End netlisting Nov  9 21:48:05 2022
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   15
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Current Window: window(74)
+\r t
+\a hiCloseWindow(window(74))
+\# Current Window: window(72)
+\r t
+\a _hiSetCurrentWinNum(72)
+\r t
+\a hiCloseWindow(swindow(65))
+\# Current Window: window(71) Window cellview: cad3:ring_osc_2x:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(71)
+\r t
+\a hiCloseWindow(swindow(64))
+\# Current Window: window(67) Window cellview: cad3:ring_osc:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(67)
+\r t
+\# Memory report: Maximum memory size now 137,277 MB at UTC 2022.11.10 10:24:03.438
+\# Memory report: Maximum memory size now 133,960 MB at UTC 2022.11.10 11:54:23.438
+\i ddsServOpen("cad3" "ring_osc" "layout" "edit" nil)
+\# Current Window: window(75)
+\a when(dwindow('ptePaletteAssistant23) hiMapWindow(dwindow('ptePaletteAssistant23)))
+\r t
+\a mgc_custom_menus_run_menu_cmd("LVS" "::CalibreInterface::execCalibre LVS" 'nil ?code "")
+\r ipc:206
+\o //  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Thu Nov 10 07:47:05 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "ring_osc", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  07:48:47
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db
+\o topCell                                 ring_osc
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.ring_osc
+\o summaryFile                             PIPO.SUM.ring_osc
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/INVD1/layout as STRUCTURE INVD1.
+\o INFO (XSTRM-223): 3. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 4. Translating cellView cad3/ring_osc/layout as STRUCTURE ring_osc.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       10
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             85
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   19
+\o 	TextDisplay:                            2
+\o 	Cells:                                  4
+\o 
+\o Elapsed Time: 0.4s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4092KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "ring_osc", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov 10 07:48:48 2022
+\o 
+\# Current Window: window(67) Window cellview: cad3:ring_osc:schematic  Application: Schematics
+\o Number of probes loaded - 1
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\a hiResizeWindow(swindow(60) list(0:143 1368:833))
+\r t
+\a hiCloseWindow(swindow(60))
+\r t
+\# Current Window: window(76)
+\o Number of probes loaded - 1
+\a when(dwindow('oiAssistant57) hiMapWindow(dwindow('oiAssistant57)))
+\r t
+\a when(dwindow('treeAssistant57) hiMapWindow(dwindow('treeAssistant57)))
+\r t
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\a hiCloseWindow(swindow(67))
+\r t
+\# Current Window: window(77)
+\o Number of probes loaded - 1
+\a when(dwindow('oiAssistant58) hiMapWindow(dwindow('oiAssistant58)))
+\r t
+\a when(dwindow('treeAssistant58) hiMapWindow(dwindow('treeAssistant58)))
+\r t
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\a hiCloseWindow(swindow(68))
+\r t
+\# Current Window: window(78)
+\o Number of probes loaded - 1
+\a when(dwindow('oiAssistant59) hiMapWindow(dwindow('oiAssistant59)))
+\r t
+\a when(dwindow('treeAssistant59) hiMapWindow(dwindow('treeAssistant59)))
+\r t
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\a hiCloseWindow(swindow(69))
+\r t
+\a hiResizeWindow(swindow(66) list(117:214 1077:904))
+\r t
+\a hiResizeWindow(swindow(66) list(117:214 1315:904))
+\r t
+\a hiZoomInAtMouse()
+\i -0.985:1.085
+\r t
+\a hiResizeWindow(swindow(66) list(263:225 1461:915))
+\r t
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiGetCurrentWindow()->stopLevel = 0
+\r 0
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a mouseSingleSelectPt()
+\i -0.685:0.87
+\r nil
+\a leHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('leCreateInstLForm)
+\r t
+\a hiiToggleEnterForm(leCreateInstLForm)
+\r t
+\a mouseAddPt(t)
+\i -0.546:0.125
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i -0.233:0.061
+\r t
+\a hiZoomInAtMouse()
+\i 0.495:0.11
+\r t
+\a mouseAddPt(t)
+\i 0.464:0.029
+\r t
+\a mouseAddPt(t)
+\i -0.175:0.09
+\r t
+\a mouseAddPt(t)
+\i 0.099:0.067
+\r t
+\a hiZoomOutAtMouse()
+\i -0.075:0.745
+\r t
+\a hiZoomOutAtMouse()
+\i -0.08:0.81
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.035:1.51
+\r t
+\a mouseAddPt(t)
+\i -0.223:1.973
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.745:1.84
+\r nil
+\a leHiSave()
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "ring_osc", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  07:53:46
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db
+\o topCell                                 ring_osc
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.ring_osc
+\o summaryFile                             PIPO.SUM.ring_osc
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/INVD1/layout as STRUCTURE INVD1.
+\o INFO (XSTRM-223): 3. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-223): 4. Translating cellView cad3/ring_osc/layout as STRUCTURE ring_osc.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       11
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             85
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   19
+\o 	TextDisplay:                            2
+\o 	Cells:                                  4
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4100KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "ring_osc", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov 10 07:53:47 2022
+\o 
+\# Current Window: window(79)
+\o Number of probes loaded - 1
+\a when(dwindow('oiAssistant60) hiMapWindow(dwindow('oiAssistant60)))
+\r t
+\a when(dwindow('treeAssistant60) hiMapWindow(dwindow('treeAssistant60)))
+\r t
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\a hiResizeWindow(swindow(70) list(803:234 1703:924))
+\r t
+\a hiSetCurrentWindow(window(79))
+\# Current Window: window(79) Window cellview: cad3:NAND2:schematic  Top cellview: cad3:ring_osc:schematic  Application: Schematics
+\r t
+\a schSingleSelectPt()
+\i -2:1.3
+\r nil
+\a hiCloseWindow(swindow(70))
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\r t
+\a _hiSetCurrentWinNum(75)
+\r t
+\a mouseSingleSelectPt()
+\i 1.325:1.81
+\r nil
+\a mouseSingleSelectPt()
+\i -0.82:1.165
+\r nil
+\a mouseSingleSelectPt()
+\i -0.325:1.42
+\r t
+\a leHiMove()
+\a leMoveLForm->leMoveFormLayerField->value = "BOUND drawing"
+\r "BOUND drawing"
+\a leMoveLForm->leMoveFormLayerField->value = "As Is"
+\r "As Is"
+\i -0.95:1.44
+\p > 
+\a mouseAddPt(t)
+\i -1.18:1.806
+\r t
+\r t
+\a leHiDelete()
+\i -0.16:1.62
+\r t
+\a hiResizeWindow(swindow(66) list(263:148 1623:915))
+\r t
+\a leHiSave()
+\# Current Window: window(75) Window cellview: cad3:ring_osc:layout  Application: Layout
+\r t
+\a hiResizeWindow(swindow(66) list(449:110 1809:877))
+\r t
+\a hiZoomOutAtMouse()
+\i 0.54:0.535
+\r t
+\a hiZoomInAtMouse()
+\i 0.115:0.44
+\r t
+\a hiZoomInAtMouse()
+\i 0.615:0.67
+\r t
+\a hiZoomOutAtMouse()
+\i 0.555:0.71
+\r t
+\a hiZoomInAtMouse()
+\i 0.56:0.71
+\r t
+\a mouseSingleSelectPt()
+\i -0.08:0.88
+\r nil
+\a mouseSingleSelectPt()
+\i -0.365:0.77
+\r nil
+\a hiResizeWindow(swindow(66) list(178:169 1538:936))
+\r t
+\a hiCloseWindow(swindow(66))
+\r t
+\i ddsServOpen("cad3" "loaded_nand" "schematic" "edit" nil)
+\# Current Window: window(80)
+\a when(dwindow('oiAssistant61) hiMapWindow(dwindow('oiAssistant61)))
+\r t
+\a when(dwindow('treeAssistant61) hiMapWindow(dwindow('treeAssistant61)))
+\r t
+\a schSingleSelectPt()
+\i -0.15:0.2
+\r t
+\a schHiObjectProperty()
+\r t
+\a hiiSetCurrentForm('schObjPropForm)
+\r t
+\a hiFormCancel(schObjPropForm) 
+\r t
+\a hiResizeWindow(swindow(71) list(650:239 1550:929))
+\r t
+\i ddsServOpen("cad3" "NAND2" "schematic" "edit" nil)
+\# Current Window: window(81)
+\a when(dwindow('oiAssistant62) hiMapWindow(dwindow('oiAssistant62)))
+\r t
+\a when(dwindow('treeAssistant62) hiMapWindow(dwindow('treeAssistant62)))
+\r t
+\a hiCloseWindow(swindow(72))
+\# Current Window: window(80) Window cellview: cad3:loaded_nand:schematic  Application: Schematics
+\r t
+\a _hiSetCurrentWinNum(80)
+\r t
+\a schSingleSelectPt()
+\i -0.45:1.3
+\r nil
+\a schSingleSelectPt()
+\i -0.35:1.45
+\r nil
+\a _deUpdateMenu('schematicTools 80)
+\r t
+\a deInstallApp(getCurrentWindow() "analogArtist-Schematic")
+\# Current Window: window(82)
+\r t
+\a hiResizeWindow(swindow(73) list(160:322 852:797))
+\r t
+\a sevChooseSimulator('sevSession11)
+\p > 
+\a hiiSetCurrentForm('sevSimulatorForm11)
+\r t
+\a sevSimulatorForm11->simulator->value="hspiceD"
+\r "hspiceD"
+\a (setq _hiFileSelectorResult (hiDisplayFileDialog ?dialogName '_hiFileSelector ?modal t ?workingDir "." ?filter "" ?mode 'directoryOnly ?defaultValue "" ?caption "Choose a Directory" ?confirmOverwrite t ))
+\p > 
+\a (hiFileDialogSetSelection _hiFileSelector '("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "") 'done)
+\r t
+\a (hiFileDialogDone _hiFileSelector t)
+\r t
+\r ("/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists" "")
+\a sevSimulatorForm11->projectDir->value="/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\r "/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists"
+\a hiFormDone(sevSimulatorForm11)
+\# Displaying modal dbox "sevblockingDialogBox", title "Save State Query"
+\p > 
+\a hiDBoxCancel(sevblockingDialogBox)
+\r t
+\# Current Window: window(80) Window cellview: cad3:loaded_nand:schematic  Application: Schematics
+\# Current Window: window(82)
+\o INFO (ADE-1104): You are changing the simulator. All options that can be recognized
+\o      by the new simulator will be retained. All other options will be ignored.
+\o      You will not be warned about any ignored option. Be sure to check all your
+\o      forms (Analysis, Options, etc) to verify you have the setup you require 
+\r t
+\r t
+\a sevNetlistFile('sevSession11 'create)
+\o generate netlist...
+\o Begin Incremental Netlisting Nov 10 08:08:49 2022
+\o End netlisting Nov 10 08:08:49 2022
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Current Window: window(83)
+\r t
+\a hiSetCurrentWindow(window(80))
+\# Current Window: window(80) Window cellview: cad3:loaded_nand:schematic  Application: analogArtist-Schematic
+\r t
+\a schSingleSelectPt()
+\i -0.1:-0.75
+\r nil
+\a hiCloseWindow(swindow(71))
+\# Current Window: window(83)
+\r t
+\a _hiSetCurrentWinNum(83)
+\r t
+\i ddsServOpen("cad3" "NAND2" "layout" "edit" nil)
+\# Current Window: window(84)
+\a when(dwindow('ptePaletteAssistant24) hiMapWindow(dwindow('ptePaletteAssistant24)))
+\r t
+\a mouseSingleSelectPt()
+\i 1.24:0.265
+\r nil
+\a leHiClearRuler()
+\r t
+\a leHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('leCreateInstLForm)
+\r t
+\a hiiToggleEnterForm(leCreateInstLForm)
+\r t
+\a mouseAddPt(t)
+\i 1.028:-0.512
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a mouseSingleSelectPt()
+\i 1.06:-0.47
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.107:-0.6
+\r t
+\a mouseAddPt(t)
+\i 0.625:-0.653
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.04:-0.565
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.038:-0.538
+\r t
+\a mouseAddPt(t)
+\i 0.707:-0.554
+\r t
+\r t
+\a leHiSave()
+\# Current Window: window(84) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\a mgc_custom_menus_run_menu_cmd("LVS" "::CalibreInterface::execCalibre LVS" 'nil ?code "")
+\r ipc:214
+\o //  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Thu Nov 10 08:15:02 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "NAND2", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:15:44
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db
+\o topCell                                 NAND2
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.NAND2
+\o summaryFile                             PIPO.SUM.NAND2
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       1
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             37
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   11
+\o 	TextDisplay:                            2
+\o 	Cells:                                  2
+\o 
+\o Elapsed Time: 1.7s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "NAND2", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o End netlisting Nov 10 08:15:46 2022
+\o 
+\# Current Window: window(85)
+\w *WARNING* (GE-2133): The object A does not exist in cellview cad3/NAND2/schematic. To create a probe, provide the name of an object that exists in the cellview.
+\o RVE: No such schematic net: A
+\a when(dwindow('oiAssistant64) hiMapWindow(dwindow('oiAssistant64)))
+\r t
+\a when(dwindow('treeAssistant64) hiMapWindow(dwindow('treeAssistant64)))
+\r t
+\a hiCloseWindow(swindow(75))
+\# Current Window: window(84) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\a _hiSetCurrentWinNum(84)
+\r t
+\a hiResizeWindow(swindow(74) list(658:197 1558:887))
+\r t
+\a hiZoomInAtMouse()
+\i 0.205:0.25
+\r t
+\a pteSetActiveLpp("metal1 drawing")
+\r nil
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a leHiMove()
+\a leMoveLForm->leMoveFormLayerField->value = "BOUND drawing"
+\r "BOUND drawing"
+\a leMoveLForm->leMoveFormLayerField->value = "As Is"
+\r "As Is"
+\i 0.255:0.18
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a pteSetSelectable("Instances" nil "Objects")
+\r t
+\a leHiMove()
+\i 0.255:0.185
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.26:0.185
+\r t
+\a leHiMove()
+\i 0.26:0.185
+\p > 
+\a mouseAddPt(t)
+\i 0.03:0.172
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.45:0.045
+\r t
+\a leHiMove()
+\i 0.45:0.045
+\p > 
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 0.435:0.035
+\r t
+\a leHiMove()
+\i 0.435:0.035
+\p > 
+\a mouseAddPt(t)
+\i 0.237:0.189
+\r t
+\r t
+\a leSelBoxOrStretch()
+\i 0.025:0.18
+\i 0.025:0.18
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.05:0.165
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 0.01:0.175
+\r t
+\a leHiMove()
+\i 0.03:0.145
+\p > 
+\a mouseAddPt(t)
+\i 0.454:0.005
+\r t
+\r t
+\i ddsServOpen("cad3" "NAND2" "schematic" "edit" nil)
+\# Current Window: window(86)
+\a when(dwindow('oiAssistant65) hiMapWindow(dwindow('oiAssistant65)))
+\r t
+\a when(dwindow('treeAssistant65) hiMapWindow(dwindow('treeAssistant65)))
+\r t
+\a hiCloseWindow(swindow(76))
+\# Current Window: window(84) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\a _hiSetCurrentWinNum(84)
+\r t
+\a mouseSingleSelectPt()
+\i 0.05:0.07
+\r nil
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiSave()
+\# Current Window: window(84) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "NAND2", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:23:56
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db
+\o topCell                                 NAND2
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.NAND2
+\o summaryFile                             PIPO.SUM.NAND2
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       1
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             37
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   11
+\o 	TextDisplay:                            2
+\o 	Cells:                                  2
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4100KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "NAND2", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o End netlisting Nov 10 08:23:57 2022
+\o 
+\a mouseSingleSelectPt()
+\i 2.05:0.705
+\r nil
+\a hiZoomInAtMouse()
+\i 0.2:0.105
+\r t
+\a hiZoomOutAtMouse()
+\i 0.16:0.07
+\r t
+\a mouseSingleSelectPt()
+\i 1.775:0.485
+\r nil
+\a mouseSingleSelectPt()
+\i 1.945:0.595
+\r nil
+\a mouseSingleSelectPt()
+\i 0.96:0.21
+\r nil
+\a pteSetSelectable("Instances" t "Objects")
+\r t
+\a mouseSingleSelectPt()
+\i 0.945:0.245
+\r t
+\a leHiMove()
+\i 0.95:0.245
+\p > 
+\a mouseAddPt(t)
+\i 1.762:0.238
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.735:0.215
+\r t
+\a leHiDelete()
+\i 1.735:0.215
+\r t
+\a leHiSave()
+\# Current Window: window(84) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\a hiSetCurrentWindow(window(83))
+\# Current Window: window(83)
+\r t
+\a hiCloseWindow(window(83))
+\# Current Window: window(82)
+\r t
+\a _hiSetCurrentWinNum(82)
+\r t
+\a hiSetCurrentWindow(window(84))
+\# Current Window: window(84) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\a mouseSingleSelectPt()
+\i 1.185:0.925
+\r nil
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "NAND2", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:26:36
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db
+\o topCell                                 NAND2
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.NAND2
+\o summaryFile                             PIPO.SUM.NAND2
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       0
+\o 	Array Instances:                        0
+\o 	Polygons:                               0
+\o 	Paths:                                  0
+\o 	Rectangles:                             28
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   5
+\o 	TextDisplay:                            0
+\o 	Cells:                                  1
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 3576KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "NAND2", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o End netlisting Nov 10 08:26:37 2022
+\o 
+\a mouseSingleSelectPt()
+\i 1.38:0.635
+\r nil
+\a leHiCreateInst()
+\p > 
+\a hiiSetCurrentForm('leCreateInstLForm)
+\r t
+\a hiiToggleEnterForm(leCreateInstLForm)
+\r t
+\a mouseAddPt(t)
+\i 1.257:-0.616
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i 1.27:-0.575
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.335:-0.677
+\r t
+\a mouseAddPt(t)
+\i 0.49:-0.642
+\r t
+\r t
+\a mouseSingleSelectPt()
+\i 1.265:-0.565
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 1.27:-0.55
+\r t
+\a mouseAddPt(t)
+\i 0.686:-0.559
+\r t
+\r t
+\a leHiSave()
+\# Current Window: window(84) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\a hiCloseWindow(swindow(74))
+\# Current Window: window(82)
+\r t
+\a _hiSetCurrentWinNum(82)
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "NAND2", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:27:16
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db
+\o topCell                                 NAND2
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.NAND2
+\o summaryFile                             PIPO.SUM.NAND2
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       1
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             37
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   11
+\o 	TextDisplay:                            2
+\o 	Cells:                                  2
+\o 
+\o Elapsed Time: 0.1s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4092KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "NAND2", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o End netlisting Nov 10 08:27:17 2022
+\o 
+\w *WARNING* (TECH-2000010): techGetTechFile: nil is an invalid ID. The valid ID is dbCellViewId or ddId for a cell or library. Specify the valid ID and rerun the function.
+\w *WARNING* (TECH-2000191): leGetValidLayerList: Invalid techfile ID - nil.
+\i ddsServOpen("cad3" "NAND2" "layout" "edit" nil)
+\# Current Window: window(87)
+\a when(dwindow('ptePaletteAssistant25) hiMapWindow(dwindow('ptePaletteAssistant25)))
+\r t
+\a hiResizeWindow(swindow(77) list(755:219 1655:909))
+\r t
+\a mgc_custom_menus_run_menu_cmd("PEX" "::CalibreInterface::execCalibre PEX" 'nil ?code "")
+\r ipc:228
+\o //  Calibre Interactive - PEX  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Thu Nov 10 08:29:50 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o WARNING: PEX RESISTANCE LUMPED is obsolete.  Please remove from your ruledeck.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "NAND2", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:30:23
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/NAND2.calibre.db
+\o topCell                                 NAND2
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.NAND2
+\o summaryFile                             PIPO.SUM.NAND2
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       1
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             37
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   11
+\o 	TextDisplay:                            2
+\o 	Cells:                                  2
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "NAND2", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o End netlisting Nov 10 08:30:24 2022
+\o 
+\a mouseSingleSelectPt()
+\i 0.18:1.15
+\r nil
+\a mouseSingleSelectPt()
+\i 1.645:0.965
+\r t
+\a leHiDelete()
+\i 1.645:0.965
+\r t
+\a leHiSave()
+\# Current Window: window(87) Window cellview: cad3:NAND2:layout  Application: Layout
+\r t
+\a hiCloseWindow(swindow(77))
+\# Current Window: window(82)
+\r t
+\a _hiSetCurrentWinNum(82)
+\r t
+\i ddsServOpen("cad3" "ring_osc" "" "edit" nil)
+\p > 
+\a hiiSetCurrentForm('deOpenForm)
+\r t
+\a _deCellChoiceCB()
+\r "layout"
+\a hiFormDone(deOpenForm)
+\r t
+\# Current Window: window(88)
+\a when(dwindow('ptePaletteAssistant26) hiMapWindow(dwindow('ptePaletteAssistant26)))
+\r t
+\a hiResizeWindow(swindow(78) list(627:195 1527:885))
+\r t
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiZoomInAtMouse()
+\i 0.135:0.65
+\r t
+\a hiZoomInAtMouse()
+\i 0.135:0.65
+\r t
+\a hiZoomInAtMouse()
+\i 0.135:0.65
+\r t
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a hiZoomOutAtMouse()
+\i 0.195:0.69
+\r t
+\a hiPan()
+\i -0.015:0.555
+\r t
+\a mouseSingleSelectPt()
+\i 0.145:0.8
+\r t
+\a pteSetSelectable("Instances" nil "Objects")
+\r t
+\a mouseSingleSelectPt()
+\i 0.25:0.885
+\r nil
+\a leHiMove()
+\a leMoveLForm->leMoveFormLayerField->value = "BOUND drawing"
+\r "BOUND drawing"
+\a leMoveLForm->leMoveFormLayerField->value = "As Is"
+\r "As Is"
+\i 0.16:0.955
+\p > 
+\a mouseAddPt(t)
+\i 0.161:0.956
+\r t
+\a mouseAddPt(t)
+\i 0.17:0.936
+\r t
+\a mouseAddPt(t)
+\i -0.318:0.895
+\r t
+\a mouseAddPt(t)
+\i 0.328:0.682
+\r t
+\a mouseAddPt(t)
+\i -0.304:0.664
+\r t
+\a mouseAddPt(t)
+\i -0.145:0.66
+\r t
+\a mouseAddPt(t)
+\i 0.315:0.857
+\r t
+\a mouseAddPt(t)
+\i -0.232:0.895
+\r t
+\a mouseAddPt(t)
+\i 0.471:0.476
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.09:0.535
+\r t
+\a pteSetActiveLpp("metal2 drawing")
+\r nil
+\a pteSetActiveLpp("contact drawing")
+\r nil
+\a pteSetActiveLpp("contact drawing")
+\r nil
+\a pteSetVisible("contact drawing" nil "Layers")
+\r t
+\a pteSetActiveLpp("via1 drawing")
+\r nil
+\a hiZoomInAtMouse()
+\i 0.165:0.605
+\r t
+\a geTogglePartialSelect()
+\r nil
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.374:0.532
+\r t
+\a mouseAddPt(t)
+\i 0.22:0.824
+\r t
+\a geSingleSelectBox()
+\i 0.38:0.525
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.225:0.52
+\r t
+\r nil
+\a mouseAddPt(t)
+\i 0.372:0.532
+\r t
+\a mouseAddPt(t)
+\i 0.216:0.53
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a geTogglePartialSelect()
+\r t
+\a mouseSingleSelectPt()
+\i 0.39:0.535
+\r t
+\a leSelBoxOrStretch()
+\i 0.385:0.535
+\i 0.385:0.535
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.225:0.53
+\r t
+\r t
+\a geTogglePartialSelect()
+\r nil
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.408:0.586
+\r t
+\a mouseAddPt(t)
+\i 0.229:0.525
+\r t
+\a mouseAddPt(t)
+\i 0.415:0.593
+\r t
+\r t
+\a hiUndo()
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 3.805:0.515
+\r t
+\a hiZoomInAtMouse()
+\i 3.54:0.505
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.09:0.5
+\r t
+\a hiZoomInAtMouse()
+\i 0.09:0.5
+\r t
+\a mouseSingleSelectPt()
+\i 0.415:0.59
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.407:0.595
+\r t
+\a mouseAddPt(t)
+\i 0.217:0.548
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 0.31:0.515
+\r t
+\a leHiCreateRuler()
+\p > 
+\a mouseAddPt(t)
+\i 0.218:0.542
+\r t
+\a hiZoomInAtMouse()
+\i 0.23:0.545
+\r t
+\a mouseAddPt(t)
+\i 0.222:0.546
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a hiZoomOutAtMouse()
+\i 0.32:0.54
+\r t
+\a mouseSingleSelectPt()
+\i 0.465:0.53
+\r t
+\a leHiQuickAlign()
+\p > 
+\a mouseAddPt(t)
+\i 0.409:0.53
+\r t
+\a mouseAddPt(t)
+\i 0.225:0.546
+\r t
+\r t
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.155:0.715
+\r t
+\a hiZoomInAtMouse()
+\i 0.16:0.64
+\r t
+\a hiZoomInAtMouse()
+\i 0.225:0.69
+\r t
+\a geTogglePartialSelect()
+\r t
+\a mouseSingleSelectPt()
+\i 0.245:0.66
+\r t
+\a leSelBoxOrStretch()
+\i 0.255:0.665
+\i 0.255:0.665
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.245:0.82
+\r t
+\r t
+\a hiZoomInAtMouse()
+\i 0.245:0.82
+\r t
+\a hiZoomInAtMouse()
+\i 0.245:0.82
+\r t
+\a mouseSingleSelectPt()
+\i 0.39:0.78
+\r nil
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a leHiClearRuler()
+\r t
+\a leHiSave()
+\# Current Window: window(88) Window cellview: cad3:ring_osc:layout  Application: Layout
+\r t
+\a mgc_custom_menus_run_menu_cmd("DRC" "::CalibreInterface::execCalibre DRC" 'nil ?code "")
+\r ipc:233
+\o //  Calibre Interactive - DRC  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Thu Nov 10 08:34:48 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\a _deUpdateWindowMenu('leSessionWindowMenu88 88)
+\r t
+\a mgc_custom_menus_run_menu_cmd("LVS" "::CalibreInterface::execCalibre LVS" 'nil ?code "")
+\r ipc:235
+\o //  Calibre Interactive - LVS  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Thu Nov 10 08:35:25 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "ring_osc", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:35:55
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db
+\o topCell                                 ring_osc
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.ring_osc
+\o summaryFile                             PIPO.SUM.ring_osc
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/INVD1/layout as STRUCTURE INVD1.
+\o INFO (XSTRM-223): 3. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 4. Translating cellView cad3/ring_osc/layout as STRUCTURE ring_osc.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       10
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             85
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   19
+\o 	TextDisplay:                            2
+\o 	Cells:                                  4
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4092KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "ring_osc", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov 10 08:35:56 2022
+\o 
+\a hiZoomInAtMouse()
+\i 0.89:0.81
+\r t
+\a hiZoomInAtMouse()
+\i 0.275:0.87
+\r t
+\a hiZoomInAtMouse()
+\i 0.275:0.87
+\r t
+\a hiZoomInAtMouse()
+\i 0.275:0.87
+\r t
+\a hiZoomOutAtMouse()
+\i 0.275:0.87
+\r t
+\a hiZoomOutAtMouse()
+\i 0.275:0.87
+\r t
+\a mouseSingleSelectPt()
+\i 0.37:0.47
+\r t
+\a leHiDelete()
+\i 0.42:0.465
+\r t
+\a mouseSingleSelectPt()
+\i 0.12:0.865
+\r t
+\a leHiDelete()
+\i 0.12:0.865
+\r t
+\a leHiCreateLabel(hiGetCurrentWindow() leGetEnv("labelMode"))
+\p > 
+\a le0LabelForm->labelText->value="osc_en"
+\r "osc_en"
+\a hiiToggleEnterForm(le0LabelForm)
+\r t
+\a mouseAddPt(t)
+\i 0.445:0.699
+\r t
+\a mouseAddPt(t)
+\i 0.441:0.699
+\r t
+\a _lxHiMousePopUp()
+\r t
+\a hiPopupDown(lePopUpMenu)
+\r t
+\a mouseAddPt(t)
+\i 0.427:0.679
+\r t
+\a mouseAddPt(t)
+\i 0.477:0.733
+\r t
+\a mouseAddPt(t)
+\i 0.457:0.79
+\r t
+\a geSingleSelectBox()
+\i 0.41:0.825
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.495:0.67
+\r t
+\r nil
+\a mouseAddPt(t)
+\i 0.427:0.765
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiCreateLabel(hiGetCurrentWindow() leGetEnv("labelMode"))
+\p > 
+\a le0LabelForm->labelHeight->value=0.05
+\r 0.05
+\a hiiToggleEnterForm(le0LabelForm)
+\r t
+\a mouseAddPt(t)
+\i 0.445:0.683
+\r t
+\a mouseAddPt(t)
+\i 0.429:0.753
+\r t
+\a mouseAddPt(t)
+\i 0.452:0.742
+\r t
+\a geSingleSelectBox()
+\i 0.45:0.735
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i 0.35:0.825
+\r t
+\r nil
+\a mouseAddPt(t)
+\i 0.452:0.676
+\r t
+\a mouseAddPt(t)
+\i 0.214:0.878
+\r t
+\a mouseAddPt(t)
+\i 0.246:0.844
+\r t
+\a mouseAddPt(t)
+\i 0.355:0.604
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a mouseSingleSelectPt()
+\i -0.015:0.725
+\r nil
+\a leHiCreateLabel(hiGetCurrentWindow() leGetEnv("labelMode"))
+\p > 
+\a le0LabelForm->labelTextLPP->value="Select layer"
+\r "Select layer"
+\a hiiToggleEnterForm(le0LabelForm)
+\r t
+\a mouseAddPt(t)
+\i 0.25:0.928
+\r t
+\a mouseAddPt(t)
+\i 0.452:0.717
+\r t
+\a geSingleSelectBox()
+\i 0.445:0.715
+\p > 
+\a addPoint(hiGetCommandPoint())
+\i -0.225:0.615
+\r t
+\r nil
+\a mouseAddPt(t)
+\i -0.038:0.971
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiSave()
+\# Current Window: window(88) Window cellview: cad3:ring_osc:layout  Application: Layout
+\r t
+\a hiCloseWindow(swindow(78))
+\# Current Window: window(82)
+\r t
+\a _hiSetCurrentWinNum(82)
+\r t
+\i ddsServOpen("cad3" "ring_osc" "layout" "edit" nil)
+\# Current Window: window(89)
+\a when(dwindow('ptePaletteAssistant27) hiMapWindow(dwindow('ptePaletteAssistant27)))
+\r t
+\a hiResizeWindow(swindow(79) list(747:229 1647:919))
+\r t
+\a hiGetCurrentWindow()->stopLevel = dbGetMaxHierDepth()
+\r 32
+\a hiZoomInAtMouse()
+\i 0.155:0.71
+\r t
+\a hiZoomInAtMouse()
+\i 0.155:0.71
+\r t
+\a leHiCreateLabel(hiGetCurrentWindow() leGetEnv("labelMode"))
+\p > 
+\a hiiToggleEnterForm(le0LabelForm)
+\r t
+\a pteSetActiveLpp("metal1 drawing")
+\r nil
+\a pteSetAllVisible(?panel "Layers")
+\r t
+\a pteSetNoneVisible(?panel "Layers")
+\r t
+\a pteSetSelectable("Instances" t "Objects")
+\r t
+\a mouseAddPt(t)
+\i 0.461:0.725
+\r t
+\a leHiCreateLabel(hiGetCurrentWindow() leGetEnv("labelMode"))
+\r t
+\a le0LabelForm->labelText->value="osc_out"
+\r "osc_out"
+\a hiiToggleEnterForm(le0LabelForm)
+\r t
+\a mouseAddPt(t)
+\i 0.252:0.858
+\r t
+\a cancelEnterFun()
+\r t
+\r nil
+\a leHiSave()
+\# Current Window: window(89) Window cellview: cad3:ring_osc:layout  Application: Layout
+\r t
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "ring_osc", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:39:02
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db
+\o topCell                                 ring_osc
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.ring_osc
+\o summaryFile                             PIPO.SUM.ring_osc
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/INVD1/layout as STRUCTURE INVD1.
+\o INFO (XSTRM-223): 3. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 4. Translating cellView cad3/ring_osc/layout as STRUCTURE ring_osc.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       10
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             85
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   19
+\o 	TextDisplay:                            2
+\o 	Cells:                                  4
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "ring_osc", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov 10 08:39:03 2022
+\o 
+\a hiZoomOutAtMouse()
+\i 0.455:0.765
+\r t
+\a hiResizeWindow(swindow(79) list(671:234 1571:924))
+\r t
+\a mgc_custom_menus_run_menu_cmd("PEX" "::CalibreInterface::execCalibre PEX" 'nil ?code "")
+\r ipc:243
+\o //  Calibre Interactive - PEX  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Thu Nov 10 08:39:55 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o WARNING: PEX RESISTANCE LUMPED is obsolete.  Please remove from your ruledeck.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "ring_osc", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  08:40:25
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.calibre.db
+\o topCell                                 ring_osc
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.ring_osc
+\o summaryFile                             PIPO.SUM.ring_osc
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-223): 2. Translating cellView cad3/INVD1/layout as STRUCTURE INVD1.
+\o INFO (XSTRM-223): 3. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 4. Translating cellView cad3/ring_osc/layout as STRUCTURE ring_osc.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       10
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             85
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   19
+\o 	TextDisplay:                            2
+\o 	Cells:                                  4
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "ring_osc", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov 10 08:40:26 2022
+\o 
+\a hiZoomAbsoluteScale(hiGetCurrentWindow() 0.9)
+\r t
+\a hiZoomInAtMouse()
+\i 0.655:0.57
+\r t
+\a hiZoomOutAtMouse()
+\i 0.42:0.33
+\r t
+\a hiCloseWindow(swindow(79))
+\# Current Window: window(82)
+\r t
+\a _hiSetCurrentWinNum(82)
+\r t
+\i ddsServOpen("cad3" "loaded_nand" "layout" "edit" nil)
+\# Current Window: window(90)
+\a when(dwindow('ptePaletteAssistant28) hiMapWindow(dwindow('ptePaletteAssistant28)))
+\r t
+\a mgc_custom_menus_run_menu_cmd("PEX" "::CalibreInterface::execCalibre PEX" 'nil ?code "")
+\r ipc:248
+\o //  Calibre Interactive - PEX  v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
+\o //
+\o //                   Copyright Siemens 1996-2021
+\o //                       All Rights Reserved.
+\o //   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+\o //      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+\o //        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+\o //
+\o //  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+\o //  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+\o //
+\o //  Mentor Graphics software executing under x86-64 Linux
+\o //
+\o //  Running on Linux linux-lab-054.ece.uw.edu 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64
+\o //  64 bit virtual addressing enabled
+\o //
+\o //  Starting time: Thu Nov 10 09:17:13 2022
+\o //
+\o //  calinteractive license acquired.
+\o //  Calibre Interactive authorized.
+\o WARNING: PEX RESISTANCE LUMPED is obsolete.  Please remove from your ruledeck.
+\o 
+\o *** Calibre Interactive: Exporting layout for library "cad3", cell "loaded_nand", view "layout" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\o 
+\o ********************************************************************************
+\o Product   : Virtuoso(R) XStream Out
+\o Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+\o           : sub-version  IC6.1.8-64b.500.17 
+\o Started at: 10-Nov-2022  09:18:29
+\o User Name : kegedy
+\o Host Name : linux-lab-054.ece.uw.edu
+\o Directory : /home/projects/ee476.2022aut/kegedy/cadence
+\o CADENCE Design Systems, Inc.
+\o ********************************************************************************
+\o Info: Cellview Rev Num:99,  Tech Rev Num:59
+\o 
+\o WARNING (XSTRM-20): Output Stream file '/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db' already exists. It will be overwritten.
+\o INFO (XSTRM-288): Performing automatic layer mapping because either the layer mapping information is not provided or the XST_AUTO_LM  value is used with the -layerMap option. Additionally, the  'xStrmOut_layerMap.txt' file has been generated and the mapping information has been added to it.
+\o INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o 
+\o Summary of Options :
+\o library                                 cad3
+\o strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.calibre.db
+\o topCell                                 loaded_nand
+\o view                                    layout
+\o runDir                                  /home/projects/ee476.2022aut/kegedy/cadence/
+\o logFile                                 PIPO.LOG.loaded_nand
+\o summaryFile                             PIPO.SUM.loaded_nand
+\o case                                    Preserve
+\o convertDot                              node
+\o convertPcellPin                         geometry
+\o 
+\o INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
+\o INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
+\o INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+\o INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+\o 
+\o Summary of Objects Translated:
+\o 	Scalar Instances:                       6
+\o 	Array Instances:                        0
+\o 	Polygons:                               4
+\o 	Paths:                                  0
+\o 	Rectangles:                             47
+\o 	Lines:                                  0
+\o 	Arcs:                                   0
+\o 	Donuts:                                 0
+\o 	Dots:                                   0
+\o 	Ellipses:                               0
+\o 	Boundaries:                             0
+\o 	Area Blockages:                         0
+\o 	Layer Blockages:                        0
+\o 	Area Halos:                             0
+\o 	Markers:                                0
+\o 	Rows:                                   0
+\o 	Standard Vias                           0
+\o 	Custom Vias:                            0
+\o 	CdsGen Vias:                            0
+\o 	Pathsegs:                               0
+\o 	Text:                                   16
+\o 	TextDisplay:                            2
+\o 	Cells:                                  3
+\o 
+\o Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+\o 
+\o INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+\o 
+\o 
+\o *** Calibre Interactive: Exporting netlist for library "cad3", cell "loaded_nand", view "schematic" ***
+\o 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+\o 
+\o Running Artist Hierarchical Netlisting ...
+\o 
+\o Loading cdf.cxt 
+\o End netlisting Nov 10 09:18:30 2022
+\o 

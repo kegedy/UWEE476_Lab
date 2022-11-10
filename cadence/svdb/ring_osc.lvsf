@@ -11,4 +11,4 @@ lvs_GroundName GROUND
 lvs_LvsOutFile LVS_REPORT ring_osc.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.src.net
 lvs_LvsOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
-lvs_LvsRunTimes 1668058311 1668058311
+lvs_LvsRunTimes 1668098428 1668098428
