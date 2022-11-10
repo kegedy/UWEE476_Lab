@@ -13,8 +13,8 @@ mpmos1 z b vdd! vdd! PMOS_VTL L=50e-9 W=250e-9 AD=26.25e-15 AS=26.25e-15 PD=460e
 ** Library name: cad3
 ** Cell name: loaded_nand
 ** View name: schematic
-xdut a b net1 NAND2
-xnand3 vdd! net1 net5 NAND2
-xnand2 vdd! net1 net4 NAND2
-xnand1 vdd! net1 net2 NAND2
-xnand0 vdd! net1 net3 NAND2
+xdut a b z NAND2
+xnand3 vdd! z net5 NAND2
+xnand2 vdd! z net4 NAND2
+xnand1 vdd! z net2 NAND2
+xnand0 vdd! z net3 NAND2

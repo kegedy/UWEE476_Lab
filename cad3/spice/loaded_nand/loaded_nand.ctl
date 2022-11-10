@@ -3,7 +3,7 @@
 * there for user reference in the future.
 
 .LIB "/home/projects/ee476.2022aut/common/cadence_setup/freepdk45.l" tt_lib
-.INCLUDE "loaded_inverter.ckt"
+.INCLUDE "loaded_nand.ckt"
 
 ** include freepdk45.l
 *.lib "freepdk45.l" tt_lib
@@ -27,11 +27,12 @@
 * vg vg 0 DC=v_gate
 Vvdd vdd! 0 vdd
 Vvss vss! 0 0
-*Vvgs vi 0 1.2
+Va a 0 vdd 
+
 
 * ==== TRANsient analysis definition ====
 *.TRAN <t_step> <t_duration>
-.TRAN 1p 10n
+.TRAN 1p 5n
 
 * ==== Input waveform ====
 .PARAM rise_time = 20p
@@ -39,7 +40,7 @@ Vvss vss! 0 0
 .PARAM pulse_width = 250p
 .PARAM period = 500p
 .PARAM time_delay = 0n
-Vvgs Vi 0 PULSE
+Vb b 0 PULSE
    + 0 vdd time_delay
    + rise_time fall_time
    + pulse_width period
@@ -57,9 +58,9 @@ Vvgs Vi 0 PULSE
 .probe lx4(m0)
 
 * Measurements
-.meas tran rise_time trig V(Vo) val='0.2*vdd' RISE=2 TD=250p targ V(Vo) val='0.8*vdd' RISE=2 TD=250p
-.meas tran fall_time trig V(Vo) val='0.8*vdd' FALL=2 TD='period' targ V(Vo) val='0.2*vdd' FALL=2 TD='period'
-.meas tran rise_delay trig V(Vi) val='0.5*vdd' RISE=2 TD=250p targ V(Vo) val='0.5*vdd' FALL=2 TD=250p
-.meas tran fall_delay trig V(Vi) val='0.5*vdd' FALL=2 TD='period' targ V(Vo) val='0.5*vdd' RISE=2 TD='period'
+.meas tran rise_time trig V(z) val='0.2*vdd' RISE=2 TD=250p targ V(z) val='0.8*vdd' RISE=2 TD=250p
+.meas tran fall_time trig V(z) val='0.8*vdd' FALL=2 TD='period' targ V(z) val='0.2*vdd' FALL=2 TD='period'
+.meas tran rise_delay trig V(b) val='0.5*vdd' RISE=2 TD=250p targ V(z) val='0.5*vdd' FALL=2 TD=250p
+.meas tran fall_delay trig V(b) val='0.5*vdd' FALL=2 TD='period' targ V(z) val='0.5*vdd' RISE=2 TD='period'
 
 .END

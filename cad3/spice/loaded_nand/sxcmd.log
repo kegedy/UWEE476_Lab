@@ -1,0 +1,1241 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 18:11:36 on Wed Nov  9 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 4380   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {loaded_nand.tr0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:loaded_nand.tr0(0)} {+sep=@}
+wv_drag_tree_item {Custom WaveView} {} {hierview} {D0:loaded_nand.tr0(0)@toplevel(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:loaded_nand.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {a} 1
+wv_drag_list_item {Custom WaveView} {} {sigview} {a} 1
+wv_select_list_item {Custom WaveView} {} {sigview} {b} 2
+wv_select_list_item {Custom WaveView} {} {sigview} {b} 2
+wv_drag_list_item {Custom WaveView} {} {sigview} {b} 2
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {z} 13
+wv_drag_list_item {Custom WaveView} {} {sigview} {z} 13
+wv_drag_enter WV1
+wv_drag_to WV1 5 318
+wv_drag_to WV1 42 460
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {a} 1
+wv_drag_list_item {Custom WaveView} {} {sigview} {a} 1
+wv_drag_enter WV1
+wv_drag_to WV1 0 157
+wv_drag_leave WV1
+wv_drag_enter WV1
+wv_drag_to WV1 0 85
+wv_drag_to WV1 46 24
+wv_drag_to WV1 49 25
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 823 20
+wv_zoom_x WV1.PANEL1:1 3.97597e-09 5.02288e-09
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_select_tree_item {MeasurementTool} {} {TypeList} {Time Domain.Rise/Fall Time} {0} {+sep=.}
+wv_set_check {MeasurementTool} {} {ThresPercentage} 1
+wv_set_text {MeasurementTool} {} {HighPercentage} "80"
+wv_set_text {MeasurementTool} {} {LowPercentage} "20"
+wv_set_check {MeasurementTool} {} {RFvsX} 1
+wv_set_radion {MeasurementTool} {} {EitherEdge} 
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_move_window {MeasurementTool} {} 276 142
+wv_move_window {MeasurementTool} {} 276 144
+wv_move_window {MeasurementTool} {} 276 147
+wv_move_window {MeasurementTool} {} 276 148
+wv_move_window {MeasurementTool} {} 276 152
+wv_move_window {MeasurementTool} {} 276 157
+wv_move_window {MeasurementTool} {} 271 193
+wv_move_window {MeasurementTool} {} 264 229
+wv_move_window {MeasurementTool} {} 263 244
+wv_move_window {MeasurementTool} {} 260 244
+wv_move_window {MeasurementTool} {} 253 293
+wv_move_window {MeasurementTool} {} 252 293
+wv_move_window {MeasurementTool} {} 248 313
+wv_move_window {MeasurementTool} {} 247 320
+wv_move_window {MeasurementTool} {} 242 345
+wv_move_window {MeasurementTool} {} 241 350
+wv_move_window {MeasurementTool} {} 238 363
+wv_move_window {MeasurementTool} {} 235 380
+wv_move_window {MeasurementTool} {} 229 407
+wv_move_window {MeasurementTool} {} 226 423
+wv_move_window {MeasurementTool} {} 220 446
+wv_move_window {MeasurementTool} {} 213 474
+wv_move_window {MeasurementTool} {} 210 486
+wv_move_window {MeasurementTool} {} 208 490
+wv_move_window {MeasurementTool} {} 206 498
+wv_move_window {MeasurementTool} {} 201 512
+wv_move_window {MeasurementTool} {} 187 546
+wv_move_window {MeasurementTool} {} 184 553
+wv_move_window {MeasurementTool} {} 180 561
+wv_move_window {MeasurementTool} {} 172 577
+wv_move_window {MeasurementTool} {} 168 584
+wv_move_window {MeasurementTool} {} 162 596
+wv_move_window {MeasurementTool} {} 159 600
+wv_move_window {MeasurementTool} {} 155 607
+wv_move_window {MeasurementTool} {} 149 616
+wv_move_window {MeasurementTool} {} 148 618
+wv_move_window {MeasurementTool} {} 142 627
+wv_move_window {MeasurementTool} {} 118 659
+wv_move_window {MeasurementTool} {} 113 665
+wv_move_window {MeasurementTool} {} 109 671
+wv_move_window {MeasurementTool} {} 109 673
+wv_move_window {MeasurementTool} {} 105 677
+wv_move_window {MeasurementTool} {} 103 679
+wv_move_window {MeasurementTool} {} 100 683
+wv_move_window {MeasurementTool} {} 98 685
+wv_move_window {MeasurementTool} {} 95 688
+wv_move_window {MeasurementTool} {} 90 694
+wv_move_window {MeasurementTool} {} 84 701
+wv_move_window {MeasurementTool} {} 74 709
+wv_move_window {MeasurementTool} {} 73 711
+wv_move_window {MeasurementTool} {} 72 711
+wv_move_window {MeasurementTool} {} 70 713
+wv_move_window {MeasurementTool} {} 67 714
+wv_move_window {MeasurementTool} {} 67 715
+wv_move_window {MeasurementTool} {} 65 717
+wv_move_window {MeasurementTool} {} 61 718
+wv_move_window {MeasurementTool} {} 61 720
+wv_move_window {MeasurementTool} {} 59 720
+wv_move_window {MeasurementTool} {} 57 722
+wv_move_window {MeasurementTool} {} 54 724
+wv_move_window {MeasurementTool} {} 52 725
+wv_move_window {MeasurementTool} {} 41 726
+wv_move_window {MeasurementTool} {} 41 727
+wv_move_window {MeasurementTool} {} 41 728
+wv_move_window {MeasurementTool} {} 41 730
+wv_move_window {MeasurementTool} {} 41 733
+wv_move_window {MeasurementTool} {} 41 734
+wv_move_window {MeasurementTool} {} 41 736
+wv_move_window {MeasurementTool} {} 41 742
+wv_move_window {MeasurementTool} {} 27 745
+wv_move_window {MeasurementTool} {} 25 747
+wv_move_window {MeasurementTool} {} 24 748
+wv_move_window {MeasurementTool} {} 22 750
+wv_move_window {MeasurementTool} {} 18 753
+wv_move_window {MeasurementTool} {} 0 759
+wv_move_window {MeasurementTool} {} 0 761
+wv_move_window {MeasurementTool} {} 0 766
+wv_move_window {MeasurementTool} {} 0 768
+wv_move_window {MeasurementTool} {} 0 771
+wv_move_window {MeasurementTool} {} -11 776
+wv_move_window {MeasurementTool} {} -15 779
+wv_move_window {MeasurementTool} {} -16 780
+wv_move_window {MeasurementTool} {} -21 783
+wv_move_window {MeasurementTool} {} -22 784
+wv_move_window {MeasurementTool} {} -24 786
+wv_move_window {MeasurementTool} {} -28 789
+wv_move_window {MeasurementTool} {} -28 790
+wv_move_window {MeasurementTool} {} -30 791
+wv_move_window {MeasurementTool} {} -34 795
+wv_move_window {MeasurementTool} {} -39 798
+wv_move_window {MeasurementTool} {} -39 799
+wv_move_window {MeasurementTool} {} -41 800
+wv_move_window {MeasurementTool} {} -42 801
+wv_move_window {MeasurementTool} {} -42 800
+wv_move_window {MeasurementTool} {} -41 800
+wv_move_window {MeasurementTool} {} -39 798
+wv_move_window {MeasurementTool} {} -38 798
+wv_move_window {MeasurementTool} {} -37 797
+wv_move_window {MeasurementTool} {} -36 797
+wv_move_window {MeasurementTool} {} -34 795
+wv_move_window {MeasurementTool} {} -31 794
+wv_move_window {MeasurementTool} {} -31 793
+wv_move_window {MeasurementTool} {} -29 792
+wv_move_window {MeasurementTool} {} -27 792
+wv_move_window {MeasurementTool} {} -26 791
+wv_move_window {MeasurementTool} {} -25 791
+wv_move_window {MeasurementTool} {} -24 790
+wv_move_window {MeasurementTool} {} -23 789
+wv_move_window {MeasurementTool} {} -22 789
+wv_move_window {MeasurementTool} {} -21 789
+wv_move_window {MeasurementTool} {} -20 789
+wv_move_window {MeasurementTool} {} -20 788
+wv_move_window {MeasurementTool} {} -19 788
+wv_move_window {MeasurementTool} {} -18 788
+wv_move_window {MeasurementTool} {} -17 787
+wv_move_window {MeasurementTool} {} -16 787
+wv_move_window {MeasurementTool} {} -15 787
+wv_move_window {MeasurementTool} {} -15 786
+wv_move_window {MeasurementTool} {} -14 786
+wv_move_window {MeasurementTool} {} -13 785
+wv_move_window {MeasurementTool} {} -12 785
+wv_move_window {MeasurementTool} {} -11 785
+wv_move_window {MeasurementTool} {} 0 784
+wv_move_window {MeasurementTool} {} 0 782
+wv_move_window {MeasurementTool} {} 0 780
+wv_move_window {MeasurementTool} {} 0 779
+wv_move_window {MeasurementTool} {} 0 776
+wv_move_window {MeasurementTool} {} 0 775
+wv_move_window {MeasurementTool} {} 0 774
+wv_move_window {MeasurementTool} {} 0 772
+wv_move_window {MeasurementTool} {} 12 769
+wv_move_window {MeasurementTool} {} 13 767
+wv_move_window {MeasurementTool} {} 22 760
+wv_move_window {MeasurementTool} {} 26 757
+wv_move_window {MeasurementTool} {} 29 754
+wv_move_window {MeasurementTool} {} 41 747
+wv_move_window {MeasurementTool} {} 41 743
+wv_move_window {MeasurementTool} {} 41 741
+wv_move_window {MeasurementTool} {} 41 739
+wv_move_window {MeasurementTool} {} 41 736
+wv_move_window {MeasurementTool} {} 53 728
+wv_move_window {MeasurementTool} {} 62 718
+wv_move_window {MeasurementTool} {} 63 716
+wv_move_window {MeasurementTool} {} 66 714
+wv_move_window {MeasurementTool} {} 80 693
+wv_move_window {MeasurementTool} {} 82 691
+wv_move_window {MeasurementTool} {} 90 680
+wv_move_window {MeasurementTool} {} 97 671
+wv_move_window {MeasurementTool} {} 105 661
+wv_move_window {MeasurementTool} {} 110 653
+wv_move_window {MeasurementTool} {} 112 650
+wv_move_window {MeasurementTool} {} 113 647
+wv_move_window {MeasurementTool} {} 126 630
+wv_move_window {MeasurementTool} {} 132 621
+wv_move_window {MeasurementTool} {} 134 619
+wv_move_window {MeasurementTool} {} 136 617
+wv_move_window {MeasurementTool} {} 139 611
+wv_move_window {MeasurementTool} {} 142 608
+wv_move_window {MeasurementTool} {} 160 584
+wv_move_window {MeasurementTool} {} 166 575
+wv_move_window {MeasurementTool} {} 171 566
+wv_move_window {MeasurementTool} {} 186 547
+wv_move_window {MeasurementTool} {} 189 542
+wv_move_window {MeasurementTool} {} 189 540
+wv_move_window {MeasurementTool} {} 196 531
+wv_move_window {MeasurementTool} {} 199 527
+wv_move_window {MeasurementTool} {} 214 504
+wv_move_window {MeasurementTool} {} 217 500
+wv_move_window {MeasurementTool} {} 225 487
+wv_move_window {MeasurementTool} {} 227 484
+wv_move_window {MeasurementTool} {} 231 480
+wv_move_window {MeasurementTool} {} 237 472
+wv_move_window {MeasurementTool} {} 242 463
+wv_move_window {MeasurementTool} {} 244 460
+wv_move_window {MeasurementTool} {} 246 457
+wv_move_window {MeasurementTool} {} 250 451
+wv_move_window {MeasurementTool} {} 251 450
+wv_move_window {MeasurementTool} {} 252 448
+wv_move_window {MeasurementTool} {} 264 432
+wv_move_window {MeasurementTool} {} 270 424
+wv_move_window {MeasurementTool} {} 271 422
+wv_move_window {MeasurementTool} {} 272 421
+wv_move_window {MeasurementTool} {} 275 418
+wv_move_window {MeasurementTool} {} 277 416
+wv_move_window {MeasurementTool} {} 280 410
+wv_move_window {MeasurementTool} {} 282 409
+wv_move_window {MeasurementTool} {} 283 408
+wv_move_window {MeasurementTool} {} 286 404
+wv_move_window {MeasurementTool} {} 287 403
+wv_move_window {MeasurementTool} {} 288 402
+wv_move_window {MeasurementTool} {} 289 401
+wv_move_window {MeasurementTool} {} 291 398
+wv_move_window {MeasurementTool} {} 295 395
+wv_move_window {MeasurementTool} {} 296 393
+wv_move_window {MeasurementTool} {} 297 391
+wv_move_window {MeasurementTool} {} 299 389
+wv_move_window {MeasurementTool} {} 300 389
+wv_move_window {MeasurementTool} {} 301 387
+wv_move_window {MeasurementTool} {} 302 386
+wv_move_window {MeasurementTool} {} 303 385
+wv_move_window {MeasurementTool} {} 307 381
+wv_move_window {MeasurementTool} {} 311 376
+wv_move_window {MeasurementTool} {} 312 376
+wv_move_window {MeasurementTool} {} 391 244
+wv_select_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformUndo0} 
+wv_select_dialog {MeasurementTool} 
+wv_set_check {MeasurementTool} {} {FallvsX} 1
+wv_set_check {MeasurementTool} {} {RFvsX} 0
+wv_set_check {MeasurementTool} {} {RisevsX} 1
+wv_move_window {MeasurementTool} {} 390 244
+wv_move_window {MeasurementTool} {} 389 244
+wv_move_window {MeasurementTool} {} 388 244
+wv_move_window {MeasurementTool} {} 388 233
+wv_move_window {MeasurementTool} {} 386 230
+wv_move_window {MeasurementTool} {} 385 229
+wv_move_window {MeasurementTool} {} 384 228
+wv_move_window {MeasurementTool} {} 384 227
+wv_move_window {MeasurementTool} {} 380 221
+wv_move_window {MeasurementTool} {} 379 221
+wv_move_window {MeasurementTool} {} 379 220
+wv_move_window {MeasurementTool} {} 378 220
+wv_move_window {MeasurementTool} {} 374 215
+wv_move_window {MeasurementTool} {} 373 214
+wv_move_window {MeasurementTool} {} 372 214
+wv_move_window {MeasurementTool} {} 372 212
+wv_move_window {MeasurementTool} {} 371 212
+wv_move_window {MeasurementTool} {} 368 208
+wv_move_window {MeasurementTool} {} 367 208
+wv_move_window {MeasurementTool} {} 366 207
+wv_move_window {MeasurementTool} {} 365 206
+wv_move_window {MeasurementTool} {} 364 205
+wv_move_window {MeasurementTool} {} 363 204
+wv_move_window {MeasurementTool} {} 362 203
+wv_move_window {MeasurementTool} {} 361 202
+wv_move_window {MeasurementTool} {} 359 200
+wv_move_window {MeasurementTool} {} 358 200
+wv_move_window {MeasurementTool} {} 357 199
+wv_move_window {MeasurementTool} {} 356 199
+wv_move_window {MeasurementTool} {} 356 198
+wv_move_window {MeasurementTool} {} 355 198
+wv_move_window {MeasurementTool} {} 355 197
+wv_move_window {MeasurementTool} {} 354 197
+wv_move_window {MeasurementTool} {} 354 196
+wv_move_window {MeasurementTool} {} 353 196
+wv_move_window {MeasurementTool} {} 352 196
+wv_move_window {MeasurementTool} {} 348 194
+wv_move_window {MeasurementTool} {} 348 193
+wv_move_window {MeasurementTool} {} 348 192
+wv_move_window {MeasurementTool} {} 347 192
+wv_move_window {MeasurementTool} {} 346 191
+wv_move_window {MeasurementTool} {} 345 191
+wv_move_window {MeasurementTool} {} 344 191
+wv_move_window {MeasurementTool} {} 343 190
+wv_move_window {MeasurementTool} {} 342 190
+wv_move_window {MeasurementTool} {} 342 189
+wv_move_window {MeasurementTool} {} 341 188
+wv_move_window {MeasurementTool} {} 339 187
+wv_move_window {MeasurementTool} {} 338 187
+wv_move_window {MeasurementTool} {} 337 186
+wv_move_window {MeasurementTool} {} 336 186
+wv_move_window {MeasurementTool} {} 336 185
+wv_move_window {MeasurementTool} {} 333 183
+wv_move_window {MeasurementTool} {} 332 182
+wv_move_window {MeasurementTool} {} 331 181
+wv_move_window {MeasurementTool} {} 330 180
+wv_move_window {MeasurementTool} {} 327 178
+wv_move_window {MeasurementTool} {} 325 175
+wv_move_window {MeasurementTool} {} 324 174
+wv_move_window {MeasurementTool} {} 322 171
+wv_move_window {MeasurementTool} {} 320 169
+wv_move_window {MeasurementTool} {} 316 166
+wv_move_window {MeasurementTool} {} 308 157
+wv_move_window {MeasurementTool} {} 304 153
+wv_move_window {MeasurementTool} {} 304 151
+wv_move_window {MeasurementTool} {} 303 151
+wv_move_window {MeasurementTool} {} 300 148
+wv_move_window {MeasurementTool} {} 295 142
+wv_move_window {MeasurementTool} {} 292 139
+wv_move_window {MeasurementTool} {} 291 137
+wv_move_window {MeasurementTool} {} 286 131
+wv_move_window {MeasurementTool} {} 284 129
+wv_move_window {MeasurementTool} {} 284 128
+wv_move_window {MeasurementTool} {} 283 127
+wv_move_window {MeasurementTool} {} 281 124
+wv_move_window {MeasurementTool} {} 279 122
+wv_move_window {MeasurementTool} {} 278 120
+wv_move_window {MeasurementTool} {} 276 118
+wv_move_window {MeasurementTool} {} 275 117
+wv_move_window {MeasurementTool} {} 274 115
+wv_move_window {MeasurementTool} {} 271 111
+wv_move_window {MeasurementTool} {} 270 111
+wv_move_window {MeasurementTool} {} 270 110
+wv_move_window {MeasurementTool} {} 270 109
+wv_move_window {MeasurementTool} {} 269 109
+wv_move_window {MeasurementTool} {} 269 108
+wv_move_window {MeasurementTool} {} 269 107
+wv_move_window {MeasurementTool} {} 268 107
+wv_move_window {MeasurementTool} {} 268 106
+wv_move_window {MeasurementTool} {} 268 105
+wv_move_window {MeasurementTool} {} 267 104
+wv_select_dialog {MeasurementTool} 
+wv_set_radion {MeasurementTool} {} {EitherEdge} 
+wv_set_radion {MeasurementTool} {} {RiseEdge} 
+wv_set_check {MeasurementTool} {} {FallvsX} 0
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_move_window {MeasurementTool} {} 267 112
+wv_move_window {MeasurementTool} {} 267 117
+wv_move_window {MeasurementTool} {} 267 120
+wv_move_window {MeasurementTool} {} 265 126
+wv_move_window {MeasurementTool} {} 265 127
+wv_move_window {MeasurementTool} {} 264 134
+wv_move_window {MeasurementTool} {} 263 138
+wv_move_window {MeasurementTool} {} 261 148
+wv_move_window {MeasurementTool} {} 260 152
+wv_move_window {MeasurementTool} {} 258 159
+wv_move_window {MeasurementTool} {} 256 168
+wv_move_window {MeasurementTool} {} 245 201
+wv_move_window {MeasurementTool} {} 234 229
+wv_move_window {MeasurementTool} {} 232 244
+wv_move_window {MeasurementTool} {} 227 244
+wv_move_window {MeasurementTool} {} 211 293
+wv_move_window {MeasurementTool} {} 206 293
+wv_move_window {MeasurementTool} {} 201 306
+wv_move_window {MeasurementTool} {} 194 322
+wv_move_window {MeasurementTool} {} 188 332
+wv_move_window {MeasurementTool} {} 181 346
+wv_move_window {MeasurementTool} {} 172 361
+wv_move_window {MeasurementTool} {} 165 374
+wv_move_window {MeasurementTool} {} 144 407
+wv_move_window {MeasurementTool} {} 137 417
+wv_move_window {MeasurementTool} {} 133 422
+wv_move_window {MeasurementTool} {} 124 436
+wv_move_window {MeasurementTool} {} 83 488
+wv_move_window {MeasurementTool} {} 74 499
+wv_move_window {MeasurementTool} {} 59 516
+wv_move_window {MeasurementTool} {} 53 522
+wv_move_window {MeasurementTool} {} 41 528
+wv_move_window {MeasurementTool} {} 41 536
+wv_move_window {MeasurementTool} {} 41 541
+wv_move_window {MeasurementTool} {} 41 548
+wv_move_window {MeasurementTool} {} 27 553
+wv_move_window {MeasurementTool} {} 23 556
+wv_move_window {MeasurementTool} {} 19 563
+wv_move_window {MeasurementTool} {} 14 568
+wv_move_window {MeasurementTool} {} 0 579
+wv_move_window {MeasurementTool} {} 0 581
+wv_move_window {MeasurementTool} {} 0 587
+wv_move_window {MeasurementTool} {} -16 608
+wv_move_window {MeasurementTool} {} -19 612
+wv_move_window {MeasurementTool} {} -20 614
+wv_move_window {MeasurementTool} {} -21 616
+wv_move_window {MeasurementTool} {} -23 617
+wv_move_window {MeasurementTool} {} -25 621
+wv_move_window {MeasurementTool} {} -26 623
+wv_move_window {MeasurementTool} {} -35 638
+wv_move_window {MeasurementTool} {} -37 640
+wv_move_window {MeasurementTool} {} -38 642
+wv_move_window {MeasurementTool} {} -44 653
+wv_move_window {MeasurementTool} {} -46 655
+wv_move_window {MeasurementTool} {} -48 660
+wv_move_window {MeasurementTool} {} -50 664
+wv_move_window {MeasurementTool} {} -53 667
+wv_move_window {MeasurementTool} {} -54 671
+wv_move_window {MeasurementTool} {} -55 672
+wv_move_window {MeasurementTool} {} -58 677
+wv_move_window {MeasurementTool} {} -59 679
+wv_move_window {MeasurementTool} {} -59 681
+wv_move_window {MeasurementTool} {} -61 683
+wv_move_window {MeasurementTool} {} -62 686
+wv_move_window {MeasurementTool} {} -63 688
+wv_move_window {MeasurementTool} {} -64 690
+wv_move_window {MeasurementTool} {} -65 691
+wv_move_window {MeasurementTool} {} -65 692
+wv_move_window {MeasurementTool} {} -66 694
+wv_move_window {MeasurementTool} {} -67 697
+wv_move_window {MeasurementTool} {} -68 700
+wv_move_window {MeasurementTool} {} -70 705
+wv_move_window {MeasurementTool} {} -72 710
+wv_move_window {MeasurementTool} {} -73 712
+wv_move_window {MeasurementTool} {} -73 714
+wv_move_window {MeasurementTool} {} -74 715
+wv_move_window {MeasurementTool} {} -77 724
+wv_move_window {MeasurementTool} {} -79 733
+wv_move_window {MeasurementTool} {} -81 735
+wv_move_window {MeasurementTool} {} -81 738
+wv_move_window {MeasurementTool} {} -83 745
+wv_move_window {MeasurementTool} {} -84 746
+wv_move_window {MeasurementTool} {} -86 757
+wv_move_window {MeasurementTool} {} -87 763
+wv_move_window {MeasurementTool} {} -89 768
+wv_move_window {MeasurementTool} {} -90 774
+wv_move_window {MeasurementTool} {} -90 779
+wv_move_window {MeasurementTool} {} -91 780
+wv_move_window {MeasurementTool} {} -92 785
+wv_move_window {MeasurementTool} {} -94 795
+wv_move_window {MeasurementTool} {} -94 797
+wv_move_window {MeasurementTool} {} -96 808
+wv_move_window {MeasurementTool} {} -96 810
+wv_move_window {MeasurementTool} {} -97 816
+wv_move_window {MeasurementTool} {} -97 817
+wv_move_window {MeasurementTool} {} -97 819
+wv_move_window {MeasurementTool} {} -97 822
+wv_move_window {MeasurementTool} {} -98 824
+wv_move_window {MeasurementTool} {} -98 825
+wv_move_window {MeasurementTool} {} -98 826
+wv_move_window {MeasurementTool} {} -98 825
+wv_move_window {MeasurementTool} {} -98 824
+wv_move_window {MeasurementTool} {} -98 823
+wv_move_window {MeasurementTool} {} -97 823
+wv_move_window {MeasurementTool} {} -97 822
+wv_move_window {MeasurementTool} {} -96 821
+wv_move_window {MeasurementTool} {} -96 820
+wv_move_window {MeasurementTool} {} -95 820
+wv_move_window {MeasurementTool} {} -95 819
+wv_move_window {MeasurementTool} {} -95 818
+wv_select_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL3:1.LEGEND
+wv_select_panel WV1.PANEL3:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL3:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_dialog {MeasurementTool} 
+wv_move_window {MeasurementTool} {} -92 810
+wv_move_window {MeasurementTool} {} -92 806
+wv_move_window {MeasurementTool} {} -91 805
+wv_move_window {MeasurementTool} {} -91 804
+wv_move_window {MeasurementTool} {} -91 802
+wv_move_window {MeasurementTool} {} -90 799
+wv_move_window {MeasurementTool} {} -90 798
+wv_move_window {MeasurementTool} {} -90 797
+wv_move_window {MeasurementTool} {} -89 797
+wv_move_window {MeasurementTool} {} -89 795
+wv_move_window {MeasurementTool} {} -89 794
+wv_move_window {MeasurementTool} {} -89 793
+wv_move_window {MeasurementTool} {} -89 791
+wv_move_window {MeasurementTool} {} -89 790
+wv_move_window {MeasurementTool} {} -89 789
+wv_move_window {MeasurementTool} {} -89 788
+wv_move_window {MeasurementTool} {} -89 787
+wv_move_window {MeasurementTool} {} -89 786
+wv_move_window {MeasurementTool} {} -89 785
+wv_move_window {MeasurementTool} {} -89 784
+wv_move_window {MeasurementTool} {} -89 782
+wv_move_window {MeasurementTool} {} -88 782
+wv_move_window {MeasurementTool} {} -88 780
+wv_move_window {MeasurementTool} {} -88 777
+wv_move_window {MeasurementTool} {} -88 776
+wv_move_window {MeasurementTool} {} -88 773
+wv_move_window {MeasurementTool} {} -88 772
+wv_move_window {MeasurementTool} {} -88 768
+wv_move_window {MeasurementTool} {} -88 765
+wv_move_window {MeasurementTool} {} -89 764
+wv_move_window {MeasurementTool} {} -89 762
+wv_move_window {MeasurementTool} {} -89 754
+wv_move_window {MeasurementTool} {} -89 746
+wv_move_window {MeasurementTool} {} -89 733
+wv_move_window {MeasurementTool} {} -89 730
+wv_move_window {MeasurementTool} {} -89 727
+wv_move_window {MeasurementTool} {} -89 725
+wv_move_window {MeasurementTool} {} -89 724
+wv_move_window {MeasurementTool} {} -89 719
+wv_move_window {MeasurementTool} {} -88 716
+wv_move_window {MeasurementTool} {} -88 712
+wv_move_window {MeasurementTool} {} -88 710
+wv_move_window {MeasurementTool} {} -88 708
+wv_move_window {MeasurementTool} {} -88 704
+wv_move_window {MeasurementTool} {} -88 699
+wv_move_window {MeasurementTool} {} -88 695
+wv_move_window {MeasurementTool} {} -88 690
+wv_move_window {MeasurementTool} {} -88 689
+wv_move_window {MeasurementTool} {} -88 688
+wv_move_window {MeasurementTool} {} -88 686
+wv_move_window {MeasurementTool} {} -88 685
+wv_move_window {MeasurementTool} {} -88 683
+wv_move_window {MeasurementTool} {} -88 679
+wv_move_window {MeasurementTool} {} -88 676
+wv_move_window {MeasurementTool} {} -88 674
+wv_move_window {MeasurementTool} {} -88 671
+wv_move_window {MeasurementTool} {} -88 668
+wv_move_window {MeasurementTool} {} -88 667
+wv_move_window {MeasurementTool} {} -88 666
+wv_move_window {MeasurementTool} {} -88 663
+wv_move_window {MeasurementTool} {} -88 657
+wv_move_window {MeasurementTool} {} -88 656
+wv_move_window {MeasurementTool} {} -87 653
+wv_move_window {MeasurementTool} {} -86 650
+wv_move_window {MeasurementTool} {} -86 649
+wv_move_window {MeasurementTool} {} -86 646
+wv_move_window {MeasurementTool} {} -86 645
+wv_move_window {MeasurementTool} {} -86 643
+wv_move_window {MeasurementTool} {} -85 642
+wv_move_window {MeasurementTool} {} -85 641
+wv_move_window {MeasurementTool} {} -84 637
+wv_move_window {MeasurementTool} {} -84 635
+wv_move_window {MeasurementTool} {} -83 627
+wv_move_window {MeasurementTool} {} -80 610
+wv_move_window {MeasurementTool} {} -79 604
+wv_move_window {MeasurementTool} {} -78 596
+wv_move_window {MeasurementTool} {} -78 593
+wv_move_window {MeasurementTool} {} -77 591
+wv_move_window {MeasurementTool} {} -77 588
+wv_move_window {MeasurementTool} {} -76 586
+wv_move_window {MeasurementTool} {} -76 577
+wv_move_window {MeasurementTool} {} -75 573
+wv_move_window {MeasurementTool} {} -75 570
+wv_move_window {MeasurementTool} {} -75 569
+wv_move_window {MeasurementTool} {} -75 568
+wv_move_window {MeasurementTool} {} -73 559
+wv_move_window {MeasurementTool} {} -73 553
+wv_move_window {MeasurementTool} {} -72 550
+wv_move_window {MeasurementTool} {} -72 547
+wv_move_window {MeasurementTool} {} -71 545
+wv_move_window {MeasurementTool} {} -71 539
+wv_move_window {MeasurementTool} {} -70 531
+wv_move_window {MeasurementTool} {} -70 529
+wv_move_window {MeasurementTool} {} -70 526
+wv_move_window {MeasurementTool} {} -70 525
+wv_move_window {MeasurementTool} {} -69 523
+wv_move_window {MeasurementTool} {} -69 520
+wv_move_window {MeasurementTool} {} -68 518
+wv_move_window {MeasurementTool} {} -68 516
+wv_move_window {MeasurementTool} {} -68 511
+wv_move_window {MeasurementTool} {} -68 509
+wv_move_window {MeasurementTool} {} -67 505
+wv_move_window {MeasurementTool} {} -67 504
+wv_move_window {MeasurementTool} {} -67 501
+wv_move_window {MeasurementTool} {} -67 500
+wv_move_window {MeasurementTool} {} -67 493
+wv_move_window {MeasurementTool} {} -67 492
+wv_move_window {MeasurementTool} {} -67 490
+wv_move_window {MeasurementTool} {} -67 489
+wv_move_window {MeasurementTool} {} -67 487
+wv_move_window {MeasurementTool} {} -67 486
+wv_move_window {MeasurementTool} {} -67 485
+wv_move_window {MeasurementTool} {} -67 484
+wv_move_window {MeasurementTool} {} -67 483
+wv_move_window {MeasurementTool} {} -67 482
+wv_move_window {MeasurementTool} {} -67 481
+wv_move_window {MeasurementTool} {} -66 481
+wv_move_window {MeasurementTool} {} -66 480
+wv_move_window {MeasurementTool} {} -65 479
+wv_move_window {MeasurementTool} {} -64 478
+wv_move_window {MeasurementTool} {} -63 477
+wv_move_window {MeasurementTool} {} -62 475
+wv_move_window {MeasurementTool} {} -60 474
+wv_move_window {MeasurementTool} {} -56 469
+wv_move_window {MeasurementTool} {} -52 464
+wv_move_window {MeasurementTool} {} -37 448
+wv_move_window {MeasurementTool} {} -33 444
+wv_move_window {MeasurementTool} {} -29 441
+wv_move_window {MeasurementTool} {} -27 439
+wv_move_window {MeasurementTool} {} -25 437
+wv_move_window {MeasurementTool} {} -22 434
+wv_move_window {MeasurementTool} {} -20 432
+wv_move_window {MeasurementTool} {} -18 429
+wv_move_window {MeasurementTool} {} -16 428
+wv_move_window {MeasurementTool} {} -13 425
+wv_move_window {MeasurementTool} {} -12 424
+wv_move_window {MeasurementTool} {} -11 423
+wv_move_window {MeasurementTool} {} 0 422
+wv_move_window {MeasurementTool} {} 0 421
+wv_move_window {MeasurementTool} {} 0 418
+wv_move_window {MeasurementTool} {} 0 417
+wv_move_window {MeasurementTool} {} 0 416
+wv_move_window {MeasurementTool} {} 0 415
+wv_move_window {MeasurementTool} {} 0 414
+wv_move_window {MeasurementTool} {} 0 413
+wv_move_window {MeasurementTool} {} 0 412
+wv_move_window {MeasurementTool} {} 0 411
+wv_move_window {MeasurementTool} {} 0 407
+wv_move_window {MeasurementTool} {} 0 405
+wv_move_window {MeasurementTool} {} 0 404
+wv_move_window {MeasurementTool} {} 0 403
+wv_move_window {MeasurementTool} {} 0 401
+wv_move_window {MeasurementTool} {} 0 400
+wv_move_window {MeasurementTool} {} 0 398
+wv_move_window {MeasurementTool} {} 0 397
+wv_move_window {MeasurementTool} {} 0 396
+wv_move_window {MeasurementTool} {} 11 395
+wv_move_window {MeasurementTool} {} 12 395
+wv_move_window {MeasurementTool} {} 12 393
+wv_move_window {MeasurementTool} {} 12 392
+wv_move_window {MeasurementTool} {} 12 391
+wv_move_window {MeasurementTool} {} 13 390
+wv_move_window {MeasurementTool} {} 13 389
+wv_move_window {MeasurementTool} {} 13 388
+wv_move_window {MeasurementTool} {} 13 387
+wv_move_window {MeasurementTool} {} 13 386
+wv_move_window {MeasurementTool} {} 14 384
+wv_move_window {MeasurementTool} {} 14 383
+wv_move_window {MeasurementTool} {} 14 382
+wv_move_window {MeasurementTool} {} 14 380
+wv_move_window {MeasurementTool} {} 15 379
+wv_move_window {MeasurementTool} {} 15 378
+wv_move_window {MeasurementTool} {} 15 376
+wv_move_window {MeasurementTool} {} 15 375
+wv_move_window {MeasurementTool} {} 16 375
+wv_move_window {MeasurementTool} {} 16 374
+wv_move_window {MeasurementTool} {} 16 373
+wv_move_window {MeasurementTool} {} 16 371
+wv_move_window {MeasurementTool} {} 16 370
+wv_move_window {MeasurementTool} {} 17 369
+wv_move_window {MeasurementTool} {} 17 367
+wv_move_window {MeasurementTool} {} 17 366
+wv_move_window {MeasurementTool} {} 17 364
+wv_move_window {MeasurementTool} {} 18 364
+wv_move_window {MeasurementTool} {} 18 363
+wv_move_window {MeasurementTool} {} 18 362
+wv_move_window {MeasurementTool} {} 18 361
+wv_move_window {MeasurementTool} {} 19 360
+wv_move_window {MeasurementTool} {} 19 359
+wv_move_window {MeasurementTool} {} 20 359
+wv_move_window {MeasurementTool} {} 20 358
+wv_move_window {MeasurementTool} {} 20 357
+wv_move_window {MeasurementTool} {} 20 355
+wv_move_window {MeasurementTool} {} 21 355
+wv_move_window {MeasurementTool} {} 21 354
+wv_move_window {MeasurementTool} {} 21 353
+wv_move_window {MeasurementTool} {} 22 351
+wv_move_window {MeasurementTool} {} 23 350
+wv_move_window {MeasurementTool} {} 23 349
+wv_move_window {MeasurementTool} {} 24 348
+wv_move_window {MeasurementTool} {} 24 347
+wv_move_window {MeasurementTool} {} 24 346
+wv_move_window {MeasurementTool} {} 25 346
+wv_move_window {MeasurementTool} {} 25 345
+wv_move_window {MeasurementTool} {} 26 344
+wv_move_window {MeasurementTool} {} 26 343
+wv_move_window {MeasurementTool} {} 26 342
+wv_move_window {MeasurementTool} {} 27 341
+wv_move_window {MeasurementTool} {} 28 341
+wv_move_window {MeasurementTool} {} 28 340
+wv_move_window {MeasurementTool} {} 28 339
+wv_move_window {MeasurementTool} {} 28 340
+wv_move_window {MeasurementTool} {} 28 341
+wv_move_window {MeasurementTool} {} 28 342
+wv_move_window {MeasurementTool} {} 28 344
+wv_move_window {MeasurementTool} {} 28 345
+wv_move_window {MeasurementTool} {} 28 347
+wv_move_window {MeasurementTool} {} 28 348
+wv_move_window {MeasurementTool} {} 27 351
+wv_move_window {MeasurementTool} {} 27 352
+wv_move_window {MeasurementTool} {} 27 355
+wv_move_window {MeasurementTool} {} 27 357
+wv_move_window {MeasurementTool} {} 26 363
+wv_move_window {MeasurementTool} {} 25 364
+wv_move_window {MeasurementTool} {} 24 370
+wv_move_window {MeasurementTool} {} 24 373
+wv_move_window {MeasurementTool} {} 23 378
+wv_move_window {MeasurementTool} {} 23 379
+wv_move_window {MeasurementTool} {} 23 380
+wv_move_window {MeasurementTool} {} 22 381
+wv_move_window {MeasurementTool} {} 22 382
+wv_move_window {MeasurementTool} {} 22 384
+wv_move_window {MeasurementTool} {} 21 386
+wv_move_window {MeasurementTool} {} 20 388
+wv_move_window {MeasurementTool} {} 19 391
+wv_move_window {MeasurementTool} {} 19 393
+wv_move_window {MeasurementTool} {} 19 394
+wv_move_window {MeasurementTool} {} 18 395
+wv_move_window {MeasurementTool} {} 18 396
+wv_move_window {MeasurementTool} {} 18 397
+wv_move_window {MeasurementTool} {} 18 398
+wv_move_window {MeasurementTool} {} 17 400
+wv_move_window {MeasurementTool} {} 16 400
+wv_move_window {MeasurementTool} {} 16 402
+wv_move_window {MeasurementTool} {} 15 402
+wv_move_window {MeasurementTool} {} 15 403
+wv_move_window {MeasurementTool} {} 15 404
+wv_move_window {MeasurementTool} {} 15 405
+wv_move_window {MeasurementTool} {} 14 407
+wv_move_window {MeasurementTool} {} 13 408
+wv_move_window {MeasurementTool} {} 12 409
+wv_move_window {MeasurementTool} {} 12 410
+wv_move_window {MeasurementTool} {} 12 411
+wv_move_window {MeasurementTool} {} 12 412
+wv_move_window {MeasurementTool} {} 11 413
+wv_move_window {MeasurementTool} {} 11 415
+wv_move_window {MeasurementTool} {} 11 416
+wv_move_window {MeasurementTool} {} 0 417
+wv_move_window {MeasurementTool} {} 0 420
+wv_move_window {MeasurementTool} {} 0 423
+wv_move_window {MeasurementTool} {} 0 424
+wv_move_window {MeasurementTool} {} 0 432
+wv_move_window {MeasurementTool} {} 0 433
+wv_move_window {MeasurementTool} {} 0 441
+wv_move_window {MeasurementTool} {} 0 443
+wv_move_window {MeasurementTool} {} 0 444
+wv_move_window {MeasurementTool} {} 0 456
+wv_move_window {MeasurementTool} {} 0 462
+wv_move_window {MeasurementTool} {} 0 463
+wv_move_window {MeasurementTool} {} 0 464
+wv_move_window {MeasurementTool} {} 0 466
+wv_move_window {MeasurementTool} {} 0 467
+wv_move_window {MeasurementTool} {} 0 468
+wv_move_window {MeasurementTool} {} 0 473
+wv_move_window {MeasurementTool} {} 0 475
+wv_move_window {MeasurementTool} {} 0 477
+wv_move_window {MeasurementTool} {} 0 478
+wv_move_window {MeasurementTool} {} 0 479
+wv_move_window {MeasurementTool} {} 0 481
+wv_move_window {MeasurementTool} {} 0 482
+wv_move_window {MeasurementTool} {} 0 483
+wv_select_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Move Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_select_dialog {MeasurementTool} 
+wv_drag_item_to WV1 408 96
+wv_move_wv_item WV1.MEAS1 426 162
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 427 101
+wv_select_dialog {MeasurementTool} 
+wv_move_wv_item WV1.MEAS2 601 124
+wv_move_window {MeasurementTool} {} 0 475
+wv_move_window {MeasurementTool} {} 0 474
+wv_move_window {MeasurementTool} {} 0 472
+wv_move_window {MeasurementTool} {} 0 471
+wv_move_window {MeasurementTool} {} 0 469
+wv_move_window {MeasurementTool} {} 0 468
+wv_move_window {MeasurementTool} {} 0 467
+wv_move_window {MeasurementTool} {} 0 466
+wv_move_window {MeasurementTool} {} 0 465
+wv_move_window {MeasurementTool} {} 0 464
+wv_move_window {MeasurementTool} {} 0 462
+wv_move_window {MeasurementTool} {} 0 461
+wv_move_window {MeasurementTool} {} 0 459
+wv_move_window {MeasurementTool} {} 11 458
+wv_move_window {MeasurementTool} {} 12 454
+wv_move_window {MeasurementTool} {} 12 453
+wv_move_window {MeasurementTool} {} 14 445
+wv_move_window {MeasurementTool} {} 15 443
+wv_move_window {MeasurementTool} {} 15 441
+wv_move_window {MeasurementTool} {} 16 440
+wv_move_window {MeasurementTool} {} 16 439
+wv_move_window {MeasurementTool} {} 16 438
+wv_move_window {MeasurementTool} {} 16 437
+wv_move_window {MeasurementTool} {} 17 436
+wv_move_window {MeasurementTool} {} 18 435
+wv_move_window {MeasurementTool} {} 18 434
+wv_move_window {MeasurementTool} {} 18 433
+wv_move_window {MeasurementTool} {} 18 432
+wv_move_window {MeasurementTool} {} 19 432
+wv_move_window {MeasurementTool} {} 19 431
+wv_move_window {MeasurementTool} {} 19 430
+wv_move_window {MeasurementTool} {} 20 430
+wv_move_window {MeasurementTool} {} 20 429
+wv_move_window {MeasurementTool} {} 20 428
+wv_move_window {MeasurementTool} {} 21 428
+wv_move_window {MeasurementTool} {} 22 426
+wv_move_window {MeasurementTool} {} 22 425
+wv_move_window {MeasurementTool} {} 23 424
+wv_move_window {MeasurementTool} {} 23 422
+wv_move_window {MeasurementTool} {} 24 421
+wv_move_window {MeasurementTool} {} 24 420
+wv_move_window {MeasurementTool} {} 25 419
+wv_move_window {MeasurementTool} {} 26 418
+wv_move_window {MeasurementTool} {} 26 417
+wv_move_window {MeasurementTool} {} 26 416
+wv_move_window {MeasurementTool} {} 27 416
+wv_move_window {MeasurementTool} {} 27 415
+wv_move_window {MeasurementTool} {} 28 411
+wv_move_window {MeasurementTool} {} 29 410
+wv_move_window {MeasurementTool} {} 30 409
+wv_move_window {MeasurementTool} {} 30 407
+wv_move_window {MeasurementTool} {} 41 405
+wv_move_window {MeasurementTool} {} 41 404
+wv_move_window {MeasurementTool} {} 41 402
+wv_move_window {MeasurementTool} {} 41 400
+wv_move_window {MeasurementTool} {} 41 398
+wv_move_window {MeasurementTool} {} 41 397
+wv_move_window {MeasurementTool} {} 41 394
+wv_move_window {MeasurementTool} {} 41 393
+wv_move_window {MeasurementTool} {} 41 392
+wv_move_window {MeasurementTool} {} 41 391
+wv_move_window {MeasurementTool} {} 41 390
+wv_move_window {MeasurementTool} {} 41 389
+wv_move_window {MeasurementTool} {} 41 388
+wv_move_window {MeasurementTool} {} 41 387
+wv_move_window {MeasurementTool} {} 41 386
+wv_move_window {MeasurementTool} {} 41 387
+wv_move_window {MeasurementTool} {} 41 388
+wv_move_window {MeasurementTool} {} 41 389
+wv_move_window {MeasurementTool} {} 52 385
+wv_move_window {MeasurementTool} {} 76 376
+wv_move_window {MeasurementTool} {} 97 369
+wv_move_window {MeasurementTool} {} 103 367
+wv_move_window {MeasurementTool} {} 111 364
+wv_move_window {MeasurementTool} {} 134 358
+wv_move_window {MeasurementTool} {} 144 356
+wv_move_window {MeasurementTool} {} 197 344
+wv_move_window {MeasurementTool} {} 210 342
+wv_move_window {MeasurementTool} {} 227 339
+wv_move_window {MeasurementTool} {} 234 337
+wv_move_window {MeasurementTool} {} 239 336
+wv_move_window {MeasurementTool} {} 246 335
+wv_move_window {MeasurementTool} {} 256 332
+wv_move_window {MeasurementTool} {} 259 331
+wv_move_window {MeasurementTool} {} 260 331
+wv_move_window {MeasurementTool} {} 261 330
+wv_move_window {MeasurementTool} {} 261 329
+wv_move_window {MeasurementTool} {} 261 328
+wv_move_window {MeasurementTool} {} 261 327
+wv_move_window {MeasurementTool} {} 261 326
+wv_move_window {MeasurementTool} {} 261 325
+wv_move_window {MeasurementTool} {} 261 323
+wv_move_window {MeasurementTool} {} 261 322
+wv_select_dialog {MeasurementTool} 
+wv_move_window {MeasurementTool} {} 261 330
+wv_move_window {MeasurementTool} {} 260 336
+wv_move_window {MeasurementTool} {} 260 339
+wv_move_window {MeasurementTool} {} 260 341
+wv_move_window {MeasurementTool} {} 259 343
+wv_move_window {MeasurementTool} {} 259 344
+wv_move_window {MeasurementTool} {} 259 345
+wv_move_window {MeasurementTool} {} 258 348
+wv_move_window {MeasurementTool} {} 258 349
+wv_move_window {MeasurementTool} {} 258 350
+wv_move_window {MeasurementTool} {} 258 351
+wv_move_window {MeasurementTool} {} 257 354
+wv_move_window {MeasurementTool} {} 254 369
+wv_move_window {MeasurementTool} {} 253 373
+wv_move_window {MeasurementTool} {} 253 376
+wv_move_window {MeasurementTool} {} 250 388
+wv_move_window {MeasurementTool} {} 249 393
+wv_move_window {MeasurementTool} {} 249 395
+wv_move_window {MeasurementTool} {} 249 396
+wv_move_window {MeasurementTool} {} 247 402
+wv_move_window {MeasurementTool} {} 246 407
+wv_move_window {MeasurementTool} {} 246 410
+wv_move_window {MeasurementTool} {} 245 414
+wv_move_window {MeasurementTool} {} 245 415
+wv_move_window {MeasurementTool} {} 245 417
+wv_move_window {MeasurementTool} {} 244 419
+wv_move_window {MeasurementTool} {} 244 420
+wv_move_window {MeasurementTool} {} 243 426
+wv_move_window {MeasurementTool} {} 242 429
+wv_move_window {MeasurementTool} {} 241 433
+wv_move_window {MeasurementTool} {} 241 434
+wv_move_window {MeasurementTool} {} 241 436
+wv_move_window {MeasurementTool} {} 240 437
+wv_move_window {MeasurementTool} {} 239 441
+wv_move_window {MeasurementTool} {} 239 442
+wv_move_window {MeasurementTool} {} 239 443
+wv_move_window {MeasurementTool} {} 238 445
+wv_move_window {MeasurementTool} {} 237 448
+wv_move_window {MeasurementTool} {} 237 451
+wv_move_window {MeasurementTool} {} 237 453
+wv_move_window {MeasurementTool} {} 236 453
+wv_move_window {MeasurementTool} {} 236 455
+wv_move_window {MeasurementTool} {} 235 459
+wv_move_window {MeasurementTool} {} 234 461
+wv_move_window {MeasurementTool} {} 234 462
+wv_move_window {MeasurementTool} {} 234 463
+wv_move_window {MeasurementTool} {} 234 464
+wv_move_window {MeasurementTool} {} 233 466
+wv_move_window {MeasurementTool} {} 232 469
+wv_move_window {MeasurementTool} {} 232 470
+wv_move_window {MeasurementTool} {} 231 473
+wv_move_window {MeasurementTool} {} 231 474
+wv_move_window {MeasurementTool} {} 231 475
+wv_move_window {MeasurementTool} {} 230 475
+wv_move_window {MeasurementTool} {} 230 476
+wv_move_window {MeasurementTool} {} 230 477
+wv_move_window {MeasurementTool} {} 230 478
+wv_move_window {MeasurementTool} {} 230 479
+wv_move_window {MeasurementTool} {} 229 479
+wv_move_window {MeasurementTool} {} 229 480
+wv_move_window {MeasurementTool} {} 229 482
+wv_move_window {MeasurementTool} {} 228 482
+wv_move_window {MeasurementTool} {} 228 483
+wv_move_window {MeasurementTool} {} 227 486
+wv_move_window {MeasurementTool} {} 227 487
+wv_move_window {MeasurementTool} {} 226 488
+wv_move_window {MeasurementTool} {} 226 489
+wv_move_window {MeasurementTool} {} 225 491
+wv_move_window {MeasurementTool} {} 225 492
+wv_move_window {MeasurementTool} {} 225 493
+wv_move_window {MeasurementTool} {} 225 494
+wv_move_window {MeasurementTool} {} 224 494
+wv_move_window {MeasurementTool} {} 222 502
+wv_move_window {MeasurementTool} {} 221 503
+wv_move_window {MeasurementTool} {} 221 504
+wv_move_window {MeasurementTool} {} 220 506
+wv_move_window {MeasurementTool} {} 220 507
+wv_move_window {MeasurementTool} {} 219 510
+wv_move_window {MeasurementTool} {} 218 511
+wv_move_window {MeasurementTool} {} 217 514
+wv_move_window {MeasurementTool} {} 215 519
+wv_move_window {MeasurementTool} {} 215 520
+wv_move_window {MeasurementTool} {} 215 521
+wv_move_window {MeasurementTool} {} 214 522
+wv_move_window {MeasurementTool} {} 214 523
+wv_move_window {MeasurementTool} {} 214 525
+wv_move_window {MeasurementTool} {} 213 527
+wv_move_window {MeasurementTool} {} 212 529
+wv_move_window {MeasurementTool} {} 211 534
+wv_move_window {MeasurementTool} {} 210 535
+wv_move_window {MeasurementTool} {} 210 536
+wv_move_window {MeasurementTool} {} 209 539
+wv_move_window {MeasurementTool} {} 209 540
+wv_move_window {MeasurementTool} {} 208 540
+wv_move_window {MeasurementTool} {} 208 541
+wv_move_window {MeasurementTool} {} 208 543
+wv_move_window {MeasurementTool} {} 207 546
+wv_move_window {MeasurementTool} {} 206 549
+wv_move_window {MeasurementTool} {} 205 556
+wv_move_window {MeasurementTool} {} 205 559
+wv_move_window {MeasurementTool} {} 204 559
+wv_move_window {MeasurementTool} {} 204 561
+wv_move_window {MeasurementTool} {} 204 562
+wv_move_window {MeasurementTool} {} 203 563
+wv_move_window {MeasurementTool} {} 203 564
+wv_move_window {MeasurementTool} {} 203 565
+wv_move_window {MeasurementTool} {} 203 567
+wv_move_window {MeasurementTool} {} 203 568
+wv_move_window {MeasurementTool} {} 203 570
+wv_move_window {MeasurementTool} {} 202 572
+wv_move_window {MeasurementTool} {} 202 573
+wv_move_window {MeasurementTool} {} 202 574
+wv_move_window {MeasurementTool} {} 202 575
+wv_move_window {MeasurementTool} {} 202 576
+wv_move_window {MeasurementTool} {} 202 577
+wv_move_window {MeasurementTool} {} 202 578
+wv_move_window {MeasurementTool} {} 202 577
+wv_move_window {MeasurementTool} {} 202 576
+wv_move_window {MeasurementTool} {} 202 575
+wv_move_window {MeasurementTool} {} 202 574
+wv_move_window {MeasurementTool} {} 204 571
+wv_move_window {MeasurementTool} {} 204 570
+wv_move_window {MeasurementTool} {} 205 568
+wv_move_window {MeasurementTool} {} 205 567
+wv_move_window {MeasurementTool} {} 206 565
+wv_move_window {MeasurementTool} {} 206 561
+wv_move_window {MeasurementTool} {} 206 560
+wv_move_window {MeasurementTool} {} 207 560
+wv_move_window {MeasurementTool} {} 207 559
+wv_move_window {MeasurementTool} {} 207 557
+wv_move_window {MeasurementTool} {} 209 555
+wv_move_window {MeasurementTool} {} 209 552
+wv_move_window {MeasurementTool} {} 210 551
+wv_move_window {MeasurementTool} {} 212 544
+wv_move_window {MeasurementTool} {} 213 543
+wv_move_window {MeasurementTool} {} 213 542
+wv_move_window {MeasurementTool} {} 213 541
+wv_move_window {MeasurementTool} {} 214 540
+wv_move_window {MeasurementTool} {} 214 539
+wv_move_window {MeasurementTool} {} 214 537
+wv_move_window {MeasurementTool} {} 214 536
+wv_move_window {MeasurementTool} {} 215 534
+wv_move_window {MeasurementTool} {} 215 533
+wv_move_window {MeasurementTool} {} 215 532
+wv_move_window {MeasurementTool} {} 215 531
+wv_move_window {MeasurementTool} {} 216 531
+wv_move_window {MeasurementTool} {} 216 529
+wv_move_window {MeasurementTool} {} 217 529
+wv_move_window {MeasurementTool} {} 217 528
+wv_move_window {MeasurementTool} {} 217 527
+wv_move_window {MeasurementTool} {} 218 527
+wv_move_window {MeasurementTool} {} 218 526
+wv_move_window {MeasurementTool} {} 218 524
+wv_move_window {MeasurementTool} {} 219 524
+wv_move_window {MeasurementTool} {} 219 523
+wv_move_window {MeasurementTool} {} 219 522
+wv_move_window {MeasurementTool} {} 221 520
+wv_move_window {MeasurementTool} {} 221 519
+wv_move_window {MeasurementTool} {} 223 514
+wv_move_window {MeasurementTool} {} 223 513
+wv_move_window {MeasurementTool} {} 223 512
+wv_move_window {MeasurementTool} {} 224 510
+wv_move_window {MeasurementTool} {} 225 510
+wv_move_window {MeasurementTool} {} 225 508
+wv_move_window {MeasurementTool} {} 226 507
+wv_move_window {MeasurementTool} {} 226 504
+wv_move_window {MeasurementTool} {} 228 502
+wv_move_window {MeasurementTool} {} 228 500
+wv_move_window {MeasurementTool} {} 230 494
+wv_move_window {MeasurementTool} {} 231 493
+wv_move_window {MeasurementTool} {} 232 490
+wv_move_window {MeasurementTool} {} 233 489
+wv_move_window {MeasurementTool} {} 235 484
+wv_move_window {MeasurementTool} {} 237 478
+wv_move_window {MeasurementTool} {} 238 476
+wv_move_window {MeasurementTool} {} 243 464
+wv_move_window {MeasurementTool} {} 247 457
+wv_move_window {MeasurementTool} {} 247 453
+wv_move_window {MeasurementTool} {} 248 451
+wv_move_window {MeasurementTool} {} 251 445
+wv_move_window {MeasurementTool} {} 253 441
+wv_move_window {MeasurementTool} {} 255 435
+wv_move_window {MeasurementTool} {} 257 431
+wv_move_window {MeasurementTool} {} 261 419
+wv_move_window {MeasurementTool} {} 265 410
+wv_move_window {MeasurementTool} {} 268 404
+wv_move_window {MeasurementTool} {} 270 400
+wv_move_window {MeasurementTool} {} 271 395
+wv_move_window {MeasurementTool} {} 280 372
+wv_move_window {MeasurementTool} {} 283 366
+wv_move_window {MeasurementTool} {} 287 355
+wv_move_window {MeasurementTool} {} 288 354
+wv_move_window {MeasurementTool} {} 289 351
+wv_move_window {MeasurementTool} {} 292 344
+wv_move_window {MeasurementTool} {} 294 338
+wv_move_window {MeasurementTool} {} 295 334
+wv_move_window {MeasurementTool} {} 300 324
+wv_move_window {MeasurementTool} {} 300 322
+wv_move_window {MeasurementTool} {} 304 311
+wv_move_window {MeasurementTool} {} 305 305
+wv_move_window {MeasurementTool} {} 306 305
+wv_move_window {MeasurementTool} {} 306 304
+wv_move_window {MeasurementTool} {} 306 293
+wv_move_window {MeasurementTool} {} 309 293
+wv_move_window {MeasurementTool} {} 310 293
+wv_move_window {MeasurementTool} {} 311 293
+wv_move_window {MeasurementTool} {} 313 293
+wv_move_window {MeasurementTool} {} 313 280
+wv_move_window {MeasurementTool} {} 314 278
+wv_move_window {MeasurementTool} {} 315 274
+wv_move_window {MeasurementTool} {} 315 273
+wv_move_window {MeasurementTool} {} 315 272
+wv_move_window {MeasurementTool} {} 316 270
+wv_move_window {MeasurementTool} {} 317 269
+wv_move_window {MeasurementTool} {} 317 266
+wv_move_window {MeasurementTool} {} 318 266
+wv_move_window {MeasurementTool} {} 318 265
+wv_move_window {MeasurementTool} {} 318 263
+wv_move_window {MeasurementTool} {} 319 263
+wv_move_window {MeasurementTool} {} 319 262
+wv_move_window {MeasurementTool} {} 319 261
+wv_move_window {MeasurementTool} {} 319 260
+wv_move_window {MeasurementTool} {} 319 259
+wv_move_window {MeasurementTool} {} 320 257
+wv_move_window {MeasurementTool} {} 321 256
+wv_move_window {MeasurementTool} {} 321 244
+wv_move_window {MeasurementTool} {} 322 244
+wv_move_window {MeasurementTool} {} 323 244
+wv_move_window {MeasurementTool} {} 324 244
+wv_move_window {MeasurementTool} {} 325 244
+wv_move_window {MeasurementTool} {} 326 244
+wv_move_window {MeasurementTool} {} 329 244
+wv_move_window {MeasurementTool} {} 329 233
+wv_move_window {MeasurementTool} {} 330 232
+wv_move_window {MeasurementTool} {} 331 229
+wv_move_window {MeasurementTool} {} 332 228
+wv_move_window {MeasurementTool} {} 333 227
+wv_move_window {MeasurementTool} {} 333 226
+wv_move_window {MeasurementTool} {} 333 225
+wv_move_window {MeasurementTool} {} 334 225
+wv_move_window {MeasurementTool} {} 334 224
+wv_move_window {MeasurementTool} {} 337 220
+wv_move_window {MeasurementTool} {} 337 219
+wv_move_window {MeasurementTool} {} 338 219
+wv_move_window {MeasurementTool} {} 338 218
+wv_move_window {MeasurementTool} {} 338 217
+wv_move_window {MeasurementTool} {} 339 216
+wv_move_window {MeasurementTool} {} 339 215
+wv_move_window {MeasurementTool} {} 340 214
+wv_move_window {MeasurementTool} {} 342 211
+wv_move_window {MeasurementTool} {} 342 210
+wv_move_window {MeasurementTool} {} 343 208
+wv_move_window {MeasurementTool} {} 343 207
+wv_move_window {MeasurementTool} {} 344 207
+wv_move_window {MeasurementTool} {} 344 205
+wv_move_window {MeasurementTool} {} 345 204
+wv_move_window {MeasurementTool} {} 346 203
+wv_select_dialog {MeasurementTool} 
+wv_close_dialog {MeasurementTool} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Rise vs x axis} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL3:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {SignalPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete All Measurements} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 4.25584e-09 0.4497
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_select_combox_item {MeasurementTool} {} {Signal} "z loaded_nand.tr0" 2
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 423 321
+wv_move_wv_item WV1.MEAS1 438 366
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Move Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 434 319
+wv_move_wv_item WV1.MEAS1 430 362
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_set_radion {MeasurementTool} {} {FallEdge} 
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {WaveformUndo0} 
+wv_press_tool_button {Custom WaveView} {} {WaveformUndo0} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_select_combox_item {MeasurementTool} {} {Signal} "z loaded_nand.tr0" 2
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Close} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Move Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 431 324
+wv_move_wv_item WV1.MEAS2 634 356
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS2
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete All Measurements} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_set_check {MeasurementTool} {} {ThresPercentage} 0
+wv_set_text {MeasurementTool} {} {LowPercentage} ".24"
+wv_set_text {MeasurementTool} {} {HighPercentage} ".96"
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_select_combox_item {MeasurementTool} {} {Signal} "z loaded_nand.tr0" 2
+wv_set_radion {MeasurementTool} {} {RiseEdge} 
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_set_radion {MeasurementTool} {} {FallEdge} 
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Close} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 427 322
+wv_move_wv_item WV1.MEAS1 452 364
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 427 323
+wv_move_wv_item WV1.MEAS2 650 347
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 484 391
+wv_move_wv_item WV1.MEAS1 418 346
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS2
+wv_drag_item_to WV1 660 365
+wv_move_wv_item WV1.MEAS2 605 348
+wv_press_tool_button {Custom WaveView} {} {DumpScreen0} 
+wv_move_window {SaveScreenDump} {} 436 192
+wv_move_window {SaveScreenDump} {} 439 221
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_set_text {FileDialog} {} {FileName} "rise_fall_sch"
+wv_press_button {FileDialog} {} {Ok} 
+wv_press_button {SaveScreenDump} {} {Save} 

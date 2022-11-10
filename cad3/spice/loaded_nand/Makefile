@@ -1,7 +1,7 @@
 # FreePDK45 Makefile
 
-DESIGN_LIB ?= <cadN>
-DESIGN ?= <schematic_netlist_name>
+DESIGN_LIB ?= cad3
+DESIGN ?= loaded_nand
 
 COMMON_DIR = /home/projects/ee476.2022aut/common 
 DESIGN_DIR = $(shell realpath ../../cadence)

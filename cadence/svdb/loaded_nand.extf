@@ -1,9 +1,10 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1668033889 1668033893
+lvs_ExtRunTimes 1668047679 1668047679
 lvs_ExtOutFile RUNDIR /home/projects/ee476.2022aut/kegedy/cadence
-lvs_ExtOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
+lvs_ExtOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.sp
+lvs_ExtOutFile LAYOUT_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/svdb/loaded_nand.sp
 lvs_ExtOutFile EXTRACTION_REPORT loaded_nand.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/loaded_nand.pdsp }

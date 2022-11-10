@@ -4,7 +4,7 @@
 * Library Name:  cad3
 * Top Cell Name: loaded_nand
 * View Name:     schematic
-* Netlisted on:  Nov  9 14:44:41 2022
+* Netlisted on:  Nov  9 18:29:26 2022
 ************************************************************************
 
 *.EQUATION
@@ -38,12 +38,12 @@ MPMOS1 z b vdd! vdd! PMOS_VTL W=250.0n L=50n m=1
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT loaded_nand a b
-*.PININFO a:I b:I
-XDUT a b net1 / NAND2
-XNAND3 vdd! net1 net5 / NAND2
-XNAND2 vdd! net1 net4 / NAND2
-XNAND0 vdd! net1 net3 / NAND2
-XNAND1 vdd! net1 net2 / NAND2
+.SUBCKT loaded_nand a b z
+*.PININFO a:I b:I z:O
+XDUT a b z / NAND2
+XNAND3 vdd! z net5 / NAND2
+XNAND2 vdd! z net4 / NAND2
+XNAND0 vdd! z net3 / NAND2
+XNAND1 vdd! z net2 / NAND2
 .ENDS
 
