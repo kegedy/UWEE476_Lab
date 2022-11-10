@@ -1239,3 +1239,6 @@ wv_press_button {SaveScreenDump} {} {SaveToFileBrowse}
 wv_set_text {FileDialog} {} {FileName} "rise_fall_sch"
 wv_press_button {FileDialog} {} {Ok} 
 wv_press_button {SaveScreenDump} {} {Save} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

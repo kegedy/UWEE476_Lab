@@ -7,18 +7,18 @@
   this software is strictly prohibited.
   Input File: loaded_nand.ctl                                                   
   Command line options: /home/lab.apps/vlsiapps_new/hspice/current/hspice/linux64/hspice loaded_nand.ctl -o loaded_nand.lis
-  Start time: Wed Nov  9 18:11:29 2022
+  Start time: Wed Nov  9 18:49:15 2022
  lic:  
  lic: FLEXlm: SDK_12.10 
  lic: USER:   kegedy               HOSTNAME: linux-lab-054.ece.uw.edu 
- lic: HOSTID: ffffffff9f0a36e0     PID:      3949 
+ lic: HOSTID: ffffffff9f0a36e0     PID:      20696 
  lic: Using FLEXlm license file: 
  lic: 27008@synopsysls.s.uw.edu 
  lic: Checkout 1 hspice 
  lic: License/Maintenance for hspice will expire on 24-jan-2023/2020.12 
  lic: 1(in_use)/100(total) FLOATING license(s) on SERVER 27008@synopsysls.s.uw.edu 
  lic:   
-  **warning** (loaded_nand.ckt:35)'.end' can not exist in include/lib files, ignored
+  **warning** (loaded_nand_tune.ckt:35)'.end' can not exist in include/lib files, ignored
 1****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
  ******  
  * beware!!!! first line is always a comment line and spice ignores this line
@@ -569,7 +569,7 @@
     TRS =      0 
     TRD =      0 
   **info** (loaded_nand.ctl:43) DC voltage reset to initial transient source value in source 0:vb. new dc=0.0000D+00
-  **warning** (nmos_vtl:xdut.mnmos1 (loaded_nand.ckt:20)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=3e-07 l=5e-08.
+  **warning** (nmos_vtl:xdut.mnmos1 (loaded_nand_tune.ckt:20)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=3e-07 l=5e-08.
   **warning** (loaded_nand.ctl:58) Could not find branch element m0 ;branch output ignored
   
   
@@ -592,10 +592,10 @@
  * beware!!!! first line is always a comment line and spice ignores this line
 
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
- rise_time= 2.0070e-11  targ= 8.0730e-10   trig= 7.8723e-10
- fall_time= 1.6061e-11  targ= 1.0317e-09   trig= 1.0156e-09
- rise_delay= 1.1886e-11  targ= 1.0219e-09   trig= 1.0100e-09
- fall_delay= 1.5738e-11  targ= 1.2957e-09   trig= 1.2800e-09
+ rise_time= 1.6747e-11  targ= 8.0283e-10   trig= 7.8608e-10
+ fall_time= 2.0135e-11  targ= 1.0365e-09   trig= 1.0164e-09
+ rise_delay= 1.3391e-11  targ= 1.0234e-09   trig= 1.0100e-09
+ fall_delay= 1.3483e-11  targ= 1.2935e-09   trig= 1.2800e-09
 
           ***** job concluded
  ******  
@@ -606,13 +606,13 @@
  ******  Machine Information  ******
  CPU:
  model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
- cpu MHz	: 4500.000
+ cpu MHz	: 4499.816
  CPU(s)		: 8
   
  OS:
  Linux version 3.10.0-1160.76.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Aug 10 16:21:17 UTC 2022
 
- System loadavg : 2.33 2.22 2.29 4/1145 3952
+ System loadavg : 2.33 2.33 2.39 3/1151 20699
 
 
   ******  PrimeSim HSPICE Threads Information  ******
@@ -637,9 +637,9 @@
   ******  Runtime Statistics (seconds)  ******
 
   analysis           time    # points   tot. iter  conv.iter
-  op point           0.01           1          12
-  transient          0.05        5001        1381         490 rev=        29
-  readin             0.01
+  op point           0.00           1          12
+  transient          0.05        5001        1351         493 rev=        25
+  readin             0.02
   errchk             0.00
   setup              0.00
   output             0.00
@@ -647,10 +647,10 @@
 
            peak memory used        496.36 megabytes
            total cpu time            0.10 seconds
-           total elapsed time        0.16 seconds
-           job started at     18:11:29 11/09/2022
-           job ended   at     18:11:29 11/09/2022
-           job total runtime         0.16 seconds
+           total elapsed time        0.15 seconds
+           job started at     18:49:15 11/09/2022
+           job ended   at     18:49:15 11/09/2022
+           job total runtime         0.15 seconds
 
 
  lic: Release hspice token(s) 

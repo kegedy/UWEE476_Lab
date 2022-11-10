@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"NMOS1v" "mnmos1v"
+"NMOS0v" "mnmos0v"
+"PMOS0v" "mpmos0v"
+"NMOS1n NMOS0n" "NCSU_Devices_FreePDK45_NMOS_VTL_hspiceD"
+"PMOS1v" "mpmos1v"
+"PMOS0n PMOS1n" "NCSU_Devices_FreePDK45_PMOS_VTL_hspiceD"

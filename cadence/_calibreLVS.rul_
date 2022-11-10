@@ -1,5 +1,5 @@
 //
-//  Rule file generated on Wed Nov 09 18:29:27 PST 2022
+//  Rule file generated on Wed Nov 09 21:29:36 PST 2022
 //     by Calibre Interactive - LVS (v2021.1_33.19)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
@@ -7,17 +7,17 @@
 //
 
 PRECISION 1000
-LAYOUT PATH  "loaded_nand.calibre.db"
-LAYOUT PRIMARY "loaded_nand"
+LAYOUT PATH  "ring_osc.calibre.db"
+LAYOUT PRIMARY "ring_osc"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.src.net"
-SOURCE PRIMARY "loaded_nand"
+SOURCE PATH "/home/projects/ee476.2022aut/kegedy/cadence/ring_osc.src.net"
+SOURCE PRIMARY "ring_osc"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY
 
-LVS REPORT "loaded_nand.lvs.report"
+LVS REPORT "ring_osc.lvs.report"
 
 LVS REPORT OPTION NONE
 LVS FILTER UNUSED OPTION NONE SOURCE
@@ -46,8 +46,8 @@ VIRTUAL CONNECT COLON NO
 VIRTUAL CONNECT REPORT NO
 
 LVS EXECUTE ERC YES
-ERC RESULTS DATABASE "loaded_nand.erc.results"
-ERC SUMMARY REPORT "loaded_nand.erc.summary" REPLACE HIER
+ERC RESULTS DATABASE "ring_osc.erc.results"
+ERC SUMMARY REPORT "ring_osc.erc.summary" REPLACE HIER
 ERC CELL NAME YES CELL SPACE XFORM
 ERC MAXIMUM RESULTS 1000
 ERC MAXIMUM VERTEX 4096

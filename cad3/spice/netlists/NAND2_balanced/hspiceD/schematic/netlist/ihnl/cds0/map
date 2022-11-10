@@ -1,0 +1,11 @@
+( ( net
+( "vss!" "vss!" )
+( "vdd!" "vdd!" )
+ )
+( inst
+( "NMOS1" "mnmos1" )
+( "PMOS1" "mpmos1" )
+( "PMOS0" "mpmos0" )
+( "NMOS0" "mnmos0" )
+ )
+ )

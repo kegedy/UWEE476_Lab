@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/projects/ee476.2022aut/kegedy/cadence
+pex_PexParam LAYOUT_PRIMARY ring_osc
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {RING_OSC "" RING_OSC.pdb "" } } 
