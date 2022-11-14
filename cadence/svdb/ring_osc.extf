@@ -1,10 +1,9 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 3
-lvs_ExtRunTimes 1668098427 1668098428
+lvs_ExtRunTimes 1668428718 1668428719
 lvs_ExtOutFile RUNDIR /home/projects/ee476.2022aut/kegedy/cadence
-lvs_ExtOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
+lvs_ExtOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/svdb/ring_osc.sp
+lvs_ExtOutFile LAYOUT_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.sp
 lvs_ExtOutFile EXTRACTION_REPORT ring_osc.lvs.report.ext
-lvs_ExtOutFile LAYOUT_PDSP {  svdb/ring_osc.pdsp }

@@ -1,7 +1,7 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "loaded_nand"
+  blockName "ring_osc"
   repList "auCdl schematic"
   stopList "auCdl"
   globalList "vss! vdd!"
@@ -9,9 +9,11 @@
   netlistDir "/home/projects/ee476.2022aut/kegedy/cadence"
  )
 ( model
-( "cad3/loaded_nand/schematic" "loaded_nand" )
+( "cad3/ring_osc/schematic" "ring_osc" )
+( "cad3/INVD1/schematic" "INVD1" )
 ( "cad3/NAND2/schematic" "NAND2" )
  )
-( "NAND2" "ihnl/cds0/map" )
-( "loaded_nand" "ihnl/cds1/map" )
+( "NAND2" "ihnl/cds1/map" )
+( "ring_osc" "ihnl/cds2/map" )
+( "INVD1" "ihnl/cds0/map" )
  )

@@ -12,11 +12,11 @@
 
 
 REPORT FILE NAME:         ring_osc.lvs.report
-LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/svdb/ring_osc.sp ('ring_osc')
+LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.sp ('ring_osc')
 SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/ring_osc.src.net ('ring_osc')
-RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
+RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Thu Nov 10 08:40:28 2022
+CREATION TIME:            Mon Nov 14 04:25:19 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -56,10 +56,10 @@ o LVS Setup:
    LVS COMPONENT TYPE PROPERTY            element
    LVS COMPONENT SUBTYPE PROPERTY         model
    // LVS PIN NAME PROPERTY
-   LVS POWER NAME                         "VDD"
-   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS POWER NAME                         "vdd!"
+   LVS GROUND NAME                        "vss!"
    LVS CELL SUPPLY                        NO
-   LVS RECOGNIZE GATES                    ALL
+   LVS RECOGNIZE GATES                    NONE
    // LVS HCELL REPORT
    LVS IGNORE PORTS                       NO
    LVS CHECK PORT NAMES                   NO
@@ -68,7 +68,7 @@ o LVS Setup:
    LVS ALL CAPACITOR PINS SWAPPABLE       NO
    LVS DISCARD PINS BY DEVICE             NO
    LVS SOFT SUBSTRATE PINS                NO
-   LVS INJECT LOGIC                       NO
+   LVS INJECT LOGIC                       YES
    LVS EXPAND UNBALANCED CELLS            YES
    LVS FLATTEN INSIDE CELL                NO
    LVS EXPAND SEED PROMOTIONS             NO
@@ -190,13 +190,12 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                 ------    ------         --------------
  Ports:              4         4
 
- Nets:              12        12
+ Nets:               5         5
 
- Instances:          8         8         MN (4 pins)
-                    10        10         MP (4 pins)
-                     1         1         SMN2 (4 pins)
+ Instances:          1         1         _invx8v (4 pins)
+                     1         1         _nand2v (5 pins)
                 ------    ------
- Total Inst:        19        19
+ Total Inst:         2         2
 
 
 
@@ -210,18 +209,17 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                   -------    -------    ---------    ---------    ---------
    Ports:               4          4            0            0
 
-   Nets:               12         12            0            0
+   Nets:                5          5            0            0
 
-   Instances:           8          8            0            0    MN(NMOS_VTL)
-                       10         10            0            0    MP(PMOS_VTL)
-                        1          1            0            0    SMN2
+   Instances:           1          1            0            0    _invx8v
+                        1          1            0            0    _nand2v
                   -------    -------    ---------    ---------
-   Total Inst:         19         19            0            0
+   Total Inst:          2          2            0            0
 
 
 o Initial Correspondence Points:
 
-   Ports:        OSC_OUT VSS! OSC_EN VDD!
+   Ports:        vdd! vss! OSC_OUT OSC_EN
 
 
 **************************************************************************************************************

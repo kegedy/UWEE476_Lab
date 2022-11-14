@@ -1,0 +1,6 @@
+$DATA1 SOURCE='PrimeSim HSPICE' VERSION='T-2022.06 linux64' PARAM_COUNT=0
+.TITLE '* beware!!!! first line is always a comment line and spice ignores this line'
+ t                osc_freq         energy           avg_pow         
+ temper           alter#          
+  1.585e-10        6.309e+09        2.518e-13        6.294e-05      
+  2.500e+01       1               

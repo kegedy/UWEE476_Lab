@@ -3,7 +3,7 @@
 * Program "Calibre xRC"
 * Version "v2021.1_33.19"
 * 
-.subckt ring_osc  OSC_OUT VSS! OSC_EN VDD!
+.subckt ring_osc  OSC_OUT OSC_EN 
 * 
 mXI15/MNMOS1 XI15/NET1 OSC_OUT VSS! VSS! NMOS_VTL L=5e-08 W=3e-07 AD=4.35e-14
 + AS=3.3e-14 PD=8.9e-07 PS=8.2e-07

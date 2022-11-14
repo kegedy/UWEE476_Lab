@@ -27,7 +27,8 @@
 * vg vg 0 DC=v_gate
 Vvdd vdd! 0 vdd
 Vvss vss! 0 0
-Va a 0 vdd 
+Va a 0 vdd
+*Vz xdut.net1 0 0 
 
 
 * ==== TRANsient analysis definition ====
@@ -62,5 +63,26 @@ Vb b 0 PULSE
 .meas tran fall_time trig V(z) val='0.8*vdd' FALL=2 TD='period' targ V(z) val='0.2*vdd' FALL=2 TD='period'
 .meas tran rise_delay trig V(b) val='0.5*vdd' RISE=2 TD=250p targ V(z) val='0.5*vdd' FALL=2 TD=250p
 .meas tran fall_delay trig V(b) val='0.5*vdd' FALL=2 TD='period' targ V(z) val='0.5*vdd' RISE=2 TD='period'
+*.meas tran mnmos0r integ 'abs(i(xdut.mnmos0))*vdd/20p' from=1.29n to=1.31n
+*.meas tran mnmos1r integ 'abs(i(xdut.mnmos1))*vdd/20p' from=1.29n to=1.31n
+*.meas tran mpmos0r integ 'abs(i(xdut.mpmos0))*vdd/20p' from=1.29n to=1.31n
+*.meas tran mpmos1r integ 'abs(i(xdut.mpmos1))*vdd/20p' from=1.29n to=1.31n
+*.meas tran mnmos0f integ 'abs(i(xdut.mnmos0))*vdd/20p' from=1.51n to=1.53n
+*.meas tran mnmos1f integ 'abs(i(xdut.mnmos1))*vdd/20p' from=1.51n to=1.53n
+*.meas tran mpmos0f integ 'abs(i(xdut.mpmos0))*vdd/20p' from=1.51n to=1.53n
+*.meas tran mpmos1f integ 'abs(i(xdut.mpmos1))*vdd/20p' from=1.51n to=1.53n
+.meas tran mnmos0r integ 'abs(i(xloaded_nand.mxdut/mnmos0))*vdd/20p' from=1.29n to=1.32n
+.meas tran mnmos1r integ 'abs(i(xloaded_nand.mxdut/mnmos1))*vdd/20p' from=1.29n to=1.32n
+.meas tran mpmos0r integ 'abs(i(xloaded_nand.mxdut/mpmos0))*vdd/20p' from=1.29n to=1.32n
+.meas tran mpmos1r integ 'abs(i(xloaded_nand.mxdut/mpmos1))*vdd/20p' from=1.29n to=1.32n
+.meas tran mnmos0f integ 'abs(i(xloaded_nand.mxdut/mnmos0))*vdd/20p' from=1.52n to=1.54n
+.meas tran mnmos1f integ 'abs(i(xloaded_nand.mxdut/mnmos1))*vdd/20p' from=1.52n to=1.54n
+.meas tran mpmos0f integ 'abs(i(xloaded_nand.mxdut/mpmos0))*vdd/20p' from=1.52n to=1.54n
+.meas tran mpmos1f integ 'abs(i(xloaded_nand.mxdut/mpmos1))*vdd/20p' from=1.52n to=1.54n
+.meas tran rise_en_dissip param='mnmos0r+mnmos1r+mpmos0r+mpmos1r'
+.meas tran fall_en_dissip param='mnmos0f+mnmos1f+mpmos0f+mpmos1f'
+.meas tran input_cap integ 'abs(I(Vb))/vdd' from=0 to=250p
+.meas tran output_cap integ 'abs(I(Vz))/vdd' from=0p to=250p
+
 
 .END

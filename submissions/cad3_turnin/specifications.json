@@ -1,0 +1,129 @@
+{ //Path to folder that contains library for this CAD.
+  //I.E. : "path": "Visvesh_Sathe /home/projects/ee476/sathe/cadence/cad3", 
+  "path": "<Student_Name> /home/projects/ee476/<Student_ID>/<Path_To_Library>",
+
+  "parts": {
+    
+    // NAND Schematic Design and Test
+    "1": {
+      "files": {
+        "cad3_turnin/part1/loaded_nand.ckt": { 
+          "circuit": {
+            "name": "loaded_nand",
+            "pins": ["a", "b", "z"]
+          }
+        }
+      },
+      "measurements": {
+        "rise_delay": "1.189e-11",
+        "fall_delay": "1.574e-11",
+        "rise_time":  "2.007e-11",
+        "fall_time":  "1.606e-11",
+        "rise_en_dissip": "2.763e-04",
+        "fall_en_dissip": "5.154e-04",
+        "input_cap": "9.336e-16",
+        "output_cap": "3.002e-15"
+      } 
+    }, 
+
+    // NAND Layout and Test
+    "2": {
+      "files": { 
+        "cad3_turnin/part2/loaded_nand.ckt" : {
+          "circuit": {
+          "name": "loaded_nand",
+          "pins": ["a", "b", "z"]
+        }
+      },
+      "cad3_turnin/part2/loaded_nand.lvs.report": "none",
+      "cad3_turnin/part2/loaded_nand.drc.summary": "none", 
+      "cad3_turnin/part2/loaded_nand.pex.netlist": "none",
+      "cad3_turnin/part2/loaded_nand.pex.netlist.LOADED_NAND.pxi": "none"
+      },
+      "measurements": {
+        "rise_delay": "1.626e-11",
+        "fall_delay": "1.813e-11",
+        "rise_time":  "2.690e-11",
+        "fall_time":  "2.614e-11",
+        "rise_en_dissip": "3.632e-04",
+        "fall_en_dissip": "5.395e-04",
+        "input_cap": "1.351e-15",
+        "output_cap": "0"
+      } 
+    }, 
+   
+    // NAND Circuit Tuning
+    "3": {
+      "files": { 
+        "cad3_turnin/part3/NAND2_balanced.ckt" : {
+          "circuit": {
+            "name": "NAND2_balanced",
+            "pins": ["a", "b", "out"]
+          }
+        } 
+      },
+      "measurements": {"none": "none"}
+    }, 
+
+    // Ring Oscillator Schematic
+    "4": {
+      "files": { 
+        "cad3_turnin/part4/ring_osc.ckt" : {
+          "circuit": {
+            "name": "ring_osc",
+            "pins": ["osc_en", "osc_out"]
+          }
+        }
+      },
+      "measurements": {
+        "osc_freq": "1.122e+10",
+        "avg_pow":  "4.156e-04"
+      } 
+    },
+
+    // Ring Oscillator Layout
+    "5": {
+      "files": { 
+        "cad3_turnin/part5/ring_osc.ckt" : {
+          "circuit": {
+            "name": "ring_osc",
+            "pins": ["osc_en", "osc_out"]
+          }
+        },
+        "cad3_turnin/part5/ring_osc.lvs.report": "none",
+        "cad3_turnin/part5/ring_osc.drc.summary": "none", 
+        "cad3_turnin/part5/ring_osc.pex.netlist": "none",
+        "cad3_turnin/part5/ring_osc.pex.netlist.RING_OSC.pxi": "none"
+      },
+      "measurements": {
+        "osc_freq": "6.775e+09",
+        "avg_pow":  "4.255e-04"
+      } 
+    }, 
+
+    // Double-width Ring Oscillator Schematic
+    "6": {
+      "files": { 
+        "cad3_turnin/part6/ring_osc_2x.ckt" : {
+          "circuit": {
+            "name": "ring_osc_2x",
+            "pins": ["osc_en", "osc_out"]
+          }
+        }
+      },
+      "measurements": {
+        "osc_freq": "1.254e+10",
+        "avg_pow":  "8.447e-04"
+      } 
+    },
+
+    // Additional Questions
+    "7": {
+      "files": {"none": "none"}, 
+      "measurements": {"none": "none"}
+    } 
+  },
+  
+  // CAD 3 Report
+  "report": "cad3_turnin/cad3_report.pdf"
+}

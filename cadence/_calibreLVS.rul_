@@ -1,11 +1,13 @@
 //
-//  Rule file generated on Thu Nov 10 08:39:03 PST 2022
+//  Rule file generated on Mon Nov 14 04:25:17 PST 2022
 //     by Calibre Interactive - LVS (v2021.1_33.19)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
+PRECISION 1000
+LAYOUT INPUT EXCEPTION SEVERITY PRECISION_RULE_FILE 1
 LAYOUT PATH  "ring_osc.calibre.db"
 LAYOUT PRIMARY "ring_osc"
 LAYOUT SYSTEM GDSII

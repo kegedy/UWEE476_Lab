@@ -3,7 +3,7 @@
 * there for user reference in the future.
 
 .LIB "/home/projects/ee476.2022aut/common/cadence_setup/freepdk45.l" tt_lib
-.INCLUDE "loaded_nand.ckt"
+.INCLUDE "ring_osc.ckt"
 
 ** include freepdk45.l
 *.lib "freepdk45.l" tt_lib
@@ -15,7 +15,7 @@
 * .PARAM v_drain=1.2
 * .PARAM v_source=0
 * .PARAM v_gate=0.5
-.PARAM vdd=1.2
+.PARAM vdd=0.7
 
 * Define voltage supplies and input waveforms. All voltage
 * Sources must start with a v, all current sources, with an i
@@ -58,9 +58,10 @@ Vb b 0 PULSE
 .probe lx4(m0)
 
 * Measurements
-.meas tran rise_time trig V(z) val='0.2*vdd' RISE=2 TD=250p targ V(z) val='0.8*vdd' RISE=2 TD=250p
-.meas tran fall_time trig V(z) val='0.8*vdd' FALL=2 TD='period' targ V(z) val='0.2*vdd' FALL=2 TD='period'
-.meas tran rise_delay trig V(b) val='0.5*vdd' RISE=2 TD=250p targ V(z) val='0.5*vdd' FALL=2 TD=250p
-.meas tran fall_delay trig V(b) val='0.5*vdd' FALL=2 TD='period' targ V(z) val='0.5*vdd' RISE=2 TD='period'
+.meas tran T trig V(osc_out) val='vdd*0.5' RISE=1 TD=1n targ V(osc_out)='vdd*0.5' RISE=2
+.meas tran osc_freq param='1/T'
+.meas tran energy integ 'abs(I(Vvdd))*vdd' from=575p to=4575p
+.meas tran avg_pow param='energy/4e-9'
+
 
 .END

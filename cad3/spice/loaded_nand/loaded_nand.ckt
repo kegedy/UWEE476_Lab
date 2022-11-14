@@ -24,16 +24,17 @@
 *.ends NAND2
 ** End of subcircuit definition.
 
-** ==== Post - layout netlist ====
-.include loaded_nand.pex.netlist
-
-** ==== loaded_inverter circuit ====
 ** Library name: cad3
 ** Cell name: loaded_nand
 ** View name: schematic
-xdut a b z NAND2
-xnand3 vdd! z net5 NAND2
-xnand2 vdd! z net4 NAND2
-xnand1 vdd! z net2 NAND2
-xnand0 vdd! z net3 NAND2
+*xdut a b z NAND2
+*xnand3 vdd! z net5 NAND2
+*xnand2 vdd! z net4 NAND2
+*xnand1 vdd! z net2 NAND2
+*xnand0 vdd! z net3 NAND2
+
+.include loaded_nand.pex.netlist
+xloaded_nand z a b loaded_nand
+
+
 .END
