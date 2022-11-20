@@ -1,0 +1,55 @@
+****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
+Input File: ring_osc.ctl
+lic:
+lic: FLEXlm: SDK_12.10
+lic: USER:   kegedy               HOSTNAME: linux-lab-054.ece.uw.edu
+lic: HOSTID: ffffffff9f0a36e0     PID:      12215
+lic: Using FLEXlm license file:
+lic: 27008@synopsysls.s.uw.edu
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 24-jan-2023/2020.12
+lic: 1(in_use)/100(total) FLOATING license(s) on SERVER 27008@synopsysls.s.uw.edu
+lic:
+
+ init: begin read circuit files, cpu clock= 5.92E-02
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/ad
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/behave
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/bjt
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/burr_brn
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/comlinear
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/dio
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/fet
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/lin_tech
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/pci
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/signet
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/ti
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/tline
+       option search = /home/lab.apps/vlsiapps_new/hspice/T-2022.06/hspice/parts/xilinx
+       option artist =     2.00
+       option ingold =     2.00
+       option parhier = local
+       option psf =     2.00
+ init: end read circuit files, cpu clock= 6.13E-02 peak memory=     495 mb
+ init: begin check errors, cpu clock= 6.13E-02
+  **warning**  No DC path to ground from node        0:
+ init: end check errors, cpu clock= 6.41E-02 peak memory=     496 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 6.41E-02
+       establish matrix -- done, cpu clock= 6.42E-02 peak memory=     496 mb
+       re-order matrix -- done, cpu clock= 6.44E-02 peak memory=     496 mb
+ init: end setup matrix, cpu clock= 6.77E-02 peak memory=     496 mb
+ dcop: begin dcop, cpu clock= 6.78E-02
+ dcop: end dcop, cpu clock= 7.78E-02 peak memory=     496 mb tot_iter=     219
+ sweep: tran tran0    begin, stop_t=  5.00E-09 #sweeps=5001 cpu clock= 8.94E-02
+ tran: time= 5.0000E-10 tot_iter=      48 conv_iter=      24 cpu clock= 9.03E-02
+ tran: time= 1.0000E-09 tot_iter=     502 conv_iter=     179 cpu clock= 1.05E-01
+ tran: time= 1.5000E-09 tot_iter=    1034 conv_iter=     364 cpu clock= 1.22E-01
+ tran: time= 2.0000E-09 tot_iter=    1572 conv_iter=     552 cpu clock= 1.40E-01
+ tran: time= 2.5000E-09 tot_iter=    2117 conv_iter=     741 cpu clock= 1.57E-01
+ tran: time= 3.0000E-09 tot_iter=    2660 conv_iter=     928 cpu clock= 1.75E-01
+ tran: time= 3.5000E-09 tot_iter=    3172 conv_iter=    1106 cpu clock= 1.91E-01
+ tran: time= 4.0000E-09 tot_iter=    3693 conv_iter=    1285 cpu clock= 2.08E-01
+ tran: time= 4.5000E-09 tot_iter=    4216 conv_iter=    1467 cpu clock= 2.24E-01
+ tran: time= 5.0000E-09 tot_iter=    4764 conv_iter=    1658 cpu clock= 2.42E-01
+ sweep: tran tran0    end, cpu clock= 2.42E-01 peak memory=     496 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Oct 26 17:46:43 2022
+** Design library name: cad2
+** Design cell name: loaded_inverter
+** Design view name: schematic
+.GLOBAL vss! vdd!

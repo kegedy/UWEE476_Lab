@@ -1,0 +1,48 @@
+** Generated for: hspiceD
+** Generated on: Nov  9 21:48:05 2022
+** Design library name: cad3
+** Design cell name: ring_osc_2x
+** Design view name: schematic
+.GLOBAL vss! vdd!
+
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: cad3
+** Cell name: INVD1
+** View name: schematic
+.subckt INVD1 vi vo
+m0 vo vi vss! vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
+m1 vo vi vdd! vdd! PMOS_VTL L=50e-9 W=400e-9 AD=42e-15 AS=42e-15 PD=610e-9 PS=610e-9 M=1
+.ends INVD1
+** End of subcircuit definition.
+
+** Library name: cad3
+** Cell name: NAND2
+** View name: schematic
+.subckt NAND2 a b z
+mnmos1 net1 b vss! vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
+mnmos0 z a net1 vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
+mpmos0 z a vdd! vdd! PMOS_VTL L=50e-9 W=250e-9 AD=26.25e-15 AS=26.25e-15 PD=460e-9 PS=460e-9 M=1
+mpmos1 z b vdd! vdd! PMOS_VTL L=50e-9 W=250e-9 AD=26.25e-15 AS=26.25e-15 PD=460e-9 PS=460e-9 M=1
+.ends NAND2
+** End of subcircuit definition.
+
+** Library name: cad3
+** Cell name: ring_osc_2x
+** View name: schematic
+xi13 net14 osc_out INVD1
+xi12 net12 net14 INVD1
+xi11 net10 net12 INVD1
+xi10 net8 net10 INVD1
+xi9 net6 net8 INVD1
+xi8 net4 net6 INVD1
+xi7 net2 net4 INVD1
+xi16 net1 net2 INVD1
+xi15 osc_en osc_out net1 NAND2
+.END

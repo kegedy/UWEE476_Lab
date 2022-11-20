@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /home/projects/ee476.2022aut/kegedy/cadence
+pex_PexParam LAYOUT_PRIMARY NAND2
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {NAND2 "" NAND2.pdb "" } } 

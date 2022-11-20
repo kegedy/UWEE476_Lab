@@ -1,0 +1,13 @@
+* File: NAND2.pex.netlist.NAND2.pxi
+* Created: Thu Nov 10 08:30:28 2022
+* 
+cc_1 B A 0.0297733f
+cc_2 B Z 0.0161294f
+cc_3 B VSS! 0.00513014f
+cc_4 B VDD! 0.00461131f
+cc_5 A Z 0.0473251f
+cc_6 A VSS! 0.00386535f
+cc_7 A VDD! 0.00349473f
+cc_8 Z VSS! 0.00287087f
+cc_9 Z VDD! 0.0265594f
+cc_10 VSS! VDD! 0.00233273f

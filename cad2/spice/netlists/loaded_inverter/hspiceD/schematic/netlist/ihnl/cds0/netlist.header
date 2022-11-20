@@ -1,0 +1,5 @@
+
+** Library name: cad2
+** Cell name: INVD1
+** View name: schematic
+.subckt INVD1 vi vo

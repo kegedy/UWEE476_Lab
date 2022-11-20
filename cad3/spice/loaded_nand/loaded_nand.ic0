@@ -1,0 +1,27 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06 linux64"
+* "format" "HSP"
+* "rundate" "23:11:48 11/13/2022 "
+* "netlist" "loaded_nand.ctl "
+* "runtitle" "* beware!!!! first line is always a comment line and spice ignores this line"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 1.200e+00       
++ b = 0.000e+00       
++ vdd! = 1.200e+00       
++ vss! = 0.000e+00       
++ z = 1.199e+00       
++ xloaded_nand.net2 = 1.461e-04       
++ xloaded_nand.net3 = 1.461e-04       
++ xloaded_nand.net4 = 1.461e-04       
++ xloaded_nand.net5 = 1.461e-04       
++ xloaded_nand.xdut/net1 = 3.757e-05       
++ xloaded_nand.xnand0/net1 = 7.394e-05       
++ xloaded_nand.xnand1/net1 = 7.394e-05       
++ xloaded_nand.xnand2/net1 = 7.394e-05       
++ xloaded_nand.xnand3/net1 = 7.394e-05       
+***   END: Saved Operating Point ***                     

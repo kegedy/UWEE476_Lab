@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Oct 14 14:31:22 2022
+** Design library name: cad1
+** Design cell name: q1c
+** Design view name: schematic
+.GLOBAL vdd!

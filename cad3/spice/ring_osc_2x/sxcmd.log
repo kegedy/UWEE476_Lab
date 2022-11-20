@@ -1,0 +1,29 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 05:02:58 on Mon Nov 14 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 2896   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {ring_osc_2x.tr0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:ring_osc_2x.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:ring_osc_2x.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {osc_out} 16
+wv_drag_list_item {Custom WaveView} {} {sigview} {osc_out} 16
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 385 17
+wv_zoom_x WV1.PANEL1:1 1.47597e-09 2.1968e-09
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_select_combox_item {MeasurementTool} {} {Signal} "osc_out ring_osc_2x.tr0" 0
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 

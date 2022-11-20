@@ -1,0 +1,5 @@
+
+** Library name: cad1
+** Cell name: q1b_1
+** View name: schematic
+m0 vdd! vin 0 0 NMOS_VTL L=50e-9 W=1e-6 AD=105e-15 AS=105e-15 PD=1.21e-6 PS=1.21e-6 M=1

@@ -1,0 +1,21 @@
+** Generated for: hspiceD
+** Generated on: Oct 13 17:50:16 2022
+** Design library name: cad0
+** Design cell name: rc_series
+** Design view name: schematic
+.GLOBAL vss!
+
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: cad0
+** Cell name: rc_series
+** View name: schematic
+r0 vo vi 1e3
+c0 vo vss! 1e-12
+.END

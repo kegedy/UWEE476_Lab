@@ -1,0 +1,28 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06 linux64"
+* "format" "HSP"
+* "rundate" "05:04:51 11/14/2022 "
+* "netlist" "ring_osc_2x.ctl "
+* "runtitle" "* beware!!!! first line is always a comment line and spice ignores this line"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 1.200e+00       
++ b = 0.000e+00       
++ net1 = 5.751e-01       
++ net10 = 5.749e-01       
++ net12 = 5.769e-01       
++ net14 = 5.604e-01       
++ net2 = 5.751e-01       
++ net4 = 5.751e-01       
++ net6 = 5.751e-01       
++ net8 = 5.751e-01       
++ osc_en = 6.869e-01       
++ osc_out = 6.925e-01       
++ vdd! = 1.200e+00       
++ vss! = 0.000e+00       
++ xi15.net1 = 1.240e-01       
+***   END: Saved Operating Point ***                     

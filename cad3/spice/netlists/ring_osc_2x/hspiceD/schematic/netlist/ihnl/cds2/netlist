@@ -1,0 +1,13 @@
+
+** Library name: cad3
+** Cell name: ring_osc_2x
+** View name: schematic
+xi13 net14 osc_out INVD1
+xi12 net12 net14 INVD1
+xi11 net10 net12 INVD1
+xi10 net8 net10 INVD1
+xi9 net6 net8 INVD1
+xi8 net4 net6 INVD1
+xi7 net2 net4 INVD1
+xi16 net1 net2 INVD1
+xi15 osc_en osc_out net1 NAND2

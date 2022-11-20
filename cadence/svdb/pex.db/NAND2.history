@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Thu Nov 10 08:30:26 2022 " "v2021.1_33.19" "-xrc -pdb -c -turbo 1 /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_"
+"Thu Nov 10 08:30:28 2022 " "v2021.1_33.19" "-xrc -fmt -c /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_"

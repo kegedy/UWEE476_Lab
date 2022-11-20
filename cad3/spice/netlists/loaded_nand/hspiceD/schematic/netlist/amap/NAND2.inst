@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"NMOS1v" "mnmos1v"
+"NMOS0v" "mnmos0v"
+"PMOS0v" "mpmos0v"
+"NMOS1n NMOS0n" "NCSU_Devices_FreePDK45_NMOS_VTL_hspiceD"
+"PMOS1v" "mpmos1v"
+"PMOS0n PMOS1n" "NCSU_Devices_FreePDK45_PMOS_VTL_hspiceD"
+"av" "(FUNCTION (plus (root \"NMOS0/G\") (root \"PMOS0/G\")))v"
+"bv" "(FUNCTION (plus (root \"NMOS1/G\") (root \"PMOS1/G\")))v"
+"zv" "(FUNCTION (plus (root \"PMOS0/D\") (root \"PMOS1/D\") (root \"NMOS0/D\")))v"

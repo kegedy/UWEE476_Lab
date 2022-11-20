@@ -1,0 +1,1 @@
+infoDpl = `(nil simulator "hspiceD" libName "cad3" cellName "ring_osc_2x" viewName "schematic" cdslib "cds.lib" extractedViewPresent nil)

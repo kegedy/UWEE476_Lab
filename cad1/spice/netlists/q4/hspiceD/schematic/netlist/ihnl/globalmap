@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+cad1/q4/schematic q4
+$endmodel
+$net
+vdd! vdd!
+$endnet
+$param
+$endparam

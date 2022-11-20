@@ -1,0 +1,1 @@
+infoDpl = `(nil simulator "hspiceD" libName "tut_2" cellName "nmos_inverter" viewName "schematic" cdslib "cds.lib" extractedViewPresent nil)

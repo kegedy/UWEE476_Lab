@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Nov  9 21:48:05 2022
+** Design library name: cad3
+** Design cell name: ring_osc_2x
+** Design view name: schematic
+.GLOBAL vss! vdd!

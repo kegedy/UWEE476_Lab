@@ -1,0 +1,49 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  cad3
+* Top Cell Name: loaded_nand
+* View Name:     schematic
+* Netlisted on:  Nov 10 09:18:30 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vss!
++        vdd!
+
+*.PIN vss!
+*+    vdd!
+
+************************************************************************
+* Library Name: cad3
+* Cell Name:    NAND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2 a b z
+*.PININFO a:I b:I z:O
+MNMOS1 net1 b vss! vss! NMOS_VTL W=300n L=50n m=1
+MNMOS0 z a net1 vss! NMOS_VTL W=300n L=50n m=1
+MPMOS0 z a vdd! vdd! PMOS_VTL W=250.0n L=50n m=1
+MPMOS1 z b vdd! vdd! PMOS_VTL W=250.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: cad3
+* Cell Name:    loaded_nand
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT loaded_nand a b z
+*.PININFO a:I b:I z:O
+XDUT a b z / NAND2
+XNAND3 vdd! z net5 / NAND2
+XNAND2 vdd! z net4 / NAND2
+XNAND0 vdd! z net3 / NAND2
+XNAND1 vdd! z net2 / NAND2
+.ENDS
+

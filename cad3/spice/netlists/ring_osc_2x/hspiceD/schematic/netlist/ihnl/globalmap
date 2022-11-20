@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+cad3/INVD1/schematic INVD1
+cad3/ring_osc_2x/schematic ring_osc_2x
+cad3/NAND2/schematic NAND2
+$endmodel
+$net
+vss! vss!
+vdd! vdd!
+$endnet
+$param
+$endparam

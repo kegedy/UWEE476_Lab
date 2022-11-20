@@ -7,11 +7,11 @@
   this software is strictly prohibited.
   Input File: loaded_inverter.ctl                                               
   Command line options: /home/lab.apps/vlsiapps_new/hspice/current/hspice/linux64/hspice loaded_inverter.ctl -o loaded_inverter.lis
-  Start time: Wed Oct 26 19:01:42 2022
+  Start time: Fri Oct 28 09:17:15 2022
  lic:  
  lic: FLEXlm: SDK_12.10 
  lic: USER:   kegedy               HOSTNAME: linux-lab-054.ece.uw.edu 
- lic: HOSTID: ffffffff9f0a36e0     PID:      17726 
+ lic: HOSTID: ffffffff9f0a36e0     PID:      27712 
  lic: Using FLEXlm license file: 
  lic: 27008@synopsysls.s.uw.edu 
  lic: Checkout 1 hspice 
@@ -602,13 +602,13 @@
  ******  Machine Information  ******
  CPU:
  model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
- cpu MHz	: 4599.609
+ cpu MHz	: 4584.411
  CPU(s)		: 8
   
  OS:
  Linux version 3.10.0-1160.76.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Aug 10 16:21:17 UTC 2022
 
- System loadavg : 0.26 0.23 0.34 2/1208 17729
+ System loadavg : 0.83 0.86 0.95 2/1188 27717
 
 
   ******  PrimeSim HSPICE Threads Information  ******
@@ -635,19 +635,19 @@
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1           4
   transient          0.02       10001        2404         978 rev=       208
-  readin             0.02
+  readin             0.07
   errchk             0.00
   setup              0.00
   output             0.00
 
 
            peak memory used        496.22 megabytes
-           total cpu time            0.06 seconds
-           total elapsed time        0.12 seconds
-           job started at     19:01:42 10/26/2022
-           job ended   at     19:01:42 10/26/2022
-           job total runtime         0.12 seconds
+           total cpu time            0.13 seconds
+           total elapsed time        0.22 seconds
+           job started at     09:17:15 10/28/2022
+           job ended   at     09:17:16 10/28/2022
+           job total runtime         0.22 seconds
 
 
  lic: Release hspice token(s) 
- lic: total license checkout elapse time:        0.06(s)
+ lic: total license checkout elapse time:        0.07(s)

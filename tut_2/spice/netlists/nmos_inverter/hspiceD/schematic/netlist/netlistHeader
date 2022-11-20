@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Oct 13 19:22:14 2022
+** Design library name: tut_2
+** Design cell name: nmos_inverter
+** Design view name: schematic
+.GLOBAL vdd!

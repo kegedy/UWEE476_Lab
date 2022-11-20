@@ -1,0 +1,6 @@
+
+** Library name: cad2
+** Cell name: loaded_inverter
+** View name: schematic
+xi0 vi vo INVD1
+c0 vo 0 10e-15

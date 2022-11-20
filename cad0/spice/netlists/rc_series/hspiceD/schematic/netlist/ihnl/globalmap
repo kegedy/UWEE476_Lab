@@ -1,0 +1,9 @@
+CADENCE IHNL11140
+$model
+cad0/rc_series/schematic rc_series
+$endmodel
+$net
+vss! vss!
+$endnet
+$param
+$endparam

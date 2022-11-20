@@ -1,0 +1,6 @@
+
+** Library name: cad0
+** Cell name: rc_series
+** View name: schematic
+r0 vo vi 1e3
+c0 vo vss! 1e-12

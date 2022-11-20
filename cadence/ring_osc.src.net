@@ -1,0 +1,65 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  cad3
+* Top Cell Name: ring_osc
+* View Name:     schematic
+* Netlisted on:  Nov 14 04:25:17 2022
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vss!
++        vdd!
+
+*.PIN vss!
+*+    vdd!
+
+************************************************************************
+* Library Name: cad3
+* Cell Name:    INVD1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVD1 vi vo
+*.PININFO vi:I vo:O
+MM0 vo vi vss! vss! NMOS_VTL W=300n L=50n m=1
+MM1 vo vi vdd! vdd! PMOS_VTL W=400n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: cad3
+* Cell Name:    NAND2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND2 a b z
+*.PININFO a:I b:I z:O
+MNMOS1 net1 b vss! vss! NMOS_VTL W=300n L=50n m=1
+MNMOS0 z a net1 vss! NMOS_VTL W=300n L=50n m=1
+MPMOS0 z a vdd! vdd! PMOS_VTL W=250.0n L=50n m=1
+MPMOS1 z b vdd! vdd! PMOS_VTL W=250.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: cad3
+* Cell Name:    ring_osc
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ring_osc osc_en osc_out
+*.PININFO osc_en:I osc_out:O
+XI13 net14 osc_out / INVD1
+XI12 net12 net14 / INVD1
+XI11 net10 net12 / INVD1
+XI10 net8 net10 / INVD1
+XI9 net6 net8 / INVD1
+XI8 net4 net6 / INVD1
+XI7 net2 net4 / INVD1
+XI16 net1 net2 / INVD1
+XI15 osc_en osc_out net1 / NAND2
+.ENDS
+

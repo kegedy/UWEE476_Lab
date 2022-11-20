@@ -1,0 +1,26 @@
+* File: NAND2.pex.netlist
+* Created: Thu Nov 10 08:30:28 2022
+* Program "Calibre xRC"
+* Version "v2021.1_33.19"
+* 
+.subckt NAND2  B A Z VSS! VDD!
+* 
+MNMOS1 NET1 B VSS! VSS! NMOS_VTL L=5e-08 W=3e-07 AD=4.35e-14 AS=3.3e-14
++ PD=8.9e-07 PS=8.2e-07
+MNMOS0 Z A NET1 VSS! NMOS_VTL L=5e-08 W=3e-07 AD=3.3e-14 AS=4.35e-14 PD=8.2e-07
++ PS=8.9e-07
+MPMOS1 Z B VDD! VDD! PMOS_VTL L=5e-08 W=2.5e-07 AD=3.625e-14 AS=2.75e-14
++ PD=7.9e-07 PS=7.2e-07
+MPMOS0 Z A VDD! VDD! PMOS_VTL L=5e-08 W=2.5e-07 AD=3.625e-14 AS=2.75e-14
++ PD=7.9e-07 PS=7.2e-07
+c_5 B 0 0.0682695f
+c_10 A 0 0.0675991f
+c_15 Z 0 0.0418196f
+c_20 VSS! 0 0.0877936f
+c_25 VDD! 0 0.0945103f
+*
+.include "NAND2.pex.netlist.NAND2.pxi"
+*
+.ends
+*
+*

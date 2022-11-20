@@ -1,0 +1,19 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ring_osc_2x"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "vss! vdd!"
+  hierDelim "^"
+  netlistDir "/home/projects/ee476.2022aut/kegedy/cad3/spice/netlists/ring_osc_2x/hspiceD/schematic/netlist"
+ )
+( model
+( "cad3/ring_osc_2x/schematic" "ring_osc_2x" )
+( "cad3/INVD1/schematic" "INVD1" )
+( "cad3/NAND2/schematic" "NAND2" )
+ )
+( "ring_osc_2x" "ihnl/cds2/map" )
+( "NAND2" "ihnl/cds1/map" )
+( "INVD1" "ihnl/cds0/map" )
+ )

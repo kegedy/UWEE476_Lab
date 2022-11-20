@@ -1,0 +1,59 @@
+### Custom WaveView ADV log file, revision T-2022.06 (build May 21, ) ###
+### created at 05:17:05 on Mon Nov 14 2022 (Linux AMD64) ###
+### Host Name: linux-lab-054.ece.uw.edu   User ID: kegedy   PID: 12294   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+sx_open_sim_file_read {ring_osc.tr0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:ring_osc.tr0(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:ring_osc.tr0(0)@toplevel(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {osc_en} 15
+wv_drag_list_item {Custom WaveView} {} {sigview} {osc_en} 15
+wv_drag_enter WV1
+wv_drop_on WV1
+wv_select_list_item {Custom WaveView} {} {sigview} {osc_out} 16
+wv_drag_list_item {Custom WaveView} {} {sigview} {osc_out} 16
+wv_drag_enter WV1
+wv_drag_to WV1 1 351
+wv_drag_to WV1 80 396
+wv_drop_on WV1
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL2:1 1.99085e-09 0.727754
+wv_drag_item_to WV1 476 216
+wv_zoom WV1.PANEL2:1 1.99085e-09 0.727754 2.68879e-09 -0.0707866
+wv_press_tool_button {Custom WaveView} {} {WaveformMeasurementTool0} 
+wv_select_dialog {MeasurementTool} 
+wv_select_combox_item {MeasurementTool} {} {Signal} "osc_out ring_osc.tr0" 1
+wv_press_button {MeasurementTool} {} {Apply} 
+wv_press_button {MeasurementTool} {} {Ok} 
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Move Measurement} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.MEAS1
+wv_drag_item_to WV1 458 277
+wv_move_wv_item WV1.MEAS1 427 328
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.MEAS2
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {MeterPopMenu.Delete Measurement} 
+wv_press_tool_button {Custom WaveView} {} {DumpScreen0} 
+wv_move_window {SaveScreenDump} {} 706 160
+wv_move_window {SaveScreenDump} {} 709 189
+wv_select_dialog {SaveScreenDump} 
+wv_press_button {SaveScreenDump} {} {SaveToFileBrowse} 
+wv_press_button {FileDialog} {} {Up} 
+wv_select_list_item {FileDialog} {} {FileList} {plots} 5
+wv_dclick_list_item {FileDialog} {} {FileList} {plots} 5
+wv_select_list_item {FileDialog} {} {FileList} {osc_freq_layout.png} 9
+wv_select_list_item {FileDialog} {} {FileList} {osc_freq_sch.png} 11
+wv_set_text {FileDialog} {} {FileName} "osc_freq_sch_07"
+wv_press_button {FileDialog} {} {Ok} 
+wv_press_button {SaveScreenDump} {} {Save} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
