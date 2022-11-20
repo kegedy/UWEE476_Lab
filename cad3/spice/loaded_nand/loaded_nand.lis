@@ -7,11 +7,11 @@
   this software is strictly prohibited.
   Input File: loaded_nand.ctl                                                   
   Command line options: /home/lab.apps/vlsiapps_new/hspice/current/hspice/linux64/hspice loaded_nand.ctl -o loaded_nand.lis
-  Start time: Sun Nov 13 23:11:48 2022
+  Start time: Mon Nov 14 10:07:20 2022
  lic:  
  lic: FLEXlm: SDK_12.10 
  lic: USER:   kegedy               HOSTNAME: linux-lab-054.ece.uw.edu 
- lic: HOSTID: ffffffff9f0a36e0     PID:      2933 
+ lic: HOSTID: ffffffff9f0a36e0     PID:      2184 
  lic: Using FLEXlm license file: 
  lic: 27008@synopsysls.s.uw.edu 
  lic: Checkout 1 hspice 
@@ -27,7 +27,7 @@
  circuit number to circuit name directory
    number circuitname                     definition         multiplier
         0 main circuit
-        1 xloaded_nand.                   loaded_nand        1.00 
+        1 xdut.                           loaded_nand        1.00 
  ******  
  * beware!!!! first line is always a comment line and spice ignores this line
 
@@ -565,7 +565,7 @@
     TRS =      0 
     TRD =      0 
   **info** (loaded_nand.ctl:44) DC voltage reset to initial transient source value in source 0:vb. new dc=0.0000D+00
-  **warning** (nmos_vtl:xloaded_nand.mxdut/mnmos0 (loaded_nand.pex.netlist:8)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=3e-07 l=5e-08.
+  **warning** (nmos_vtl:xdut.mxdut/mnmos0 (loaded_nand.pex.netlist:8)) Warning:  Acde = 0.276941 may be too small in BSIM4 model with w=3e-07 l=5e-08.
   **warning** (loaded_nand.ctl:59) Could not find branch element m0 ;branch output ignored
   
   
@@ -597,16 +597,16 @@
  fall_time= 2.6139e-11  targ= 1.0435e-09   trig= 1.0174e-09
  rise_delay= 1.6260e-11  targ= 1.0263e-09   trig= 1.0100e-09
  fall_delay= 1.8129e-11  targ= 1.2981e-09   trig= 1.2800e-09
- mnmos0r= 1.2151e-07  from= 1.2900e-09     to= 1.3200e-09
- mnmos1r= 2.0394e-05  from= 1.2900e-09     to= 1.3200e-09
- mpmos0r= 1.9587e-05  from= 1.2900e-09     to= 1.3200e-09
- mpmos1r= 3.2307e-04  from= 1.2900e-09     to= 1.3200e-09
- mnmos0f= 2.6676e-04  from= 1.5200e-09     to= 1.5400e-09
- mnmos1f= 2.4353e-04  from= 1.5200e-09     to= 1.5400e-09
- mpmos0f= 1.4597e-05  from= 1.5200e-09     to= 1.5400e-09
- mpmos1f= 1.4610e-05  from= 1.5200e-09     to= 1.5400e-09
- rise_en_dissip= 3.6317e-04
- fall_en_dissip= 5.3950e-04
+ mnmos0r=   failed
+ mnmos1r=   failed
+ mpmos0r=   failed
+ mpmos1r=   failed
+ mnmos0f=   failed
+ mnmos1f=   failed
+ mpmos0f=   failed
+ mpmos1f=   failed
+ rise_en_dissip=   failed
+ fall_en_dissip=   failed
  input_cap= 1.3514e-15  from= 0.0000e+00     to= 2.5000e-10
  output_cap=   failed
 
@@ -625,7 +625,7 @@
  OS:
  Linux version 3.10.0-1160.76.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Aug 10 16:21:17 UTC 2022
 
- System loadavg : 2.54 2.15 2.12 3/1677 2936
+ System loadavg : 1.99 1.95 2.05 4/1665 2187
 
 
   ******  PrimeSim HSPICE Threads Information  ******
@@ -652,19 +652,19 @@
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1           5
   transient          0.06        5001        1537         575 rev=        99
-  readin             0.02
+  readin             0.01
   errchk             0.00
   setup              0.00
   output             0.00
 
 
-           peak memory used        496.80 megabytes
-           total cpu time            0.11 seconds
-           total elapsed time        0.16 seconds
-           job started at     23:11:48 11/13/2022
-           job ended   at     23:11:48 11/13/2022
-           job total runtime         0.16 seconds
+           peak memory used        496.79 megabytes
+           total cpu time            0.10 seconds
+           total elapsed time        0.15 seconds
+           job started at     10:07:20 11/14/2022
+           job ended   at     10:07:20 11/14/2022
+           job total runtime         0.15 seconds
 
 
  lic: Release hspice token(s) 
- lic: total license checkout elapse time:        0.04(s)
+ lic: total license checkout elapse time:        0.05(s)
