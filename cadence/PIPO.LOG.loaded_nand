@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
           : sub-version  IC6.1.8-64b.500.17 
-Started at: 10-Nov-2022  09:18:29
+Started at: 20-Nov-2022  18:44:36
 User Name : kegedy
 Host Name : linux-lab-054.ece.uw.edu
 Directory : /home/projects/ee476.2022aut/kegedy/cadence
@@ -30,6 +30,8 @@ INFO (XSTRM-223): 1. Translating cellView cad3/NAND2/layout as STRUCTURE NAND2.
 INFO (XSTRM-223): 2. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
 INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 INFO (XSTRM-223): 3. Translating cellView cad3/loaded_nand/layout as STRUCTURE loaded_nand.
+WARNING (XSTRM-45): Mapping for layer '0' will not be written in xStrmOut_layerMap.txt file because layer '0', which is used in the input design is not defined in the technology file. Ensure that the layer exists in the technology file or use the correct technology file.
+WARNING (XSTRM-45): Mapping for layer '63' will not be written in xStrmOut_layerMap.txt file because layer '63', which is used in the input design is not defined in the technology file. Ensure that the layer exists in the technology file or use the correct technology file.
 
 Summary of Objects Translated:
 	Scalar Instances:                       6
@@ -56,5 +58,5 @@ Summary of Objects Translated:
 	TextDisplay:                            2
 	Cells:                                  3
 
-Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
-INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
+Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4356KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '3' warning(s) found.

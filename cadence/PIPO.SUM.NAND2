@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
           : sub-version  IC6.1.8-64b.500.17 
-Started at: 10-Nov-2022  08:30:23
+Started at: 20-Nov-2022  21:08:25
 User Name : kegedy
 Host Name : linux-lab-054.ece.uw.edu
 Directory : /home/projects/ee476.2022aut/kegedy/cadence
@@ -15,16 +15,16 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
+cad4/NAND2/layout               1        0       0        28     0      0         5      0             0      0     0     0       0       
 NangateOpenCellLibrary/WELLTAP_X1/layout                        0        0       4        9      0      0         6      2             0      0     0     0       0       
-cad3/NAND2/layout               1        0       0        28     0      0         5      0             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Individual Cell Statistics - Advanced Objects
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
 ---------------------------------------------------------------------------------------------------------------------------------------
+cad4/NAND2/layout               0        0          0          0          0          0     0        0         0         0        
 NangateOpenCellLibrary/WELLTAP_X1/layout                        0        0          0          0          0          0     0        0         0         0        
-cad3/NAND2/layout               0        0          0          0          0          0     0        0         0         0        
 ---------------------------------------------------------------------------------------------------------------------------------------
 
                        Statistics of Layers 
@@ -72,4 +72,4 @@ Summary of Objects Translated:
 Design Libraries: 
 
 DEFINE NangateOpenCellLibrary	/home/projects/ee476.2022aut/common/freepdk45_opencelllibrarypdk45/FreePDK45/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary
-DEFINE cad3	/home/projects/ee476.2022aut/kegedy/cadence/cad3
+DEFINE cad4	/home/projects/ee476.2022aut/kegedy/cadence/cad4

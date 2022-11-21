@@ -1,10 +1,10 @@
 ************************************************************************
 * auCdl Netlist:
 * 
-* Library Name:  cad2
+* Library Name:  cad3
 * Top Cell Name: INVD1
 * View Name:     schematic
-* Netlisted on:  Nov  8 22:21:51 2022
+* Netlisted on:  Nov 20 20:10:08 2022
 ************************************************************************
 
 *.EQUATION
@@ -19,7 +19,7 @@
 *+    vdd!
 
 ************************************************************************
-* Library Name: cad2
+* Library Name: cad3
 * Cell Name:    INVD1
 * View Name:    schematic
 ************************************************************************

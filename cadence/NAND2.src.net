@@ -1,10 +1,10 @@
 ************************************************************************
 * auCdl Netlist:
 * 
-* Library Name:  cad3
+* Library Name:  cad4
 * Top Cell Name: NAND2
 * View Name:     schematic
-* Netlisted on:  Nov 10 08:30:24 2022
+* Netlisted on:  Nov 20 21:08:26 2022
 ************************************************************************
 
 *.EQUATION
@@ -19,7 +19,7 @@
 *+    vss!
 
 ************************************************************************
-* Library Name: cad3
+* Library Name: cad4
 * Cell Name:    NAND2
 * View Name:    schematic
 ************************************************************************

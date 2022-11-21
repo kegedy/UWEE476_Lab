@@ -1,24 +1,26 @@
 //
-//  Rule file generated on Thu Nov 10 09:18:26 PST 2022
+//  Rule file generated on Sun Nov 20 20:16:11 PST 2022
 //     by Calibre Interactive - PEX (v2021.1_33.19)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "loaded_nand.calibre.db"
-LAYOUT PRIMARY "loaded_nand"
+PRECISION 1000
+LAYOUT INPUT EXCEPTION SEVERITY PRECISION_RULE_FILE 1
+LAYOUT PATH  "NAND2.calibre.db"
+LAYOUT PRIMARY "NAND2"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.src.net"
-SOURCE PRIMARY "loaded_nand"
+SOURCE PATH "/home/projects/ee476.2022aut/kegedy/cadence/NAND2.src.net"
+SOURCE PRIMARY "NAND2"
 SOURCE SYSTEM SPICE
 
 MASK SVDB DIRECTORY "svdb" QUERY XRC
 
-LVS REPORT "loaded_nand.lvs.report"
+LVS REPORT "NAND2.lvs.report"
 
-PEX NETLIST "loaded_nand.pex.netlist" HSPICE 1 SOURCENAMES 
+PEX NETLIST "NAND2.pex.netlist" HSPICE 1 SOURCENAMES 
 PEX REDUCE ANALOG NO
 PEX NETLIST UPPERCASE KEYWORDS NO
 PEX NETLIST VIRTUAL CONNECT NO

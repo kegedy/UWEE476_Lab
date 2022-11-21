@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
           : sub-version  IC6.1.8-64b.500.17 
-Started at: 10-Nov-2022  09:18:29
+Started at: 20-Nov-2022  18:44:36
 User Name : kegedy
 Host Name : linux-lab-054.ece.uw.edu
 Directory : /home/projects/ee476.2022aut/kegedy/cadence
@@ -34,11 +34,11 @@ cad3/NAND2/layout               0        0          0          0          0     
 Cadence         Cadence         Stream  Stream   
 Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
 ---------------------------------------------------------------------------------------------------------------------------------------
-BOUND           drawing         0       0         0        1        0        0        0             0    0   0   0     0      0      
+UNKNOWN         drawing         0       0         0        1        0        0        0             0    0   0   0     0      0      
 nimplant        drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
 nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
 metal2          drawing         13      0         0        1        0        0        0             0    0   0   0     0      0      
-IP              drawing         63      0         0        0        0        4        0             0    0   0   0     0      0      
+UNKNOWN         drawing         63      0         0        0        0        4        0             0    0   0   0     0      0      
 metal1          drawing         11      0         4        14       0        12       0             0    0   0   0     0      0      
 via1            drawing         12      0         0        5        0        0        0             0    0   0   0     0      0      
 poly            drawing         9       0         0        4        0        0        0             0    0   0   0     0      0      

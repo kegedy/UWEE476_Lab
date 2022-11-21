@@ -1,9 +1,9 @@
 * SPICE NETLIST
 ***************************************
 
-.SUBCKT INVD1 vi vo vss! vdd!
-** N=4 EP=4 IP=0 FDC=2
-M0 vo vi vss! vss! NMOS_VTL L=5e-08 W=3e-07 AD=3.3e-14 AS=3.3e-14 PD=8.2e-07 PS=8.2e-07 $X=275 $Y=-400 $D=1
-M1 vo vi vdd! vdd! PMOS_VTL L=5e-08 W=4e-07 AD=4.4e-14 AS=4.4e-14 PD=1.02e-06 PS=1.02e-06 $X=275 $Y=170 $D=0
+.SUBCKT INVD1 vi vss! vdd! vo
+** N=6 EP=4 IP=0 FDC=2
+M0 vo vi vss! 5 NMOS_VTL L=2.5e-08 W=1.5e-07 AD=8.25e-15 AS=8.25e-15 PD=4.1e-07 PS=4.1e-07 $X=275 $Y=-400 $D=1
+M1 vo vi vdd! 6 PMOS_VTL L=2.5e-08 W=2e-07 AD=1.1e-14 AS=1.1e-14 PD=5.1e-07 PS=5.1e-07 $X=275 $Y=170 $D=0
 .ENDS
 ***************************************

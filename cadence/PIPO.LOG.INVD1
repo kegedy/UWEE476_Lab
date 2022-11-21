@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
           : sub-version  IC6.1.8-64b.500.17 
-Started at: 08-Nov-2022  22:21:50
+Started at: 20-Nov-2022  20:10:07
 User Name : kegedy
 Host Name : linux-lab-054.ece.uw.edu
 Directory : /home/projects/ee476.2022aut/kegedy/cadence
@@ -15,7 +15,7 @@ INFO (XSTRM-288): Performing automatic layer mapping because either the layer ma
 INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
 Summary of Options :
-library                                 cad2
+library                                 cad3
 strmFile                                /home/projects/ee476.2022aut/kegedy/cadence/INVD1.calibre.db
 topCell                                 INVD1
 view                                    layout
@@ -26,16 +26,14 @@ case                                    Preserve
 convertDot                              node
 convertPcellPin                         geometry
 
-INFO (XSTRM-223): 1. Translating cellView NangateOpenCellLibrary/WELLTAP_X1/layout as STRUCTURE WELLTAP_X1.
-INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
-INFO (XSTRM-223): 2. Translating cellView cad2/INVD1/layout as STRUCTURE INVD1.
+INFO (XSTRM-223): 1. Translating cellView cad3/INVD1/layout as STRUCTURE INVD1.
 
 Summary of Objects Translated:
-	Scalar Instances:                       1
+	Scalar Instances:                       0
 	Array Instances:                        0
-	Polygons:                               4
+	Polygons:                               0
 	Paths:                                  0
-	Rectangles:                             29
+	Rectangles:                             20
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -51,9 +49,9 @@ Summary of Objects Translated:
 	Custom Vias:                            0
 	CdsGen Vias:                            0
 	Pathsegs:                               0
-	Text:                                   10
-	TextDisplay:                            2
-	Cells:                                  2
+	Text:                                   4
+	TextDisplay:                            0
+	Cells:                                  1
 
-Elapsed Time: 0.2s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 4096KB
+Elapsed Time: 0.3s   User Time: 0.1s   CPU Time: 0.0s   Peak VM: 3576KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

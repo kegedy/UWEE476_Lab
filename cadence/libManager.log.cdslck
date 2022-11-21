@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      kegedy
 HostName                       linux-lab-054.ece.uw.edu
-ProcessIdentifier              13712
-ProcessCreationTime_UTC        1668984316
-ProcessCreationTime_Readable   Sun Nov 20 14:45:16 2022 PST
+ProcessIdentifier              2590
+ProcessCreationTime_UTC        1669002674
+ProcessCreationTime_Readable   Sun Nov 20 19:51:14 2022 PST
 AppIdentifier                  /home/lab.apps/vlsiapps_new/virtuoso/current/tools/dfII/bin/64bit/libManager
 OSType                         lnx86
 ReasonForPlacingEditLock       log file
 FilePathUsedToEditLock         /home/projects/ee476.2022aut/kegedy/cadence/./libManager.log
-TimeEditLocked                 Sun Nov 20 14:45:16 2022 PST
+TimeEditLocked                 Sun Nov 20 19:51:14 2022 PST

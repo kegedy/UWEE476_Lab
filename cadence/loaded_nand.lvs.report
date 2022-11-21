@@ -12,11 +12,11 @@
 
 
 REPORT FILE NAME:         loaded_nand.lvs.report
-LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/svdb/loaded_nand.sp ('loaded_nand')
+LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.sp ('loaded_nand')
 SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/loaded_nand.src.net ('loaded_nand')
-RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibrexRC.rul_
+RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Thu Nov 10 09:18:33 2022
+CREATION TIME:            Sun Nov 20 18:44:38 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -27,13 +27,14 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 
 
 
-                         #       ###################       _   _   
-                        #        #                 #       *   *   
-                   #   #         #     CORRECT     #         |     
-                    # #          #                 #       \___/  
-                     #           ###################               
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
 
 
+  Error:    Connectivity errors.
   Warning:  Ambiguity points were found and resolved arbitrarily.
 
 
@@ -43,7 +44,7 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  CORRECT        loaded_nand                   loaded_nand
+  INCORRECT      loaded_nand                   loaded_nand
 
 
 
@@ -57,10 +58,10 @@ o LVS Setup:
    LVS COMPONENT TYPE PROPERTY            element
    LVS COMPONENT SUBTYPE PROPERTY         model
    // LVS PIN NAME PROPERTY
-   LVS POWER NAME                         "VDD"
-   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS POWER NAME                         "vdd!"
+   LVS GROUND NAME                        "vss!"
    LVS CELL SUPPLY                        NO
-   LVS RECOGNIZE GATES                    ALL
+   LVS RECOGNIZE GATES                    NONE
    // LVS HCELL REPORT
    LVS IGNORE PORTS                       NO
    LVS CHECK PORT NAMES                   NO
@@ -69,7 +70,7 @@ o LVS Setup:
    LVS ALL CAPACITOR PINS SWAPPABLE       NO
    LVS DISCARD PINS BY DEVICE             NO
    LVS SOFT SUBSTRATE PINS                NO
-   LVS INJECT LOGIC                       NO
+   LVS INJECT LOGIC                       YES
    LVS EXPAND UNBALANCED CELLS            YES
    LVS FLATTEN INSIDE CELL                NO
    LVS EXPAND SEED PROMOTIONS             NO
@@ -156,13 +157,14 @@ o LVS Setup:
 
 
 
-                         #       ###################       _   _   
-                        #        #                 #       *   *   
-                   #   #         #     CORRECT     #         |     
-                    # #          #                 #       \___/  
-                     #           ###################               
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
 
 
+  Error:    Connectivity errors.
   Warning:  Ambiguity points were found and resolved arbitrarily.
 
 LAYOUT CELL NAME:         loaded_nand
@@ -194,10 +196,151 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Nets:               9         9
 
- Instances:         10        10         MP (4 pins)
-                     5         5         SMN2 (4 pins)
+ Instances:          5         5         _nand2v (5 pins)
                 ------    ------
- Total Inst:        15        15
+ Total Inst:         5         5
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net VDD!                                                  VDD!
+       --- 10 Connections On This Net ---                        --- 10 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (_nand2v):in1                                             ** missing connection **
+         X4/M2(2.575,1.000):g
+         X4/M0(2.575,0.300):g
+       
+       
+       (_nand2v):in1                                             ** missing connection **
+         X3/M2(2.000,1.000):g
+         X3/M0(2.000,0.300):g
+       
+       
+       (_nand2v):in1                                             ** missing connection **
+         X2/M2(1.425,1.000):g
+         X2/M0(1.425,0.300):g
+       
+       
+       (_nand2v):in1                                             ** missing connection **
+         X1/M2(0.850,1.000):g
+         X1/M0(0.850,0.300):g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XNAND1/MPMOS0:g
+                                                                   XNAND1/MNMOS0:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XNAND0/MPMOS0:g
+                                                                   XNAND0/MNMOS0:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XNAND2/MPMOS0:g
+                                                                   XNAND2/MNMOS0:g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XNAND3/MPMOS0:g
+                                                                   XNAND3/MNMOS0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net Z                                                     Z
+       --- 6 Connections On This Net ---                         --- 6 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (_nand2v):in2                                             ** missing connection **
+         X4/M3(2.770,1.000):g
+         X4/M1(2.770,0.300):g
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X3/M3(2.195,1.000):g
+         X3/M1(2.195,0.300):g
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X2/M3(1.620,1.000):g
+         X2/M1(1.620,0.300):g
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X1/M3(1.045,1.000):g
+         X1/M1(1.045,0.300):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XNAND1/MPMOS1:g
+                                                                   XNAND1/MNMOS1:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XNAND0/MPMOS1:g
+                                                                   XNAND0/MNMOS1:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XNAND2/MPMOS1:g
+                                                                   XNAND2/MNMOS1:g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XNAND3/MPMOS1:g
+                                                                   XNAND3/MNMOS1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net A                                                     A
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (_nand2v):in1                                             ** missing connection **
+         X0/M2(0.275,1.000):g
+         X0/M0(0.275,0.300):g
+       
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XDUT/MPMOS0:g
+                                                                   XDUT/MNMOS0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net B                                                     B
+       --- 2 Connections On This Net ---                         --- 2 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (_nand2v):in2                                             ** missing connection **
+         X0/M3(0.470,1.000):g
+         X0/M1(0.470,0.300):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XDUT/MPMOS1:g
+                                                                   XDUT/MNMOS1:g
+       
 
 
 
@@ -213,10 +356,9 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
    Nets:                9          9            0            0
 
-   Instances:          10         10            0            0    MP(PMOS_VTL)
-                        5          5            0            0    SMN2
+   Instances:           5          5            0            0    _nand2v
                   -------    -------    ---------    ---------
-   Total Inst:         15         15            0            0
+   Total Inst:          5          5            0            0
 
 
 o Statistics:
@@ -226,7 +368,7 @@ o Statistics:
 
 o Initial Correspondence Points:
 
-   Ports:        Z VDD! VSS! A B
+   Ports:        vdd! vss! Z A B
 
 
 o Ambiguity Resolution Points:
@@ -241,10 +383,105 @@ o Ambiguity Resolution Points:
                                      Nets
                                      ----
 
-       6                                                         net2
-       7                                                         net3
-       8                                                         net4
+       6                                                         net5
+       7                                                         net4
+       8                                                         net3
 
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: Z                                                    out: Z
+         sup1: VDD!                                                sup1: VDD!
+         sup2: VSS!                                                sup2: VSS!
+         in1: A                                                    ** A **
+         in2: B                                                    ** B **
+         ** B **                                                   in1: B
+         ** A **                                                   in2: A
+
+       Devices: 
+         X0/M0(0.275,0.300)  MN(NMOS_VTL)                          XDUT/MNMOS1  MN(NMOS_VTL) 
+         X0/M1(0.470,0.300)  MN(NMOS_VTL)                          XDUT/MNMOS0  MN(NMOS_VTL) 
+         X0/M2(0.275,1.000)  MP(PMOS_VTL)                          XDUT/MPMOS1  MP(PMOS_VTL) 
+         X0/M3(0.470,1.000)  MP(PMOS_VTL)                          XDUT/MPMOS0  MP(PMOS_VTL) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: 6                                                    out: net5
+         sup1: VDD!                                                sup1: VDD!
+         sup2: VSS!                                                sup2: VSS!
+         in1: VDD!                                                 ** VDD! **
+         in2: Z                                                    ** Z **
+         ** Z **                                                   in1: Z
+         ** VDD! **                                                in2: VDD!
+
+       Devices: 
+         X1/M0(0.850,0.300)  MN(NMOS_VTL)                          XNAND3/MNMOS1  MN(NMOS_VTL) 
+         X1/M1(1.045,0.300)  MN(NMOS_VTL)                          XNAND3/MNMOS0  MN(NMOS_VTL) 
+         X1/M2(0.850,1.000)  MP(PMOS_VTL)                          XNAND3/MPMOS1  MP(PMOS_VTL) 
+         X1/M3(1.045,1.000)  MP(PMOS_VTL)                          XNAND3/MPMOS0  MP(PMOS_VTL) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: 7                                                    out: net4
+         sup1: VDD!                                                sup1: VDD!
+         sup2: VSS!                                                sup2: VSS!
+         in1: VDD!                                                 ** VDD! **
+         in2: Z                                                    ** Z **
+         ** Z **                                                   in1: Z
+         ** VDD! **                                                in2: VDD!
+
+       Devices: 
+         X2/M0(1.425,0.300)  MN(NMOS_VTL)                          XNAND2/MNMOS1  MN(NMOS_VTL) 
+         X2/M1(1.620,0.300)  MN(NMOS_VTL)                          XNAND2/MNMOS0  MN(NMOS_VTL) 
+         X2/M2(1.425,1.000)  MP(PMOS_VTL)                          XNAND2/MPMOS1  MP(PMOS_VTL) 
+         X2/M3(1.620,1.000)  MP(PMOS_VTL)                          XNAND2/MPMOS0  MP(PMOS_VTL) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: 8                                                    out: net3
+         sup1: VDD!                                                sup1: VDD!
+         sup2: VSS!                                                sup2: VSS!
+         in1: VDD!                                                 ** VDD! **
+         in2: Z                                                    ** Z **
+         ** Z **                                                   in1: Z
+         ** VDD! **                                                in2: VDD!
+
+       Devices: 
+         X3/M0(2.000,0.300)  MN(NMOS_VTL)                          XNAND0/MNMOS1  MN(NMOS_VTL) 
+         X3/M1(2.195,0.300)  MN(NMOS_VTL)                          XNAND0/MNMOS0  MN(NMOS_VTL) 
+         X3/M2(2.000,1.000)  MP(PMOS_VTL)                          XNAND0/MPMOS1  MP(PMOS_VTL) 
+         X3/M3(2.195,1.000)  MP(PMOS_VTL)                          XNAND0/MPMOS0  MP(PMOS_VTL) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         out: 9                                                    out: net2
+         sup1: VDD!                                                sup1: VDD!
+         sup2: VSS!                                                sup2: VSS!
+         in1: VDD!                                                 ** VDD! **
+         in2: Z                                                    ** Z **
+         ** Z **                                                   in1: Z
+         ** VDD! **                                                in2: VDD!
+
+       Devices: 
+         X4/M0(2.575,0.300)  MN(NMOS_VTL)                          XNAND1/MNMOS1  MN(NMOS_VTL) 
+         X4/M1(2.770,0.300)  MN(NMOS_VTL)                          XNAND1/MNMOS0  MN(NMOS_VTL) 
+         X4/M2(2.575,1.000)  MP(PMOS_VTL)                          XNAND1/MPMOS1  MP(PMOS_VTL) 
+         X4/M3(2.770,1.000)  MP(PMOS_VTL)                          XNAND1/MPMOS0  MP(PMOS_VTL) 
 
 
 **************************************************************************************************************
@@ -252,4 +489,4 @@ o Ambiguity Resolution Points:
 **************************************************************************************************************
 
 Total CPU Time:      0 sec
-Total Elapsed Time:  1 sec
+Total Elapsed Time:  0 sec

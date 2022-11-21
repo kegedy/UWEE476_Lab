@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/INVD1.sp (
 SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/INVD1.src.net ('INVD1')
 RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Tue Nov  8 22:21:51 2022
+CREATION TIME:            Sun Nov 20 20:10:08 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -27,13 +27,16 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 
 
 
-                         #       ###################       _   _   
-                        #        #                 #       *   *   
-                   #   #         #     CORRECT     #         |     
-                    # #          #                 #       \___/  
-                     #           ###################               
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
 
 
+  Error:    Different numbers of nets.
+  Error:    Connectivity errors.
+  Error:    Property errors.
 
 
 **************************************************************************************************************
@@ -42,7 +45,7 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  CORRECT        INVD1                         INVD1
+  INCORRECT      INVD1                         INVD1
 
 
 
@@ -56,8 +59,8 @@ o LVS Setup:
    LVS COMPONENT TYPE PROPERTY            element
    LVS COMPONENT SUBTYPE PROPERTY         model
    // LVS PIN NAME PROPERTY
-   LVS POWER NAME                         "vdd!"
-   LVS GROUND NAME                        "vss!"
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
    LVS CELL SUPPLY                        NO
    LVS RECOGNIZE GATES                    ALL
    // LVS HCELL REPORT
@@ -155,13 +158,16 @@ o LVS Setup:
 
 
 
-                         #       ###################       _   _   
-                        #        #                 #       *   *   
-                   #   #         #     CORRECT     #         |     
-                    # #          #                 #       \___/  
-                     #           ###################               
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
 
 
+  Error:    Different numbers of nets (see below).
+  Error:    Connectivity errors.
+  Error:    Property errors.
 
 LAYOUT CELL NAME:         INVD1
 SOURCE CELL NAME:         INVD1
@@ -175,7 +181,7 @@ INITIAL NUMBERS OF OBJECTS
                 ------    ------         --------------
  Ports:              4         4
 
- Nets:               4         4
+ Nets:               6         4    *
 
  Instances:          1         1         MN (4 pins)
                      1         1         MP (4 pins)
@@ -190,11 +196,79 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                 ------    ------         --------------
  Ports:              4         4
 
- Nets:               4         4
+ Nets:               6         4    *
 
  Instances:          1         1         _invv (4 pins)
                 ------    ------
  Total Inst:         1         1
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net 5                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 6                                                     ** no similar net **
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  3    M1(0.1375,0.0850)  MP(PMOS_VTL)                           MM1  MP(PMOS_VTL)
+         g: VI                                                     g: VI
+         s: VO                                                     s: VO
+         d: VDD!                                                   d: VDD!
+         b: 6                                                      ** no similar net **
+         ** VDD! **                                                b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    M0(0.1375,-0.2000)  MN(NMOS_VTL)                          MM0  MN(NMOS_VTL)
+         g: VI                                                     g: VI
+         s: VO                                                     s: VO
+         d: VSS!                                                   d: VSS!
+         b: 5                                                      ** no similar net **
+         ** VSS! **                                                b: VSS!
+
+
+
+**************************************************************************************************************
+                                      PROPERTY ERRORS
+
+DISC#  LAYOUT                                                    SOURCE                      ERROR
+**************************************************************************************************************
+
+  5    M1(0.1375,0.0850)  MP(PMOS_VTL)                           MM1  MP(PMOS_VTL)
+       l: 0.025 u                                                l: 0.05 u                  0.025 u
+       w: 0.2 u                                                  w: 0.4 u                     0.2 u
+
+  6    M0(0.1375,-0.2000)  MN(NMOS_VTL)                          MM0  MN(NMOS_VTL)
+       l: 0.025 u                                                l: 0.05 u                  0.025 u
+       w: 0.15 u                                                 w: 0.3 u                    0.15 u
 
 
 
@@ -208,7 +282,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                   -------    -------    ---------    ---------    ---------
    Ports:               4          4            0            0
 
-   Nets:                4          4            0            0
+   Nets:                4          4            2            0
 
    Instances:           1          1            0            0    _invv
                   -------    -------    ---------    ---------
@@ -217,7 +291,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
 o Initial Correspondence Points:
 
-   Ports:        vdd! vss! VI VO
+   Ports:        VI VSS! VDD! VO
 
 
 **************************************************************************************************************
