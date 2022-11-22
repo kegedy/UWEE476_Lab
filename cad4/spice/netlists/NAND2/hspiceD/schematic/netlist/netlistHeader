@@ -1,0 +1,6 @@
+** Generated for: hspiceD
+** Generated on: Nov 21 16:18:37 2022
+** Design library name: cad4
+** Design cell name: NAND2
+** Design view name: schematic
+.GLOBAL vdd! vss!

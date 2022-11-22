@@ -1,0 +1,1 @@
+{"hierarchy":{"top_level":1,"1":{"insts":{"mnmos0":2,"mnmos1":2,"mpmos1":3,"mpmos0":3}}},"modelMap":{"PMOS_VTL":[3],"NMOS_VTL":[2]},"cellviews":[["cad4","NAND2","schematic"],["NCSU_Devices_FreePDK45","NMOS_VTL","hspiceD"],["NCSU_Devices_FreePDK45","PMOS_VTL","hspiceD"]]}

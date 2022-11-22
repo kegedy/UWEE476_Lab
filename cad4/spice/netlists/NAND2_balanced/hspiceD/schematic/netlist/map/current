@@ -1,0 +1,15 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NAND2_balanced"
+  repList "hspiceD spice cmos_sch cmos.sch schematic"
+  stopList "hspiceD spice"
+  globalList "vdd! vss!"
+  hierDelim "^"
+  netlistDir "/home/projects/ee476.2022aut/kegedy/cad4/spice/netlists/NAND2_balanced/hspiceD/schematic/netlist"
+ )
+( model
+( "cad4/NAND2_balanced/schematic" "NAND2_balanced" )
+ )
+( "NAND2_balanced" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+cad4/NAND2_balanced/schematic NAND2_balanced
+$endmodel
+$net
+vss! vss!
+vdd! vdd!
+$endnet
+$param
+$endparam
