@@ -1,5 +1,5 @@
 ** Generated for: hspiceD
-** Generated on: Nov 21 15:55:32 2022
+** Generated on: Nov 21 17:41:10 2022
 ** Design library name: cad4
 ** Design cell name: NAND2_balanced
 ** Design view name: schematic
@@ -18,6 +18,6 @@
 ** View name: schematic
 mnmos1 net1 b vss! vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
 mnmos0 z a net1 vss! NMOS_VTL L=50e-9 W=300e-9 AD=31.5e-15 AS=31.5e-15 PD=510e-9 PS=510e-9 M=1
-mpmos0 z a vdd! vdd! PMOS_VTL L=50e-9 W=250e-9 AD=26.25e-15 AS=26.25e-15 PD=460e-9 PS=460e-9 M=1
-mpmos1 z b vdd! vdd! PMOS_VTL L=50e-9 W=250e-9 AD=26.25e-15 AS=26.25e-15 PD=460e-9 PS=460e-9 M=1
+mpmos0 z a vdd! vdd! PMOS_VTL L=50e-9 W=600e-9 AD=63e-15 AS=63e-15 PD=810e-9 PS=810e-9 M=1
+mpmos1 z b vdd! vdd! PMOS_VTL L=50e-9 W=600e-9 AD=63e-15 AS=63e-15 PD=810e-9 PS=810e-9 M=1
 .END

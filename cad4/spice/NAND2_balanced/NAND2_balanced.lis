@@ -7,16 +7,16 @@
   this software is strictly prohibited.
   Input File: NAND2_balanced.ctl                                                
   Command line options: /home/lab.apps/vlsiapps_new/hspice/current/hspice/linux64/hspice NAND2_balanced.ctl -o NAND2_balanced.lis
-  Start time: Mon Nov 21 16:02:02 2022
+  Start time: Mon Nov 21 17:41:19 2022
  lic:  
  lic: FLEXlm: SDK_12.10 
  lic: USER:   kegedy               HOSTNAME: linux-lab-054.ece.uw.edu 
- lic: HOSTID: ffffffff9f0a36e0     PID:      31462 
+ lic: HOSTID: ffffffff9f0a36e0     PID:      25436 
  lic: Using FLEXlm license file: 
  lic: 27008@synopsysls.s.uw.edu 
  lic: Checkout 1 hspice 
  lic: License/Maintenance for hspice will expire on 24-jan-2023/2020.12 
- lic: 6(in_use)/100(total) FLOATING license(s) on SERVER 27008@synopsysls.s.uw.edu 
+ lic: 5(in_use)/100(total) FLOATING license(s) on SERVER 27008@synopsysls.s.uw.edu 
  lic:   
   **warning** (NAND2_balanced.ckt:23)'.end' can not exist in include/lib files, ignored
 1****** PrimeSim HSPICE -- T-2022.06 linux64 (May 20 2022 7637141) ******
@@ -577,10 +577,10 @@
  * beware!!!! first line is always a comment line and spice ignores this line
 
  ****** transient analysis tnom=  25.000 temp=  25.000 ******
- rise_time= 7.5909e-12  targ= 7.9109e-10   trig= 7.8349e-10
- fall_time= 5.6017e-12  targ= 1.0177e-09   trig= 1.0121e-09
- rise_delay= 4.9675e-12  targ= 1.0150e-09   trig= 1.0100e-09
- fall_delay= 7.8419e-12  targ= 1.2878e-09   trig= 1.2800e-09
+ rise_time= 7.7576e-12  targ= 7.8760e-10   trig= 7.7985e-10
+ fall_time= 6.7029e-12  targ= 1.0208e-09   trig= 1.0141e-09
+ rise_delay= 7.3623e-12  targ= 1.0174e-09   trig= 1.0100e-09
+ fall_delay= 3.7235e-12  targ= 1.2837e-09   trig= 1.2800e-09
 
           ***** job concluded
  ******  
@@ -591,13 +591,13 @@
  ******  Machine Information  ******
  CPU:
  model name	: Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
- cpu MHz	: 4499.816
+ cpu MHz	: 4500.000
  CPU(s)		: 8
   
  OS:
  Linux version 3.10.0-1160.76.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Wed Aug 10 16:21:17 UTC 2022
 
- System loadavg : 2.18 2.44 2.46 3/1294 31465
+ System loadavg : 2.29 2.22 2.17 3/1296 25439
 
 
   ******  PrimeSim HSPICE Threads Information  ******
@@ -623,7 +623,7 @@
 
   analysis           time    # points   tot. iter  conv.iter
   op point           0.00           1          12
-  transient          0.01        5001        1080         391 rev=        29
+  transient          0.01        5001        1045         378 rev=        19
   readin             0.03
   errchk             0.00
   setup              0.00
@@ -632,11 +632,11 @@
 
            peak memory used        496.19 megabytes
            total cpu time            0.05 seconds
-           total elapsed time        0.12 seconds
-           job started at     16:02:02 11/21/2022
-           job ended   at     16:02:02 11/21/2022
-           job total runtime         0.12 seconds
+           total elapsed time        0.13 seconds
+           job started at     17:41:19 11/21/2022
+           job ended   at     17:41:19 11/21/2022
+           job total runtime         0.13 seconds
 
 
  lic: Release hspice token(s) 
- lic: total license checkout elapse time:        0.06(s)
+ lic: total license checkout elapse time:        0.07(s)

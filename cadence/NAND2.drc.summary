@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Sun Nov 20 21:05:34 2022
+Execution Date/Time:       Wed Nov 23 11:20:38 2022
 Calibre Version:           v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 Rule File Pathname:        /home/projects/ee476.2022aut/kegedy/cadence/_calibreDRC.rul_
 Rule File Title:           
@@ -30,16 +30,16 @@ Keep Empty Checks:         YES
 ----------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER pwell ...... TOTAL Original Geometry Count = 1  (1)
-LAYER nwell ...... TOTAL Original Geometry Count = 1  (1)
-LAYER active ..... TOTAL Original Geometry Count = 2  (2)
+LAYER pwell ...... TOTAL Original Geometry Count = 2  (2)
+LAYER nwell ...... TOTAL Original Geometry Count = 2  (2)
+LAYER active ..... TOTAL Original Geometry Count = 4  (4)
 LAYER poly ....... TOTAL Original Geometry Count = 4  (4)
-LAYER pimplant ... TOTAL Original Geometry Count = 1  (1)
-LAYER nimplant ... TOTAL Original Geometry Count = 1  (1)
+LAYER pimplant ... TOTAL Original Geometry Count = 2  (2)
+LAYER nimplant ... TOTAL Original Geometry Count = 2  (2)
 LAYER vth ........ TOTAL Original Geometry Count = 0  (0)
 LAYER vtg ........ TOTAL Original Geometry Count = 0  (0)
-LAYER metal1 ..... TOTAL Original Geometry Count = 10 (10)
-LAYER contact .... TOTAL Original Geometry Count = 8  (8)
+LAYER metal1 ..... TOTAL Original Geometry Count = 14 (14)
+LAYER contact .... TOTAL Original Geometry Count = 10 (10)
 LAYER metal2 ..... TOTAL Original Geometry Count = 0  (0)
 LAYER metal3 ..... TOTAL Original Geometry Count = 0  (0)
 LAYER metal4 ..... TOTAL Original Geometry Count = 0  (0)
@@ -236,6 +236,6 @@ RULECHECK Antenna.metal10 ... TOTAL Result Count = 0 (0)
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 28 (28)
+TOTAL Original Layer Geometries: 40 (40)
 TOTAL DRC RuleChecks Executed:   167
 TOTAL DRC Results Generated:     0 (0)

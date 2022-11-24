@@ -2,7 +2,7 @@ header
 "PSFversion" "1.00"
 "simulator" "HSPICE"
 "version" "T-2022.06 linux64"
-"rundate" "16:02:02 11/21/2022 "
+"rundate" "17:41:19 11/21/2022 "
 "runtitle" "* beware!!!! first line is always a comment line and spice ignores"
 "runtype" "logFile"
 TYPE
