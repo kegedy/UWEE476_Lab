@@ -1,6 +1,9 @@
 CADENCE IHNL11140
 $model
 cad4/NAND2/schematic NAND2
+cad4/TransmissionGate/schematic TransmissionGate
+cad4/AlphaPhaseLatch/schematic AlphaPhaseLatch
+cad4/INVD1/schematic INVD1
 $endmodel
 $net
 vss! vss!

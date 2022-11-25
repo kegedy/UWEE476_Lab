@@ -1,15 +1,21 @@
 ( ( nil
   version "2.1"
   mapType "incremental"
-  blockName "NAND2"
+  blockName "AlphaPhaseLatch"
   repList "auCdl schematic"
   stopList "auCdl"
-  globalList "vdd! vss!"
+  globalList "vss! vdd!"
   hierDelim "."
   netlistDir "/home/projects/ee476.2022aut/kegedy/cadence"
  )
 ( model
+( "cad4/TransmissionGate/schematic" "TransmissionGate" )
 ( "cad4/NAND2/schematic" "NAND2" )
+( "cad4/AlphaPhaseLatch/schematic" "AlphaPhaseLatch" )
+( "cad4/INVD1/schematic" "INVD1" )
  )
-( "NAND2" "ihnl/cds0/map" )
+( "NAND2" "ihnl/cds2/map" )
+( "AlphaPhaseLatch" "ihnl/cds3/map" )
+( "INVD1" "ihnl/cds0/map" )
+( "TransmissionGate" "ihnl/cds1/map" )
  )

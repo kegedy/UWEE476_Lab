@@ -1,6 +1,2 @@
-mgc_rve_context_lcv "cad4" "NAND2" "layout" 1000
-mgc_rve_highlight_index 0 "M2" "#FFFF00000000"
-mgc_rve_property "w" 2.5e-07  "l" 5e-08  "as" 2.75e-14  "ad" 3.625e-14  "ps" 7.2e-07  "pd" 7.9e-07  "model" "PMOS_VTL"
-mgc_rve_layer "pgate"
-mr 0.275 0.3 0.325 0.55
-mgc_rve_zoom 0.275 0.3 0.325 0.55 -1
+mgc_rve_context_lcv "cad4" "AlphaPhaseLatch" "layout" 1000
+mgc_rve_zoom -0.045 -1.06 1.955 0.94 0.7

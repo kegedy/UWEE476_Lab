@@ -1,3 +1,6 @@
-CADENCE IHNL11141
+CADENCE IHNL11144
 
-cad4 NAND2 schematic cds0
+cad4 INVD1 schematic cds0
+cad4 TransmissionGate schematic cds1
+cad4 NAND2 schematic cds2
+cad4 AlphaPhaseLatch schematic cds3
