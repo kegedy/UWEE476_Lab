@@ -10,4 +10,4 @@ lvs_GroundName vss!
 lvs_LvsOutFile LVS_REPORT AlphaPhaseLatch.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/AlphaPhaseLatch.src.net
 lvs_LvsOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
-lvs_LvsRunTimes 1669350136 1669350136
+lvs_LvsRunTimes 1669352654 1669352654
