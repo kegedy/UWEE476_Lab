@@ -1,6 +1,75 @@
 # CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
 # FILE: svdb/AlphaPhaseLatch.dv
-dv_start matched                                  
-dv_cell {AlphaPhaseLatch} {AlphaPhaseLatch} matched
-dv_obj_count -transformed_nets {10 10} -transformed_inst {4 4} -transformed_port {8 8}
+dv_start unmatched                                
+dv_cell {AlphaPhaseLatch} {AlphaPhaseLatch} unmatched
+dv_obj_count -transformed_nets {12 12} -transformed_inst {8 6} -transformed_port {8 8}
+dv_discrep 1 {Incorrect Nets} -inst_count { 4 4}
+dv_discrep_line {Net } -lnet {Q_BAR} {                                                 } -snet {Q_BAR} {}
+dv_discrep_line {--- 4 Connections On This Net ---                         --- 4 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nor2v):}  {in2} {                                              ** missing connection **}
+dv_discrep_line {  } -ldev {M5} {} -lloc {(1.545,0.905)} {:}  {g} {}
+dv_discrep_line {  } -ldev {M16} {} -lloc {(1.545,1.515)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nor2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XI8/XI1/MNMOS0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XI8/XI1/MPMOS0} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets} -inst_count { 3 3}
+dv_discrep_line {Net } -lnet {6} {                                                     } -snet {XI8/net2} {}
+dv_discrep_line {--- 3 Connections On This Net ---                         --- 3 Connections On This Net ---}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nor2v):}  {in1} {                                              ** missing connection **}
+dv_discrep_line {  } -ldev {M6} {} -lloc {(1.740,0.905)} {:}  {g} {}
+dv_discrep_line {  } -ldev {M17} {} -lloc {(1.740,1.515)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nor2v):}  {in2} {}
+dv_discrep_line {                                                            } -sdev {XI8/XI1/MNMOS1} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XI8/XI1/MPMOS1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Instances}
+dv_discrep_line {} -ldev {M0} {} -lloc {(0.255,0.905)} {  MN(NMOS_VTL)                             ** missing instance **}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Instances}
+dv_discrep_line {} -ldev {M12} {} -lloc {(0.425,1.515)} {  MP(PMOS_VTL)                            ** missing instance **}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Instances}
+dv_discrep_line {(_invb)                                                   ** missing injected instance **}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {M11} {} -lloc {(0.220,1.515)} {  MP(PMOS_VTL)}
+dv_discrep_line {  } -ldev {M1} {} -lloc {(0.425,0.905)} {  MN(NMOS_VTL)}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Instances}
+dv_discrep_line {** missing injected instance **                           (_tgmb)}
+dv_discrep_line {}
+dv_discrep_line {                                                          Devices: }
+dv_discrep_line {                                                            } -sdev {XI3/MM1} {  MP(PMOS_VTL)}
+dv_discrep_line {                                                            } -sdev {XI7/MM1} {  MP(PMOS_VTL)}
+dv_discrep_line {                                                            } -sdev {XI7/MM0} {  MN(NMOS_VTL)}
+dv_discrep_line {                                                            } -sdev {XI3/MM0} {  MN(NMOS_VTL)}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {(_nor2v)                                                  (_nor2v)}
+dv_discrep_line {  } -lport {out} {: } -lnet {7} {                                                    } -sport {out} {: } -snet {XI8/net1} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {VDD!} {                                                } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {VSS!} {                                                } -sport {sup2} {: } -snet {VSS!} {}
+dv_discrep_line {  } -lport {in1} {: } -lnet {6} {                                                    ** } -snet {XI8/net2} { **}
+dv_discrep_line {  } -lport {in2} {: } -lnet {Q_BAR} {                                                ** } -snet {Q_BAR} { **}
+dv_discrep_line {  ** } -lnet {Q_BAR} { **                                               } -sport {in1} {: } -snet {Q_BAR} {}
+dv_discrep_line {  ** } -lnet {6} { **                                                   } -sport {in2} {: } -snet {XI8/net2} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {M17} {} -lloc {(1.740,1.515)} {  MP(PMOS_VTL)                            } -sdev {XI8/XI1/MPMOS0} {  MP(PMOS_VTL) }
+dv_discrep_line {  } -ldev {M16} {} -lloc {(1.545,1.515)} {  MP(PMOS_VTL)                            } -sdev {XI8/XI1/MPMOS1} {  MP(PMOS_VTL) }
+dv_discrep_line {  } -ldev {M6} {} -lloc {(1.740,0.905)} {  MN(NMOS_VTL)                             } -sdev {XI8/XI1/MNMOS0} {  MN(NMOS_VTL) }
+dv_discrep_line {  } -ldev {M5} {} -lloc {(1.545,0.905)} {  MN(NMOS_VTL)                             } -sdev {XI8/XI1/MNMOS1} {  MN(NMOS_VTL) }
+dv_discrep_line {}
 dv_end

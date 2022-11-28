@@ -4,7 +4,7 @@
 * Library Name:  cad4
 * Top Cell Name: AlphaPhaseLatch
 * View Name:     schematic
-* Netlisted on:  Nov 24 21:04:13 2022
+* Netlisted on:  Nov 27 23:12:55 2022
 ************************************************************************
 
 *.EQUATION
@@ -44,16 +44,30 @@ MM0 vi ngate vo vss! NMOS_VTL W=300n L=50n m=1
 
 ************************************************************************
 * Library Name: cad4
-* Cell Name:    NAND2
+* Cell Name:    NOR
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT NAND2 a b z
+.SUBCKT NOR a b z
 *.PININFO a:I b:I z:O
-MNMOS1 net1 b vss! vss! NMOS_VTL W=300n L=50n m=1
-MNMOS0 z a net1 vss! NMOS_VTL W=300n L=50n m=1
-MPMOS0 z a vdd! vdd! PMOS_VTL W=400n L=50n m=1
-MPMOS1 z b vdd! vdd! PMOS_VTL W=400n L=50n m=1
+MNMOS1 z b vss! vss! NMOS_VTL W=300n L=50n m=1
+MNMOS0 z a vss! vss! NMOS_VTL W=300n L=50n m=1
+MPMOS0 net4 a vdd! vdd! PMOS_VTL W=400n L=50n m=1
+MPMOS1 z b net4 vdd! PMOS_VTL W=400n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: cad4
+* Cell Name:    XNOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XNOR a b q
+*.PININFO a:I b:I q:O
+XI3 net1 net3 q / NOR
+XI2 net2 b net3 / NOR
+XI1 a net2 net1 / NOR
+XI0 a b net2 / NOR
 .ENDS
 
 ************************************************************************
@@ -62,13 +76,11 @@ MPMOS1 z b vdd! vdd! PMOS_VTL W=400n L=50n m=1
 * View Name:    schematic
 ************************************************************************
 
-.SUBCKT AlphaPhaseLatch Clk Clk_bar D Q Q_bar rst_bar
-*.PININFO Clk:I Clk_bar:I D:I rst_bar:I Q:O Q_bar:O
+.SUBCKT AlphaPhaseLatch Clk Clk_bar D Q Q_bar rst
+*.PININFO Clk:I Clk_bar:I D:I rst:I Q:O Q_bar:O
 XI2 Q Q_bar / INVD1
-XI0 D net2 / INVD1
-XI7 Clk Clk_bar net2 Q / TransmissionGate
-XI4 Q_bar rst_bar net3 / NAND2
-MM0 net3 Clk_bar Q vss! NMOS_VTL W=300n L=50n m=1
-MM1 Q Clk net3 vdd! PMOS_VTL W=400n L=50n m=1
+XI3 Clk Clk_bar net3 Q / TransmissionGate
+XI7 Clk_bar Clk D Q / TransmissionGate
+XI8 Q_bar rst net3 / XNOR
 .ENDS
 

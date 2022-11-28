@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/projects/ee476.2022aut/kegedy/cadence/AlphaPhase
 SOURCE NAME:              /home/projects/ee476.2022aut/kegedy/cadence/AlphaPhaseLatch.src.net ('AlphaPhaseLatch')
 RULE FILE:                /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Thu Nov 24 21:04:14 2022
+CREATION TIME:            Sun Nov 27 23:12:57 2022
 CURRENT DIRECTORY:        /home/projects/ee476.2022aut/kegedy/cadence
 USER NAME:                kegedy
 CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
@@ -27,13 +27,15 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 
 
 
-                         #       ###################       _   _   
-                        #        #                 #       *   *   
-                   #   #         #     CORRECT     #         |     
-                    # #          #                 #       \___/  
-                     #           ###################               
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
 
 
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
 
 
 **************************************************************************************************************
@@ -42,7 +44,7 @@ CALIBRE VERSION:          v2021.1_33.19    Mon Mar 1 16:10:02 PST 2021
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  CORRECT        AlphaPhaseLatch               AlphaPhaseLatch
+  INCORRECT      AlphaPhaseLatch               AlphaPhaseLatch
 
 
 
@@ -155,13 +157,15 @@ o LVS Setup:
 
 
 
-                         #       ###################       _   _   
-                        #        #                 #       *   *   
-                   #   #         #     CORRECT     #         |     
-                    # #          #                 #       \___/  
-                     #           ###################               
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
 
 
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
 
 LAYOUT CELL NAME:         AlphaPhaseLatch
 SOURCE CELL NAME:         AlphaPhaseLatch
@@ -175,12 +179,12 @@ INITIAL NUMBERS OF OBJECTS
                 ------    ------         --------------
  Ports:              8         8
 
- Nets:              11        11
+ Nets:              16        16
 
- Instances:          6         6         MN (4 pins)
-                     6         6         MP (4 pins)
+ Instances:         11        11         MN (4 pins)
+                    11        11         MP (4 pins)
                 ------    ------
- Total Inst:        12        12
+ Total Inst:        22        22
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -190,13 +194,100 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                 ------    ------         --------------
  Ports:              8         8
 
- Nets:              10        10
+ Nets:              12        12
 
- Instances:          2         2         _invv (4 pins)
-                     1         1         _nand2v (5 pins)
-                     1         1         _tgmb (7 pins)
+ Instances:          1         0    *    MN (4 pins)
+                     1         0    *    MP (4 pins)
+                     1         0    *    _invb (6 pins)
+                     1         1         _invv (4 pins)
+                     4         4         _nor2v (5 pins)
+                     0         1    *    _tgmb (7 pins)
                 ------    ------
- Total Inst:         4         4
+ Total Inst:         8         6
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net Q_BAR                                                 Q_BAR
+       --- 4 Connections On This Net ---                         --- 4 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (_nor2v):in2                                              ** missing connection **
+         M5(1.545,0.905):g
+         M16(1.545,1.515):g
+       
+       
+       ** missing connection **                                  (_nor2v):in1
+                                                                   XI8/XI1/MNMOS0:g
+                                                                   XI8/XI1/MPMOS0:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 6                                                     XI8/net2
+       --- 3 Connections On This Net ---                         --- 3 Connections On This Net ---
+       --------------------------                                --------------------------
+       
+       (_nor2v):in1                                              ** missing connection **
+         M6(1.740,0.905):g
+         M17(1.740,1.515):g
+       
+       
+       ** missing connection **                                  (_nor2v):in2
+                                                                   XI8/XI1/MNMOS1:g
+                                                                   XI8/XI1/MPMOS1:g
+       
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  3    M0(0.255,0.905)  MN(NMOS_VTL)                             ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    M12(0.425,1.515)  MP(PMOS_VTL)                            ** missing instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    (_invb)                                                   ** missing injected instance **
+
+       Devices: 
+         M11(0.220,1.515)  MP(PMOS_VTL)
+         M1(0.425,0.905)  MN(NMOS_VTL)
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    ** missing injected instance **                           (_tgmb)
+
+                                                                 Devices: 
+                                                                   XI3/MM1  MP(PMOS_VTL)
+                                                                   XI7/MM1  MP(PMOS_VTL)
+                                                                   XI7/MM0  MN(NMOS_VTL)
+                                                                   XI3/MM0  MN(NMOS_VTL)
 
 
 
@@ -210,18 +301,54 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                   -------    -------    ---------    ---------    ---------
    Ports:               8          8            0            0
 
-   Nets:               10         10            0            0
+   Nets:               12         12            0            0
 
-   Instances:           2          2            0            0    _invv
-                        1          1            0            0    _nand2v
-                        1          1            0            0    _tgmb
+   Instances:           0          0            1            0    MN(NMOS_VTL)
+                        0          0            1            0    MP(PMOS_VTL)
+                        0          0            1            0    _invb
+                        1          1            0            0    _invv
+                        4          4            0            0    _nor2v
+                        0          0            0            1    _tgmb
                   -------    -------    ---------    ---------
-   Total Inst:          4          4            0            0
+   Total Inst:          5          5            3            1
+
+
+o Layout Names That Are Missing In The Source:
+
+   Ports:        CLK_RST
+   Nets:         CLK_RST
 
 
 o Initial Correspondence Points:
 
-   Ports:        vdd! vss! Q Q_BAR CLK D CLK_BAR RST_BAR
+   Ports:        vdd! vss! Q Q_BAR RST D CLK
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nor2v)                                                  (_nor2v)
+         out: 7                                                    out: XI8/net1
+         sup1: VDD!                                                sup1: VDD!
+         sup2: VSS!                                                sup2: VSS!
+         in1: 6                                                    ** XI8/net2 **
+         in2: Q_BAR                                                ** Q_BAR **
+         ** Q_BAR **                                               in1: Q_BAR
+         ** 6 **                                                   in2: XI8/net2
+
+       Devices: 
+         M17(1.740,1.515)  MP(PMOS_VTL)                            XI8/XI1/MPMOS0  MP(PMOS_VTL) 
+         M16(1.545,1.515)  MP(PMOS_VTL)                            XI8/XI1/MPMOS1  MP(PMOS_VTL) 
+         M6(1.740,0.905)  MN(NMOS_VTL)                             XI8/XI1/MNMOS0  MN(NMOS_VTL) 
+         M5(1.545,0.905)  MN(NMOS_VTL)                             XI8/XI1/MNMOS1  MN(NMOS_VTL) 
 
 
 **************************************************************************************************************

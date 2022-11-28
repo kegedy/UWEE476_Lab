@@ -2,7 +2,7 @@
 lvs_LvsOutFile RUNDIR /home/projects/ee476.2022aut/kegedy/cadence
 lvs_LvsfVersion 4
 lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsComparisonSummary {5 0 2 0}
 lvs_SourceCase NO
 lvs_LayoutCase NO
 lvs_PowerName vdd!
@@ -10,4 +10,4 @@ lvs_GroundName vss!
 lvs_LvsOutFile LVS_REPORT AlphaPhaseLatch.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/projects/ee476.2022aut/kegedy/cadence/AlphaPhaseLatch.src.net
 lvs_LvsOutFile RULES_FILE /home/projects/ee476.2022aut/kegedy/cadence/_calibreLVS.rul_
-lvs_LvsRunTimes 1669352654 1669352654
+lvs_LvsRunTimes 1669619577 1669619577

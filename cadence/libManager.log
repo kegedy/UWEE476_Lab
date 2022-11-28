@@ -5891,3 +5891,2327 @@
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 4 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "cad3"
+\a cdsLibManager->libLineEdit->value = "cad3"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "ring_osc"
+\a cdsLibManager->cellLineEdit->value = "ring_osc"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "loaded_nand"
+\a cdsLibManager->cellLineEdit->value = "loaded_nand"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 37 77 2 "NAND2")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a copyCellForm->ViewsToCopy->value = ""
+\a copyCellForm->CopyFromCell->value = ""
+\a copyCellForm->CopyToCell->value = ""
+\a copyCellForm->CopyFromLibrary->value = ""
+\a copyCellForm->CopyToLibrary->value = ""
+\a copyCellForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyCellForm->CopyFromLibrary->value = "cad4"
+\a copyCellForm->CopyFromCell->value = "NAND2"
+\a copyCellForm->CopyToLibrary->value = "cad4"
+\a copyCellForm->CopyToCell->value = "NAND2"
+\a copyCellForm->ViewsToCopy->value = "layout schematic symbol"
+\a copyCellForm->SkipLibrariesEdit->value = ""
+\a copyCellForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad2 cad3 cdsDefTechLib"
+\a nrSetCurrentWindow(copyCellForm)
+\a copyCellForm->CopyToCell->value = "NOR"
+\a copyCellForm->OK->value = t
+\o Beginning simple copy to library "cad4".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyCellForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(303 228 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a copyCellForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 41 10 2 "layout")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(123 53 627 425))
+\a deleteForm->deleteListBox->value = '("layout" )
+\a deleteForm->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a lmgrLogShowPopup("mainListPopup2" 40 16 2 "layout")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(123 53 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(284 191 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "layout" from cell "NOR" in library "cad4".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'cad4/NOR/layout'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(311 228 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "NAND2"
+\a cdsLibManager->cellLineEdit->value = "NAND2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "TransmissionGate"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 31 885 567))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 31 914 596))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 58 32 2 "symbol")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->ViewsToCopy->value = ""
+\a copyViewForm->CopyFromCell->value = ""
+\a copyViewForm->CopyFromView->value = ""
+\a copyViewForm->CopyToCell->value = ""
+\a copyViewForm->CopyToView->value = ""
+\a copyViewForm->CopyFromLibrary->value = ""
+\a copyViewForm->CopyToLibrary->value = ""
+\a copyViewForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyFromLibrary->value = "cad4"
+\a copyViewForm->CopyFromCell->value = "NOR"
+\a copyViewForm->CopyFromView->value = "symbol"
+\a copyViewForm->CopyToLibrary->value = "cad4"
+\a copyViewForm->CopyToCell->value = "NOR"
+\a copyViewForm->CopyToView->value = "symbol"
+\a copyViewForm->ViewsToCopy->value = "symbol"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad2 cad3 cdsDefTechLib"
+\a nrSetCurrentWindow(copyViewForm)
+\a nrSetCurrentWindow(copyViewForm)
+\a nrResizeWindow(copyViewForm list(107 91 488 671))
+\a copyViewForm->CopyToCell->value = "XNOR"
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "cad4".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(323 263 273 133))
+\a nrResizeWindow(copyProblemsDialog list(0 206 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(copyViewForm)
+\o ERROR (CLM-160): There is nothing to copy.\nCopy exited.
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(357 268 200 122))
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(copyViewForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 59 24 2 "symbol")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(284 191 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "symbol" from cell "XNOR" in library "cad4".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'cad4/XNOR/symbol'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(321 263 273 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 33 32 2 "symbol")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->ViewsToCopy->value = ""
+\a copyViewForm->CopyFromCell->value = ""
+\a copyViewForm->CopyFromView->value = ""
+\a copyViewForm->CopyToCell->value = ""
+\a copyViewForm->CopyToView->value = ""
+\a copyViewForm->CopyFromLibrary->value = ""
+\a copyViewForm->CopyToLibrary->value = ""
+\a copyViewForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyFromLibrary->value = "cad4"
+\a copyViewForm->CopyFromCell->value = "NOR"
+\a copyViewForm->CopyFromView->value = "symbol"
+\a copyViewForm->CopyToLibrary->value = "cad4"
+\a copyViewForm->CopyToCell->value = "NOR"
+\a copyViewForm->CopyToView->value = "symbol"
+\a copyViewForm->ViewsToCopy->value = "symbol"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad2 cad3 cdsDefTechLib"
+\a nrSetCurrentWindow(copyViewForm)
+\a copyViewForm->CopyToCell->value = "XNOR"
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "cad4".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(323 263 273 133))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(copyViewForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(321 263 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(29 31 914 596))
+\a nrResizeWindow(cdsLibManager list(0 31 914 596))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(29 31 914 596))
+\a nrResizeWindow(cdsLibManager list(0 44 914 596))
+\a nrResizeWindow(cdsLibManager list(0 31 914 596))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 62 29 2 "AlphaPhaseLatch2")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 85 31 2 "AlphaPhaseLatch2")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(284 191 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "AlphaPhaseLatch2" from library "cad4".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell 'cad4/AlphaPhaseLatch2'.
+\o Deletion of 1 cell done.
+\a nrResizeWindow(workingDialogForm list(329 263 268 133))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(21 31 914 596))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(15 31 914 596))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "loaded_flip_flop"
+\a cdsLibManager->cellLineEdit->value = "loaded_flip_flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 121 14 2 "AlphaPhaseLatch")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "AlphaPhaseLatch"
+\a basicRenameForm->basicRenameToEdit->value = "AlphaPhaseLatch"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(353 234 239 190))
+\a basicRenameForm->basicRenameToEdit->value = "AlphaPhaseLatch2"
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "AlphaPhaseLatch" to "AlphaPhaseLatch2" in library "cad4".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(338 263 268 133))
+\a workingDialogForm->Close->value = t
+\a nrSetCurrentWindow(basicRenameForm)
+\o Rename succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 72 25 2 "BetaPhaseLatch")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "BetaPhaseLatch"
+\a basicRenameForm->basicRenameToEdit->value = "BetaPhaseLatch"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "AlphaPhaseLatch"
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "BetaPhaseLatch" to "AlphaPhaseLatch" in library "cad4".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(338 263 268 133))
+\o Rename succeeded.
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch2"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 85 22 2 "AlphaPhaseLatch2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "AlphaPhaseLatch2"
+\a basicRenameForm->basicRenameToEdit->value = "AlphaPhaseLatch2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "BetaPhaseLatch"
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "AlphaPhaseLatch2" to "BetaPhaseLatch" in library "cad4".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(338 263 268 133))
+\o Rename succeeded.
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 8 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 70 32 2 "symbol")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->ViewsToCopy->value = ""
+\a copyViewForm->CopyFromCell->value = ""
+\a copyViewForm->CopyFromView->value = ""
+\a copyViewForm->CopyToCell->value = ""
+\a copyViewForm->CopyToView->value = ""
+\a copyViewForm->CopyFromLibrary->value = ""
+\a copyViewForm->CopyToLibrary->value = ""
+\a copyViewForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyFromLibrary->value = "cad4"
+\a copyViewForm->CopyFromCell->value = "AlphaPhaseLatch"
+\a copyViewForm->CopyFromView->value = "symbol"
+\a copyViewForm->CopyToLibrary->value = "cad4"
+\a copyViewForm->CopyToCell->value = "AlphaPhaseLatch"
+\a copyViewForm->CopyToView->value = "symbol"
+\a copyViewForm->ViewsToCopy->value = "symbol"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad2 cad3 cdsDefTechLib"
+\a nrSetCurrentWindow(copyViewForm)
+\a copyViewForm->CopyToCell->value = "BetaPhaseLatch"
+\a copyViewForm->CopyToView->value = "symbol2"
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "cad4".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(338 263 273 133))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(copyViewForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(336 263 273 133))
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 45 48 2 "symbol")
+\a cdsLibManager->copySimpleButton->value = t
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a copyViewForm->ViewsToCopy->value = ""
+\a copyViewForm->CopyFromCell->value = ""
+\a copyViewForm->CopyFromView->value = ""
+\a copyViewForm->CopyToCell->value = ""
+\a copyViewForm->CopyToView->value = ""
+\a copyViewForm->CopyFromLibrary->value = ""
+\a copyViewForm->CopyToLibrary->value = ""
+\a copyViewForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
+\a copyViewForm->CopyFromLibrary->value = "cad4"
+\a copyViewForm->CopyFromCell->value = "BetaPhaseLatch"
+\a copyViewForm->CopyFromView->value = "symbol"
+\a copyViewForm->CopyToLibrary->value = "cad4"
+\a copyViewForm->CopyToCell->value = "BetaPhaseLatch"
+\a copyViewForm->CopyToView->value = "symbol"
+\a copyViewForm->ViewsToCopy->value = "symbol"
+\a copyViewForm->SkipLibrariesEdit->value = ""
+\a copyViewForm->SkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 NangateOpenCellLibrary US_8ths analogLib basic cad2 cad3 cdsDefTechLib"
+\a nrSetCurrentWindow(copyViewForm)
+\a copyViewForm->CopyToCell->value = "AlphaPhaseLatch"
+\a copyViewForm->CopyToView->value = "symbol2"
+\a copyViewForm->OK->value = t
+\o Beginning simple copy to library "cad4".
+\o Processing files to be copied...
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(344 263 273 133))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(copyViewForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Copy succeeded.
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a nrSetCurrentWindow(cdsLibManager)
+\a copyViewForm->SkipLibrariesEdit->value = "*"
+\a nrResizeWindow(workingDialogForm list(336 263 273 133))
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 57 30 2 "symbol")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(284 191 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "symbol" from cell "AlphaPhaseLatch" in library "cad4".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'cad4/AlphaPhaseLatch/symbol'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(344 263 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a lmgrLogShowPopup("mainListPopup2" 57 25 2 "symbol2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "symbol2"
+\a basicRenameForm->basicRenameToEdit->value = "symbol2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "symbol"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->Cancel->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a lmgrLogShowPopup("mainListPopup2" 54 30 2 "symbol2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameToEdit->value = "symbol2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "symbol"
+\a basicRenameForm->OK->value = t
+\o Renaming View "symbol2" to "symbol" in library "cad4".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(338 263 268 133))
+\o Rename succeeded.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 3 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a lmgrLogShowPopup("mainListPopup2" 54 45 2 "symbol")
+\a cdsLibManager->editDeleteButton->value = t
+\a nrSetCurrentWindow(deleteForm)
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(284 191 268 91))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "symbol" from cell "BetaPhaseLatch" in library "cad4".
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cellview 'cad4/BetaPhaseLatch/symbol'.
+\o Deletion of 1 view done.
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(338 263 268 133))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "symbol2"
+\a cdsLibManager->viewLineEdit->value = "symbol2"
+\a lmgrLogShowPopup("mainListPopup2" 40 41 2 "symbol2")
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameToEdit->value = "symbol2"
+\a nrSetCurrentWindow(basicRenameForm)
+\a basicRenameForm->basicRenameToEdit->value = "symbol"
+\a basicRenameForm->OK->value = t
+\o Renaming View "symbol2" to "symbol" in library "cad4".
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(338 263 268 133))
+\o Rename succeeded.
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "loaded_flip_flop"
+\a cdsLibManager->cellLineEdit->value = "loaded_flip_flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "loaded_flip_flop"
+\a cdsLibManager->cellLineEdit->value = "loaded_flip_flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 8 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->cellListBox->value = "flip_flop"
+\a cdsLibManager->cellLineEdit->value = "flip_flop"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 7 0)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "INVD1"
+\a cdsLibManager->cellLineEdit->value = "INVD1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "cad4"
+\a cdsLibManager->libLineEdit->value = "cad4"
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "AlphaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "AlphaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "BetaPhaseLatch"
+\a cdsLibManager->cellLineEdit->value = "BetaPhaseLatch"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "NOR"
+\a cdsLibManager->cellLineEdit->value = "NOR"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "TransmissionGate"
+\a cdsLibManager->cellLineEdit->value = "TransmissionGate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "XNOR"
+\a cdsLibManager->cellLineEdit->value = "XNOR"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)

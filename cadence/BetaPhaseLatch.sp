@@ -1,0 +1,17 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT BetaPhaseLatch Clk Q Q_bar D Clk_bar rst_bar VSS! VDD!
+** N=10 EP=8 IP=0 FDC=10
+M0 Q Clk D VSS! NMOS_VTL L=5e-08 W=3e-07 AD=4.65e-14 AS=3.15e-14 PD=9.1e-07 PS=8.1e-07 $X=865 $Y=385 $D=1
+M1 3 Clk_bar Q VSS! NMOS_VTL L=5e-08 W=3e-07 AD=3.15e-14 AS=4.65e-14 PD=8.1e-07 PS=9.1e-07 $X=1070 $Y=385 $D=1
+M2 VSS! Q Q_bar VSS! NMOS_VTL L=5e-08 W=3e-07 AD=4.65e-14 AS=5.7e-14 PD=9.1e-07 PS=9.8e-07 $X=1495 $Y=385 $D=1
+M3 10 rst_bar VSS! VSS! NMOS_VTL L=5e-08 W=3e-07 AD=4.65e-14 AS=4.65e-14 PD=9.1e-07 PS=9.1e-07 $X=1700 $Y=385 $D=1
+M4 3 Q_bar 10 VSS! NMOS_VTL L=5e-08 W=3e-07 AD=3.3e-14 AS=4.65e-14 PD=8.2e-07 PS=9.1e-07 $X=1905 $Y=385 $D=1
+M5 Q Clk_bar D VDD! PMOS_VTL L=5e-08 W=4e-07 AD=6.2e-14 AS=4.2e-14 PD=1.11e-06 PS=1.01e-06 $X=865 $Y=995 $D=0
+M6 3 Clk Q VDD! PMOS_VTL L=5e-08 W=4e-07 AD=4.2e-14 AS=6.2e-14 PD=1.01e-06 PS=1.11e-06 $X=1070 $Y=995 $D=0
+M7 VDD! Q Q_bar VDD! PMOS_VTL L=5e-08 W=4e-07 AD=6.2e-14 AS=7.6e-14 PD=1.11e-06 PS=1.18e-06 $X=1495 $Y=995 $D=0
+M8 3 rst_bar VDD! VDD! PMOS_VTL L=5e-08 W=4e-07 AD=6.2e-14 AS=6.2e-14 PD=1.11e-06 PS=1.11e-06 $X=1700 $Y=995 $D=0
+M9 VDD! Q_bar 3 VDD! PMOS_VTL L=5e-08 W=4e-07 AD=4.4e-14 AS=6.2e-14 PD=1.02e-06 PS=1.11e-06 $X=1905 $Y=995 $D=0
+.ENDS
+***************************************

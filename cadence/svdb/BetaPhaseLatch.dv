@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/BetaPhaseLatch.dv
+dv_start matched                                  
+dv_cell {BetaPhaseLatch} {BetaPhaseLatch} matched
+dv_obj_count -transformed_nets {9 9} -transformed_inst {3 3} -transformed_port {8 8}
+dv_end

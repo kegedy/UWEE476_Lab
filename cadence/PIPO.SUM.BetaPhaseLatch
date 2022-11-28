@@ -1,0 +1,79 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
+          : sub-version  IC6.1.8-64b.500.17 
+Started at: 27-Nov-2022  16:36:14
+User Name : kegedy
+Host Name : linux-lab-054.ece.uw.edu
+Directory : /home/projects/ee476.2022aut/kegedy/cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+
+                       Individual Cell Statistics - Basic Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
+---------------------------------------------------------------------------------------------------------------------------------------
+cad4/BetaPhaseLatch/layout      1        0       0        77     0      0         8      0             0      0     0     0       0       
+NangateOpenCellLibrary/WELLTAP_X1/layout                        0        0       4        9      0      0         6      2             0      0     0     0       0       
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Individual Cell Statistics - Advanced Objects
+---------------------------------------------------------------------------------------------------------------------------------------
+Library/Cell/View               PRBdy    OtherBdy   AreaBlkg   LayerBlkg  AreaHalo   Row   Marker   CustVia   StdVia    CdsGenVia
+---------------------------------------------------------------------------------------------------------------------------------------
+cad4/BetaPhaseLatch/layout      0        0          0          0          0          0     0        0         0         0        
+NangateOpenCellLibrary/WELLTAP_X1/layout                        0        0          0          0          0          0     0        0         0         0        
+---------------------------------------------------------------------------------------------------------------------------------------
+
+                       Statistics of Layers 
+---------------------------------------------------------------------------------------------------------------------------------------
+Cadence         Cadence         Stream  Stream   
+Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Text     TextDisplay   Line Dot Arc Donut Ellipse Pathseg
+---------------------------------------------------------------------------------------------------------------------------------------
+BOUND           drawing         0       0         0        1        0        0        0             0    0   0   0     0      0      
+nimplant        drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
+nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        5        0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        23       0        0        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        2        0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         4        18       0        10       0             0    0   0   0     0      0      
+via1            drawing         12      0         0        8        0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        14       0        0        0             0    0   0   0     0      0      
+IP              drawing         63      0         0        0        0        4        0             0    0   0   0     0      0      
+pimplant        drawing         5       0         0        2        0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        1        0        0        0             0    0   0   0     0      0      
+text            drawing         230     0         0        0        0        0        2             0    0   0   0     0      0      
+pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        6        0        0        0             0    0   0   0     0      0      
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Summary of Objects Translated:
+	Scalar Instances:		1
+	Array Instances:		0
+	Polygons:			4
+	Paths:				0
+	Rectangles:			86
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			0
+	Boundaries:			0
+	Area Blockages:			0
+	Layer Blockages:		0
+	Area Halos:			0
+	Markers:			0
+	Rows:				0
+	Standard Vias:			0
+	Custom Vias:			0
+	CdsGen Vias:			0
+	Pathsegs:			0
+	Text:				14
+	TextDisplay:		2
+	Cells:				2
+Design Libraries: 
+
+DEFINE NangateOpenCellLibrary	/home/projects/ee476.2022aut/common/freepdk45_opencelllibrarypdk45/FreePDK45/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/virtuoso/NangateOpenCellLibrary
+DEFINE cad4	/home/projects/ee476.2022aut/kegedy/cadence/cad4

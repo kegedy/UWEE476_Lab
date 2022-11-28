@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.8-64b 03/13/2021 15:41 (cpgsrv07) $
           : sub-version  IC6.1.8-64b.500.17 
-Started at: 24-Nov-2022  21:08:34
+Started at: 27-Nov-2022  23:12:53
 User Name : kegedy
 Host Name : linux-lab-054.ece.uw.edu
 Directory : /home/projects/ee476.2022aut/kegedy/cadence
@@ -15,7 +15,7 @@ Info: Cellview Rev Num:99,  Tech Rev Num:59
 ---------------------------------------------------------------------------------------------------------------------------------------
 Library/Cell/View               Instance Array   Polygon  Rect   Path   PathSeg   Text   TextDisplay   Line   Dot   Arc   Donut   Ellipse 
 ---------------------------------------------------------------------------------------------------------------------------------------
-cad4/AlphaPhaseLatch/layout     1        0       0        78     0      0         8      0             0      0     0     0       0       
+cad4/AlphaPhaseLatch/layout     1        0       0        151    0      0         8      0             0      0     0     0       0       
 NangateOpenCellLibrary/WELLTAP_X1/layout                        0        0       4        9      0      0         6      2             0      0     0     0       0       
 ---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -35,16 +35,18 @@ Layer           Purpose         Layer   Datatype  Polygon  Rect     Path     Tex
 BOUND           drawing         0       0         0        1        0        0        0             0    0   0   0     0      0      
 nimplant        drawing         4       0         0        2        0        0        0             0    0   0   0     0      0      
 nwell           drawing         3       0         0        2        0        0        0             0    0   0   0     0      0      
-metal2          drawing         13      0         0        3        0        0        0             0    0   0   0     0      0      
-contact         drawing         10      0         0        25       0        0        0             0    0   0   0     0      0      
-metal1          drawing         11      0         4        20       0        10       0             0    0   0   0     0      0      
-via1            drawing         12      0         0        6        0        0        0             0    0   0   0     0      0      
-poly            drawing         9       0         0        18       0        0        0             0    0   0   0     0      0      
+metal2          drawing         13      0         0        9        0        0        0             0    0   0   0     0      0      
+contact         drawing         10      0         0        44       0        0        0             0    0   0   0     0      0      
+via2            drawing         14      0         0        2        0        0        0             0    0   0   0     0      0      
+metal1          drawing         11      0         4        41       0        10       0             0    0   0   0     0      0      
+via1            drawing         12      0         0        18       0        0        0             0    0   0   0     0      0      
+poly            drawing         9       0         0        26       0        0        0             0    0   0   0     0      0      
 IP              drawing         63      0         0        0        0        4        0             0    0   0   0     0      0      
 pimplant        drawing         5       0         0        2        0        0        0             0    0   0   0     0      0      
+metal3          drawing         15      0         0        1        0        0        0             0    0   0   0     0      0      
 text            drawing         230     0         0        0        0        0        2             0    0   0   0     0      0      
 pwell           drawing         2       0         0        2        0        0        0             0    0   0   0     0      0      
-active          drawing         1       0         0        6        0        0        0             0    0   0   0     0      0      
+active          drawing         1       0         0        10       0        0        0             0    0   0   0     0      0      
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Summary of Objects Translated:
@@ -52,7 +54,7 @@ Summary of Objects Translated:
 	Array Instances:		0
 	Polygons:			4
 	Paths:				0
-	Rectangles:			87
+	Rectangles:			160
 	Lines:				0
 	Arcs:				0
 	Donuts:				0
